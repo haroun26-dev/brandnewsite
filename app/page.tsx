@@ -323,7 +323,7 @@ export default function Home() {
                 <input
                   type="password"
                   placeholder="Enter admin password"
-                  value={adminPass}
+                  value={Loubna2026}
                   onChange={(e) => setAdminPass(e.target.value)}
                   style={{ padding: "12px 16px", borderRadius: "10px", border: "1px solid rgba(255,255,255,0.2)", background: "rgba(255,255,255,0.08)", color: "#fff", fontSize: "1rem", outline: "none" }}
                 />
@@ -374,3 +374,4 @@ export default function Home() {
     </div>
   );
 }
+
