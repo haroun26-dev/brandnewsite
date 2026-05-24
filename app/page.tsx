@@ -11,7 +11,7 @@ const SWEEPSTAKES = [
     entries: 3756,
     description: "Win one of 3,756 $250 gift cards! Enter daily for more chances.",
     hot: true,
-    link: "https://www.freebieshark.com/2026/04/mountain-dew-american-dew-sweepstakes-3756-winners.html",
+    link: "https://americandew.com",
   },
   {
     id: 2,
@@ -22,7 +22,7 @@ const SWEEPSTAKES = [
     entries: 12000,
     description: "Win a fully furnished smart home! Enter daily to maximize your chances.",
     hot: true,
-    link: "https://www.freebieshark.com/2026/04/hgtv-smart-home-2026-sweepstakes.html",
+    link: "https://www.hgtv.com/sweepstakes/hgtv-smart-home/sweepstakes",
   },
   {
     id: 3,
@@ -284,3 +284,4 @@ export default function Home() {
     </div>
   );
 }
+
