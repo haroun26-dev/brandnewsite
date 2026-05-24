@@ -1,116 +1,116 @@
 "use client";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 
 const SWEEPSTAKES = [
   {
     id: 1,
-    title: "$500 Amazon Gift Card Giveaway",
-    category: "Gift Cards",
-    prize: "$500",
-    ends: "2026-05-30",
-    entries: 3241,
-    description: "Enter for a chance to win a $500 Amazon gift card. One winner selected daily!",
+    title: "Mountain Dew American DEW Sweepstakes",
+    category: "Cash",
+    prize: "$250 Gift Cards",
+    ends: "2026-07-11",
+    entries: 3756,
+    description: "Win one of 3,756 $250 gift cards! Enter daily for more chances.",
     hot: true,
-    link: "#",
+    link: "https://www.freebieshark.com/2026/04/mountain-dew-american-dew-sweepstakes-3756-winners.html",
   },
   {
     id: 2,
-    title: "7-Night Caribbean Cruise for Two",
+    title: "HGTV Smart Home 2026 Sweepstakes",
     category: "Travel",
-    prize: "$4,200",
-    ends: "2026-06-15",
-    entries: 8870,
-    description: "Win a luxury 7-night Caribbean cruise for two including flights and meals.",
+    prize: "Smart Home",
+    ends: "2026-06-19",
+    entries: 12000,
+    description: "Win a fully furnished smart home! Enter daily to maximize your chances.",
     hot: true,
-    link: "#",
+    link: "https://www.freebieshark.com/2026/04/hgtv-smart-home-2026-sweepstakes.html",
   },
   {
     id: 3,
-    title: 'Samsung 65" 4K QLED TV',
+    title: "Straight Talk Ford Mustang Sweepstakes",
     category: "Electronics",
-    prize: "$1,299",
-    ends: "2026-05-28",
-    entries: 5120,
-    description: "Win a brand new Samsung 65-inch 4K QLED Smart TV delivered to your door.",
-    hot: false,
-    link: "#",
+    prize: "2026 Ford Mustang",
+    ends: "2026-11-08",
+    entries: 9300,
+    description: "Win a brand new 2026 Ford Mustang! Enter daily.",
+    hot: true,
+    link: "https://www.freebieshark.com/2026/04/straight-talk-ford-mustang-sweepstakes.html",
   },
   {
     id: 4,
-    title: "$250 Visa Gift Card",
-    category: "Gift Cards",
-    prize: "$250",
-    ends: "2026-05-25",
-    entries: 1980,
-    description: "Quick and easy entry to win a $250 Visa gift card. Use it anywhere!",
-    hot: false,
-    link: "#",
+    title: "Real Simple Pay Your Bills Sweepstakes",
+    category: "Cash",
+    prize: "$25,000",
+    ends: "2026-05-31",
+    entries: 8800,
+    description: "Win $25,000 cash to pay your bills! Enter daily.",
+    hot: true,
+    link: "https://www.freebieshark.com/2026/02/real-simple-pay-your-bills-sweepstakes.html",
   },
   {
     id: 5,
-    title: "Paris Getaway for Two",
-    category: "Travel",
-    prize: "$3,500",
-    ends: "2026-06-30",
-    entries: 12400,
-    description: "5 days in Paris with hotel, flights, and a dinner at a Michelin-star restaurant.",
+    title: "Camarena Soccer Watch Party Sweepstakes",
+    category: "Electronics",
+    prize: "55\" TVs + Venmo",
+    ends: "2026-06-15",
+    entries: 5400,
+    description: "Win one of 125 55-inch TVs plus Venmo cash! Enter daily.",
     hot: true,
-    link: "#",
+    link: "https://www.freebieshark.com/2026/04/camarena-soccer-watch-party-sweepstakes-125-winners.html",
   },
   {
     id: 6,
-    title: "Apple MacBook Pro 16\"",
-    category: "Electronics",
-    prize: "$2,499",
-    ends: "2026-06-10",
-    entries: 9300,
-    description: "Win the latest Apple MacBook Pro 16-inch with M3 chip. Perfect for work and play.",
+    title: "Starbucks Customer Experience Sweepstakes",
+    category: "Gift Cards",
+    prize: "$100 Gift Cards",
+    ends: "2026-09-30",
+    entries: 15000,
+    description: "Win one of 1,200 $100 Starbucks gift cards! Enter monthly.",
     hot: false,
-    link: "#",
+    link: "https://www.freebieshark.com/2024/11/starbucks-customer-experience-sweepstakes-1200-winners-5.html",
   },
   {
     id: 7,
-    title: "$1,000 Cash Giveaway",
+    title: "BHG Dream Home $25K Sweepstakes",
     category: "Cash",
-    prize: "$1,000",
-    ends: "2026-05-31",
-    entries: 15600,
-    description: "Enter for a chance to win $1,000 cash sent directly to your PayPal or Venmo.",
-    hot: true,
-    link: "#",
+    prize: "$25,000",
+    ends: "2026-07-31",
+    entries: 18000,
+    description: "Win $25,000 cash for your dream home! Enter daily.",
+    hot: false,
+    link: "https://www.freebieshark.com/2026/02/bhg-dream-home-25k-sweepstakes.html",
   },
   {
     id: 8,
-    title: "PlayStation 5 Bundle",
-    category: "Electronics",
-    prize: "$700",
-    ends: "2026-06-05",
+    title: "Campbell's Pokémon Instant Win Game",
+    category: "Gift Cards",
+    prize: "Products + More",
+    ends: "2026-09-13",
     entries: 7800,
-    description: "Win a PS5 console bundle with 2 controllers and 3 top games.",
-    hot: false,
-    link: "#",
+    description: "Win one of 3,153 prizes in this Pokémon instant win game! Enter daily.",
+    hot: true,
+    link: "https://www.freebieshark.com/2026/05/campbells-pokemon-instant-win-game-3153-winners.html",
   },
   {
     id: 9,
-    title: "$100 Starbucks Gift Card",
+    title: "Domino's Emergency Pizza Red Card Sweepstakes",
     category: "Gift Cards",
-    prize: "$100",
-    ends: "2026-05-26",
-    entries: 890,
-    description: "Daily draw! Win a $100 Starbucks gift card. New winner every day.",
+    prize: "Free Pizzas",
+    ends: "2026-06-10",
+    entries: 63000,
+    description: "Win free pizzas or discounts from Domino's! One-time entry.",
     hot: false,
-    link: "#",
+    link: "https://www.freebieshark.com/2026/05/dominos-emergency-pizza-red-card-sweepstakes-63371-winners.html",
   },
   {
     id: 10,
-    title: "Hawaii All-Inclusive Resort Stay",
+    title: "FCA US $100,000 Vehicle Sweepstakes",
     category: "Travel",
-    prize: "$5,000",
-    ends: "2026-07-01",
-    entries: 20100,
-    description: "7 nights at a 5-star Hawaii resort, all-inclusive for two people.",
+    prize: "$100,000 Car",
+    ends: "2026-12-31",
+    entries: 20000,
+    description: "Win a $100,000 car credit! Enter daily all year long.",
     hot: true,
-    link: "#",
+    link: "https://www.freebieshark.com/2026/01/fca-us-100000-vehicle-sweepstakes.html",
   },
 ];
 
@@ -135,10 +135,8 @@ export default function Home() {
   const [showAdmin, setShowAdmin] = useState(false);
   const [adminPass, setAdminPass] = useState("");
   const [adminUnlocked, setAdminUnlocked] = useState(false);
-  const [form, setForm] = useState({ name: "", email: "", id: 0 });
-  const [entered, setEntered] = useState<number[]>([]);
   const [toast, setToast] = useState("");
-  const [adminForm, setAdminForm] = useState({ title: "", category: "Gift Cards", prize: "", ends: "", description: "" });
+  const [adminForm, setAdminForm] = useState({ title: "", category: "Gift Cards", prize: "", ends: "", description: "", link: "" });
   const [extraSweeps, setExtraSweeps] = useState<typeof SWEEPSTAKES>([]);
 
   const allSweeps = [...SWEEPSTAKES, ...extraSweeps];
@@ -154,39 +152,21 @@ export default function Home() {
     setTimeout(() => setToast(""), 3000);
   }
 
-  function handleEnter(id: number) {
-    if (!form.name || !form.email) {
-      showToast("Please fill in your name and email!");
-      return;
-    }
-    setEntered([...entered, id]);
-    setForm({ name: "", email: "", id: 0 });
-    showToast("🎉 You're entered! Good luck!");
-  }
-
   function handleAdminAdd() {
-    if (!adminForm.title || !adminForm.prize || !adminForm.ends) {
-      showToast("Fill in all fields!");
+    if (!adminForm.title || !adminForm.prize || !adminForm.ends || !adminForm.link) {
+      showToast("Fill in all fields including the link!");
       return;
     }
     setExtraSweeps([
       ...extraSweeps,
-      {
-        id: Date.now(),
-        ...adminForm,
-        entries: 0,
-        hot: false,
-        link: "#",
-      },
+      { id: Date.now(), ...adminForm, entries: 0, hot: false },
     ]);
-    setAdminForm({ title: "", category: "Gift Cards", prize: "", ends: "", description: "" });
+    setAdminForm({ title: "", category: "Gift Cards", prize: "", ends: "", description: "", link: "" });
     showToast("✅ Sweepstakes added!");
   }
 
   return (
     <div style={{ minHeight: "100vh", background: "linear-gradient(135deg, #0f0c29, #302b63, #24243e)", fontFamily: "'Segoe UI', sans-serif", color: "#fff" }}>
-
-      {/* SEO Meta - handled via layout.tsx in real setup */}
 
       {/* HEADER */}
       <header style={{ background: "rgba(255,255,255,0.05)", backdropFilter: "blur(10px)", borderBottom: "1px solid rgba(255,255,255,0.1)", padding: "16px 24px", display: "flex", alignItems: "center", justifyContent: "space-between", flexWrap: "wrap", gap: "12px" }}>
@@ -196,10 +176,7 @@ export default function Home() {
           </h1>
           <p style={{ margin: 0, fontSize: "0.8rem", color: "#94a3b8" }}>Updated Daily · Free to Enter · Real Prizes</p>
         </div>
-        <button
-          onClick={() => setShowAdmin(!showAdmin)}
-          style={{ background: "rgba(255,255,255,0.1)", border: "1px solid rgba(255,255,255,0.2)", color: "#fff", padding: "8px 16px", borderRadius: "8px", cursor: "pointer", fontSize: "0.85rem" }}
-        >
+        <button onClick={() => setShowAdmin(!showAdmin)} style={{ background: "rgba(255,255,255,0.1)", border: "1px solid rgba(255,255,255,0.2)", color: "#fff", padding: "8px 16px", borderRadius: "8px", cursor: "pointer", fontSize: "0.85rem" }}>
           ⚙️ Admin
         </button>
       </header>
@@ -207,43 +184,22 @@ export default function Home() {
       {/* HERO */}
       <div style={{ textAlign: "center", padding: "48px 24px 24px" }}>
         <div style={{ display: "inline-block", background: "linear-gradient(90deg, #f43f5e22, #f59e0b22)", border: "1px solid #f43f5e55", borderRadius: "100px", padding: "6px 18px", fontSize: "0.8rem", marginBottom: "16px", color: "#fca5a5" }}>
-          🔥 {allSweeps.length} Active Sweepstakes Today
+          🔥 {allSweeps.length} Real Sweepstakes Today
         </div>
         <h2 style={{ fontSize: "clamp(1.8rem, 5vw, 3rem)", fontWeight: 900, margin: "0 0 12px" }}>
           Win Big. Enter Free.<br />
           <span style={{ background: "linear-gradient(90deg, #f43f5e, #f59e0b)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>Every Single Day.</span>
         </h2>
         <p style={{ color: "#94a3b8", maxWidth: "500px", margin: "0 auto 32px", lineHeight: 1.6 }}>
-          Browse hundreds of free sweepstakes updated daily. Gift cards, travel, electronics, cash and more.
+          Real sweepstakes from real brands. Updated daily. Click any sweepstake to go directly to the official entry page.
         </p>
-
-        {/* SEARCH */}
-        <input
-          value={search}
-          onChange={(e) => setSearch(e.target.value)}
-          placeholder="🔍 Search sweepstakes..."
-          style={{ width: "100%", maxWidth: "480px", padding: "14px 20px", borderRadius: "100px", border: "1px solid rgba(255,255,255,0.2)", background: "rgba(255,255,255,0.08)", color: "#fff", fontSize: "1rem", outline: "none" }}
-        />
+        <input value={search} onChange={(e) => setSearch(e.target.value)} placeholder="🔍 Search sweepstakes..." style={{ width: "100%", maxWidth: "480px", padding: "14px 20px", borderRadius: "100px", border: "1px solid rgba(255,255,255,0.2)", background: "rgba(255,255,255,0.08)", color: "#fff", fontSize: "1rem", outline: "none" }} />
       </div>
 
       {/* CATEGORY FILTER */}
       <div style={{ display: "flex", gap: "10px", padding: "0 24px 24px", flexWrap: "wrap", justifyContent: "center" }}>
         {CATEGORIES.map((cat) => (
-          <button
-            key={cat}
-            onClick={() => setCategory(cat)}
-            style={{
-              padding: "8px 20px",
-              borderRadius: "100px",
-              border: `2px solid ${category === cat ? categoryColors[cat] : "rgba(255,255,255,0.15)"}`,
-              background: category === cat ? `${categoryColors[cat]}22` : "transparent",
-              color: category === cat ? categoryColors[cat] : "#94a3b8",
-              cursor: "pointer",
-              fontWeight: 600,
-              fontSize: "0.85rem",
-              transition: "all 0.2s",
-            }}
-          >
+          <button key={cat} onClick={() => setCategory(cat)} style={{ padding: "8px 20px", borderRadius: "100px", border: `2px solid ${category === cat ? categoryColors[cat] : "rgba(255,255,255,0.15)"}`, background: category === cat ? `${categoryColors[cat]}22` : "transparent", color: category === cat ? categoryColors[cat] : "#94a3b8", cursor: "pointer", fontWeight: 600, fontSize: "0.85rem", transition: "all 0.2s" }}>
             {cat}
           </button>
         ))}
@@ -251,16 +207,12 @@ export default function Home() {
 
       {/* CARDS GRID */}
       <main style={{ padding: "0 24px 48px", maxWidth: "1200px", margin: "0 auto" }}>
-        {filtered.length === 0 && (
-          <p style={{ textAlign: "center", color: "#64748b", marginTop: "48px" }}>No sweepstakes found. Try a different category.</p>
-        )}
+        {filtered.length === 0 && <p style={{ textAlign: "center", color: "#64748b", marginTop: "48px" }}>No sweepstakes found.</p>}
         <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(300px, 1fr))", gap: "20px" }}>
           {filtered.map((s) => (
-            <div key={s.id} style={{ background: "rgba(255,255,255,0.05)", border: "1px solid rgba(255,255,255,0.1)", borderRadius: "16px", padding: "24px", display: "flex", flexDirection: "column", gap: "12px", transition: "transform 0.2s", position: "relative", overflow: "hidden" }}>
-              {s.hot && (
-                <div style={{ position: "absolute", top: "16px", right: "16px", background: "#f43f5e", color: "#fff", fontSize: "0.7rem", fontWeight: 700, padding: "3px 10px", borderRadius: "100px" }}>🔥 HOT</div>
-              )}
-              <div style={{ display: "flex", alignItems: "center", gap: "8px" }}>
+            <div key={s.id} style={{ background: "rgba(255,255,255,0.05)", border: "1px solid rgba(255,255,255,0.1)", borderRadius: "16px", padding: "24px", display: "flex", flexDirection: "column", gap: "12px", position: "relative", overflow: "hidden" }}>
+              {s.hot && <div style={{ position: "absolute", top: "16px", right: "16px", background: "#f43f5e", color: "#fff", fontSize: "0.7rem", fontWeight: 700, padding: "3px 10px", borderRadius: "100px" }}>🔥 HOT</div>}
+              <div>
                 <span style={{ background: `${categoryColors[s.category]}22`, color: categoryColors[s.category], fontSize: "0.75rem", fontWeight: 700, padding: "3px 10px", borderRadius: "100px", border: `1px solid ${categoryColors[s.category]}44` }}>
                   {s.category}
                 </span>
@@ -271,43 +223,9 @@ export default function Home() {
                 <span>🏆 Prize: <strong style={{ color: "#22c55e" }}>{s.prize}</strong></span>
                 <span>⏳ {daysLeft(s.ends)}d left</span>
               </div>
-              <div style={{ fontSize: "0.8rem", color: "#64748b" }}>👥 {s.entries.toLocaleString()} entries</div>
-
-              {entered.includes(s.id) ? (
-                <div style={{ background: "#22c55e22", border: "1px solid #22c55e44", color: "#22c55e", borderRadius: "10px", padding: "10px", textAlign: "center", fontSize: "0.9rem", fontWeight: 600 }}>
-                  ✅ You're entered!
-                </div>
-              ) : form.id === s.id ? (
-                <div style={{ display: "flex", flexDirection: "column", gap: "8px" }}>
-                  <input
-                    placeholder="Your name"
-                    value={form.name}
-                    onChange={(e) => setForm({ ...form, name: e.target.value })}
-                    style={{ padding: "10px 14px", borderRadius: "8px", border: "1px solid rgba(255,255,255,0.2)", background: "rgba(255,255,255,0.08)", color: "#fff", fontSize: "0.9rem", outline: "none" }}
-                  />
-                  <input
-                    placeholder="Your email"
-                    value={form.email}
-                    onChange={(e) => setForm({ ...form, email: e.target.value })}
-                    style={{ padding: "10px 14px", borderRadius: "8px", border: "1px solid rgba(255,255,255,0.2)", background: "rgba(255,255,255,0.08)", color: "#fff", fontSize: "0.9rem", outline: "none" }}
-                  />
-                  <div style={{ display: "flex", gap: "8px" }}>
-                    <button onClick={() => handleEnter(s.id)} style={{ flex: 1, padding: "10px", background: "linear-gradient(90deg, #f43f5e, #f59e0b)", border: "none", borderRadius: "8px", color: "#fff", fontWeight: 700, cursor: "pointer", fontSize: "0.9rem" }}>
-                      Enter Now
-                    </button>
-                    <button onClick={() => setForm({ name: "", email: "", id: 0 })} style={{ padding: "10px 14px", background: "rgba(255,255,255,0.1)", border: "none", borderRadius: "8px", color: "#94a3b8", cursor: "pointer" }}>
-                      ✕
-                    </button>
-                  </div>
-                </div>
-              ) : (
-                <button
-                  onClick={() => setForm({ name: "", email: "", id: s.id })}
-                  style={{ padding: "12px", background: "linear-gradient(90deg, #f43f5e, #f59e0b)", border: "none", borderRadius: "10px", color: "#fff", fontWeight: 700, cursor: "pointer", fontSize: "0.95rem" }}
-                >
-                  Enter Free →
-                </button>
-              )}
+              <a href={s.link} target="_blank" rel="noopener noreferrer" style={{ padding: "12px", background: "linear-gradient(90deg, #f43f5e, #f59e0b)", border: "none", borderRadius: "10px", color: "#fff", fontWeight: 700, cursor: "pointer", fontSize: "0.95rem", textAlign: "center", textDecoration: "none", display: "block" }}>
+                Enter Free →
+              </a>
             </div>
           ))}
         </div>
@@ -316,21 +234,12 @@ export default function Home() {
       {/* ADMIN PANEL */}
       {showAdmin && (
         <div style={{ position: "fixed", inset: 0, background: "rgba(0,0,0,0.8)", zIndex: 100, display: "flex", alignItems: "center", justifyContent: "center", padding: "24px" }}>
-          <div style={{ background: "#1e1b4b", border: "1px solid rgba(255,255,255,0.2)", borderRadius: "20px", padding: "32px", width: "100%", maxWidth: "480px" }}>
+          <div style={{ background: "#1e1b4b", border: "1px solid rgba(255,255,255,0.2)", borderRadius: "20px", padding: "32px", width: "100%", maxWidth: "480px", maxHeight: "90vh", overflowY: "auto" }}>
             <h2 style={{ margin: "0 0 20px", fontSize: "1.3rem" }}>⚙️ Admin Panel</h2>
             {!adminUnlocked ? (
               <div style={{ display: "flex", flexDirection: "column", gap: "12px" }}>
-                <input
-                  type="password"
-                  placeholder="Enter admin password"
-                  value={adminPass}
-                  onChange={(e) => setAdminPass(e.target.value)}
-                  style={{ padding: "12px 16px", borderRadius: "10px", border: "1px solid rgba(255,255,255,0.2)", background: "rgba(255,255,255,0.08)", color: "#fff", fontSize: "1rem", outline: "none" }}
-                />
-                <button
-                  onClick={() => { if (adminPass === "Loubna2026") setAdminUnlocked(true); else showToast("Wrong password!"); }}
-                  style={{ padding: "12px", background: "linear-gradient(90deg, #f43f5e, #f59e0b)", border: "none", borderRadius: "10px", color: "#fff", fontWeight: 700, cursor: "pointer" }}
-                >
+                <input type="password" placeholder="Enter admin password" value={adminPass} onChange={(e) => setAdminPass(e.target.value)} style={{ padding: "12px 16px", borderRadius: "10px", border: "1px solid rgba(255,255,255,0.2)", background: "rgba(255,255,255,0.08)", color: "#fff", fontSize: "1rem", outline: "none" }} />
+                <button onClick={() => { if (adminPass === "Loubna2026") setAdminUnlocked(true); else showToast("Wrong password!"); }} style={{ padding: "12px", background: "linear-gradient(90deg, #f43f5e, #f59e0b)", border: "none", borderRadius: "10px", color: "#fff", fontWeight: 700, cursor: "pointer" }}>
                   Unlock
                 </button>
               </div>
@@ -342,6 +251,7 @@ export default function Home() {
                 </select>
                 <input placeholder="Prize value (e.g. $500)" value={adminForm.prize} onChange={(e) => setAdminForm({ ...adminForm, prize: e.target.value })} style={{ padding: "10px 14px", borderRadius: "8px", border: "1px solid rgba(255,255,255,0.2)", background: "rgba(255,255,255,0.08)", color: "#fff", outline: "none" }} />
                 <input type="date" value={adminForm.ends} onChange={(e) => setAdminForm({ ...adminForm, ends: e.target.value })} style={{ padding: "10px 14px", borderRadius: "8px", border: "1px solid rgba(255,255,255,0.2)", background: "rgba(255,255,255,0.08)", color: "#fff", outline: "none" }} />
+                <input placeholder="Entry link (https://...)" value={adminForm.link} onChange={(e) => setAdminForm({ ...adminForm, link: e.target.value })} style={{ padding: "10px 14px", borderRadius: "8px", border: "1px solid rgba(255,255,255,0.2)", background: "rgba(255,255,255,0.08)", color: "#fff", outline: "none" }} />
                 <textarea placeholder="Description" value={adminForm.description} onChange={(e) => setAdminForm({ ...adminForm, description: e.target.value })} style={{ padding: "10px 14px", borderRadius: "8px", border: "1px solid rgba(255,255,255,0.2)", background: "rgba(255,255,255,0.08)", color: "#fff", outline: "none", resize: "vertical", minHeight: "80px" }} />
                 <button onClick={handleAdminAdd} style={{ padding: "12px", background: "linear-gradient(90deg, #f43f5e, #f59e0b)", border: "none", borderRadius: "10px", color: "#fff", fontWeight: 700, cursor: "pointer" }}>
                   ➕ Add Sweepstakes
@@ -374,4 +284,3 @@ export default function Home() {
     </div>
   );
 }
-
