@@ -464,13 +464,19 @@ export default function Home() {
           &copy; 2026 Sweepstakes Central &middot; Updated Daily &middot; Free to Enter
         </p>
         <p style={{ margin: 0 }}>
-          <a href="#" style={{ color: "#64748b", marginRight: "16px" }}>
+          <a href="/blog" style={{ color: "#64748b", marginRight: "16px" }}>
+            Tips & Guides
+          </a>
+          <a href="/about" style={{ color: "#64748b", marginRight: "16px" }}>
+            About
+          </a>
+          <a href="/privacy" style={{ color: "#64748b", marginRight: "16px" }}>
             Privacy Policy
           </a>
-          <a href="#" style={{ color: "#64748b", marginRight: "16px" }}>
+          <a href="/terms" style={{ color: "#64748b", marginRight: "16px" }}>
             Terms
           </a>
-          <a href="#" style={{ color: "#64748b" }}>
+          <a href="/contact" style={{ color: "#64748b" }}>
             Contact
           </a>
         </p>
