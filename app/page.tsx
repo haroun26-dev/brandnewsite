@@ -1,5 +1,6 @@
 "use client";
 import { useState } from "react";
+import Comments from "./components/Comments";
 
 type EntryType = "instant" | "sweepstakes";
 
@@ -448,6 +449,8 @@ export default function Home() {
           with the sponsors listed.
         </p>
       </main>
+
+      <Comments />
 
       {/* FOOTER */}
       <footer
