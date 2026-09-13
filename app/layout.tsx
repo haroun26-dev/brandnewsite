@@ -19,6 +19,9 @@ export const metadata: Metadata = {
   title: "Sweepstakes Central | Free Sweepstakes & Instant Win Games — Updated Daily",
   description:
     "Sweepstakes Central tracks active sweepstakes and instant win games, updated daily. Enter to win cash, gift cards, vacations, electronics and more — free to enter, no purchase necessary.",
+  verification: {
+    google: "sKZQ35Iti8NSV40MIbyYvhcL_fjMUUOz5gv9heAUOX0",
+  },
 };
 
 export default function RootLayout({
