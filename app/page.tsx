@@ -16,7 +16,7 @@ interface Listing {
   added: string; // YYYY-MM-DD — NEW badge shows when added within the last 3 days
 }
 
-// Listings verified September 15, 2026. Update this list regularly —
+// Listings verified September 16, 2026. Update this list regularly —
 // remove ended sweepstakes and add new ones by editing this file and redeploying.
 const SWEEPSTAKES: Listing[] = [
   // ---- Instant Win Games ----
@@ -64,16 +64,6 @@ const SWEEPSTAKES: Listing[] = [
   },
   {
     id: 5,
-    title: "Heineken “US Open” Instant Win Game",
-    type: "instant",
-    prizes: "100 US Open Hats + Trip for 2 to 2027 US Open",
-    frequency: "Enter Daily",
-    ends: "2026-09-20",
-    url: "https://www.heineken.com/us/en/promos/usopensweeps",
-    added: "2026-09-14",
-  },
-  {
-    id: 6,
     title: "Absolut Vodka “Madonna” Instant Win Game",
     type: "instant",
     prizes: "131 Prize Packs + More",
@@ -83,7 +73,7 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-09-14",
   },
   {
-    id: 7,
+    id: 6,
     title: "Pine-Sol “Clean Sweep” Instant Win Game",
     type: "instant",
     prizes: "208 Instant Prize Packs (ARV $81 Each)",
@@ -94,7 +84,29 @@ const SWEEPSTAKES: Listing[] = [
   },
   // ---- Sweepstakes ----
   {
+    id: 7,
+    title: "-196 “Become a MillYENaire” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "$104,000 Total Cash Prizes (17 Checks)",
+    frequency: "Enter Once",
+    ends: "2026-09-30",
+    url: "https://www.minus196sweeps.com",
+    hot: true,
+    added: "2026-09-16",
+  },
+  {
     id: 8,
+    title: "Hot Wheels x Dollar General “2026 Ram Truck” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "2026 Ram 1500 Truck (~$70,000)",
+    frequency: "Enter Daily",
+    ends: "2026-12-14",
+    url: "https://ram.hotwheelssweepstakes.com",
+    hot: true,
+    added: "2026-09-16",
+  },
+  {
+    id: 9,
     title: "Chip Miller Charitable Foundation “Corvette ZR1” Sweepstakes",
     type: "sweepstakes",
     prizes: "2026 Corvette ZR1 ($217,600) or $175,000 Cash",
@@ -105,7 +117,7 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-09-15",
   },
   {
-    id: 9,
+    id: 10,
     title: "Ford “2026 Mustang 5.0 Fever” Sweepstakes",
     type: "sweepstakes",
     prizes: "2026 Ford Mustang GT ($55,000) + $5,000 Parts",
@@ -116,7 +128,7 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-09-15",
   },
   {
-    id: 10,
+    id: 11,
     title: "Feastables “Halloween” Sweepstakes",
     type: "sweepstakes",
     prizes: "Five $10,000 Prizes ($50,000 Total)",
@@ -127,28 +139,47 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-09-15",
   },
   {
-    id: 11,
-    title: "ESPN “Super Bowl LXI” Sweepstakes",
-    type: "sweepstakes",
-    prizes: "Disneyland Trip for 4 + Super Bowl LXI Tickets ($12,097)",
-    frequency: "Enter Once",
-    ends: "2026-12-31",
-    url: "https://www.espnsweepstakes.com/SBLXI-2027",
-    added: "2026-09-15",
-  },
-  {
     id: 12,
-    title: "Evan Williams “Game Day Like A Champ” Sweepstakes",
+    title: "Topgolf “Honda Classic Challenge” Sweepstakes",
     type: "sweepstakes",
-    prizes: "Tailgate Trailer + 50\" TV + Grill ($30,000)",
-    frequency: "Enter Once",
-    ends: "2026-11-30",
-    url: "http://evanwilliams.com/bourbonnationsweepstakes",
-    hot: true,
-    added: "2026-09-14",
+    prizes: "2026 Honda Hybrid of Winner’s Choice (up to $42,550)",
+    frequency: "Enter Daily",
+    ends: "2026-09-30",
+    url: "https://topgolf.com/Honda",
+    added: "2026-09-16",
   },
   {
     id: 13,
+    title: "Dr Pepper “Football Kickoff” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "Trip for 2 to Las Vegas for 2027 College Football Championship",
+    frequency: "Enter Daily",
+    ends: "2026-09-30",
+    url: "https://www.drpeppersweeps.com/kickoff",
+    added: "2026-09-16",
+  },
+  {
+    id: 14,
+    title: "Marriott Bonvoy “Super Bowl Sleepover Suite” Giveaway",
+    type: "sweepstakes",
+    prizes: "Super Bowl LXI Trip for 2 ($20,250)",
+    frequency: "Enter Weekly",
+    ends: "2026-12-15",
+    url: "https://www.joinmarriottbonvoy.com/superbowlsleepoversuite",
+    added: "2026-09-16",
+  },
+  {
+    id: 15,
+    title: "Gatorade x Doritos “Racing” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "2 F1 Las Vegas Grand Prix Trips ($7,900 Each)",
+    frequency: "Enter Daily",
+    ends: "2026-10-04",
+    url: "https://gatoradedoritosracing.com",
+    added: "2026-09-16",
+  },
+  {
+    id: 16,
     title: "DEWALT “Formula 1” Sweepstakes",
     type: "sweepstakes",
     prizes: "F1 Vegas Trip for 2 ($21,502) + 35 Tool Prizes",
@@ -158,47 +189,10 @@ const SWEEPSTAKES: Listing[] = [
     hot: true,
     added: "2026-09-14",
   },
-  {
-    id: 14,
-    title: "Corona “Golf 2026” Sweepstakes",
-    type: "sweepstakes",
-    prizes: "5 Golf Trips for 2 ($10,930 Each) + 100 Gear Bundles",
-    frequency: "Enter Daily",
-    ends: "2026-12-31",
-    url: "https://coronausa.com/pages/golf-2026",
-    added: "2026-09-15",
-  },
-  {
-    id: 15,
-    title: "Eggland's Best x Club Pilates “Fuel Your Flow” Sweepstakes",
-    type: "sweepstakes",
-    prizes: "$7,420 Grand Prize + 7 Weekly Prizes",
-    frequency: "Enter Daily",
-    ends: "2026-10-20",
-    url: "http://www.ebfamilysweeps.com",
-    added: "2026-09-15",
-  },
-  {
-    id: 16,
-    title: "Spirit Halloween x Butterfinger “$15,000” Sweepstakes",
-    type: "sweepstakes",
-    prizes: "$15,000 Cash Grand Prize",
-    frequency: "Enter Once",
-    ends: "2026-11-01",
-    url: "https://brandcycle.shop/vxheu",
-    added: "2026-09-15",
-  },
-  {
-    id: 17,
-    title: "HGTV “Trick or Treat Yourself” Sweepstakes",
-    type: "sweepstakes",
-    prizes: "$5,000 Cash",
-    frequency: "Enter Daily",
-    ends: "2026-10-28",
-    url: "https://www.hgtv.com/sweepstakes/trick-or-treat-yourself",
-    added: "2026-09-15",
-  },
 ];
+
+
+
 
 function daysLeft(dateStr: string) {
   const end = new Date(dateStr + "T23:59:59");
@@ -478,7 +472,7 @@ export default function Home() {
         {renderSection("Sweepstakes", sweeps)}
 
         <p style={{ color: "#94a3b8", fontSize: "0.8rem", marginTop: "40px", lineHeight: 1.6 }}>
-          Listings last verified September 15, 2026. Always check the official rules on
+          Listings last verified September 16, 2026. Always check the official rules on
           the sponsor&apos;s page before entering. Sweepstakes Central is not affiliated
           with the sponsors listed.
         </p>
