@@ -16,7 +16,7 @@ interface Listing {
   added: string; // YYYY-MM-DD — NEW badge shows when added within the last 3 days
 }
 
-// Listings verified September 18, 2026. Update this list regularly —
+// Listings verified September 19, 2026. Update this list regularly —
 // remove ended sweepstakes and add new ones by editing this file and redeploying.
 const SWEEPSTAKES: Listing[] = [
   // ---- Instant Win Games ----
@@ -24,7 +24,7 @@ const SWEEPSTAKES: Listing[] = [
     id: 1,
     title: "Casamigos “This Calls For Margs” Instant Win Game",
     type: "instant",
-    prizes: "$60,000 Grand Prize + 2,500 Instant Venmo Prizes",
+    prizes: "$60,000 Cash Grand Prize + 2,500 $20 Venmo Credits (ARV $110,000)",
     frequency: "Enter Once",
     ends: "2026-09-30",
     url: "https://www.casamigos.com/en-us/marg-plz-sweepstakes",
@@ -33,37 +33,68 @@ const SWEEPSTAKES: Listing[] = [
   },
   {
     id: 2,
+    title: "Miller Lite “Football” Instant Win Game",
+    type: "instant",
+    prizes: "$84,372 in Prizes incl. 1,000 $25 Venmo Payments + NFL Trips",
+    frequency: "Enter Daily",
+    ends: "2027-01-03",
+    url: "https://www.millerlite.com",
+    hot: true,
+    added: "2026-09-19",
+  },
+  {
+    id: 3,
     title: "FLIPZ “Xbox” Instant Win Game",
     type: "instant",
-    prizes: "363 Gaming Prizes + $5,000 Grand Prize",
+    prizes: "$5,000 Grand Prize + 363 Gaming Prizes (ARV $44,446)",
     frequency: "Enter Daily",
     ends: "2026-09-30",
     url: "http://flipz-xbox.on-ella.com/",
     added: "2026-09-14",
   },
   {
-    id: 3,
+    id: 4,
     title: "A&W “Family Float Night” Instant Win Game",
     type: "instant",
-    prizes: "3,507 Free Beverages + Big Prizes",
+    prizes: "3,507 Prizes incl. Free Floats ($37,660 Total ARV)",
     frequency: "Enter Daily",
     ends: "2026-09-30",
     url: "https://floatintofamilyfun.com/",
     added: "2026-09-14",
   },
   {
-    id: 4,
-    title: "The Whiskey Shopper Instant Win Game",
+    id: 5,
+    title: "Coca-Cola “Friday for the Win Football” Instant Win Game",
     type: "instant",
-    prizes: "1,000 $50 Venmo Credits ($50,000 Total)",
-    frequency: "Enter Weekly",
-    ends: "2026-10-31",
-    url: "https://www.spiritspromos.com/portfolio/whiskey-sweeps/en/IH6628/submission/form",
+    prizes: "365 Winners incl. 65-inch TV + Football Trip for 2",
+    frequency: "Enter Daily",
+    ends: "2026-11-29",
+    url: "https://www.coca-cola.com",
+    added: "2026-09-19",
+  },
+  {
+    id: 6,
+    title: "Bud Light “College Game Day” Instant Win Game",
+    type: "instant",
+    prizes: "2,000 Winners: Fanatics Codes + Vintage Gear",
+    frequency: "Enter Daily",
+    ends: "2026-11-30",
+    url: "https://www.budlight.com",
+    added: "2026-09-19",
+  },
+  {
+    id: 7,
+    title: "At Home “Design Rewards” Instant Win Game",
+    type: "instant",
+    prizes: "$25,000 Shopping Spree + 3,112 Instant Prizes (ARV $52,500)",
+    frequency: "Enter Daily",
+    ends: "2026-10-15",
+    url: "https://www.athome.com/sweepstakes",
     hot: true,
     added: "2026-09-18",
   },
   {
-    id: 5,
+    id: 8,
     title: "Dr Pepper and Cheez-It “Fall Football” Instant Win Game",
     type: "instant",
     prizes: "3,150 eGift Cards + Fandango Codes ($40,500 Total)",
@@ -73,30 +104,51 @@ const SWEEPSTAKES: Listing[] = [
     hot: true,
     added: "2026-09-18",
   },
-  {
-    id: 6,
-    title: "At Home “Design Rewards” Instant Win Game",
-    type: "instant",
-    prizes: "$25,000 Shopping Spree + 3,112 Instant Prizes",
-    frequency: "Enter Daily",
-    ends: "2026-10-15",
-    url: "https://www.athome.com/sweepstakes",
-    hot: true,
-    added: "2026-09-18",
-  },
-  {
-    id: 7,
-    title: "Pack a Snacktime Friend Instant Win Game",
-    type: "instant",
-    prizes: "Trip for 4 ($15,730) + 378 Instant Prizes",
-    frequency: "Enter Daily",
-    ends: "2026-10-31",
-    url: "https://www.BacktoSchoolSnacks.com",
-    added: "2026-09-18",
-  },
   // ---- Sweepstakes ----
   {
-    id: 8,
+    id: 9,
+    title: "Toyota “Gameday Giveaways” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "Toyota Vehicle of Choice (up to $86,135 MSRP) + $30,000 Check",
+    frequency: "Enter Weekly",
+    ends: "2027-02-14",
+    url: "https://www.toyotasgamedaygiveaways.com",
+    hot: true,
+    added: "2026-09-19",
+  },
+  {
+    id: 10,
+    title: "FCA US $100,000 Vehicle Sweepstakes",
+    type: "sweepstakes",
+    prizes: "$100,000 Vehicle Credit (Dodge, Jeep, Chrysler, Ram, Fiat)",
+    frequency: "Enter Daily",
+    ends: "2026-12-31",
+    url: "https://sweeps.stellantisexperiences.com",
+    hot: true,
+    added: "2026-09-19",
+  },
+  {
+    id: 11,
+    title: "Topgolf “Honda Classic Challenge” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "2026 Honda Hybrid of Choice (up to $42,550)",
+    frequency: "Enter Daily",
+    ends: "2026-09-30",
+    url: "https://www.topgolf.com",
+    added: "2026-09-19",
+  },
+  {
+    id: 12,
+    title: "Kraft “Back to Football” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "Super Bowl 61 Trip for 2 ($25,000 Total ARV)",
+    frequency: "Enter Once",
+    ends: "2026-10-31",
+    url: "https://www.kraftheinz.com",
+    added: "2026-09-19",
+  },
+  {
+    id: 13,
     title: "Amazon Haul “Car” Sweepstakes",
     type: "sweepstakes",
     prizes: "$50,000 Car or $50,000 Cash Grand Prize",
@@ -107,49 +159,17 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-09-17",
   },
   {
-    id: 9,
-    title: "Hot Wheels x Dollar General “2026 Ram Truck” Sweepstakes",
+    id: 14,
+    title: "Sam Adams “Octoberfest Munich” Sweepstakes",
     type: "sweepstakes",
-    prizes: "2026 Ram 1500 Truck (~$70,000)",
+    prizes: "Munich Trip for 2 incl. NFL Game ($7,100)",
     frequency: "Enter Daily",
-    ends: "2026-12-14",
-    url: "https://ram.hotwheelssweepstakes.com",
-    hot: true,
-    added: "2026-09-16",
+    ends: "2026-10-18",
+    url: "https://munichgameday.com",
+    added: "2026-09-19",
   },
   {
-    id: 10,
-    title: "Ford “2026 Mustang 5.0 Fever” Sweepstakes",
-    type: "sweepstakes",
-    prizes: "2026 Ford Mustang GT ($55,000) + $5,000 Parts",
-    frequency: "Enter Once",
-    ends: "2026-12-18",
-    url: "https://mustang50fever.com/",
-    hot: true,
-    added: "2026-09-15",
-  },
-  {
-    id: 11,
-    title: "Marriott Bonvoy “Super Bowl Sleepover Suite” Giveaway",
-    type: "sweepstakes",
-    prizes: "Super Bowl LXI Trip for 2 ($20,250)",
-    frequency: "Enter Weekly",
-    ends: "2026-12-15",
-    url: "https://www.joinmarriottbonvoy.com/superbowlsleepoversuite",
-    added: "2026-09-16",
-  },
-  {
-    id: 12,
-    title: "Gatorade x Doritos “Racing” Sweepstakes",
-    type: "sweepstakes",
-    prizes: "2 F1 Las Vegas Grand Prix Trips ($7,900 Each)",
-    frequency: "Enter Daily",
-    ends: "2026-10-04",
-    url: "https://gatoradedoritosracing.com",
-    added: "2026-09-16",
-  },
-  {
-    id: 13,
+    id: 15,
     title: "Feastables “Halloween” Sweepstakes",
     type: "sweepstakes",
     prizes: "Five $10,000 Prizes ($50,000 Total)",
@@ -160,35 +180,14 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-09-15",
   },
   {
-    id: 14,
-    title: "Best Buy “LG Home Theater” Sweepstakes",
-    type: "sweepstakes",
-    prizes: "LG 83-inch OLED TV Package ($15,507 Grand Prize)",
-    frequency: "Enter Daily",
-    ends: "2026-10-04",
-    url: "https://www.bestbuy.com/site/sweepstakes/lg-dream-tv/pcmcat1785334252319.c?id=pcmcat1785334252319",
-    hot: true,
-    added: "2026-09-18",
-  },
-  {
-    id: 15,
-    title: "Coca-Cola “Match Day Getaway” Sweepstakes",
-    type: "sweepstakes",
-    prizes: "127 Prizes incl. USWNT Match Trip ($4,500)",
-    frequency: "Enter Daily",
-    ends: "2026-10-31",
-    url: "https://www.coca-cola.com/us/en/offerings/fifa-world-cup-26/match-day-getaway-sweeps",
-    added: "2026-09-18",
-  },
-  {
     id: 16,
-    title: "Mondelēz “Hometown Touchdowns” Sweepstakes",
+    title: "Spirit Halloween “31K” Sweepstakes",
     type: "sweepstakes",
-    prizes: "10,262 Prizes incl. $5,000 Meet-and-Greet",
-    frequency: "Enter Weekly",
-    ends: "2026-10-30",
-    url: "https://www.hometowntouchdowns.com",
-    added: "2026-09-18",
+    prizes: "31 Winners of $1,000 Gift Cards",
+    frequency: "Enter Once",
+    ends: "2026-09-26",
+    url: "https://m.cmpgn.page",
+    added: "2026-09-19",
   },
 ];
 
@@ -473,7 +472,7 @@ export default function Home() {
         {renderSection("Sweepstakes", sweeps)}
 
         <p style={{ color: "#94a3b8", fontSize: "0.8rem", marginTop: "40px", lineHeight: 1.6 }}>
-          Listings last verified September 18, 2026. Always check the official rules on
+          Listings last verified September 19, 2026. Always check the official rules on
           the sponsor&apos;s page before entering. Sweepstakes Central is not affiliated
           with the sponsors listed.
         </p>
@@ -500,9 +499,6 @@ export default function Home() {
             Tips & Guides
           </a>
           <a href="/about" style={{ color: "#64748b", marginRight: "16px" }}>
-            About
-          </a>
-          <a href="/privacy" style={{ color: "#64748b", marginRight: "16px" }}>
             Privacy Policy
           </a>
           <a href="/terms" style={{ color: "#64748b", marginRight: "16px" }}>
