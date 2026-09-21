@@ -16,7 +16,7 @@ interface Listing {
   added: string; // YYYY-MM-DD — NEW badge shows when added within the last 3 days
 }
 
-// Listings verified September 19, 2026. Update this list regularly —
+// Listings verified September 21, 2026. Update this list regularly —
 // remove ended sweepstakes and add new ones by editing this file and redeploying.
 const SWEEPSTAKES: Listing[] = [
   // ---- Instant Win Games ----
@@ -39,14 +39,13 @@ const SWEEPSTAKES: Listing[] = [
     frequency: "Enter Daily",
     ends: "2027-01-03",
     url: "https://www.millerlite.com",
-    hot: true,
     added: "2026-09-19",
   },
   {
     id: 3,
     title: "FLIPZ “Xbox” Instant Win Game",
     type: "instant",
-    prizes: "$5,000 Grand Prize + 363 Gaming Prizes (ARV $44,446)",
+    prizes: "Grand Prize $5,000 Cash + 363 Xbox Gaming Prizes (ARV $23,100)",
     frequency: "Enter Daily",
     ends: "2026-09-30",
     url: "http://flipz-xbox.on-ella.com/",
@@ -54,16 +53,6 @@ const SWEEPSTAKES: Listing[] = [
   },
   {
     id: 4,
-    title: "A&W “Family Float Night” Instant Win Game",
-    type: "instant",
-    prizes: "3,507 Prizes incl. Free Floats ($37,660 Total ARV)",
-    frequency: "Enter Daily",
-    ends: "2026-09-30",
-    url: "https://floatintofamilyfun.com/",
-    added: "2026-09-14",
-  },
-  {
-    id: 5,
     title: "Coca-Cola “Friday for the Win Football” Instant Win Game",
     type: "instant",
     prizes: "365 Winners incl. 65-inch TV + Football Trip for 2",
@@ -73,36 +62,45 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-09-19",
   },
   {
-    id: 6,
-    title: "Bud Light “College Game Day” Instant Win Game",
-    type: "instant",
-    prizes: "2,000 Winners: Fanatics Codes + Vintage Gear",
-    frequency: "Enter Daily",
-    ends: "2026-11-30",
-    url: "https://www.budlight.com",
-    added: "2026-09-19",
-  },
-  {
-    id: 7,
+    id: 5,
     title: "At Home “Design Rewards” Instant Win Game",
     type: "instant",
     prizes: "$25,000 Shopping Spree + 3,112 Instant Prizes (ARV $52,500)",
     frequency: "Enter Daily",
     ends: "2026-10-15",
     url: "https://www.athome.com/sweepstakes",
-    hot: true,
     added: "2026-09-18",
   },
   {
-    id: 8,
+    id: 6,
     title: "Dr Pepper and Cheez-It “Fall Football” Instant Win Game",
     type: "instant",
     prizes: "3,150 eGift Cards + Fandango Codes ($40,500 Total)",
     frequency: "Enter Daily",
     ends: "2026-10-31",
     url: "https://drpeppercheezitgame.entertowinprizes.com/",
-    hot: true,
     added: "2026-09-18",
+  },
+  {
+    id: 7,
+    title: "The Whiskey Shopper Instant Win Game",
+    type: "instant",
+    prizes: "1,000 $50 Venmo Credits ($50,000 Total ARV)",
+    frequency: "Enter Weekly",
+    ends: "2026-10-31",
+    url: "http://www.spiritspromos.com/portfolio/whiskey-sweeps",
+    hot: true,
+    added: "2026-09-21",
+  },
+  {
+    id: 8,
+    title: "Fanta “Halloween” Instant Win Game",
+    type: "instant",
+    prizes: "7,000 Prizes incl. Masks, Beanies + AMC Movie Tickets",
+    frequency: "Enter Daily",
+    ends: "2026-11-01",
+    url: "https://www.coca-cola.com",
+    added: "2026-09-21",
   },
   // ---- Sweepstakes ----
   {
@@ -129,26 +127,6 @@ const SWEEPSTAKES: Listing[] = [
   },
   {
     id: 11,
-    title: "Topgolf “Honda Classic Challenge” Sweepstakes",
-    type: "sweepstakes",
-    prizes: "2026 Honda Hybrid of Choice (up to $42,550)",
-    frequency: "Enter Daily",
-    ends: "2026-09-30",
-    url: "https://www.topgolf.com",
-    added: "2026-09-19",
-  },
-  {
-    id: 12,
-    title: "Kraft “Back to Football” Sweepstakes",
-    type: "sweepstakes",
-    prizes: "Super Bowl 61 Trip for 2 ($25,000 Total ARV)",
-    frequency: "Enter Once",
-    ends: "2026-10-31",
-    url: "https://www.kraftheinz.com",
-    added: "2026-09-19",
-  },
-  {
-    id: 13,
     title: "Amazon Haul “Car” Sweepstakes",
     type: "sweepstakes",
     prizes: "$50,000 Car or $50,000 Cash Grand Prize",
@@ -159,35 +137,55 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-09-17",
   },
   {
-    id: 14,
-    title: "Sam Adams “Octoberfest Munich” Sweepstakes",
-    type: "sweepstakes",
-    prizes: "Munich Trip for 2 incl. NFL Game ($7,100)",
-    frequency: "Enter Daily",
-    ends: "2026-10-18",
-    url: "https://munichgameday.com",
-    added: "2026-09-19",
-  },
-  {
-    id: 15,
+    id: 12,
     title: "Feastables “Halloween” Sweepstakes",
     type: "sweepstakes",
     prizes: "Five $10,000 Prizes ($50,000 Total)",
     frequency: "Enter Daily",
     ends: "2026-10-28",
     url: "https://fst.gg/hwn26",
-    hot: true,
     added: "2026-09-15",
   },
   {
-    id: 16,
-    title: "Spirit Halloween “31K” Sweepstakes",
+    id: 13,
+    title: "NASCAR “Cup Series Chase” Sweepstakes",
     type: "sweepstakes",
-    prizes: "31 Winners of $1,000 Gift Cards",
-    frequency: "Enter Once",
-    ends: "2026-09-26",
-    url: "https://m.cmpgn.page",
-    added: "2026-09-19",
+    prizes: "2026 Ford F-150 Raptor (ARV up to $94,360) + 10 Weekly Prizes",
+    frequency: "Enter Weekly",
+    ends: "2026-11-08",
+    url: "https://thechasefordpromo.nascar.com",
+    added: "2026-09-20",
+  },
+  {
+    id: 14,
+    title: "Hot Wheels “Ram Trucks” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "2026 Ram 1500 Truck (MSRP up to ~$70,000)",
+    frequency: "Enter Daily",
+    ends: "2026-12-14",
+    url: "https://www.hotwheels.com/ramsweepstakes",
+    added: "2026-09-20",
+  },
+  {
+    id: 15,
+    title: "Sprite “Living Tracklist” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "200 Bluetooth Speakers + 1,200 $50 Prepaid Cards",
+    frequency: "Enter Daily",
+    ends: "2026-09-30",
+    url: "https://www.coca-cola.com",
+    added: "2026-09-20",
+  },
+  {
+    id: 16,
+    title: "Topgolf “Honda Classic Challenge” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "2026 Honda Hybrid of Winner’s Choice (up to $42,550 ARV)",
+    frequency: "Enter Daily",
+    ends: "2026-09-30",
+    url: "https://Topgolf.com/Honda",
+    hot: true,
+    added: "2026-09-21",
   },
 ];
 
@@ -472,7 +470,7 @@ export default function Home() {
         {renderSection("Sweepstakes", sweeps)}
 
         <p style={{ color: "#94a3b8", fontSize: "0.8rem", marginTop: "40px", lineHeight: 1.6 }}>
-          Listings last verified September 19, 2026. Always check the official rules on
+          Listings last verified September 21, 2026. Always check the official rules on
           the sponsor&apos;s page before entering. Sweepstakes Central is not affiliated
           with the sponsors listed.
         </p>
@@ -499,6 +497,9 @@ export default function Home() {
             Tips & Guides
           </a>
           <a href="/about" style={{ color: "#64748b", marginRight: "16px" }}>
+            About
+          </a>
+          <a href="/privacy" style={{ color: "#64748b", marginRight: "16px" }}>
             Privacy Policy
           </a>
           <a href="/terms" style={{ color: "#64748b", marginRight: "16px" }}>
