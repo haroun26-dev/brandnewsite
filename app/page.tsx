@@ -16,23 +16,12 @@ interface Listing {
   added: string; // YYYY-MM-DD — NEW badge shows when added within the last 3 days
 }
 
-// Listings verified September 21, 2026. Update this list regularly —
+// Listings verified September 22, 2026. Update this list regularly —
 // remove ended sweepstakes and add new ones by editing this file and redeploying.
 const SWEEPSTAKES: Listing[] = [
   // ---- Instant Win Games ----
   {
     id: 1,
-    title: "Casamigos “This Calls For Margs” Instant Win Game",
-    type: "instant",
-    prizes: "$60,000 Cash Grand Prize + 2,500 $20 Venmo Credits (ARV $110,000)",
-    frequency: "Enter Once",
-    ends: "2026-09-30",
-    url: "https://www.casamigos.com/en-us/marg-plz-sweepstakes",
-    hot: true,
-    added: "2026-09-14",
-  },
-  {
-    id: 2,
     title: "Miller Lite “Football” Instant Win Game",
     type: "instant",
     prizes: "$84,372 in Prizes incl. 1,000 $25 Venmo Payments + NFL Trips",
@@ -42,17 +31,7 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-09-19",
   },
   {
-    id: 3,
-    title: "FLIPZ “Xbox” Instant Win Game",
-    type: "instant",
-    prizes: "Grand Prize $5,000 Cash + 363 Xbox Gaming Prizes (ARV $23,100)",
-    frequency: "Enter Daily",
-    ends: "2026-09-30",
-    url: "http://flipz-xbox.on-ella.com/",
-    added: "2026-09-14",
-  },
-  {
-    id: 4,
+    id: 2,
     title: "Coca-Cola “Friday for the Win Football” Instant Win Game",
     type: "instant",
     prizes: "365 Winners incl. 65-inch TV + Football Trip for 2",
@@ -62,7 +41,7 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-09-19",
   },
   {
-    id: 5,
+    id: 3,
     title: "At Home “Design Rewards” Instant Win Game",
     type: "instant",
     prizes: "$25,000 Shopping Spree + 3,112 Instant Prizes (ARV $52,500)",
@@ -72,7 +51,7 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-09-18",
   },
   {
-    id: 6,
+    id: 4,
     title: "Dr Pepper and Cheez-It “Fall Football” Instant Win Game",
     type: "instant",
     prizes: "3,150 eGift Cards + Fandango Codes ($40,500 Total)",
@@ -82,7 +61,7 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-09-18",
   },
   {
-    id: 7,
+    id: 5,
     title: "The Whiskey Shopper Instant Win Game",
     type: "instant",
     prizes: "1,000 $50 Venmo Credits ($50,000 Total ARV)",
@@ -93,7 +72,7 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-09-21",
   },
   {
-    id: 8,
+    id: 6,
     title: "Fanta “Halloween” Instant Win Game",
     type: "instant",
     prizes: "7,000 Prizes incl. Masks, Beanies + AMC Movie Tickets",
@@ -104,7 +83,70 @@ const SWEEPSTAKES: Listing[] = [
   },
   // ---- Sweepstakes ----
   {
+    id: 7,
+    title: "White Claw “Surge Pre-Game Day Tailgate” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "Midsize Hybrid Off-Road Pickup + $6,000 Check (ARV up to $72,150)",
+    frequency: "Enter Daily",
+    ends: "2026-12-31",
+    url: "https://www.whiteclaw.com/sweepstakes/surgetailgate",
+    hot: true,
+    added: "2026-09-22",
+  },
+  {
+    id: 8,
+    title: "Jim Beam “Hit The Beam” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "Up to 110 Winners: 85-inch TVs + $5,000 Lovesac Gift Cards (ARV $214,900)",
+    frequency: "Enter Once",
+    ends: "2027-02-14",
+    url: "https://hitthebeam.com/",
+    hot: true,
+    added: "2026-09-22",
+  },
+  {
     id: 9,
+    title: "Under Armour “Pro Day Experience” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "$22,000 Trip for 4: Jaguars vs Ravens Game + Field Passes & Gift Cards",
+    frequency: "Enter Daily",
+    ends: "2026-09-30",
+    url: "https://brandcycle.shop/v8ggn",
+    hot: true,
+    added: "2026-09-22",
+  },
+  {
+    id: 10,
+    title: "KIVA Camino “Summer” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "Jeep Compass Limited 4x4 or $30,000 Cash (ARV up to $35,715)",
+    frequency: "Enter Daily",
+    ends: "2026-09-30",
+    url: "https://caminosweeps2026.com/",
+    added: "2026-09-22",
+  },
+  {
+    id: 11,
+    title: "Universal Pictures “Fast & the Furious” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "2-Night Trip for 4 to Universal Studios Hollywood (ARV $4,290)",
+    frequency: "Enter Daily",
+    ends: "2026-09-25",
+    url: "https://cloud.email.universalpicturesathome.com/FastandFurious25Anniversary_social_email_sweeps_form",
+    added: "2026-09-22",
+  },
+  {
+    id: 12,
+    title: "Naked Sundays “You & Your Bestie” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "$5,000 Cash + Trip for 2 to Sydney, Australia",
+    frequency: "Enter Once",
+    ends: "2026-10-31",
+    url: "https://us.nakedsundays.com/",
+    added: "2026-09-22",
+  },
+  {
+    id: 13,
     title: "Toyota “Gameday Giveaways” Sweepstakes",
     type: "sweepstakes",
     prizes: "Toyota Vehicle of Choice (up to $86,135 MSRP) + $30,000 Check",
@@ -115,7 +157,7 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-09-19",
   },
   {
-    id: 10,
+    id: 14,
     title: "FCA US $100,000 Vehicle Sweepstakes",
     type: "sweepstakes",
     prizes: "$100,000 Vehicle Credit (Dodge, Jeep, Chrysler, Ram, Fiat)",
@@ -126,28 +168,7 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-09-19",
   },
   {
-    id: 11,
-    title: "Amazon Haul “Car” Sweepstakes",
-    type: "sweepstakes",
-    prizes: "$50,000 Car or $50,000 Cash Grand Prize",
-    frequency: "Enter Daily",
-    ends: "2026-10-01",
-    url: "https://www.amazon.com/b?node=222015503011&ishaul=1&ref_=hul_swpstk_lp_ofclrl",
-    hot: true,
-    added: "2026-09-17",
-  },
-  {
-    id: 12,
-    title: "Feastables “Halloween” Sweepstakes",
-    type: "sweepstakes",
-    prizes: "Five $10,000 Prizes ($50,000 Total)",
-    frequency: "Enter Daily",
-    ends: "2026-10-28",
-    url: "https://fst.gg/hwn26",
-    added: "2026-09-15",
-  },
-  {
-    id: 13,
+    id: 15,
     title: "NASCAR “Cup Series Chase” Sweepstakes",
     type: "sweepstakes",
     prizes: "2026 Ford F-150 Raptor (ARV up to $94,360) + 10 Weekly Prizes",
@@ -157,7 +178,7 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-09-20",
   },
   {
-    id: 14,
+    id: 16,
     title: "Hot Wheels “Ram Trucks” Sweepstakes",
     type: "sweepstakes",
     prizes: "2026 Ram 1500 Truck (MSRP up to ~$70,000)",
@@ -166,31 +187,7 @@ const SWEEPSTAKES: Listing[] = [
     url: "https://www.hotwheels.com/ramsweepstakes",
     added: "2026-09-20",
   },
-  {
-    id: 15,
-    title: "Sprite “Living Tracklist” Sweepstakes",
-    type: "sweepstakes",
-    prizes: "200 Bluetooth Speakers + 1,200 $50 Prepaid Cards",
-    frequency: "Enter Daily",
-    ends: "2026-09-30",
-    url: "https://www.coca-cola.com",
-    added: "2026-09-20",
-  },
-  {
-    id: 16,
-    title: "Topgolf “Honda Classic Challenge” Sweepstakes",
-    type: "sweepstakes",
-    prizes: "2026 Honda Hybrid of Winner’s Choice (up to $42,550 ARV)",
-    frequency: "Enter Daily",
-    ends: "2026-09-30",
-    url: "https://Topgolf.com/Honda",
-    hot: true,
-    added: "2026-09-21",
-  },
 ];
-
-
-
 
 function daysLeft(dateStr: string) {
   const end = new Date(dateStr + "T23:59:59");
@@ -470,7 +467,7 @@ export default function Home() {
         {renderSection("Sweepstakes", sweeps)}
 
         <p style={{ color: "#94a3b8", fontSize: "0.8rem", marginTop: "40px", lineHeight: 1.6 }}>
-          Listings last verified September 21, 2026. Always check the official rules on
+          Listings last verified September 22, 2026. Always check the official rules on
           the sponsor&apos;s page before entering. Sweepstakes Central is not affiliated
           with the sponsors listed.
         </p>
@@ -501,9 +498,6 @@ export default function Home() {
           </a>
           <a href="/privacy" style={{ color: "#64748b", marginRight: "16px" }}>
             Privacy Policy
-          </a>
-          <a href="/terms" style={{ color: "#64748b", marginRight: "16px" }}>
-            Terms
           </a>
           <a href="/contact" style={{ color: "#64748b" }}>
             Contact
