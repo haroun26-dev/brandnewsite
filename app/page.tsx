@@ -16,7 +16,7 @@ interface Listing {
   added: string; // YYYY-MM-DD — NEW badge shows when added within the last 3 days
 }
 
-// Listings verified September 23, 2026. Update this list regularly —
+// Listings verified September 24, 2026. Update this list regularly —
 // remove ended sweepstakes and add new ones by editing this file and redeploying.
 const SWEEPSTAKES: Listing[] = [
   // ---- Instant Win Games ----
@@ -70,26 +70,25 @@ const SWEEPSTAKES: Listing[] = [
     url: "https://www.tecatebeerusa.com",
     added: "2026-09-23",
   },
-  // ---- Sweepstakes ----
   {
     id: 6,
+    title: "BeatBox “Spin & Win” Instant Win Game",
+    type: "instant",
+    prizes: "$6,000 Prepaid Card Grand Prize + 200 Instant Prizes",
+    frequency: "Enter Once",
+    ends: "2026-10-31",
+    url: "https://web.witcontests.com/beatbox/giveaway/slots/xtreme-sour-black-cherry-spin-and-win-260731",
+    added: "2026-09-24",
+  },
+  // ---- Sweepstakes ----
+  {
+    id: 7,
     title: "Big Sipz $16K Sweepstakes",
     type: "sweepstakes",
     prizes: "12 Winners: $16,000 Cash Each",
     frequency: "Enter Daily",
     ends: "2026-12-31",
     url: "https://www.2026bigsipz16k.com",
-    hot: true,
-    added: "2026-09-23",
-  },
-  {
-    id: 7,
-    title: "Amazon Haul “Car” Sweepstakes",
-    type: "sweepstakes",
-    prizes: "Amazon Auto Vehicle (up to $50,000 MSRP) or $50,000 Cash",
-    frequency: "Enter Daily",
-    ends: "2026-10-01",
-    url: "https://www.amazon.com/b?node=222015503011&ishaul=1&ref_=hul_swpstk_lp_ofclrl",
     hot: true,
     added: "2026-09-23",
   },
@@ -101,6 +100,7 @@ const SWEEPSTAKES: Listing[] = [
     frequency: "Enter Daily",
     ends: "2026-10-28",
     url: "https://feastables.com",
+    hot: true,
     added: "2026-09-23",
   },
   {
@@ -126,37 +126,28 @@ const SWEEPSTAKES: Listing[] = [
   },
   {
     id: 11,
-    title: "Hot Wheels Jeep Wrangler Sweepstakes",
-    type: "sweepstakes",
-    prizes: "2026 Jeep Wrangler (ARV up to $65,000)",
-    frequency: "Enter Daily",
-    ends: "2026-10-05",
-    url: "https://jeep.hotwheelssweepstakes.com",
-    hot: true,
-    added: "2026-09-23",
-  },
-  {
-    id: 12,
     title: "Straight Talk “Ford Mustang” Sweepstakes",
     type: "sweepstakes",
     prizes: "2026 Ford Mustang EcoBoost (ARV $32,640)",
     frequency: "Enter Daily",
     ends: "2026-11-08",
     url: "https://straighttalkracingtour.com",
+    hot: true,
     added: "2026-09-23",
   },
   {
-    id: 13,
+    id: 12,
     title: "Ford “Tee-To-Trail” Sweepstakes",
     type: "sweepstakes",
     prizes: "2026 Ford Bronco Badlands + Golf Trip for 4 (ARV $63,925)",
     frequency: "Enter Once",
     ends: "2026-11-22",
     url: "https://www.lpga.com",
+    hot: true,
     added: "2026-09-23",
   },
   {
-    id: 14,
+    id: 13,
     title: "HGTV “Trick or Treat Yourself” Sweepstakes",
     type: "sweepstakes",
     prizes: "$5,000 Cash",
@@ -166,7 +157,7 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-09-23",
   },
   {
-    id: 15,
+    id: 14,
     title: "AirMedCare Network “College Football” Sweepstakes",
     type: "sweepstakes",
     prizes: "$10,000 via ACH Transfer",
@@ -176,14 +167,24 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-09-23",
   },
   {
-    id: 16,
-    title: "Sam Adams “Octoberfest Munich” Sweepstakes",
+    id: 15,
+    title: "Food Network “Taste of Fall” Sweepstakes",
     type: "sweepstakes",
-    prizes: "Trip for 2 to Munich, Germany (ARV $7,100)",
+    prizes: "$5,000 Check",
     frequency: "Enter Daily",
-    ends: "2026-10-18",
-    url: "https://munichgameday.com",
-    added: "2026-09-23",
+    ends: "2026-11-10",
+    url: "https://www.foodnetwork.com/sponsored/sweepstakes/taste-of-fall",
+    added: "2026-09-24",
+  },
+  {
+    id: 16,
+    title: "Kellanova “Snack & Score” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "4 x $2,500 Cash + 18 Weekly $50 Fanatics.com Gift Cards",
+    frequency: "Enter Weekly",
+    ends: "2026-12-31",
+    url: "https://www.snackandscoresweeps.kellanovaawayfromhome.com/en-us/home.html",
+    added: "2026-09-24",
   },
 ];
 
@@ -468,7 +469,7 @@ export default function Home() {
         {renderSection("Sweepstakes", sweeps)}
 
         <p style={{ color: "#94a3b8", fontSize: "0.8rem", marginTop: "40px", lineHeight: 1.6 }}>
-          Listings last verified September 23, 2026. Always check the official rules on
+          Listings last verified September 24, 2026. Always check the official rules on
           the sponsor&apos;s page before entering. Sweepstakes Central is not affiliated
           with the sponsors listed.
         </p>
