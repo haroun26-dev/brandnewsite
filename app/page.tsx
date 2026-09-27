@@ -16,7 +16,7 @@ interface Listing {
   added: string; // YYYY-MM-DD — NEW badge shows when added within the last 3 days
 }
 
-// Listings verified September 26, 2026. Update this list regularly —
+// Listings verified September 27, 2026. Update this list regularly —
 // remove ended sweepstakes and add new ones by editing this file and redeploying.
 const SWEEPSTAKES: Listing[] = [
   // ---- Instant Win Games ----
@@ -84,23 +84,22 @@ const SWEEPSTAKES: Listing[] = [
   // ---- Sweepstakes ----
   {
     id: 7,
+    title: "At Home “Design Rewards” Instant Win Game",
+    type: "instant",
+    prizes: "$25,000 Shopping Spree Grand Prize + 12x $1,000 eGift Cards + 3,100x Rewards Points",
+    frequency: "Enter Daily",
+    ends: "2026-10-15",
+    url: "https://www.athome.com/sweepstakes",
+    added: "2026-09-27",
+  },
+  {
+    id: 8,
     title: "Amazon Haul “Car” Sweepstakes",
     type: "sweepstakes",
     prizes: "$50,000 Vehicle from Amazon Auto or $50,000 Cash",
     frequency: "Enter Daily",
     ends: "2026-10-01",
     url: "https://amzn.to/4y7ogDK",
-    hot: true,
-    added: "2026-09-26",
-  },
-  {
-    id: 8,
-    title: "Hot Wheels “Jeep Wrangler” Sweepstakes",
-    type: "sweepstakes",
-    prizes: "2026 Jeep Wrangler (ARV up to $65,000)",
-    frequency: "Enter Daily",
-    ends: "2026-10-05",
-    url: "https://jeep.hotwheelssweepstakes.com",
     hot: true,
     added: "2026-09-26",
   },
@@ -112,7 +111,6 @@ const SWEEPSTAKES: Listing[] = [
     frequency: "Enter Daily",
     ends: "2026-09-30",
     url: "https://www.topgolf.com",
-    hot: true,
     added: "2026-09-26",
   },
   {
@@ -127,6 +125,37 @@ const SWEEPSTAKES: Listing[] = [
   },
   {
     id: 11,
+    title: "Hot Wheels “Jeep Wrangler” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "2026 Jeep Wrangler (ARV up to $65,000)",
+    frequency: "Enter Daily",
+    ends: "2026-10-05",
+    url: "https://jeep.hotwheelssweepstakes.com",
+    hot: true,
+    added: "2026-09-26",
+  },
+  {
+    id: 12,
+    title: "Sam Adams “Octoberfest Munich” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "Trip for 2 to Munich for NFL Game Day (ARV $7,100)",
+    frequency: "Enter Daily",
+    ends: "2026-10-18",
+    url: "https://munichgameday.com/",
+    added: "2026-09-27",
+  },
+  {
+    id: 13,
+    title: "Spirit Halloween x Butterfinger “$15,000” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "$15,000 Cash Grand Prize",
+    frequency: "Enter Once",
+    ends: "2026-11-01",
+    url: "https://brandcycle.shop/vxheu",
+    added: "2026-09-27",
+  },
+  {
+    id: 14,
     title: "Big Sipz $16K Sweepstakes",
     type: "sweepstakes",
     prizes: "12 Winners: $16,000 Cash Each",
@@ -137,7 +166,7 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-09-23",
   },
   {
-    id: 12,
+    id: 15,
     title: "Feastables “Halloween Capitol” Sweepstakes",
     type: "sweepstakes",
     prizes: "5 Winners: $10,000 Cash Each",
@@ -148,7 +177,7 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-09-23",
   },
   {
-    id: 13,
+    id: 16,
     title: "BHG “Home & Garden Refresh” Sweepstakes",
     type: "sweepstakes",
     prizes: "$25,000 Check",
@@ -157,38 +186,6 @@ const SWEEPSTAKES: Listing[] = [
     url: "https://www.bhg.com",
     hot: true,
     added: "2026-09-23",
-  },
-  {
-    id: 14,
-    title: "Straight Talk “Ford Mustang” Sweepstakes",
-    type: "sweepstakes",
-    prizes: "2026 Ford Mustang EcoBoost (ARV $32,640)",
-    frequency: "Enter Daily",
-    ends: "2026-11-08",
-    url: "https://straighttalkracingtour.com",
-    hot: true,
-    added: "2026-09-23",
-  },
-  {
-    id: 15,
-    title: "Ford “Tee-To-Trail” Sweepstakes",
-    type: "sweepstakes",
-    prizes: "2026 Ford Bronco Badlands + Golf Trip for 4 (ARV $63,925)",
-    frequency: "Enter Once",
-    ends: "2026-11-22",
-    url: "https://www.lpga.com",
-    hot: true,
-    added: "2026-09-23",
-  },
-  {
-    id: 16,
-    title: "Chips Ahoy! “Halloween Mystery Flavor” Sweepstakes",
-    type: "sweepstakes",
-    prizes: "$25,000 Check Grand Prize + 50 Cookie/Swag Prize Packs",
-    frequency: "Enter Daily",
-    ends: "2026-10-31",
-    url: "https://www.chipsahoymystery.com/",
-    added: "2026-09-25",
   },
 ];
 
