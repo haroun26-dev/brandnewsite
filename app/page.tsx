@@ -16,7 +16,7 @@ interface Listing {
   added: string; // YYYY-MM-DD — NEW badge shows when added within the last 3 days
 }
 
-// Listings verified September 27, 2026. Update this list regularly —
+// Listings verified September 28, 2026. Update this list regularly —
 // remove ended sweepstakes and add new ones by editing this file and redeploying.
 const SWEEPSTAKES: Listing[] = [
   // ---- Instant Win Games ----
@@ -81,7 +81,6 @@ const SWEEPSTAKES: Listing[] = [
     url: "https://www.hi-chew.com/pages/flavor-mash-game",
     added: "2026-09-26",
   },
-  // ---- Sweepstakes ----
   {
     id: 7,
     title: "At Home “Design Rewards” Instant Win Game",
@@ -94,6 +93,17 @@ const SWEEPSTAKES: Listing[] = [
   },
   {
     id: 8,
+    title: "The Whiskey Shopper Instant Win Game",
+    type: "instant",
+    prizes: "1,000 Winners: $50 Venmo Credit Each",
+    frequency: "Enter Weekly",
+    ends: "2026-10-31",
+    url: "https://www.spiritspromos.com",
+    added: "2026-09-28",
+  },
+  // ---- Sweepstakes ----
+  {
+    id: 9,
     title: "Amazon Haul “Car” Sweepstakes",
     type: "sweepstakes",
     prizes: "$50,000 Vehicle from Amazon Auto or $50,000 Cash",
@@ -104,7 +114,7 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-09-26",
   },
   {
-    id: 9,
+    id: 10,
     title: "Topgolf “Honda Classic Challenge” Sweepstakes",
     type: "sweepstakes",
     prizes: "Winner’s Choice: 2026 Honda Hybrid (ARV up to $42,550)",
@@ -114,28 +124,7 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-09-26",
   },
   {
-    id: 10,
-    title: "Gatorade x Doritos “Racing” Sweepstakes",
-    type: "sweepstakes",
-    prizes: "2 Trips for 2 to the F1 Las Vegas Grand Prix (ARV $7,900 Each)",
-    frequency: "Enter Daily",
-    ends: "2026-10-04",
-    url: "https://gatoradedoritosracing.com",
-    added: "2026-09-26",
-  },
-  {
     id: 11,
-    title: "Hot Wheels “Jeep Wrangler” Sweepstakes",
-    type: "sweepstakes",
-    prizes: "2026 Jeep Wrangler (ARV up to $65,000)",
-    frequency: "Enter Daily",
-    ends: "2026-10-05",
-    url: "https://jeep.hotwheelssweepstakes.com",
-    hot: true,
-    added: "2026-09-26",
-  },
-  {
-    id: 12,
     title: "Sam Adams “Octoberfest Munich” Sweepstakes",
     type: "sweepstakes",
     prizes: "Trip for 2 to Munich for NFL Game Day (ARV $7,100)",
@@ -145,7 +134,7 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-09-27",
   },
   {
-    id: 13,
+    id: 12,
     title: "Spirit Halloween x Butterfinger “$15,000” Sweepstakes",
     type: "sweepstakes",
     prizes: "$15,000 Cash Grand Prize",
@@ -155,7 +144,7 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-09-27",
   },
   {
-    id: 14,
+    id: 13,
     title: "Big Sipz $16K Sweepstakes",
     type: "sweepstakes",
     prizes: "12 Winners: $16,000 Cash Each",
@@ -166,7 +155,7 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-09-23",
   },
   {
-    id: 15,
+    id: 14,
     title: "Feastables “Halloween Capitol” Sweepstakes",
     type: "sweepstakes",
     prizes: "5 Winners: $10,000 Cash Each",
@@ -177,7 +166,7 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-09-23",
   },
   {
-    id: 16,
+    id: 15,
     title: "BHG “Home & Garden Refresh” Sweepstakes",
     type: "sweepstakes",
     prizes: "$25,000 Check",
@@ -187,7 +176,19 @@ const SWEEPSTAKES: Listing[] = [
     hot: true,
     added: "2026-09-23",
   },
+  {
+    id: 16,
+    title: "HOT WHEELS 2026 Ram® Trucks Sweepstakes",
+    type: "sweepstakes",
+    prizes: "2026 Ram 1500 Truck (ARV up to $70,000)",
+    frequency: "Enter Daily",
+    ends: "2026-12-14",
+    url: "https://ram.hotwheelssweepstakes.com/",
+    hot: true,
+    added: "2026-09-28",
+  },
 ];
+
 
 
 
@@ -471,7 +472,7 @@ export default function Home() {
         {renderSection("Sweepstakes", sweeps)}
 
         <p style={{ color: "#94a3b8", fontSize: "0.8rem", marginTop: "40px", lineHeight: 1.6 }}>
-          Listings last verified September 26, 2026. Always check the official rules on
+          Listings last verified September 28, 2026. Always check the official rules on
           the sponsor&apos;s page before entering. Sweepstakes Central is not affiliated
           with the sponsors listed.
         </p>
