@@ -16,7 +16,7 @@ interface Listing {
   added: string; // YYYY-MM-DD — NEW badge shows when added within the last 3 days
 }
 
-// Listings verified September 28, 2026. Update this list regularly —
+// Listings verified September 29, 2026. Update this list regularly —
 // remove ended sweepstakes and add new ones by editing this file and redeploying.
 const SWEEPSTAKES: Listing[] = [
   // ---- Instant Win Games ----
@@ -104,24 +104,24 @@ const SWEEPSTAKES: Listing[] = [
   // ---- Sweepstakes ----
   {
     id: 9,
-    title: "Amazon Haul “Car” Sweepstakes",
+    title: "MotoSport “Fall Adventure” Sweepstakes",
     type: "sweepstakes",
-    prizes: "$50,000 Vehicle from Amazon Auto or $50,000 Cash",
-    frequency: "Enter Daily",
-    ends: "2026-10-01",
-    url: "https://amzn.to/4y7ogDK",
+    prizes: "Grand Prize: Triumph Scrambler 400 XC + Trip for 2 (ARV $20,565) + 5 Weekly Gear Prizes",
+    frequency: "Enter Weekly",
+    ends: "2026-10-26",
+    url: "https://motosport.com/win",
     hot: true,
-    added: "2026-09-26",
+    added: "2026-09-29",
   },
   {
     id: 10,
-    title: "Topgolf “Honda Classic Challenge” Sweepstakes",
+    title: "Frito-Lay “Gameday Experiences” Sweepstakes",
     type: "sweepstakes",
-    prizes: "Winner’s Choice: 2026 Honda Hybrid (ARV up to $42,550)",
+    prizes: "128 Winners: 32x NFL Game Trips for 2 + Merch & Autographed Memorabilia",
     frequency: "Enter Daily",
-    ends: "2026-09-30",
-    url: "https://www.topgolf.com",
-    added: "2026-09-26",
+    ends: "2026-12-06",
+    url: "https://www.us-joy.com/tostitosgamedayexperiences",
+    added: "2026-09-29",
   },
   {
     id: 11,
@@ -140,7 +140,7 @@ const SWEEPSTAKES: Listing[] = [
     prizes: "$15,000 Cash Grand Prize",
     frequency: "Enter Once",
     ends: "2026-11-01",
-    url: "https://brandcycle.shop/vxheu",
+    url: "https://www.spirithalloween.com/sweeps",
     added: "2026-09-27",
   },
   {
@@ -472,7 +472,7 @@ export default function Home() {
         {renderSection("Sweepstakes", sweeps)}
 
         <p style={{ color: "#94a3b8", fontSize: "0.8rem", marginTop: "40px", lineHeight: 1.6 }}>
-          Listings last verified September 28, 2026. Always check the official rules on
+          Listings last verified September 29, 2026. Always check the official rules on
           the sponsor&apos;s page before entering. Sweepstakes Central is not affiliated
           with the sponsors listed.
         </p>
