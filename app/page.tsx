@@ -16,7 +16,7 @@ interface Listing {
   added: string; // YYYY-MM-DD — NEW badge shows when added within the last 3 days
 }
 
-// Listings verified September 29, 2026. Update this list regularly —
+// Listings verified September 30, 2026. Update this list regularly —
 // remove ended sweepstakes and add new ones by editing this file and redeploying.
 const SWEEPSTAKES: Listing[] = [
   // ---- Instant Win Games ----
@@ -28,7 +28,6 @@ const SWEEPSTAKES: Listing[] = [
     frequency: "Enter Daily",
     ends: "2026-10-31",
     url: "https://airbaton.net/l/yerbamadre-cashforcollege",
-    hot: true,
     added: "2026-09-26",
   },
   {
@@ -82,16 +81,6 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-09-26",
   },
   {
-    id: 7,
-    title: "At Home “Design Rewards” Instant Win Game",
-    type: "instant",
-    prizes: "$25,000 Shopping Spree Grand Prize + 12x $1,000 eGift Cards + 3,100x Rewards Points",
-    frequency: "Enter Daily",
-    ends: "2026-10-15",
-    url: "https://www.athome.com/sweepstakes",
-    added: "2026-09-27",
-  },
-  {
     id: 8,
     title: "The Whiskey Shopper Instant Win Game",
     type: "instant",
@@ -122,16 +111,6 @@ const SWEEPSTAKES: Listing[] = [
     ends: "2026-12-06",
     url: "https://www.us-joy.com/tostitosgamedayexperiences",
     added: "2026-09-29",
-  },
-  {
-    id: 11,
-    title: "Sam Adams “Octoberfest Munich” Sweepstakes",
-    type: "sweepstakes",
-    prizes: "Trip for 2 to Munich for NFL Game Day (ARV $7,100)",
-    frequency: "Enter Daily",
-    ends: "2026-10-18",
-    url: "https://munichgameday.com/",
-    added: "2026-09-27",
   },
   {
     id: 12,
@@ -166,17 +145,6 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-09-23",
   },
   {
-    id: 15,
-    title: "BHG “Home & Garden Refresh” Sweepstakes",
-    type: "sweepstakes",
-    prizes: "$25,000 Check",
-    frequency: "Enter Daily",
-    ends: "2027-01-31",
-    url: "https://www.bhg.com",
-    hot: true,
-    added: "2026-09-23",
-  },
-  {
     id: 16,
     title: "HOT WHEELS 2026 Ram® Trucks Sweepstakes",
     type: "sweepstakes",
@@ -186,6 +154,38 @@ const SWEEPSTAKES: Listing[] = [
     url: "https://ram.hotwheelssweepstakes.com/",
     hot: true,
     added: "2026-09-28",
+  },
+  {
+    id: 17,
+    title: "Valpak “Free Ride” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "2026 Jeep Wrangler 2 Door Sport (ARV $40,625)",
+    frequency: "Enter Daily",
+    ends: "2026-11-06",
+    url: "https://valpak.com/freeride",
+    hot: true,
+    added: "2026-09-30",
+  },
+  {
+    id: 18,
+    title: "Straight Talk “Ford Mustang” Giveaway",
+    type: "sweepstakes",
+    prizes: "2026 Ford Mustang EcoBoost (ARV $32,640)",
+    frequency: "Enter Daily",
+    ends: "2026-11-08",
+    url: "https://straighttalkracingtour.com/mustang-giveaway",
+    added: "2026-09-30",
+  },
+  {
+    id: 19,
+    title: "Macy’s “Golden Confetti” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "$100,000: $15,000 Macy’s Gift Card + $5,000 Check Each Year for 5 Years",
+    frequency: "Enter Monthly",
+    ends: "2026-10-31",
+    url: "https://www.macysgoldenconfetti.com",
+    hot: true,
+    added: "2026-09-30",
   },
 ];
 
@@ -472,7 +472,7 @@ export default function Home() {
         {renderSection("Sweepstakes", sweeps)}
 
         <p style={{ color: "#94a3b8", fontSize: "0.8rem", marginTop: "40px", lineHeight: 1.6 }}>
-          Listings last verified September 29, 2026. Always check the official rules on
+          Listings last verified September 30, 2026. Always check the official rules on
           the sponsor&apos;s page before entering. Sweepstakes Central is not affiliated
           with the sponsors listed.
         </p>
@@ -487,7 +487,7 @@ export default function Home() {
           padding: "28px 24px",
           borderTop: "1px solid #e2e8f0",
           color: "#94a3b8",
-          fontSize: "0.8rem",
+          fontSize: "0.85rem",
           background: "#fff",
         }}
       >
