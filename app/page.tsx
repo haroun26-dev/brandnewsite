@@ -66,7 +66,31 @@ const SWEEPSTAKES: Listing[] = [
     type: "instant",
     prizes: "$3,000 Prepaid Card Grand Prize + 10 Halloween Merch Prize Packs",
     frequency: "Enter Once",
-    ends: "2026-10-30",  // ---- Sweepstakes ----
+    ends: "2026-10-30",
+    url: "https://www.hi-chew.com/pages/flavor-mash-game",
+    added: "2026-09-26",
+  },
+  {
+    id: 6,
+    title: "Culver’s “Curdtoberfest” Instant Win Game",
+    type: "instant",
+    prizes: "6,007 Winners: Munich Trip for 4 (ARV $19,900) + $2,000 Check + 5x $500 Cards + Cheese Curd Coupons",
+    frequency: "Enter Daily",
+    ends: "2026-10-31",
+    url: "http://Curdtoberfest.culvers.com",
+    added: "2026-10-01",
+  },
+  {
+    id: 7,
+    title: "Yerba Madre “Cash for College” Instant Win Game",
+    type: "instant",
+    prizes: "$30,000 Grand Prize + 100 Instant Prizes (Yeti, JBL, Miir & More)",
+    frequency: "Enter Daily",
+    ends: "2026-10-31",
+    url: "https://airbaton.net/l/yerbamadre-cashforcollege",
+    added: "2026-09-26",
+  },
+  // ---- Sweepstakes ----
   {
     id: 8,
     title: "Macy’s “Golden Confetti” Sweepstakes",
@@ -197,6 +221,29 @@ export default function Home() {
       filter === "All" ||
       (filter === "Instant Win Games" && s.type === "instant") ||
       (filter === "Sweepstakes" && s.type === "sweepstakes");
+    const matchSearch = s.title.toLowerCase().includes(search.toLowerCase());
+    return matchFilter && matchSearch;
+  });
+
+  const instantWins = filtered
+    .filter((s) => s.type === "instant")
+    .sort((a, b) => a.ends.localeCompare(b.ends));
+  const sweeps = filtered
+    .filter((s) => s.type === "sweepstakes")
+    .sort((a, b) => a.ends.localeCompare(b.ends));
+
+  const inputStyle: React.CSSProperties = {
+    padding: "10px 14px",
+    borderRadius: "8px",
+    border: "1px solid #cbd5e1",
+    background: "#fff",
+    color: "#0f172a",
+    fontSize: "0.95rem",
+    outline: "none",
+    width: "100%",
+    boxSizing: "border-box",
+  };
+
   function renderListing(s: Listing) {
     const left = daysLeft(s.ends);
     return (
@@ -462,50 +509,4 @@ export default function Home() {
       </footer>
     </div>
   );
-  }
-    const matchSearch = s.title.toLowerCase().includes(search.toLowerCase());
-    return matchFilter && matchSearch;
-  });
-
-  const instantWins = filtered
-    .filter((s) => s.type === "instant")
-    .sort((a, b) => a.ends.localeCompare(b.ends));
-  const sweeps = filtered
-    .filter((s) => s.type === "sweepstakes")
-    .sort((a, b) => a.ends.localeCompare(b.ends));
-
-  const inputStyle: React.CSSProperties = {
-    padding: "10px 14px",
-    borderRadius: "8px",
-    border: "1px solid #cbd5e1",
-    background: "#fff",
-    color: "#0f172a",
-    fontSize: "0.95rem",
-    outline: "none",
-    width: "100%",
-    boxSizing: "border-box",
-  };
-
-    url: "https://www.hi-chew.com/pages/flavor-mash-game",
-    added: "2026-09-26",
-  },
-  {
-    id: 6,
-    title: "Culver’s “Curdtoberfest” Instant Win Game",
-    type: "instant",
-    prizes: "6,007 Winners: Munich Trip for 4 (ARV $19,900) + $2,000 Check + 5x $500 Cards + Cheese Curd Coupons",
-    frequency: "Enter Daily",
-    ends: "2026-10-31",
-    url: "http://Curdtoberfest.culvers.com",
-    added: "2026-10-01",
-  },
-  {
-    id: 7,
-    title: "Yerba Madre “Cash for College” Instant Win Game",
-    type: "instant",
-    prizes: "$30,000 Grand Prize + 100 Instant Prizes (Yeti, JBL, Miir & More)",
-    frequency: "Enter Daily",
-    ends: "2026-10-31",
-    url: "https://airbaton.net/l/yerbamadre-cashforcollege",
-    added: "2026-09-26",
-  },
+}
