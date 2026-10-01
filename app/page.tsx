@@ -16,22 +16,12 @@ interface Listing {
   added: string; // YYYY-MM-DD — NEW badge shows when added within the last 3 days
 }
 
-// Listings verified September 30, 2026. Update this list regularly —
+// Listings verified October 1, 2026. Update this list regularly —
 // remove ended sweepstakes and add new ones by editing this file and redeploying.
 const SWEEPSTAKES: Listing[] = [
   // ---- Instant Win Games ----
   {
     id: 1,
-    title: "Yerba Madre “Cash for College” Instant Win Game",
-    type: "instant",
-    prizes: "$30,000 Grand Prize + 100 Instant Prizes (Yeti, JBL, Miir & More)",
-    frequency: "Enter Daily",
-    ends: "2026-10-31",
-    url: "https://airbaton.net/l/yerbamadre-cashforcollege",
-    added: "2026-09-26",
-  },
-  {
-    id: 2,
     title: "Coffee mate “Year of Flavor” Instant Win Game",
     type: "instant",
     prizes: "805 Prizes incl. 5 $15,000 Grocery Checks + 100 $200 Checks",
@@ -41,7 +31,7 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-09-23",
   },
   {
-    id: 3,
+    id: 2,
     title: "Dr Pepper and Cheez-It “Fall Football” Instant Win Game",
     type: "instant",
     prizes: "3,150 Winners: 600x $25 Fanatics/Xbox eGift Cards + 2,550x $10 Cards",
@@ -51,7 +41,7 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-09-25",
   },
   {
-    id: 4,
+    id: 3,
     title: "Fanta “Halloween” Instant Win Game",
     type: "instant",
     prizes: "7,000 Winners: Halloween Masks, Beanies, Tote Bags & AMC Movie Tickets",
@@ -61,7 +51,7 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-09-26",
   },
   {
-    id: 5,
+    id: 4,
     title: "Pack a Snacktime Friend Instant Win Game",
     type: "instant",
     prizes: "Trip for 4 (ARV $15,730) + 100x Disney+ Premium + 278 Gift Cards & Coupons",
@@ -71,81 +61,88 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-09-25",
   },
   {
-    id: 6,
+    id: 5,
     title: "HI-CHEW “Frakenchewbie’s Flavor Mash” Instant Win Game",
     type: "instant",
     prizes: "$3,000 Prepaid Card Grand Prize + 10 Halloween Merch Prize Packs",
     frequency: "Enter Once",
-    ends: "2026-10-30",
-    url: "https://www.hi-chew.com/pages/flavor-mash-game",
-    added: "2026-09-26",
-  },
+    ends: "2026-10-30",  // ---- Sweepstakes ----
   {
     id: 8,
-    title: "The Whiskey Shopper Instant Win Game",
-    type: "instant",
-    prizes: "1,000 Winners: $50 Venmo Credit Each",
-    frequency: "Enter Weekly",
+    title: "Macy’s “Golden Confetti” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "$100,000: $15,000 Macy’s Gift Card + $5,000 Check Each Year for 5 Years",
+    frequency: "Enter Monthly",
     ends: "2026-10-31",
-    url: "https://www.spiritspromos.com",
-    added: "2026-09-28",
+    url: "https://www.macysgoldenconfetti.com",
+    hot: true,
+    added: "2026-09-30",
   },
-  // ---- Sweepstakes ----
   {
     id: 9,
-    title: "MotoSport “Fall Adventure” Sweepstakes",
+    title: "FCA US “$100,000 Vehicle” Sweepstakes",
     type: "sweepstakes",
-    prizes: "Grand Prize: Triumph Scrambler 400 XC + Trip for 2 (ARV $20,565) + 5 Weekly Gear Prizes",
-    frequency: "Enter Weekly",
-    ends: "2026-10-26",
-    url: "https://motosport.com/win",
+    prizes: "$100,000 Credit Toward a Dodge, Jeep, Chrysler, Ram or Fiat Vehicle",
+    frequency: "Enter Daily",
+    ends: "2026-12-31",
+    url: "https://sweeps.stellantisexperiences.com",
     hot: true,
-    added: "2026-09-29",
+    added: "2026-10-01",
   },
   {
     id: 10,
-    title: "Frito-Lay “Gameday Experiences” Sweepstakes",
+    title: "Hot Wheels “Jeep Wrangler” Sweepstakes",
     type: "sweepstakes",
-    prizes: "128 Winners: 32x NFL Game Trips for 2 + Merch & Autographed Memorabilia",
+    prizes: "2026 Jeep Wrangler (ARV $65,000)",
     frequency: "Enter Daily",
-    ends: "2026-12-06",
-    url: "https://www.us-joy.com/tostitosgamedayexperiences",
-    added: "2026-09-29",
+    ends: "2026-10-05",
+    url: "https://jeep.hotwheelssweepstakes.com/",
+    hot: true,
+    added: "2026-10-01",
+  },
+  {
+    id: 11,
+    title: "Ford “Tee-To-Trail” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "2026 Ford Bronco Badlands + LPGA Golf Trip for 4 (ARV up to $63,925)",
+    frequency: "Enter Once",
+    ends: "2026-11-22",
+    url: "https://www.lpga.com/",
+    hot: true,
+    added: "2026-10-01",
   },
   {
     id: 12,
-    title: "Spirit Halloween x Butterfinger “$15,000” Sweepstakes",
+    title: "AirMedCare Network “College Football” Sweepstakes",
     type: "sweepstakes",
-    prizes: "$15,000 Cash Grand Prize",
-    frequency: "Enter Once",
-    ends: "2026-11-01",
-    url: "https://www.spirithalloween.com/sweeps",
-    added: "2026-09-27",
+    prizes: "$10,000 Cash via ACH Transfer",
+    frequency: "Enter Daily",
+    ends: "2026-10-25",
+    url: "https://www.amcn-college-football-giveaway.com",
+    added: "2026-10-01",
   },
   {
     id: 13,
-    title: "Big Sipz $16K Sweepstakes",
+    title: "Zevo & Walmart NFL “Super Bowl LXI” Sweepstakes",
     type: "sweepstakes",
-    prizes: "12 Winners: $16,000 Cash Each",
-    frequency: "Enter Daily",
-    ends: "2026-12-31",
-    url: "https://www.2026bigsipz16k.com",
-    hot: true,
-    added: "2026-09-23",
+    prizes: "Trip for 2 to Super Bowl LXI at SoFi Stadium (ARV $12,950)",
+    frequency: "Enter Once",
+    ends: "2026-10-26",
+    url: "https://zevowalmart.com/SuperBowlLXI",
+    added: "2026-10-01",
   },
   {
     id: 14,
-    title: "Feastables “Halloween Capitol” Sweepstakes",
+    title: "HGTV “Trick or Treat Yourself” Sweepstakes",
     type: "sweepstakes",
-    prizes: "5 Winners: $10,000 Cash Each",
+    prizes: "$5,000 Check",
     frequency: "Enter Daily",
     ends: "2026-10-28",
-    url: "https://feastables.com",
-    hot: true,
-    added: "2026-09-23",
+    url: "https://www.hgtv.com/sweepstakes/trick-or-treat-yourself",
+    added: "2026-10-01",
   },
   {
-    id: 16,
+    id: 15,
     title: "HOT WHEELS 2026 Ram® Trucks Sweepstakes",
     type: "sweepstakes",
     prizes: "2026 Ram 1500 Truck (ARV up to $70,000)",
@@ -156,43 +153,17 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-09-28",
   },
   {
-    id: 17,
-    title: "Valpak “Free Ride” Sweepstakes",
+    id: 16,
+    title: "Big Sipz $16K Sweepstakes",
     type: "sweepstakes",
-    prizes: "2026 Jeep Wrangler 2 Door Sport (ARV $40,625)",
+    prizes: "12 Winners: $16,000 Cash Each",
     frequency: "Enter Daily",
-    ends: "2026-11-06",
-    url: "https://valpak.com/freeride",
+    ends: "2026-12-31",
+    url: "https://www.2026bigsipz16k.com",
     hot: true,
-    added: "2026-09-30",
-  },
-  {
-    id: 18,
-    title: "Straight Talk “Ford Mustang” Giveaway",
-    type: "sweepstakes",
-    prizes: "2026 Ford Mustang EcoBoost (ARV $32,640)",
-    frequency: "Enter Daily",
-    ends: "2026-11-08",
-    url: "https://straighttalkracingtour.com/mustang-giveaway",
-    added: "2026-09-30",
-  },
-  {
-    id: 19,
-    title: "Macy’s “Golden Confetti” Sweepstakes",
-    type: "sweepstakes",
-    prizes: "$100,000: $15,000 Macy’s Gift Card + $5,000 Check Each Year for 5 Years",
-    frequency: "Enter Monthly",
-    ends: "2026-10-31",
-    url: "https://www.macysgoldenconfetti.com",
-    hot: true,
-    added: "2026-09-30",
+    added: "2026-09-23",
   },
 ];
-
-
-
-
-
 
 function daysLeft(dateStr: string) {
   const end = new Date(dateStr + "T23:59:59");
@@ -226,29 +197,6 @@ export default function Home() {
       filter === "All" ||
       (filter === "Instant Win Games" && s.type === "instant") ||
       (filter === "Sweepstakes" && s.type === "sweepstakes");
-    const matchSearch = s.title.toLowerCase().includes(search.toLowerCase());
-    return matchFilter && matchSearch;
-  });
-
-  const instantWins = filtered
-    .filter((s) => s.type === "instant")
-    .sort((a, b) => a.ends.localeCompare(b.ends));
-  const sweeps = filtered
-    .filter((s) => s.type === "sweepstakes")
-    .sort((a, b) => a.ends.localeCompare(b.ends));
-
-  const inputStyle: React.CSSProperties = {
-    padding: "10px 14px",
-    borderRadius: "8px",
-    border: "1px solid #cbd5e1",
-    background: "#fff",
-    color: "#0f172a",
-    fontSize: "0.95rem",
-    outline: "none",
-    width: "100%",
-    boxSizing: "border-box",
-  };
-
   function renderListing(s: Listing) {
     const left = daysLeft(s.ends);
     return (
@@ -472,7 +420,7 @@ export default function Home() {
         {renderSection("Sweepstakes", sweeps)}
 
         <p style={{ color: "#94a3b8", fontSize: "0.8rem", marginTop: "40px", lineHeight: 1.6 }}>
-          Listings last verified September 30, 2026. Always check the official rules on
+          Listings last verified October 1, 2026. Always check the official rules on
           the sponsor&apos;s page before entering. Sweepstakes Central is not affiliated
           with the sponsors listed.
         </p>
@@ -487,7 +435,7 @@ export default function Home() {
           padding: "28px 24px",
           borderTop: "1px solid #e2e8f0",
           color: "#94a3b8",
-          fontSize: "0.85rem",
+          fontSize: "0.8rem",
           background: "#fff",
         }}
       >
@@ -514,4 +462,50 @@ export default function Home() {
       </footer>
     </div>
   );
-}
+  }
+    const matchSearch = s.title.toLowerCase().includes(search.toLowerCase());
+    return matchFilter && matchSearch;
+  });
+
+  const instantWins = filtered
+    .filter((s) => s.type === "instant")
+    .sort((a, b) => a.ends.localeCompare(b.ends));
+  const sweeps = filtered
+    .filter((s) => s.type === "sweepstakes")
+    .sort((a, b) => a.ends.localeCompare(b.ends));
+
+  const inputStyle: React.CSSProperties = {
+    padding: "10px 14px",
+    borderRadius: "8px",
+    border: "1px solid #cbd5e1",
+    background: "#fff",
+    color: "#0f172a",
+    fontSize: "0.95rem",
+    outline: "none",
+    width: "100%",
+    boxSizing: "border-box",
+  };
+
+    url: "https://www.hi-chew.com/pages/flavor-mash-game",
+    added: "2026-09-26",
+  },
+  {
+    id: 6,
+    title: "Culver’s “Curdtoberfest” Instant Win Game",
+    type: "instant",
+    prizes: "6,007 Winners: Munich Trip for 4 (ARV $19,900) + $2,000 Check + 5x $500 Cards + Cheese Curd Coupons",
+    frequency: "Enter Daily",
+    ends: "2026-10-31",
+    url: "http://Curdtoberfest.culvers.com",
+    added: "2026-10-01",
+  },
+  {
+    id: 7,
+    title: "Yerba Madre “Cash for College” Instant Win Game",
+    type: "instant",
+    prizes: "$30,000 Grand Prize + 100 Instant Prizes (Yeti, JBL, Miir & More)",
+    frequency: "Enter Daily",
+    ends: "2026-10-31",
+    url: "https://airbaton.net/l/yerbamadre-cashforcollege",
+    added: "2026-09-26",
+  },
