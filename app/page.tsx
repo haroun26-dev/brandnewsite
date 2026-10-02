@@ -16,7 +16,7 @@ interface Listing {
   added: string; // YYYY-MM-DD — NEW badge shows when added within the last 3 days
 }
 
-// Listings verified October 1, 2026. Update this list regularly —
+// Listings verified October 2, 2026. Update this list regularly —
 // remove ended sweepstakes and add new ones by editing this file and redeploying.
 const SWEEPSTAKES: Listing[] = [
   // ---- Instant Win Games ----
@@ -61,14 +61,14 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-09-25",
   },
   {
-    id: 5,
-    title: "HI-CHEW “Frakenchewbie’s Flavor Mash” Instant Win Game",
+    id: 17,
+    title: "Jameson Irish Whiskey “Fall Sports” Instant Win Game",
     type: "instant",
-    prizes: "$3,000 Prepaid Card Grand Prize + 10 Halloween Merch Prize Packs",
-    frequency: "Enter Once",
-    ends: "2026-10-30",
-    url: "https://www.hi-chew.com/pages/flavor-mash-game",
-    added: "2026-09-26",
+    prizes: "105 Winners: 13 × $1,500 Cash + 92 Replica Football Jerseys",
+    frequency: "Enter Daily",
+    ends: "2026-10-31",
+    url: "https://www.jamesonwhiskey.com/en-us/its-on",
+    added: "2026-10-02",
   },
   {
     id: 6,
@@ -81,14 +81,14 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-10-01",
   },
   {
-    id: 7,
-    title: "Yerba Madre “Cash for College” Instant Win Game",
+    id: 18,
+    title: "The Whiskey Shopper Instant Win Game",
     type: "instant",
-    prizes: "$30,000 Grand Prize + 100 Instant Prizes (Yeti, JBL, Miir & More)",
-    frequency: "Enter Daily",
+    prizes: "1,000 × $50 Venmo Credit (Total ARV $50,000)",
+    frequency: "Enter Weekly",
     ends: "2026-10-31",
-    url: "https://airbaton.net/l/yerbamadre-cashforcollege",
-    added: "2026-09-26",
+    url: "https://www.spiritspromos.com/portfolio/whiskey-sweeps",
+    added: "2026-10-02",
   },
   // ---- Sweepstakes ----
   {
@@ -114,15 +114,15 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-10-01",
   },
   {
-    id: 10,
-    title: "Hot Wheels “Jeep Wrangler” Sweepstakes",
+    id: 19,
+    title: "Feastables “Halloween Capitol” Sweepstakes",
     type: "sweepstakes",
-    prizes: "2026 Jeep Wrangler (ARV $65,000)",
+    prizes: "5 × $10,000 Cash Prizes",
     frequency: "Enter Daily",
-    ends: "2026-10-05",
-    url: "https://jeep.hotwheelssweepstakes.com/",
+    ends: "2026-10-28",
+    url: "https://feastables.com/pages/halloween-sweepstakes",
     hot: true,
-    added: "2026-10-01",
+    added: "2026-10-02",
   },
   {
     id: 11,
@@ -177,15 +177,14 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-09-28",
   },
   {
-    id: 16,
-    title: "Big Sipz $16K Sweepstakes",
+    id: 20,
+    title: "Sam Adams “Octoberfest” Sweepstakes",
     type: "sweepstakes",
-    prizes: "12 Winners: $16,000 Cash Each",
-    frequency: "Enter Daily",
-    ends: "2026-12-31",
-    url: "https://www.2026bigsipz16k.com",
-    hot: true,
-    added: "2026-09-23",
+    prizes: "5 Trips for 2 to Munich, Germany (ARV $10,000 Each) + 100 Ceramic Steins",
+    frequency: "Enter Once",
+    ends: "2026-10-31",
+    url: "https://2026samueladamsoctoberfest.com",
+    added: "2026-10-02",
   },
 ];
 
@@ -431,7 +430,7 @@ export default function Home() {
         <div style={{ display: "flex", gap: "10px", flexWrap: "wrap", marginBottom: "8px" }}>
           <input
             value={search}
-            onChange={(e) => setSearch(e.target.value)}
+            onChange={setSearch}
             placeholder="Search sweepstakes..."
             style={{ ...inputStyle, maxWidth: "340px" }}
           />
@@ -467,7 +466,7 @@ export default function Home() {
         {renderSection("Sweepstakes", sweeps)}
 
         <p style={{ color: "#94a3b8", fontSize: "0.8rem", marginTop: "40px", lineHeight: 1.6 }}>
-          Listings last verified October 1, 2026. Always check the official rules on
+          Listings last verified October 2, 2026. Always check the official rules on
           the sponsor&apos;s page before entering. Sweepstakes Central is not affiliated
           with the sponsors listed.
         </p>
