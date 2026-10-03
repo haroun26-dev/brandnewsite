@@ -16,7 +16,7 @@ interface Listing {
   added: string; // YYYY-MM-DD — NEW badge shows when added within the last 3 days
 }
 
-// Listings verified October 2, 2026. Update this list regularly —
+// Listings verified October 3, 2026. Update this list regularly —
 // remove ended sweepstakes and add new ones by editing this file and redeploying.
 const SWEEPSTAKES: Listing[] = [
   // ---- Instant Win Games ----
@@ -29,36 +29,6 @@ const SWEEPSTAKES: Listing[] = [
     ends: "2026-11-22",
     url: "https://coffeemate.com/yearofflavor-sweeps",
     added: "2026-09-23",
-  },
-  {
-    id: 2,
-    title: "Dr Pepper and Cheez-It “Fall Football” Instant Win Game",
-    type: "instant",
-    prizes: "3,150 Winners: 600x $25 Fanatics/Xbox eGift Cards + 2,550x $10 Cards",
-    frequency: "Enter Daily",
-    ends: "2026-10-31",
-    url: "https://drpeppercheezitgame.entertowinprizes.com/",
-    added: "2026-09-25",
-  },
-  {
-    id: 3,
-    title: "Fanta “Halloween” Instant Win Game",
-    type: "instant",
-    prizes: "7,000 Winners: Halloween Masks, Beanies, Tote Bags & AMC Movie Tickets",
-    frequency: "Enter Daily",
-    ends: "2026-11-01",
-    url: "https://www.coca-cola.com/us/en/offerings/fanta/fanta-halloween/spook-the-wheel",
-    added: "2026-09-26",
-  },
-  {
-    id: 4,
-    title: "Pack a Snacktime Friend Instant Win Game",
-    type: "instant",
-    prizes: "Trip for 4 (ARV $15,730) + 100x Disney+ Premium + 278 Gift Cards & Coupons",
-    frequency: "Enter Daily",
-    ends: "2026-10-31",
-    url: "https://www.backtoschoolsnacks.com",
-    added: "2026-09-25",
   },
   {
     id: 17,
@@ -89,6 +59,16 @@ const SWEEPSTAKES: Listing[] = [
     ends: "2026-10-31",
     url: "https://www.spiritspromos.com/portfolio/whiskey-sweeps",
     added: "2026-10-02",
+  },
+  {
+    id: 21,
+    title: "Hidden Valley “Spooky Ranch Movie Adventure” Instant Win Game",
+    type: "instant",
+    prizes: "100 Winners: $25 Fandango + $75 Walmart Gift Card Packs (ARV $100 Each)",
+    frequency: "Enter Daily",
+    ends: "2026-10-31",
+    url: "https://www.hiddenvalley.com/spooky-ranch-movie-adventure/",
+    added: "2026-10-03",
   },
   // ---- Sweepstakes ----
   {
@@ -136,26 +116,6 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-10-01",
   },
   {
-    id: 12,
-    title: "AirMedCare Network “College Football” Sweepstakes",
-    type: "sweepstakes",
-    prizes: "$10,000 Cash via ACH Transfer",
-    frequency: "Enter Daily",
-    ends: "2026-10-25",
-    url: "https://www.amcn-college-football-giveaway.com",
-    added: "2026-10-01",
-  },
-  {
-    id: 13,
-    title: "Zevo & Walmart NFL “Super Bowl LXI” Sweepstakes",
-    type: "sweepstakes",
-    prizes: "Trip for 2 to Super Bowl LXI at SoFi Stadium (ARV $12,950)",
-    frequency: "Enter Once",
-    ends: "2026-10-26",
-    url: "https://zevowalmart.com/SuperBowlLXI",
-    added: "2026-10-01",
-  },
-  {
     id: 14,
     title: "HGTV “Trick or Treat Yourself” Sweepstakes",
     type: "sweepstakes",
@@ -185,6 +145,47 @@ const SWEEPSTAKES: Listing[] = [
     ends: "2026-10-31",
     url: "https://2026samueladamsoctoberfest.com",
     added: "2026-10-02",
+  },
+  {
+    id: 22,
+    title: "Motosport “Fall Adventure” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "Trip for 2 + Triumph Scrambler Motorcycle + Gear (ARV $20,565) + 5 Weekly Gear Prizes",
+    frequency: "Enter Weekly",
+    ends: "2026-10-26",
+    url: "https://www.motosport.com/win",
+    hot: true,
+    added: "2026-10-03",
+  },
+  {
+    id: 23,
+    title: "Mondelēz “Hometown Touchdowns” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "10,262 Winners: Jerseys for Life, Autographed Jerseys & Fanatics Codes",
+    frequency: "Enter Weekly",
+    ends: "2026-10-30",
+    url: "https://hometowntds.com/",
+    added: "2026-10-03",
+  },
+  {
+    id: 24,
+    title: "Wairau River “New Zealand Trip” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "Trip for 2 to New Zealand incl. Winery Tour (ARV $7,000)",
+    frequency: "Enter Daily",
+    ends: "2026-10-31",
+    url: "https://www.WairauRiverNZ.com",
+    added: "2026-10-03",
+  },
+  {
+    id: 25,
+    title: "Food Network “Taste of Fall” $5K Sweepstakes",
+    type: "sweepstakes",
+    prizes: "$5,000 Check",
+    frequency: "Enter Daily",
+    ends: "2026-11-10",
+    url: "https://www.foodnetwork.com/sweepstakes",
+    added: "2026-10-03",
   },
 ];
 
@@ -253,42 +254,21 @@ export default function Home() {
           padding: "16px 0",
           borderBottom: "1px solid #e2e8f0",
           display: "flex",
-          justifyContent: "space-between",
-          alignItems: "flex-start",
-          gap: "16px",
-          flexWrap: "wrap",
+          flexDirection: "column",
+          gap: "6px",
         }}
       >
-        <div style={{ flex: "1 1 300px", minWidth: 0 }}>
-          <a
-            href={s.url}
-            target="_blank"
-            rel="noopener noreferrer"
-            style={{
-              fontSize: "1.05rem",
-              fontWeight: 700,
-              color: "#1d4ed8",
-              textDecoration: "none",
-            }}
-          >
+        <div
+          style={{
+            display: "flex",
+            alignItems: "center",
+            gap: "10px",
+            flexWrap: "wrap",
+          }}
+        >
+          <span style={{ fontWeight: 700, fontSize: "1.02rem", color: "#0f172a" }}>
             {s.title}
-          </a>{" "}
-          {s.hot && (
-            <span
-              style={{
-                background: "#dc2626",
-                color: "#fff",
-                fontSize: "0.7rem",
-                fontWeight: 800,
-                padding: "2px 8px",
-                borderRadius: "4px",
-                marginLeft: "6px",
-                whiteSpace: "nowrap",
-              }}
-            >
-              HOT!
-            </span>
-          )}
+          </span>
           {isNew(s.added) && (
             <span
               style={{
@@ -298,51 +278,56 @@ export default function Home() {
                 fontWeight: 800,
                 padding: "2px 8px",
                 borderRadius: "4px",
-                marginLeft: "6px",
-                whiteSpace: "nowrap",
               }}
             >
               NEW
             </span>
           )}
-          <div style={{ color: "#475569", fontSize: "0.9rem", marginTop: "6px" }}>
-            Prizes: {s.prizes} | {s.frequency} | Ends {formatDate(s.ends)} (
-            {left === 0 ? "ends today" : `${left} day${left === 1 ? "" : "s"} left`})
-          </div>
+          {s.hot && (
+            <span
+              style={{
+                background: "#dc2626",
+                color: "#fff",
+                fontSize: "0.7rem",
+                fontWeight: 800,
+                padding: "2px 8px",
+                borderRadius: "4px",
+              }}
+            >
+              HOT!
+            </span>
+          )}
+        </div>
+        <div style={{ fontSize: "0.9rem", color: "#334155" }}>
+          <strong>Prizes:</strong> {s.prizes} | <strong>{s.frequency}</strong> | {" "}
+          <strong>Ends {formatDate(s.ends)}</strong> ({left} days left)
         </div>
         <a
           href={s.url}
           target="_blank"
           rel="noopener noreferrer"
           style={{
-            background: "#1d4ed8",
-            color: "#fff",
+            color: "#2563eb",
             fontWeight: 700,
-            fontSize: "0.9rem",
-            padding: "10px 22px",
-            borderRadius: "8px",
+            fontSize: "0.95rem",
             textDecoration: "none",
-            whiteSpace: "nowrap",
           }}
         >
-          Enter Now
+          Enter Now →
         </a>
       </li>
     );
   }
 
   function renderSection(title: string, items: Listing[]) {
-    if (items.length === 0) return null;
     return (
-      <section style={{ marginTop: "32px" }}>
+      <section style={{ marginTop: "28px" }}>
         <h2
           style={{
-            fontSize: "1.4rem",
+            fontSize: "1.35rem",
             fontWeight: 800,
             color: "#0f172a",
-            borderBottom: "3px solid #1d4ed8",
-            paddingBottom: "8px",
-            marginBottom: "8px",
+            marginBottom: "4px",
           }}
         >
           {title}
@@ -350,7 +335,9 @@ export default function Home() {
         <p style={{ color: "#64748b", fontSize: "0.85rem", margin: "0 0 8px" }}>
           Filter: Showing <strong>{items.length}</strong> active
         </p>
-        <ul style={{ margin: 0, padding: 0 }}>{items.map(renderListing)}</ul>
+        <ul style={{ margin: 0, padding: 0 }}>
+          {items.map(renderListing)}
+        </ul>
       </section>
     );
   }
@@ -361,7 +348,8 @@ export default function Home() {
         minHeight: "100vh",
         background: "#f8fafc",
         color: "#0f172a",
-        fontFamily: "Arial, Helvetica, sans-serif",
+        fontFamily:
+          "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif",
       }}
     >
       {/* HEADER */}
@@ -369,7 +357,8 @@ export default function Home() {
         style={{
           background: "#0f172a",
           color: "#fff",
-          padding: "18px 24px",
+          textAlign: "center",
+          padding: "28px 24px",
         }}
       >
         <div style={{ fontSize: "1.5rem", fontWeight: 900 }}>
@@ -421,34 +410,30 @@ export default function Home() {
           </span>{" "}
           = Must-Enter!
         </p>
-        <p style={{ fontSize: "1.1rem", fontWeight: 700, margin: "0 0 20px" }}>
-          Currently <span style={{ color: "#1d4ed8" }}>{allSweeps.length}</span> active
-          giveaways!
-        </p>
 
-        {/* SEARCH + FILTER */}
-        <div style={{ display: "flex", gap: "10px", flexWrap: "wrap", marginBottom: "8px" }}>
-          <input
-            value={search}
-            onChange={setSearch}
-            placeholder="Search sweepstakes..."
-            style={{ ...inputStyle, maxWidth: "340px" }}
-          />
-        </div>
-        <div style={{ display: "flex", gap: "8px", flexWrap: "wrap", marginBottom: "8px" }}>
+        {/* SEARCH + FILTERS */}
+        <div style={{ display: "flex", gap: "12px", flexWrap: "wrap", marginBottom: "8px" }}>
+          <div style={{ flex: "1 1 220px" }}>
+            <input
+              style={inputStyle}
+              placeholder="Search sweepstakes…"
+              value={search}
+              onChange={(e) => setSearch(e.target.value)}
+            />
+          </div>
           {FILTERS.map((f) => (
             <button
               key={f}
               onClick={() => setFilter(f)}
               style={{
-                padding: "8px 18px",
-                borderRadius: "100px",
-                border: `1px solid ${filter === f ? "#1d4ed8" : "#cbd5e1"}`,
-                background: filter === f ? "#1d4ed8" : "#fff",
-                color: filter === f ? "#fff" : "#475569",
-                cursor: "pointer",
+                padding: "10px 16px",
+                borderRadius: "8px",
+                border: "1px solid #cbd5e1",
+                background: filter === f ? "#0f172a" : "#fff",
+                color: filter === f ? "#fff" : "#0f172a",
+                fontSize: "0.9rem",
                 fontWeight: 600,
-                fontSize: "0.85rem",
+                cursor: "pointer",
               }}
             >
               {f}
@@ -466,7 +451,7 @@ export default function Home() {
         {renderSection("Sweepstakes", sweeps)}
 
         <p style={{ color: "#94a3b8", fontSize: "0.8rem", marginTop: "40px", lineHeight: 1.6 }}>
-          Listings last verified October 2, 2026. Always check the official rules on
+          Listings last verified October 3, 2026. Always check the official rules on
           the sponsor&apos;s page before entering. Sweepstakes Central is not affiliated
           with the sponsors listed.
         </p>
@@ -482,29 +467,18 @@ export default function Home() {
           borderTop: "1px solid #e2e8f0",
           color: "#94a3b8",
           fontSize: "0.8rem",
-          background: "#fff",
         }}
       >
-        <p style={{ margin: "0 0 8px" }}>
-          &copy; 2026 Sweepstakes Central &middot; Updated Daily &middot; Free to Enter
-        </p>
-        <p style={{ margin: 0 }}>
-          <a href="/blog" style={{ color: "#64748b", marginRight: "16px" }}>
-            Tips & Guides
-          </a>
-          <a href="/about" style={{ color: "#64748b", marginRight: "16px" }}>
-            About
-          </a>
-          <a href="/privacy" style={{ color: "#64748b", marginRight: "16px" }}>
-            Privacy Policy
-          </a>
-          <a href="/terms" style={{ color: "#64748b", marginRight: "16px" }}>
-            Terms
-          </a>
-          <a href="/contact" style={{ color: "#64748b" }}>
-            Contact
-          </a>
-        </p>
+        <div style={{ marginBottom: "8px" }}>
+          <a href="/about" style={{ color: "#64748b", margin: "0 10px" }}>About</a>
+          <a href="/blog" style={{ color: "#64748b", margin: "0 10px" }}>Tips &amp; Guides</a>
+          <a href="/contact" style={{ color: "#64748b", margin: "0 10px" }}>Contact</a>
+          <a href="/privacy" style={{ color: "#64748b", margin: "0 10px" }}>Privacy</a>
+          <a href="/terms" style={{ color: "#64748b", margin: "0 10px" }}>Terms</a>
+        </div>
+        <div>
+          © {new Date().getFullYear()} Sweepstakes Central. All rights reserved.
+        </div>
       </footer>
     </div>
   );
