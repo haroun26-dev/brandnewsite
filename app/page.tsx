@@ -190,12 +190,6 @@ const SWEEPSTAKES: Listing[] = [
   },
 ];
 
-
-
-
-
-
-
 function daysLeft(dateStr: string) {
   const end = new Date(dateStr + "T23:59:59");
   const diff = end.getTime() - Date.now();
@@ -326,7 +320,7 @@ export default function Home() {
             background: "#1d4ed8",
             color: "#fff",
             fontWeight: 700,
-            fontSize: "0.85rem",
+            fontSize: "0.9rem",
             padding: "10px 22px",
             borderRadius: "8px",
             textDecoration: "none",
@@ -489,10 +483,8 @@ export default function Home() {
           padding: "28px 24px",
           borderTop: "1px solid #e2e8f0",
           color: "#94a3b8",
-          background: "#fff",
-          borderTop: "1px solid #e2e8f0",
-          color: "#94a3b8",
           fontSize: "0.8rem",
+          background: "#fff",
         }}
       >
         <p style={{ margin: "0 0 8px" }}>
