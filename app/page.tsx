@@ -16,7 +16,7 @@ interface Listing {
   added: string; // YYYY-MM-DD — NEW badge shows when added within the last 3 days
 }
 
-// Listings verified October 4, 2026. Update this list regularly —
+// Listings verified October 5, 2026. Update this list regularly —
 // remove ended sweepstakes and add new ones by editing this file and redeploying.
 const SWEEPSTAKES: Listing[] = [
   // ---- Instant Win Games ----
@@ -28,26 +28,6 @@ const SWEEPSTAKES: Listing[] = [
     frequency: "Enter Daily",
     ends: "2026-10-31",
     url: "https://www.jamesonwhiskey.com/en-us/its-on",
-    added: "2026-10-02",
-  },
-  {
-    id: 6,
-    title: "Culver’s “Curdtoberfest” Instant Win Game",
-    type: "instant",
-    prizes: "6,007 Winners: Munich Trip for 4 (ARV $19,900) + $2,000 Check + 5x $500 Cards + Cheese Curd Coupons",
-    frequency: "Enter Daily",
-    ends: "2026-10-31",
-    url: "http://Curdtoberfest.culvers.com",
-    added: "2026-10-01",
-  },
-  {
-    id: 18,
-    title: "The Whiskey Shopper Instant Win Game",
-    type: "instant",
-    prizes: "1,000 × $50 Venmo Credit (Total ARV $50,000)",
-    frequency: "Enter Weekly",
-    ends: "2026-10-31",
-    url: "https://www.spiritspromos.com/portfolio/whiskey-sweeps",
     added: "2026-10-02",
   },
   {
@@ -81,6 +61,28 @@ const SWEEPSTAKES: Listing[] = [
     url: "https://www.athome.com",
     hot: true,
     added: "2026-10-04",
+  },
+  {
+    id: 35,
+    title: "Jason's Deli “50th Anniversary” Instant Win Game",
+    type: "instant",
+    prizes: "102,430 Prizes incl. $5,400 Las Vegas Trip for 4 + 50 Salad Bar for a Year + 100 Six Flags Ticket Pairs",
+    frequency: "Enter Daily",
+    ends: "2026-10-31",
+    url: "https://www.jasonsdeli.com/deli-brationsweepstakes",
+    hot: true,
+    added: "2026-10-05",
+  },
+  {
+    id: 36,
+    title: "Diageo “Holiday Shopper” Instant Win Game",
+    type: "instant",
+    prizes: "2,000 Winners Each Receive a $25 Venmo Credit (Total $50,000)",
+    frequency: "Enter Weekly",
+    ends: "2026-12-31",
+    url: "https://www.spiritspromos.com/portfolio/holiday-sweeps/en/IH6868/submission/form",
+    hot: true,
+    added: "2026-10-05",
   },
   // ---- Sweepstakes ----
   {
@@ -117,67 +119,6 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-10-01",
   },
   {
-    id: 14,
-    title: "HGTV “Trick or Treat Yourself” Sweepstakes",
-    type: "sweepstakes",
-    prizes: "$5,000 Check",
-    frequency: "Enter Daily",
-    ends: "2026-10-28",
-    url: "https://www.hgtv.com/sweepstakes/trick-or-treat-yourself",
-    added: "2026-10-01",
-  },
-  {
-    id: 20,
-    title: "Sam Adams “Octoberfest” Sweepstakes",
-    type: "sweepstakes",
-    prizes: "5 Trips for 2 to Munich, Germany (ARV $10,000 Each) + 100 Ceramic Steins",
-    frequency: "Enter Once",
-    ends: "2026-10-31",
-    url: "https://2026samueladamsoctoberfest.com",
-    added: "2026-10-02",
-  },
-  {
-    id: 22,
-    title: "Motosport “Fall Adventure” Sweepstakes",
-    type: "sweepstakes",
-    prizes: "Trip for 2 + Triumph Scrambler Motorcycle + Gear (ARV $20,565) + 5 Weekly Gear Prizes",
-    frequency: "Enter Weekly",
-    ends: "2026-10-26",
-    url: "https://www.motosport.com/win",
-    hot: true,
-    added: "2026-10-03",
-  },
-  {
-    id: 23,
-    title: "Mondelēz “Hometown Touchdowns” Sweepstakes",
-    type: "sweepstakes",
-    prizes: "10,262 Winners: Jerseys for Life, Autographed Jerseys & Fanatics Codes",
-    frequency: "Enter Weekly",
-    ends: "2026-10-30",
-    url: "https://hometowntds.com/",
-    added: "2026-10-03",
-  },
-  {
-    id: 24,
-    title: "Wairau River “New Zealand Trip” Sweepstakes",
-    type: "sweepstakes",
-    prizes: "Trip for 2 to New Zealand incl. Winery Tour (ARV $7,000)",
-    frequency: "Enter Daily",
-    ends: "2026-10-31",
-    url: "https://www.WairauRiverNZ.com",
-    added: "2026-10-03",
-  },
-  {
-    id: 25,
-    title: "Food Network “Taste of Fall” $5K Sweepstakes",
-    type: "sweepstakes",
-    prizes: "$5,000 Check",
-    frequency: "Enter Daily",
-    ends: "2026-11-10",
-    url: "https://www.foodnetwork.com/sweepstakes",
-    added: "2026-10-03",
-  },
-  {
     id: 27,
     title: "Air New Zealand “Amazing Race” Sweepstakes",
     type: "sweepstakes",
@@ -188,7 +129,78 @@ const SWEEPSTAKES: Listing[] = [
     hot: true,
     added: "2026-10-04",
   },
+  {
+    id: 29,
+    title: "Ecco Domani “Italian Getaway” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "5-Night Trip for 2 to Italy (Winner's Choice of City); ARV $10,000",
+    frequency: "Enter Once",
+    ends: "2026-12-31",
+    url: "https://www.eccodomani.com/italy-sweepstakes.html",
+    hot: true,
+    added: "2026-10-05",
+  },
+  {
+    id: 30,
+    title: "Carnival Cruise Line “Brian Christopher Slots” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "4 Winners: Cruise for 2 (up to 8 Nights) + $1,000 FunPlay + Airfare Credit; ARV $7,260 Each",
+    frequency: "Enter Once",
+    ends: "2026-12-31",
+    url: "https://www.carnival.com/Registration/Promotions/bcsweeps-2026",
+    hot: true,
+    added: "2026-10-05",
+  },
+  {
+    id: 31,
+    title: "Wyndham Rewards “4 Million Points” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "65 Winners Share 4M Points: Grand Prize 1M Points + 7-Night Family Vacation",
+    frequency: "Enter Daily",
+    ends: "2026-10-27",
+    url: "https://4milliongiveaway.com/",
+    hot: true,
+    added: "2026-10-05",
+  },
+  {
+    id: 32,
+    title: "AirMedCare Network “College Football” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "$10,000 Cash via ACH Transfer",
+    frequency: "Enter Daily",
+    ends: "2026-10-25",
+    url: "https://www.amcn-college-football-giveaway.com/",
+    hot: true,
+    added: "2026-10-05",
+  },
+  {
+    id: 33,
+    title: "Babylist “Best Baby Registry” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "$3,900 Baby Gear Package (Stroller, Carrier, Diapers & More)",
+    frequency: "Enter Once",
+    ends: "2026-10-28",
+    url: "https://babylist.com/best-baby-registry-giveaway",
+    added: "2026-10-05",
+  },
+  {
+    id: 34,
+    title: "Sony Electronics “Super Bowl LXI” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "Trip for 2 to Super Bowl LXI in LA (Airfare, Hotel, 2 Tickets); ERV $10,000",
+    frequency: "Enter Once",
+    ends: "2026-12-15",
+    url: "https://cloud.email.sel.sony.com/SonyxNFLSuperBowlLXI",
+    hot: true,
+    added: "2026-10-05",
+  },
 ];
+
+
+
+
+
+
 
 function daysLeft(dateStr: string) {
   const end = new Date(dateStr + "T23:59:59");
@@ -468,7 +480,7 @@ export default function Home() {
         {renderSection("Sweepstakes", sweeps)}
 
         <p style={{ color: "#94a3b8", fontSize: "0.8rem", marginTop: "40px", lineHeight: 1.6 }}>
-          Listings last verified October 4, 2026. Always check the official rules on
+          Listings last verified October 5, 2026. Always check the official rules on
           the sponsor&apos;s page before entering. Sweepstakes Central is not affiliated
           with the sponsors listed.
         </p>
@@ -495,9 +507,6 @@ export default function Home() {
             Tips & Guides
           </a>
           <a href="/about" style={{ color: "#64748b", marginRight: "16px" }}>
-            About
-          </a>
-          <a href="/privacy" style={{ color: "#64748b", marginRight: "16px" }}>
             Privacy Policy
           </a>
           <a href="/terms" style={{ color: "#64748b", marginRight: "16px" }}>
