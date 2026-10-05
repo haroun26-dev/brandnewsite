@@ -1,6 +1,7 @@
 "use client";
 import { useState } from "react";
 import Comments from "./components/Comments";
+import { POSTS } from "./lib/posts";
 
 type EntryType = "instant" | "sweepstakes";
 
@@ -262,6 +263,7 @@ export default function Home() {
     return (
       <li
         key={s.id}
+        id={`sweep-${s.id}`}
         style={{
           listStyle: "none",
           padding: "16px 0",
@@ -286,6 +288,18 @@ export default function Home() {
             }}
           >
             {s.title}
+          </a>{" "}
+          <a
+            href={`#sweep-${s.id}`}
+            title="Link directly to this sweepstakes"
+            style={{
+              fontSize: "0.8rem",
+              color: "#94a3b8",
+              textDecoration: "none",
+              marginLeft: "4px",
+            }}
+          >
+            &#128279;
           </a>{" "}
           {s.hot && (
             <span
@@ -478,6 +492,44 @@ export default function Home() {
 
         {renderSection("Instant Win Games", instantWins)}
         {renderSection("Sweepstakes", sweeps)}
+
+        {/* TIPS & GUIDES */}
+        <section style={{ marginTop: "40px" }}>
+          <h2
+            style={{
+              fontSize: "1.4rem",
+              fontWeight: 800,
+              color: "#0f172a",
+              borderBottom: "3px solid #1d4ed8",
+              paddingBottom: "8px",
+              marginBottom: "8px",
+            }}
+          >
+            Sweepstakes Tips &amp; Guides
+          </h2>
+          <p style={{ color: "#64748b", fontSize: "0.9rem", margin: "0 0 12px" }}>
+            New to sweepstakes? Learn how to enter smarter, avoid scams, and
+            understand what happens when you win.
+          </p>
+          <ul style={{ margin: 0, padding: 0 }}>
+            {POSTS.map((p) => (
+              <li key={p.slug} style={{ listStyle: "none", marginBottom: "10px" }}>
+                <a
+                  href={`/blog/${p.slug}`}
+                  style={{
+                    fontSize: "1rem",
+                    fontWeight: 700,
+                    color: "#1d4ed8",
+                    textDecoration: "none",
+                  }}
+                >
+                  {p.title}
+                </a>
+                <div style={{ color: "#94a3b8", fontSize: "0.8rem" }}>{p.date}</div>
+              </li>
+            ))}
+          </ul>
+        </section>
 
         <p style={{ color: "#94a3b8", fontSize: "0.8rem", marginTop: "40px", lineHeight: 1.6 }}>
           Listings last verified October 5, 2026. Always check the official rules on

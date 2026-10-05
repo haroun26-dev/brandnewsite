@@ -16,9 +16,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Sweepstakes Central | Free Sweepstakes & Instant Win Games — Updated Daily",
+  title: "Sweepstakes Central | Win Cash, Gift Cards & Vacations — Free to Enter",
   description:
-    "Sweepstakes Central tracks active sweepstakes and instant win games, updated daily. Enter to win cash, gift cards, vacations, electronics and more — free to enter, no purchase necessary.",
+    "Enter free sweepstakes and instant win games updated daily — win a $100,000 vehicle credit, $30,000 cash, $25,000 shopping sprees, vacations, electronics and more. Legitimate brand giveaways, no purchase necessary.",
   verification: {
     google: "sKZQ35Iti8NSV40MIbyYvhcL_fjMUUOz5gv9heAUOX0",
   },
