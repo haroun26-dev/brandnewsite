@@ -17,52 +17,10 @@ interface Listing {
   added: string; // YYYY-MM-DD — NEW badge shows when added within the last 3 days
 }
 
-// Listings verified October 5, 2026. Update this list regularly —
+// Listings verified October 6, 2026. Update this list regularly —
 // remove ended sweepstakes and add new ones by editing this file and redeploying.
 const SWEEPSTAKES: Listing[] = [
   // ---- Instant Win Games ----
-  {
-    id: 17,
-    title: "Jameson Irish Whiskey “Fall Sports” Instant Win Game",
-    type: "instant",
-    prizes: "105 Winners: 13 × $1,500 Cash + 92 Replica Football Jerseys",
-    frequency: "Enter Daily",
-    ends: "2026-10-31",
-    url: "https://www.jamesonwhiskey.com/en-us/its-on",
-    added: "2026-10-02",
-  },
-  {
-    id: 21,
-    title: "Hidden Valley “Spooky Ranch Movie Adventure” Instant Win Game",
-    type: "instant",
-    prizes: "100 Winners: $25 Fandango + $75 Walmart Gift Card Packs (ARV $100 Each)",
-    frequency: "Enter Daily",
-    ends: "2026-10-31",
-    url: "https://www.hiddenvalley.com/spooky-ranch-movie-adventure/",
-    added: "2026-10-03",
-  },
-  {
-    id: 26,
-    title: "Yerba Madre “Cash for College” Instant Win Game",
-    type: "instant",
-    prizes: "101 Winners: $30,000 Cash Grand Prize + Speakers, Yeti Bottles & More",
-    frequency: "Enter Daily",
-    ends: "2026-10-31",
-    url: "https://airbaton.net/l/yerbamadre-cashforcollege",
-    hot: true,
-    added: "2026-10-04",
-  },
-  {
-    id: 28,
-    title: "At Home “Design Rewards” Instant Win Game",
-    type: "instant",
-    prizes: "3,113 Winners: $25,000 Shopping Spree + 12 × $1,000 Gift Cards + 3,100 Point Packs",
-    frequency: "Enter Daily",
-    ends: "2026-10-15",
-    url: "https://www.athome.com",
-    hot: true,
-    added: "2026-10-04",
-  },
   {
     id: 35,
     title: "Jason's Deli “50th Anniversary” Instant Win Game",
@@ -85,51 +43,82 @@ const SWEEPSTAKES: Listing[] = [
     hot: true,
     added: "2026-10-05",
   },
-  // ---- Sweepstakes ----
   {
-    id: 9,
-    title: "FCA US “$100,000 Vehicle” Sweepstakes",
-    type: "sweepstakes",
-    prizes: "$100,000 Credit Toward a Dodge, Jeep, Chrysler, Ram or Fiat Vehicle",
+    id: 37,
+    title: "Fanta “Halloween” Instant Win Game",
+    type: "instant",
+    prizes: "7,000 Winners: Fanta Beanie, Halloween Mask, Tote Bag, or 2 AMC Movie Tickets (ARV $8–$25)",
     frequency: "Enter Daily",
+    ends: "2026-11-01",
+    url: "https://www.coca-cola.com/us/en/offerings/fanta/fanta-halloween",
+    added: "2026-10-06",
+  },
+  {
+    id: 38,
+    title: "Smirnoff “Assemble Your Night” Instant Win Game",
+    type: "instant",
+    prizes: "1,800 Winners: $20 Fandango Avengers: Doomsday Ticket Codes + 10 Grand-Prize Cocktail Kits",
+    frequency: "Enter Weekly",
+    ends: "2027-01-31",
+    url: "https://www.spiritspromos.com/smirnoff/assemble-your-night-sweeps/en/IH6807/submission/form",
+    added: "2026-10-06",
+  },
+  {
+    id: 39,
+    title: "Schaeffer “Season 2026” Instant Win Game",
+    type: "instant",
+    prizes: "Grand: $3,049 Outdoor Gear Pack (YETI, Weber Grill, Visa Gift Card) + 838 Instant Swag Prizes",
+    frequency: "Enter Daily",
+    ends: "2026-11-28",
+    url: "https://schaefferseason.com",
+    hot: true,
+    added: "2026-10-06",
+  },
+  {
+    id: 40,
+    title: "Miller Lite “Football 2026” Sweepstakes & Instant Win Game",
+    type: "instant",
+    prizes: "1,000 Winners: $25 Venmo Cash + NFL Game Trips, Tickets & Merch (Total ARV $84,372)",
+    frequency: "Enter Daily",
+    ends: "2027-01-03",
+    url: "https://www.millerlitefootball.com",
+    hot: true,
+    added: "2026-10-06",
+  },
+  {
+    id: 41,
+    title: "DSW “Shoebox Shuffle” Instant Win Game",
+    type: "instant",
+    prizes: "5 Winners: $500 DSW Gift Cards + 150,450 Instant Winners: VIP Rewards Points ($1–$5); DSW VIP Membership Required",
+    frequency: "Enter Daily",
+    ends: "2026-10-25",
+    url: "https://www.dsw.com/vip-game",
+    hot: true,
+    added: "2026-10-06",
+  },
+  {
+    id: 42,
+    title: "Bud Light “Upgrade Your Game Day” Instant Win Game",
+    type: "instant",
+    prizes: "11,200 Winners: NFL Game Tickets, $100 Fanatics Gift Cards, Grills, Coolers, NFL+ Subs",
+    frequency: "Enter Daily",
+    ends: "2026-11-30",
+    url: "https://www.budlight.com/UpgradeYourGameday",
+    hot: true,
+    added: "2026-10-06",
+  },
+  {
+    id: 43,
+    title: "White Claw “Holiday On Us” Instant Win Game",
+    type: "instant",
+    prizes: "190 Winners: $250, $500 or $1,000 Digital Cash via PayPal/Venmo ($75,000 Total)",
+    frequency: "Enter Weekly",
     ends: "2026-12-31",
-    url: "https://sweeps.stellantisexperiences.com",
+    url: "https://www.whiteclaw.com/sweepstakes/wcholidayonus",
     hot: true,
-    added: "2026-10-01",
+    added: "2026-10-06",
   },
-  {
-    id: 19,
-    title: "Feastables “Halloween Capitol” Sweepstakes",
-    type: "sweepstakes",
-    prizes: "5 × $10,000 Cash Prizes",
-    frequency: "Enter Daily",
-    ends: "2026-10-28",
-    url: "https://feastables.com/pages/halloween-sweepstakes",
-    hot: true,
-    added: "2026-10-02",
-  },
-  {
-    id: 11,
-    title: "Ford “Tee-To-Trail” Sweepstakes",
-    type: "sweepstakes",
-    prizes: "2026 Ford Bronco Badlands + LPGA Golf Trip for 4 (ARV up to $63,925)",
-    frequency: "Enter Once",
-    ends: "2026-11-22",
-    url: "https://www.lpga.com/",
-    hot: true,
-    added: "2026-10-01",
-  },
-  {
-    id: 27,
-    title: "Air New Zealand “Amazing Race” Sweepstakes",
-    type: "sweepstakes",
-    prizes: "7-Day Trip for 2 to Christchurch, New Zealand (ARV $34,264)",
-    frequency: "Enter Once",
-    ends: "2026-10-21",
-    url: "https://www.airnewzealand.com/nz-sweeps",
-    hot: true,
-    added: "2026-10-04",
-  },
+  // ---- Sweepstakes ----
   {
     id: 29,
     title: "Ecco Domani “Italian Getaway” Sweepstakes",
@@ -194,6 +183,17 @@ const SWEEPSTAKES: Listing[] = [
     url: "https://cloud.email.sel.sony.com/SonyxNFLSuperBowlLXI",
     hot: true,
     added: "2026-10-05",
+  },
+  {
+    id: 44,
+    title: "Margaritaville Vacation Club “Fins Up” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "Grand: 7-Night Cruise or Resort Stay for Two/Four + $2,500 Airfare (ARV up to $8,623) + 180 Daily 2-Night Resort Stays",
+    frequency: "Enter Once",
+    ends: "2027-01-13",
+    url: "https://www.margaritavillevacationclub.com",
+    hot: true,
+    added: "2026-10-06",
   },
 ];
 
@@ -532,7 +532,7 @@ export default function Home() {
         </section>
 
         <p style={{ color: "#94a3b8", fontSize: "0.8rem", marginTop: "40px", lineHeight: 1.6 }}>
-          Listings last verified October 5, 2026. Always check the official rules on
+          Listings last verified October 6, 2026. Always check the official rules on
           the sponsor&apos;s page before entering. Sweepstakes Central is not affiliated
           with the sponsors listed.
         </p>
@@ -559,6 +559,9 @@ export default function Home() {
             Tips & Guides
           </a>
           <a href="/about" style={{ color: "#64748b", marginRight: "16px" }}>
+            About
+          </a>
+          <a href="/privacy" style={{ color: "#64748b", marginRight: "16px" }}>
             Privacy Policy
           </a>
           <a href="/terms" style={{ color: "#64748b", marginRight: "16px" }}>
