@@ -17,54 +17,10 @@ interface Listing {
   added: string; // YYYY-MM-DD — NEW badge shows when added within the last 3 days
 }
 
-// Listings verified October 8, 2026. Update this list regularly —
+// Listings verified October 9, 2026. Update this list regularly —
 // remove ended sweepstakes and add new ones by editing this file and redeploying.
 const SWEEPSTAKES: Listing[] = [
   // ---- Instant Win Games ----
-  {
-    id: 41,
-    title: "DSW “Shoebox Shuffle” Instant Win Game",
-    type: "instant",
-    prizes: "5 Winners: $500 DSW Gift Cards + 150,450 Instant Winners: VIP Rewards Points ($1–$5); DSW VIP Membership Required",
-    frequency: "Enter Daily",
-    ends: "2026-10-25",
-    url: "https://www.dsw.com/vip-game",
-    hot: true,
-    added: "2026-10-06",
-  },
-  {
-    id: 46,
-    title: "Dr Pepper and Cheez-It “Fall Football” Instant Win Game",
-    type: "instant",
-    prizes: "3,150 Winners: $25 or $10 Fanatics/XBOX/Fandango eGift Cards (Total ARV $40,500)",
-    frequency: "Enter Daily",
-    ends: "2026-10-31",
-    url: "https://drpeppercheezitgame.entertowinprizes.com",
-    hot: true,
-    added: "2026-10-07",
-  },
-  {
-    id: 48,
-    title: "Culver’s “Curdtoberfest” Sweepstakes and Instant Win Game",
-    type: "instant",
-    prizes: "Grand: Winner’s Choice Munich Trip for 4 (ARV up to $19,900) + $2,000 Check + $500 Cards + 6,000 Cheese Curd Coupons",
-    frequency: "Enter Weekly",
-    ends: "2026-10-31",
-    url: "https://culvers.com/curdtoberfest",
-    hot: true,
-    added: "2026-10-07",
-  },
-  {
-    id: 49,
-    title: "BeatBox “Spin & Win” Instant Win Game",
-    type: "instant",
-    prizes: "201 Winners: $6,000 Prepaid Card Grand Prize + Bumpboxx Speakers, Coolers, Chairs & Merch (21+ Only)",
-    frequency: "Enter Once",
-    ends: "2026-10-31",
-    url: "https://web.witcontests.com/beatbox/giveaway/slots/xtreme-sour-black-cherry-spin-and-win-260731",
-    hot: true,
-    added: "2026-10-07",
-  },
   {
     id: 60,
     title: "At Home “Design Rewards” Instant Win Game",
@@ -130,29 +86,38 @@ const SWEEPSTAKES: Listing[] = [
     hot: true,
     added: "2026-10-08",
   },
-  // ---- Sweepstakes ----
   {
-    id: 44,
-    title: "Margaritaville Vacation Club “Fins Up” Sweepstakes",
-    type: "sweepstakes",
-    prizes: "Grand: 7-Night Cruise or Resort Stay for Two/Four + $2,500 Airfare (ARV up to $8,623) + 180 Daily 2-Night Resort Stays",
-    frequency: "Enter Once",
-    ends: "2027-01-13",
-    url: "https://www.margaritavillevacationclub.com",
-    hot: true,
-    added: "2026-10-06",
-  },
-  {
-    id: 50,
-    title: "Chips Ahoy! “Halloween Mystery Flavor” Sweepstakes",
-    type: "sweepstakes",
-    prizes: "Grand: $25,000 Check + 50 Winners: Cookies + Swag (ARV $95 Each); Total ARV $29,750",
+    id: 66,
+    title: "Duracell “Atlassian Williams F1 Team Race Weekend” Sweepstakes & Instant Win",
+    type: "instant",
+    prizes: "Grand: Las Vegas F1 Race Weekend Trip for 2, Nov 18–22, 2026 (ARV $12,000) + 200 Instant Prizes: Team Hats, Mini Helmets, LEGO Williams Cars & More (Total Instant ARV $10,580); 18+ Only",
     frequency: "Enter Daily",
-    ends: "2026-10-31",
-    url: "https://www.chipsahoymystery.com/",
+    ends: "2026-11-21",
+    url: "https://usracingsweeps.duracell.com",
     hot: true,
-    added: "2026-10-07",
+    added: "2026-10-09",
   },
+  {
+    id: 67,
+    title: "Diageo “Holiday Shopper” Instant Win Game",
+    type: "instant",
+    prizes: "2,000 Winners: $25 Venmo Credit Each (Total ARV $50,000); 21+ Only",
+    frequency: "Enter Weekly",
+    ends: "2026-12-31",
+    url: "https://www.spiritspromos.com/portfolio/holiday-sweeps/en/IH6868/submission/form",
+    added: "2026-10-09",
+  },
+  {
+    id: 68,
+    title: "Dunkin’ At Home “EXTRAvaganza” Arcade Sweepstakes & Instant Win",
+    type: "instant",
+    prizes: "Grand: Dunkin’ Branded Keurig + K-Cups + $250 Gift Card (ARV $400) + 300 × $10 & 300 × $5 Gift Cards + Instant Merch Prizes (Total ARV $29,900); Free Dunkin’ At Home Extras Account Required",
+    frequency: "Enter Daily",
+    ends: "2026-11-13",
+    url: "https://www.dunkinextras.com/arcade",
+    added: "2026-10-09",
+  },
+  // ---- Sweepstakes ----
   {
     id: 54,
     title: "FUNDAY Natural Sweets “Launch” Sweepstakes",
@@ -216,6 +181,38 @@ const SWEEPSTAKES: Listing[] = [
     url: "https://www.coca-cola.com/us/en/offerings/coca-cola/hockey/opt-in",
     hot: true,
     added: "2026-10-08",
+  },
+  {
+    id: 69,
+    title: "The General x Street Fighter “Bonus Stage Break” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "Grand: Restored Pixel-Themed 1994 Lexus LS400 + $25,400 Cash (Total ARV $95,116.94); Void in AK, HI, IN, KY, ME, MN, WA",
+    frequency: "Enter Once",
+    ends: "2026-11-18",
+    url: "https://the-general-x-street-fighter-bonus-stage-break.prod.fooji.com",
+    hot: true,
+    added: "2026-10-09",
+  },
+  {
+    id: 70,
+    title: "PLANTERS x Macy’s Thanksgiving Day Parade Sweepstakes",
+    type: "sweepstakes",
+    prizes: "Grand: 100th Macy’s Thanksgiving Day Parade Trip for Up to 5 (Grandstand Tickets, Airfare & NYC Hotel; ARV $10,000)",
+    frequency: "Enter Once",
+    ends: "2026-10-22",
+    url: "https://www.mrpeanutparadesweepstakes.com",
+    hot: true,
+    added: "2026-10-09",
+  },
+  {
+    id: 71,
+    title: "Bosch “Boschtober Dream Kitchen” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "Grand: Dream Bosch Kitchen — 800 Series Dishwasher, Refrigerator, Gas Range & Wall Hood (Max ARV $10,996)",
+    frequency: "Enter Once",
+    ends: "2026-10-31",
+    url: "https://www.bosch-home.com/us/en/c/spotlight/blt067440a18acc1db0/Boschtober",
+    added: "2026-10-09",
   },
 ];
 
@@ -555,7 +552,7 @@ export default function Home() {
         </section>
 
         <p style={{ color: "#94a3b8", fontSize: "0.8rem", marginTop: "40px", lineHeight: 1.6 }}>
-          Listings last verified October 8, 2026. Always check the official rules on
+          Listings last verified October 9, 2026. Always check the official rules on
           the sponsor&apos;s page before entering. Sweepstakes Central is not affiliated
           with the sponsors listed.
         </p>
