@@ -17,41 +17,11 @@ interface Listing {
   added: string; // YYYY-MM-DD — NEW badge shows when added within the last 3 days
 }
 
-// Listings verified October 10, 2026. Update this list regularly —
+// Listings verified October 11, 2026. Update this list regularly —
 // remove ended sweepstakes and add new ones by editing this file and redeploying.
 const SWEEPSTAKES: Listing[] = [
   // ---- Instant Win Games ----
-  {
-    id: 66,
-    title: "Duracell “Atlassian Williams F1 Team Race Weekend” Sweepstakes & Instant Win",
-    type: "instant",
-    prizes: "Grand: Las Vegas F1 Race Weekend Trip for 2, Nov 18–22, 2026 (ARV $12,000) + 200 Instant Prizes: Team Hats, Mini Helmets, LEGO Williams Cars & More (Total Instant ARV $10,580); 18+ Only",
-    frequency: "Enter Daily",
-    ends: "2026-11-21",
-    url: "https://usracingsweeps.duracell.com",
-    hot: true,
-    added: "2026-10-09",
-  },
-  {
-    id: 67,
-    title: "Diageo “Holiday Shopper” Instant Win Game",
-    type: "instant",
-    prizes: "2,000 Winners: $25 Venmo Credit Each (Total ARV $50,000); 21+ Only",
-    frequency: "Enter Weekly",
-    ends: "2026-12-31",
-    url: "https://www.spiritspromos.com/portfolio/holiday-sweeps/en/IH6868/submission/form",
-    added: "2026-10-09",
-  },
-  {
-    id: 68,
-    title: "Dunkin’ At Home “EXTRAvaganza” Arcade Sweepstakes & Instant Win",
-    type: "instant",
-    prizes: "Grand: Dunkin’ Branded Keurig + K-Cups + $250 Gift Card (ARV $400) + 300 × $10 & 300 × $5 Gift Cards + Instant Merch Prizes (Total ARV $29,900); Free Dunkin’ At Home Extras Account Required",
-    frequency: "Enter Daily",
-    ends: "2026-11-13",
-    url: "https://www.dunkinextras.com/arcade",
-    added: "2026-10-09",
-  },
+
   {
     id: 72,
     title: "Hidden Valley Ranch “Spooky Ranch Movie Adventure” Instant Win Game",
@@ -63,6 +33,7 @@ const SWEEPSTAKES: Listing[] = [
     hot: true,
     added: "2026-10-10",
   },
+
   {
     id: 73,
     title: "Jameson Irish Whiskey “Fall Sports” Instant Win Game",
@@ -74,6 +45,7 @@ const SWEEPSTAKES: Listing[] = [
     hot: true,
     added: "2026-10-10",
   },
+
   {
     id: 74,
     title: "Bud Light “College Game Day” Instant Win Game",
@@ -85,6 +57,7 @@ const SWEEPSTAKES: Listing[] = [
     hot: true,
     added: "2026-10-10",
   },
+
   {
     id: 75,
     title: "Smirnoff “Assemble Your Night” Instant Win Game",
@@ -96,39 +69,78 @@ const SWEEPSTAKES: Listing[] = [
     hot: true,
     added: "2026-10-10",
   },
-  // ---- Sweepstakes ----
+
   {
-    id: 69,
-    title: "The General x Street Fighter “Bonus Stage Break” Sweepstakes",
-    type: "sweepstakes",
-    prizes: "Grand: Restored Pixel-Themed 1994 Lexus LS400 + $25,400 Cash (Total ARV $95,116.94); Void in AK, HI, IN, KY, ME, MN, WA",
-    frequency: "Enter Once",
-    ends: "2026-11-18",
-    url: "https://the-general-x-street-fighter-bonus-stage-break.prod.fooji.com",
-    hot: true,
-    added: "2026-10-09",
-  },
-  {
-    id: 70,
-    title: "PLANTERS x Macy’s Thanksgiving Day Parade Sweepstakes",
-    type: "sweepstakes",
-    prizes: "Grand: 100th Macy’s Thanksgiving Day Parade Trip for Up to 5 (Grandstand Tickets, Airfare & NYC Hotel; ARV $10,000)",
-    frequency: "Enter Once",
-    ends: "2026-10-22",
-    url: "https://www.mrpeanutparadesweepstakes.com",
-    hot: true,
-    added: "2026-10-09",
-  },
-  {
-    id: 71,
-    title: "Bosch “Boschtober Dream Kitchen” Sweepstakes",
-    type: "sweepstakes",
-    prizes: "Grand: Dream Bosch Kitchen — 800 Series Dishwasher, Refrigerator, Gas Range & Wall Hood (Max ARV $10,996)",
-    frequency: "Enter Once",
+    id: 84,
+    title: "Ken Griffey Jr. “MLB Trivia” Instant Win Game",
+    type: "instant",
+    prizes: "150,689 Winners: World Series Trip for 2 (ARV $11,000), Field of Dreams Trip ($7,357), MLB Game Ticket Pairs, Autographed Griffey Items, MLB TV Subs & Thousands of Gift Cards/Coupons; US 18+",
+    frequency: "Enter Daily",
     ends: "2026-10-31",
-    url: "https://www.bosch-home.com/us/en/c/spotlight/blt067440a18acc1db0/Boschtober",
-    added: "2026-10-09",
+    url: "https://www.baseball-trivia.com/",
+    hot: true,
+    added: "2026-10-11",
   },
+
+  {
+    id: 85,
+    title: "Mondelēz “Pack a Snacktime Friend” Instant Win Game",
+    type: "instant",
+    prizes: "379 Winners: “Adventure of a Lifetime” Trip for 4 (ARV $15,730), 100 × 1-Year Disney+ Premium, 139 Digital Movie Gift Cards + Snack Coupons; 50 US + DC + PR, 18+",
+    frequency: "Enter Daily",
+    ends: "2026-10-31",
+    url: "https://www.backtoschoolsnacks.com/",
+    hot: true,
+    added: "2026-10-11",
+  },
+
+  {
+    id: 86,
+    title: "Fanta “Halloween” Instant Win Game",
+    type: "instant",
+    prizes: "7,000 Winners: Halloween Masks, Fanta Beanies & AMC Black Ticket Pairs; US + DC, 13+",
+    frequency: "Enter Daily",
+    ends: "2026-11-01",
+    url: "https://www.coca-cola.com/us/en/offerings/fanta/fanta-halloween/spook-the-wheel",
+    added: "2026-10-11",
+  },
+
+  {
+    id: 87,
+    title: "Coffee mate “Year of Flavor” Instant Win Game",
+    type: "instant",
+    prizes: "805 Winners: 5 Grand “Year of Groceries” Checks ($21,000 Each), 100 × $200 Creamer Checks + 700 Branded Mugs (Total ARV $139,700); 50 US + DC, 18+",
+    frequency: "Enter Daily",
+    ends: "2026-11-22",
+    url: "https://coffeemate.com/yearofflavor-sweeps",
+    hot: true,
+    added: "2026-10-11",
+  },
+
+  {
+    id: 88,
+    title: "Culver’s “Curdtoberfest” Instant Win Game",
+    type: "instant",
+    prizes: "6,007 Winners: Munich Family Trip (ARV $19,900), $2,000 Check, Weekly $500 Prepaid Cards + 6,000 Free Cheese Curd Coupons (Total ARV up to $24,400); 50 US + DC, 18+",
+    frequency: "Enter Daily",
+    ends: "2026-10-31",
+    url: "https://curdtoberfest.culvers.com/",
+    hot: true,
+    added: "2026-10-11",
+  },
+
+  {
+    id: 89,
+    title: "Dr Pepper and Cheez-It “Fall Football” Instant Win Game",
+    type: "instant",
+    prizes: "3,150 Winners: 600 × $25 Reward Codes + 2,550 × $10 Reward Codes (Fanatics or Xbox eGift Cards or Fandango Promo Codes; Total ARV $40,500); 50 US + DC, 18+",
+    frequency: "Enter Daily",
+    ends: "2026-10-31",
+    url: "https://drpeppercheezitgame.entertowinprizes.com/",
+    added: "2026-10-11",
+  },
+  // ---- Sweepstakes ----
+
   {
     id: 76,
     title: "Every Man Jack “Sweat Equity” Sweepstakes",
@@ -140,6 +152,7 @@ const SWEEPSTAKES: Listing[] = [
     hot: true,
     added: "2026-10-10",
   },
+
   {
     id: 77,
     title: "Guitar Center KHS “Mexican Music Prize Pack” Sweepstakes",
@@ -150,6 +163,7 @@ const SWEEPSTAKES: Listing[] = [
     url: "https://www.guitarcenter.com/KHS-Sweepstakes.gc",
     added: "2026-10-10",
   },
+
   {
     id: 78,
     title: "Disney+ Perks “Hexed” Premiere Sweepstakes",
@@ -161,6 +175,7 @@ const SWEEPSTAKES: Listing[] = [
     hot: true,
     added: "2026-10-10",
   },
+
   {
     id: 79,
     title: "Travel Peru “The Great Escape” Sweepstakes",
@@ -172,6 +187,7 @@ const SWEEPSTAKES: Listing[] = [
     hot: true,
     added: "2026-10-10",
   },
+
   {
     id: 80,
     title: "Sapporo “Flyaway to Japan” Sweepstakes",
@@ -183,6 +199,7 @@ const SWEEPSTAKES: Listing[] = [
     hot: true,
     added: "2026-10-10",
   },
+
   {
     id: 81,
     title: "SNICKERS x NFL “Halftime” Sweepstakes",
@@ -194,6 +211,7 @@ const SWEEPSTAKES: Listing[] = [
     hot: true,
     added: "2026-10-10",
   },
+
   {
     id: 82,
     title: "HGTV “Shock Your Home” Giveaway (House Shock)",
@@ -204,6 +222,7 @@ const SWEEPSTAKES: Listing[] = [
     url: "https://www.hgtv.com/shock",
     added: "2026-10-10",
   },
+
   {
     id: 83,
     title: "Depend x Coach Prime Sweepstakes",
@@ -214,6 +233,76 @@ const SWEEPSTAKES: Listing[] = [
     url: "https://dependsweepstakes.com",
     added: "2026-10-10",
   },
+
+  {
+    id: 90,
+    title: "Hot Wheels “Ram Trucks” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "Grand: 2026 Ram 1500 Truck (MSRP up to ~$70,000); 50 US + DC, 18+ with Valid Driver’s License",
+    frequency: "Enter Daily",
+    ends: "2026-12-14",
+    url: "https://hotwheels.com/ramsweepstakes",
+    hot: true,
+    added: "2026-10-11",
+  },
+
+  {
+    id: 91,
+    title: "Air New Zealand “Amazing Race Season 39” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "Grand: 7-Day/6-Night Trip for 2 to Christchurch, New Zealand — Business Premier Flights, 5-Star Hotels, Jetboat, Zipline & Dolphin Encounter (ARV $34,264); US (Void FL, NY) + DC, 21+ with Valid Driver’s License",
+    frequency: "Enter Once",
+    ends: "2026-10-21",
+    url: "https://www.airnewzealand.com/nz-sweeps",
+    hot: true,
+    added: "2026-10-11",
+  },
+
+  {
+    id: 92,
+    title: "MotoSport “Fall Adventure” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "Grand: Trip for 2 to Jeff Stanton Adventures + 2026/27 Triumph Scrambler 400 XC & Riding Gear (ARV $20,565.86) + 5 Weekly Gear Packages (Total ARV $28,182.12); US 18+ (Void FL, NY, RI)",
+    frequency: "Enter Weekly",
+    ends: "2026-10-26",
+    url: "https://www.motosport.com/win",
+    hot: true,
+    added: "2026-10-11",
+  },
+
+  {
+    id: 93,
+    title: "OREO “Lovers” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "Grand: $5,000 Cash (Requires Original OREO Recipe + Photo Upload); US 18+",
+    frequency: "Enter Once",
+    ends: "2026-10-27",
+    url: "https://www.oreo.com",
+    added: "2026-10-11",
+  },
+
+  {
+    id: 94,
+    title: "Sip and Seek Adventure “Road Trip” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "3 Winners: Trip Packages to Palm Beaches (ARV $2,325), Twin Cities Gateway (ARV $1,850) or Pinehurst/Southern Pines (ARV $1,250; Total ARV $5,425); US 18+",
+    frequency: "Enter Daily",
+    ends: "2026-10-25",
+    url: "https://www.roadtripgetaways.com",
+    added: "2026-10-11",
+  },
+
+  {
+    id: 95,
+    title: "Music Choice “CMA Awards Dream Trip” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "Grand: Trip for 2 to Nashville for the CMA Awards — Airfare, Margaritaville Resort, Hall of Fame + Johnny Cash Museum, Tours & Honky Tonk Experiences (ARV $4,000); 48 Contiguous US + DC, 21+",
+    frequency: "Enter Once",
+    ends: "2026-10-18",
+    url: "https://www.musicchoice.com/cma-awards-dream-trip-sweepstakes",
+    added: "2026-10-11",
+  },
+
 ];
 
 
@@ -546,7 +635,7 @@ export default function Home() {
         </section>
 
         <p style={{ color: "#94a3b8", fontSize: "0.8rem", marginTop: "40px", lineHeight: 1.6 }}>
-          Listings last verified October 10, 2026. Always check the official rules on
+          Listings last verified October 11, 2026. Always check the official rules on
           the sponsor&apos;s page before entering. Sweepstakes Central is not affiliated
           with the sponsors listed.
         </p>
