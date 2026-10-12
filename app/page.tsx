@@ -17,7 +17,7 @@ interface Listing {
   added: string; // YYYY-MM-DD — NEW badge shows when added within the last 3 days
 }
 
-// Listings verified October 11, 2026. Update this list regularly —
+// Listings verified October 12, 2026. Update this list regularly —
 // remove ended sweepstakes and add new ones by editing this file and redeploying.
 const SWEEPSTAKES: Listing[] = [
   // ---- Instant Win Games ----
@@ -139,54 +139,98 @@ const SWEEPSTAKES: Listing[] = [
     url: "https://drpeppercheezitgame.entertowinprizes.com/",
     added: "2026-10-11",
   },
-  // ---- Sweepstakes ----
 
   {
-    id: 76,
-    title: "Every Man Jack “Sweat Equity” Sweepstakes",
-    type: "sweepstakes",
-    prizes: "Grand: $100,000 Cash via ACH/Wire + 10 Runners-Up Training Kits & 500 Deodorant Bundles (Grand ARV $100,240)",
-    frequency: "Enter Weekly",
-    ends: "2026-10-15",
-    url: "https://www.everymanjack.com/pages/sweat-equity-sweepstakes",
-    hot: true,
-    added: "2026-10-10",
-  },
-
-  {
-    id: 77,
-    title: "Guitar Center KHS “Mexican Music Prize Pack” Sweepstakes",
-    type: "sweepstakes",
-    prizes: "1 Winner: KHS Musical Instrument Prize Pack — Hohner Accordion ($2,329), Jupiter Trumpet Outfit ($1,099.99), Bajo Quinto ($919) & Clarinet Outfit ($799.99; Total ARV $5,147.98)",
-    frequency: "Enter Once",
-    ends: "2026-10-14",
-    url: "https://www.guitarcenter.com/KHS-Sweepstakes.gc",
-    added: "2026-10-10",
-  },
-
-  {
-    id: 78,
-    title: "Disney+ Perks “Hexed” Premiere Sweepstakes",
-    type: "sweepstakes",
-    prizes: "1 Winner: Trip for 2 to the Hexed World Premiere (LA or NYC) — Airfare, 2-Night Hotel, Premiere Admission, Ground Transport + $100 Cash (ARV $2,960); Free Mail-In Entry Available",
+    id: 96,
+    title: "At Home “Design Rewards” Instant Win Game",
+    type: "instant",
+    prizes: "3,113 Winners: Grand $25,000 At Home Shopping Spree + 12 × $1,000 At Home eGift Cards + 3,100 × 500 Design Rewards Points ($5 Each; Total ARV $52,500); 48 Contiguous US + DC, 18+",
     frequency: "Enter Daily",
-    ends: "2026-10-22",
-    url: "https://perks.disneyplus.com",
+    ends: "2026-10-15",
+    url: "https://sweepstakes.athome.com/",
     hot: true,
-    added: "2026-10-10",
+    added: "2026-10-12",
   },
 
   {
-    id: 79,
-    title: "Travel Peru “The Great Escape” Sweepstakes",
-    type: "sweepstakes",
-    prizes: "Grand: Inca Trail Express Trip for 2 — Intrepid Travel Booking, Airfare to Lima/Cusco, Camping Gear, Packs & $500 Visa Card (ARV $10,648)",
-    frequency: "Enter Once",
-    ends: "2026-11-06",
-    url: "https://www.peru.travel/thegreatescape",
+    id: 97,
+    title: "Yerba Madre “Cash for College” Instant Win Game",
+    type: "instant",
+    prizes: "101 Winners: Grand $30,000 Digital Check + Rocco Fridge + JBL Flip Speaker + 24 Cases Yerba Madre + Merch (ARV $33,000), 22 × Yerba Madre Cases, 35 × Yeti Bottles & More (Total ARV $47,900); 50 US + DC, 18+ (No College Enrollment Required)",
+    frequency: "Enter Daily",
+    ends: "2026-10-31",
+    url: "https://airbaton.net/l/yerbamadre-cashforcollege",
     hot: true,
-    added: "2026-10-10",
+    added: "2026-10-12",
   },
+
+  {
+    id: 98,
+    title: "White Claw “Holiday On Us” Instant Win Sweepstakes",
+    type: "instant",
+    prizes: "190 Winners: 10 × $1,000 Cash + 80 × $500 Cash + 100 × $250 Cash via Venmo or PayPal (Total ARV $75,000); 50 US + DC, 21+",
+    frequency: "Enter Weekly",
+    ends: "2026-12-31",
+    url: "https://www.whiteclawholidayonus.com/",
+    added: "2026-10-12",
+  },
+
+  {
+    id: 99,
+    title: "Smirnoff Ice “Halloween Costume” Instant Win Game",
+    type: "instant",
+    prizes: "100 Winners: Smirnoff Ice Branded Adult Halloween Costume, Unisex One-Size (ARV $45 Each; Total ARV $4,500); 48 Contiguous US (Excl. VA) + DC, 21+",
+    frequency: "Enter Weekly",
+    ends: "2026-10-31",
+    url: "https://www.spiritspromos.com/smirnoff-ice/halloween-sweeps",
+    added: "2026-10-12",
+  },
+
+  {
+    id: 100,
+    title: "The Whiskey Shopper Instant Win Game",
+    type: "instant",
+    prizes: "1,000 Winners: $50 Venmo Credit Each, Paid to Mobile Number on Entry Form (Total ARV $50,000); 50 US + DC, 21+ with Venmo Account",
+    frequency: "Enter Weekly",
+    ends: "2026-10-31",
+    url: "https://www.spiritspromos.com/portfolio/whiskey-sweeps",
+    added: "2026-10-12",
+  },
+
+  {
+    id: 101,
+    title: "Fanta “Build Your Alebrije” Instant Win Game",
+    type: "instant",
+    prizes: "101 Winners: Grand 4-Day/3-Night Trip for 2 to the Day of the Dead Ball in Chicago (Nov 2027) — Airfare, Hotel, Event Tickets, Guided Tour, $250 Transport Card + $500 Check (ARV $4,600) + 100 × Altar Prize Kits; 50 US + DC, 21+",
+    frequency: "Enter Daily",
+    ends: "2026-11-06",
+    url: "https://www.coca-cola.com/us/en/offerings/fanta/dia-de-los-muertos/create-your-own-alebrije",
+    added: "2026-10-12",
+  },
+
+  {
+    id: 102,
+    title: "Miller High Life “Music” Instant Win Game",
+    type: "instant",
+    prizes: "500 Winners: Crosley Mini Jukebox Speaker (ARV $12 Each; Total ARV $6,000); 50 US + DC, 21+",
+    frequency: "Enter Daily",
+    ends: "2026-11-02",
+    url: "https://www.millerhighlife.com/music",
+    added: "2026-10-12",
+  },
+
+  {
+    id: 103,
+    title: "BeatBox “Xtreme Sour Black Cherry Spin & Win” Instant Win Game",
+    type: "instant",
+    prizes: "201 Winners: Grand $6,000 Prepaid Card(s) + 4 Xtreme BeatBox Swag Items (ARV $6,500), 50 × Bumpboxx Speakers, 25 × Steel Coolers, 75 × Inflatable Chairs + 50 × $100 Merch Cards (Total ARV $38,775); US (Excl. FL & NY), 21+",
+    frequency: "Enter Once",
+    ends: "2026-10-31",
+    url: "https://web.witcontests.com/beatbox/giveaway/slots/xtreme-sour-black-cherry-spin-and-win-260731",
+    added: "2026-10-12",
+  },
+
+  // ---- Sweepstakes ----
 
   {
     id: 80,
@@ -209,28 +253,6 @@ const SWEEPSTAKES: Listing[] = [
     ends: "2026-12-31",
     url: "https://www.snickers.com/halftime",
     hot: true,
-    added: "2026-10-10",
-  },
-
-  {
-    id: 82,
-    title: "HGTV “Shock Your Home” Giveaway (House Shock)",
-    type: "sweepstakes",
-    prizes: "$5,000 Check + Interior Design Consultation & Custom Digital Mood Board (ARV $6,200); 21+ Only; Enter with Weekly Code Word from House Shock (Tuesdays 9/8c)",
-    frequency: "Enter Weekly",
-    ends: "2026-11-06",
-    url: "https://www.hgtv.com/shock",
-    added: "2026-10-10",
-  },
-
-  {
-    id: 83,
-    title: "Depend x Coach Prime Sweepstakes",
-    type: "sweepstakes",
-    prizes: "Grand: Colorado Buffaloes Football Trip for 2 to Boulder (Nov 27–29) — Airfare, Hotel, Car Rental, Club-Level Tickets, Hospitality + $500 Spending Money (ARV $5,500); 25+ Only",
-    frequency: "Enter Once",
-    ends: "2026-10-31",
-    url: "https://dependsweepstakes.com",
     added: "2026-10-10",
   },
 
@@ -301,6 +323,85 @@ const SWEEPSTAKES: Listing[] = [
     ends: "2026-10-18",
     url: "https://www.musicchoice.com/cma-awards-dream-trip-sweepstakes",
     added: "2026-10-11",
+  },
+
+  {
+    id: 104,
+    title: "HexClad “Gordon’s Golden Ticket to Italy” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "Grand: 8-Day/7-Night Italy Trip for 2 (Rome, Venice) — First-Class Roundtrip Airfare, 7 Nights 5-Star Hotels, 6 Michelin/Top Dinners + Private Cooking Experience, First-Class Train/Luxury-Car Transport, Full HexClad Product Line, $10,000 Spending Money + $25,000 Toward Taxes (ARV $156,500); 50 US + DC + Canada (Incl. Quebec), 21+",
+    frequency: "Enter Once",
+    ends: "2026-11-02",
+    url: "https://hexclad.com/pages/gordons-golden-ticket-italy",
+    hot: true,
+    added: "2026-10-12",
+  },
+
+  {
+    id: 105,
+    title: "Ford “Tailgate” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "Grand: 2026 Ford F-150 Lariat w/ PowerBoost Hybrid V6 (MSRP $71,355; Optional NFL Team Wrap ARV $10,000) + 2 First Prizes: Trips for 2 (Dallas Cowboys Game Trip ARV up to $5,000; Detroit Lions Munich Game Trip); 50 US + DC, 18+ with Valid US Driver’s License",
+    frequency: "Enter Once",
+    ends: "2027-01-10",
+    url: "https://cowboysfordtailgate.com/login",
+    hot: true,
+    added: "2026-10-12",
+  },
+
+  {
+    id: 106,
+    title: "Valpak “Free Ride” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "Grand: 2026 Jeep Wrangler 2 Door Sport (ARV $40,625; Winner Pays Registration/Title/Taxes/Shipping); 50 US + DC, 18+",
+    frequency: "Enter Daily",
+    ends: "2026-11-06",
+    url: "https://valpak.com/freeride",
+    added: "2026-10-12",
+  },
+
+  {
+    id: 107,
+    title: "Viking “2027 8-Day Journey” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "Grand: 8-Day 2027 Viking Voyage for 2 with Roundtrip Airfare — River, Mississippi, Ocean or Expedition Itineraries (Est. Value $16,396–$26,996); 21+, US + DC + Canada (Excl. Quebec)",
+    frequency: "Enter Once",
+    ends: "2026-12-31",
+    url: "https://www.vikingcruises.com/oceans/special-offers/sweepstakes/europe-north-america-sweepstakes/index.html",
+    added: "2026-10-12",
+  },
+
+  {
+    id: 108,
+    title: "Taco Bell “Bid on Luxe” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "129 Winners: 2 × Las Vegas Trips for 2 w/ Doja Cat VIP Concert (ARV $5,100 Each), Original Oil Painting ($1,500), 25 × Signed Posters ($1,000 Each), 100 × Collector Chess Sets ($300 Each) & More; 50 US + DC, 21+, Taco Bell Rewards Members (Entry via App)",
+    frequency: "Enter Daily",
+    ends: "2026-11-01",
+    url: "https://tacobell.com/legal/bid-on-luxe",
+    added: "2026-10-12",
+  },
+
+  {
+    id: 109,
+    title: "Discover Puerto Rico “Hunt for Love Trip of a Lifetime” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "Grand: 4-Night Puerto Rico Getaway for 2 — Roundtrip Airfare, 1-Bedroom Oceanfront Suite at La Concha Resort, Daily Breakfast + Dinner for 2, Toro Verde Adventure Park + 2 × $100 Dining Certificates (ARV $4,900); 50 US, 18+ (Excl. PR & Territories)",
+    frequency: "Enter Once",
+    ends: "2027-01-25",
+    url: "https://discoverpuertorico.com/hunt-for-love",
+    added: "2026-10-12",
+  },
+
+  {
+    id: 110,
+    title: "Goodyear “Golden Ticket” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "1 Winner: Goodyear Blimp Ride Certificate for 2 (Redeemable at Wingfoot Lake OH, Pompano Beach FL or Carson CA Hangars; Travel to Hangar Not Included; ARV $3,000); 50 US + DC, 18+",
+    frequency: "Enter Once",
+    ends: "2026-10-15",
+    url: "https://www.goodyear.com/en-us/blimp/golden-ticket",
+    added: "2026-10-12",
   },
 
 ];
@@ -635,7 +736,7 @@ export default function Home() {
         </section>
 
         <p style={{ color: "#94a3b8", fontSize: "0.8rem", marginTop: "40px", lineHeight: 1.6 }}>
-          Listings last verified October 11, 2026. Always check the official rules on
+          Listings last verified October 12, 2026. Always check the official rules on
           the sponsor&apos;s page before entering. Sweepstakes Central is not affiliated
           with the sponsors listed.
         </p>
