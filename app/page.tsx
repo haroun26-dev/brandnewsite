@@ -17,46 +17,12 @@ interface Listing {
   added: string; // YYYY-MM-DD — NEW badge shows when added within the last 3 days
 }
 
-// Listings verified October 16, 2026. Update this list regularly —
+// Listings verified October 17, 2026. Update this list regularly —
 // remove ended sweepstakes and add new ones by editing this file and redeploying.
 const SWEEPSTAKES: Listing[] = [
-// Listings verified October 16, 2026. Update this list regularly —
+// Listings verified October 17, 2026. Update this list regularly —
 // remove ended sweepstakes and add new ones by editing this file and redeploying.
   // ---- Instant Win Games ----
-
-  {
-    id: 87,
-    title: "Coffee mate “Year of Flavor” Instant Win Game",
-    type: "instant",
-    prizes: "805 Winners: 5 Grand “Year of Groceries” Checks ($21,000 Each), 100 × $200 Creamer Checks + 700 Branded Mugs (Total ARV $139,700); 50 US + DC, 18+",
-    frequency: "Enter Daily",
-    ends: "2026-11-22",
-    url: "https://coffeemate.com/yearofflavor-sweeps",
-    hot: true,
-    added: "2026-10-11",
-  },
-
-  {
-    id: 121,
-    title: "Schaeffer “Season 2026” Instant Win & Sweeps",
-    type: "instant",
-    prizes: "839 Winners: Grand Outdoor Gear Pack w/ Visa Gift Card, Weber Grill, YETI Cooler & Gear (ARV $3,049) + 838 Instant-Win Merch Prizes; 50 US + DC, 18+",
-    frequency: "Enter Daily",
-    ends: "2026-11-28",
-    url: "https://www.schaefferseason.com",
-    added: "2026-10-13",
-  },
-
-  {
-    id: 123,
-    title: "AARP “Movies for Grownups” Sweepstakes & Instant Win",
-    type: "instant",
-    prizes: "Grand: Trip for 2 to the Movies for Grownups Awards Ceremony in LA (Airfare, Beverly Wilshire Stay, 2 Event Tickets + $1,500; ARV $10,900) + 597 Instant Amazon Gift Cards (Total ARV $15,900); 50 US + DC, 21+ (Free AARP.org Account Required, Membership Not Required)",
-    frequency: "Enter Daily",
-    ends: "2026-11-16",
-    url: "https://www.aarp.org/moviesweepstakes",
-    added: "2026-10-13",
-  },
 
   {
     id: 125,
@@ -79,40 +45,6 @@ const SWEEPSTAKES: Listing[] = [
     ends: "2026-12-31",
     url: "https://www.spiritspromos.com/portfolio/holiday-sweeps",
     hot: true,
-    added: "2026-10-14",
-  },
-
-  {
-    id: 127,
-    title: "Coca-Cola “Friday for the Win Football” Instant Win Game",
-    type: "instant",
-    prizes: "365 Winners: Grand Game of Choice Tickets for 2 ($1,500) + 65″ Smart TV, Countertop Fridge, Coke for a Year, Letterman Jackets, Gift Cards & More (Total ARV ~$31,200); 50 US + DC + PR, 18+",
-    frequency: "Enter Weekly",
-    ends: "2026-11-29",
-    url: "https://www.coca-cola.com/us/en/offerings/coca-cola/football",
-    hot: true,
-    added: "2026-10-14",
-  },
-
-  {
-    id: 128,
-    title: "Bud Light “College Game Day” Instant Win Game",
-    type: "instant",
-    prizes: "2,000 Winners: 1,000 × $100 Fanatics.com Gift Codes + 500 Vintage Hats + 500 Vintage T-Shirts (Total ARV $115,000); 50 US + DC, 21+",
-    frequency: "Enter Daily",
-    ends: "2026-11-30",
-    url: "https://www.budlight.com/",
-    added: "2026-10-14",
-  },
-
-  {
-    id: 129,
-    title: "Raising Cane’s “Caniac Football” Instant Win Game",
-    type: "instant",
-    prizes: "1,920 Winners: Branded Merch (Plushes, Hats, Bottles, Fanny Packs, AirTag Sets) + Free Food Digital Codes (Sauce, Toast, Drink, Fries); 50 US + DC, 18+ (Free Caniac Club Membership Required for Game Code)",
-    frequency: "Enter Daily",
-    ends: "2026-11-22",
-    url: "https://www.raisingcanes.com/",
     added: "2026-10-14",
   },
 
@@ -187,62 +119,6 @@ const SWEEPSTAKES: Listing[] = [
   },
 
   {
-    id: 156,
-    title: "Dunkin’ “EXTRAvaganza Arcade” Instant Win Game",
-    type: "instant",
-    prizes: "85,101 Winners: Grand Dunkin’-Branded Keurig Brewer + 4 K-Cup Boxes + $250 Dunkin’ Gift Card + Merch (ARV $400) + 300 × $10 Gift Cards, 300 × $5 Gift Cards, 1,000 Beanies, 500 Truck Block Sets, 1,000 Puffer Cup Sleeves + 82,000 Loyalty-Point Awards (Total ARV $29,900); 50 US + DC, 18+ (Dunkin’ At Home Extras Loyalty Members)",
-    frequency: "Enter Daily",
-    ends: "2026-11-13",
-    url: "https://www.dunkinextras.com",
-    added: "2026-10-16",
-  },
-
-  {
-    id: 157,
-    title: "Hidden Valley Ranch “Spooky Ranch” Instant Win Game",
-    type: "instant",
-    prizes: "100 Winners: Each Receives One $25 Fandango Gift Card + One $75 Walmart Gift Card (ARV $100 Each; Total ARV $10,000); 50 US + DC, 18+",
-    frequency: "Enter Daily",
-    ends: "2026-10-31",
-    url: "https://www.hiddenvalley.com",
-    added: "2026-10-16",
-  },
-
-  {
-    id: 158,
-    title: "Ken Griffey Jr. “MLB Trivia” Instant Win Game",
-    type: "instant",
-    prizes: "500+ Instant Prizes: 80 × $100 MLBShop.com Gift Cards, 195 × $50 MLBShop.com Gift Cards, 350 × $30 MLBShop.com Gift Cards, 8 Griffey-Autographed Hats/Balls/Jerseys (ARV $500 Each), 50 MLB TV Subscriptions (ARV $150 Each) + Grand Trip for 2 to a 2026 MLB World Series Game (ARV $11,000); 50 US + DC, 18+",
-    frequency: "Enter Daily",
-    ends: "2026-10-31",
-    url: "https://www.baseball-trivia.com",
-    added: "2026-10-16",
-  },
-
-  {
-    id: 159,
-    title: "Celebrity Cruises “Reflection Daily Win” Instant Win Game",
-    type: "instant",
-    prizes: "216 Winners: 10 Grand 3-Night Trip Prizes for 2 on the Celebrity Reflection Launch Cruise (Mar 15, 2027) — Veranda Stateroom, Airfare, 1 Hotel Night, Ground Transport (ARV $5,000 Each) + 206 Branded Merch Prizes (Total ARV $53,774.22); 50 US + DC, 21+",
-    frequency: "Enter Daily",
-    ends: "2026-11-11",
-    url: "https://www.celebritycruises.com",
-    added: "2026-10-16",
-  },
-
-  {
-    id: 160,
-    title: "Yerba Madre “Cash for College” Instant Win Game",
-    type: "instant",
-    prizes: "101 Winners: Grand $30,000 Digital Check + Rocco Fridge + JBL Flip Speaker + 1-Year Supply of Yerba Madre (24 Cases) + Merch (ARV $33,000) + 35 Yeti Bottles, 10 Miir French Presses, 3 Can Area Rugs (ARV $3,000 Each), 20 JBL Flip Speakers, 10 Backpacks, 22 Yerba Madre Cases (Total ARV $47,900); 50 US + DC, 18+",
-    frequency: "Enter Daily",
-    ends: "2026-10-31",
-    url: "https://airbaton.net",
-    hot: true,
-    added: "2026-10-16",
-  },
-
-  {
     id: 161,
     title: "Pine-Sol “Clean Sweep” Instant Win Game",
     type: "instant",
@@ -251,6 +127,85 @@ const SWEEPSTAKES: Listing[] = [
     ends: "2027-09-02",
     url: "https://www.pinesol.com",
     added: "2026-10-16",
+  },
+
+  {
+    id: 169,
+    title: "White Claw “Holiday On Us” Instant Win Game",
+    type: "instant",
+    prizes: "190 Instant Winners: 100 × $250, 80 × $500, 10 × $1,000 Cash via PayPal/Venmo (Total ARV $75,000); 50 US + DC, 21+",
+    frequency: "Enter Weekly",
+    ends: "2026-12-31",
+    url: "https://www.whiteclaw.com/sweepstakes/wcholidayonus",
+    hot: true,
+    added: "2026-10-17",
+  },
+
+  {
+    id: 170,
+    title: "Clorox “Catch Holiday” Instant Win Game",
+    type: "instant",
+    prizes: "102 Instant Winners: 50 × All Purpose Cleaner Spray ($5.52), 50 × Scentiva Disinfecting Wipes ($8), 2 × Catch Prize Packs (ARV $137.74 Each); 50 US + DC, 18+",
+    frequency: "Enter Daily",
+    ends: "2026-12-15",
+    url: "https://www.clorox.com/lp/clorox-play/",
+    added: "2026-10-17",
+  },
+
+  {
+    id: 171,
+    title: "BeatBox “Sip Into the Season” Instant Win Game",
+    type: "instant",
+    prizes: "Grand: 2 × 2-Day Ikon Ski Passes (2026–27 Season) + $2,500 Cash (ARV $3,100) + 550 Instant Prizes (Bluetooth Speakers, Holiday Scarves, Light-Up Charging Cables); US (Excl. FL & NY), 21+",
+    frequency: "Enter Once",
+    ends: "2026-12-31",
+    url: "https://web.witcontests.com/beatbox/giveaway/spin/sip-into-the-season-260930",
+    added: "2026-10-17",
+  },
+
+  {
+    id: 172,
+    title: "NÜTRL “College Football Final” Sweepstakes & Instant Win",
+    type: "instant",
+    prizes: "Grand: $9,000 Prepaid Card Toward Ultimate Tailgate Experience for 2 in Las Vegas + 18 Instant-Win Tailgate Packs (Cooler, Hat, Chair, Power Bank, Coolies; ARV $203 Each; Total ARV $12,654); 50 US + DC, 21+",
+    frequency: "Enter Daily",
+    ends: "2026-12-04",
+    url: "https://www.airbaton.net",
+    added: "2026-10-17",
+  },
+
+  {
+    id: 173,
+    title: "Tecate “Liga MX” Instant Win",
+    type: "instant",
+    prizes: "20 Instant Winners: $100 Fanatics.com E-Gift Card Each (Total ARV $2,000); 50 US + DC, 21+",
+    frequency: "Enter Daily",
+    ends: "2026-12-31",
+    url: "https://www.tecatebeerusa.com/ligamx",
+    added: "2026-10-17",
+  },
+
+  {
+    id: 174,
+    title: "Bud Light X NFL “Upgrade Your Game Day” Instant Win Game",
+    type: "instant",
+    prizes: "11,200 Instant Winners: 50 × NFL Ticket Pairs, 50 Charcoal Grills, 50 NFL Coolers, 50 Tailgate Sets, 1,000 × $100 Fanatics Gift Cards, 10,000 NFL+ Premium Subscriptions (Total ARV $307,400); 50 US + DC, 21+",
+    frequency: "Enter Daily",
+    ends: "2026-11-30",
+    url: "https://www.budlight.com/UpgradeYourGameday",
+    hot: true,
+    added: "2026-10-17",
+  },
+
+  {
+    id: 175,
+    title: "Jameson “First Round on Us” Instant Win Game",
+    type: "instant",
+    prizes: "5,000 Winners: $20 via PayPal or Venmo Each (Total ARV $100,000); 21+, Limited States Only (AZ, HI, IN, KY, LA, ME, MD, MA, MS, NH, NC, OR, PA, TN, TX, UT, VA)",
+    frequency: "Enter Daily",
+    ends: "2026-11-30",
+    url: "https://www.jamesonwhiskey.com",
+    added: "2026-10-17",
   },
 
   // ---- Sweepstakes ----
@@ -287,7 +242,7 @@ const SWEEPSTAKES: Listing[] = [
     ends: "2026-12-17",
     url: "https://www.realtor.com/win-100k",
     hot: true,
-    added: "2026-10-13",
+    added: "2026-10-12",
   },
 
   {
@@ -299,17 +254,6 @@ const SWEEPSTAKES: Listing[] = [
     ends: "2027-01-31",
     url: "https://www.bhg.com/25kFall26",
     hot: true,
-    added: "2026-10-13",
-  },
-
-  {
-    id: 113,
-    title: "Dr Pepper “Football Tuition” Sweepstakes",
-    type: "sweepstakes",
-    prizes: "$10,000 Tuition Award Payable to an Eligible School or Student-Loan Servicer (Winner Need Not Be a Student; ARV $10,000); 50 US + DC, 18+",
-    frequency: "Enter Daily",
-    ends: "2026-11-30",
-    url: "https://www.drpeppertuitiongiveaway.com",
     added: "2026-10-13",
   },
 
@@ -396,18 +340,6 @@ const SWEEPSTAKES: Listing[] = [
   },
 
   {
-    id: 148,
-    title: "PROMPERU “The Great Escape” Sweepstakes",
-    type: "sweepstakes",
-    prizes: "Grand: 7-Day Peru Trip for 2 — Round-Trip Flights to Lima + Lima–Cusco, Intrepid Travel Inca Trail Express Tour, Big Agnes Camp Gear, Cotopaxi Packs/Jackets, La Sportiva Boots, AFAR Gift Card + $500 Visa Card (ARV $10,648); 48 Contiguous US + DC, 18+",
-    frequency: "Enter Once",
-    ends: "2026-11-06",
-    url: "https://peru.travel/",
-    hot: true,
-    added: "2026-10-15",
-  },
-
-  {
     id: 149,
     title: "Ecco Domani Italian Getaway Sweepstakes",
     type: "sweepstakes",
@@ -416,17 +348,6 @@ const SWEEPSTAKES: Listing[] = [
     ends: "2026-12-31",
     url: "https://www.eccodomani.com/italy-sweepstakes.html",
     hot: true,
-    added: "2026-10-15",
-  },
-
-  {
-    id: 150,
-    title: "Kroger HSFB x Visit Myrtle Beach Sweepstakes",
-    type: "sweepstakes",
-    prizes: "Grand: 6-Day/5-Night Family Trip for 4 to Myrtle Beach — Oceanfront Lodging, Round-Trip Airfare, 4 Tickets to 2 Attractions + $500 Dining Gift Card (ARV $6,000); 50 US + DC, 18+",
-    frequency: "Enter Daily",
-    ends: "2026-11-06",
-    url: "https://krogerhighschoolfootball.com/",
     added: "2026-10-15",
   },
 
@@ -467,17 +388,6 @@ const SWEEPSTAKES: Listing[] = [
   },
 
   {
-    id: 165,
-    title: "Filson “World of Filson” Giveaway",
-    type: "sweepstakes",
-    prizes: "Grand: Trip for 2 to Seattle/Pacific Northwest — First-Class Alaska Airlines Airfare, 3 Nights at Populus Seattle, Filson HQ Behind-the-Scenes Day, $1,000 Filson Gift Card, Custom Mackinaw Cruiser + 2 PNW Experiences (ARV $12,000) + 10 × Filson Jackets (ARV $599 Each) + 20 × $150 Gift Cards (Total ARV $20,990); 50 US + DC, 18+ (19+ AL/NE, 21+ MS)",
-    frequency: "Enter Once",
-    ends: "2026-11-30",
-    url: "https://www.filson.com/pages/world-of-filson-giveaway",
-    added: "2026-10-16",
-  },
-
-  {
     id: 166,
     title: "Hallmark Channel “Countdown To Christmas” Sweepstakes",
     type: "sweepstakes",
@@ -501,15 +411,95 @@ const SWEEPSTAKES: Listing[] = [
   },
 
   {
-    id: 168,
-    title: "Straight Talk Racing Tour Ford Mustang Giveaway",
+    id: 176,
+    title: "Ford “Mustang 5.0 Fever” Sweepstakes",
     type: "sweepstakes",
-    prizes: "Grand: 2026 Ford Mustang EcoBoost (ARV $32,640); 50 US + DC, 18+ (Valid Driver’s License, Insurance, Email & Phone Required)",
-    frequency: "Enter Daily",
-    ends: "2026-11-08",
-    url: "https://straighttalkracingtour.com/mustang-giveaway",
+    prizes: "Grand: 2026 Ford Mustang GT (Up to $55,000 MSRP) + Up to $5,000 in Installed Ford Racing Parts (Total ARV Up to $60,000); 48 Contiguous US + DC, 18+ Licensed Drivers",
+    frequency: "Enter Once",
+    ends: "2026-12-18",
+    url: "https://www.mustang50fever.com",
     hot: true,
-    added: "2026-10-16",
+    added: "2026-10-17",
+  },
+
+  {
+    id: 177,
+    title: "Monos “Mercedes-Benz G320” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "Grand: Restored 1998 Mercedes-Benz G320 Milspec Heritage G-Class + Trip for 2 to Vancouver, BC (Airfare + 2 Hotel Nights) + Monos Aluminum Luggage Set (ARV $97,500) — or $20,000 Cash Alternative; US + Canada, 18+ (Void AK, HI, RI)",
+    frequency: "Enter Once",
+    ends: "2026-11-26",
+    url: "https://ca.monos.com/collections/pre-merger-mercedes-g-wagon-class?variant=67635293159734",
+    hot: true,
+    added: "2026-10-17",
+  },
+
+  {
+    id: 178,
+    title: "Big Sipz “$16K” Giveaway",
+    type: "sweepstakes",
+    prizes: "12 Monthly Grand Prizes: $16,000 Check Each (Total ARV $192,000); 50 US + DC, 21+",
+    frequency: "Enter Daily",
+    ends: "2026-12-31",
+    url: "https://bigsipz16k.com",
+    hot: true,
+    added: "2026-10-17",
+  },
+
+  {
+    id: 179,
+    title: "House of Suntory “Japan Travel Package” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "Grand: Japan Trip for 2 — Round-Trip Airfare, 4 Nights Tokyo + 2 Nights Kyoto, First-Class Shinkansen, Yamazaki Distillery Visit (Travel in 2027; ARV $21,550); US, 21+",
+    frequency: "Enter Once",
+    ends: "2026-12-01",
+    url: "https://mysuntorytime.prod.fooji.com/",
+    hot: true,
+    added: "2026-10-17",
+  },
+
+  {
+    id: 180,
+    title: "Barefoot Wine “NFL” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "181 Winners: Grand Trip for 2 to Super Bowl LXI in Inglewood, CA — Airfare, Hotel, Transfers, 2 Game Tickets (ARV $10,000) + 180 × $250 NFLShop.com E-Gift Cards Across 17 Entry Periods (Total ARV $55,000); US (Excl. UT) + DC, 21+",
+    frequency: "Enter Weekly",
+    ends: "2026-12-31",
+    url: "https://www.barefootwine.com/nfl.html",
+    added: "2026-10-17",
+  },
+
+  {
+    id: 181,
+    title: "Snickers “NFL Halftime” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "Grand: 3-Day/2-Night Trip for 2 to Super Bowl LXI in Los Angeles — Airfare, 2 Hotel Nights, 2 Game Tickets, $200 Rideshare Credit + $600 Check (ARV $5,325); 50 US + DC, 18+",
+    frequency: "Enter Once",
+    ends: "2026-12-31",
+    url: "https://www.snickers.com/halftime",
+    added: "2026-10-17",
+  },
+
+  {
+    id: 182,
+    title: "Coca-Cola “Win 2026 Football” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "581+ Winners Across 13 Weekly Periods: Gift Cards ($25–$800), 65″ Smart TV, Countertop Fridge, Coke for a Year, Game Tickets, Football Trips (Total ARV $101,194); 50 US + DC + PR, 18+",
+    frequency: "Enter Weekly",
+    ends: "2026-11-29",
+    url: "https://www.coca-cola.com/us/en/offerings/coca-cola/football",
+    added: "2026-10-17",
+  },
+
+  {
+    id: 183,
+    title: "Arm & Hammer “LEGOLAND” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "Grand: Trip for 4 to Winner’s Choice of US LEGOLAND Park — Airfare, 2 Hotel Nights, Park Admission for 4, Ground Transport (ARV $5,000) + BOGO Ticket Offer for All Entrants; 50 US + DC, 18+ (Receipt Upload or Free Email AMOE)",
+    frequency: "Enter Once",
+    ends: "2026-12-31",
+    url: "https://ahxlegoland.com/",
+    added: "2026-10-17",
   },
 
 ];
@@ -658,7 +648,7 @@ export default function Home() {
             background: "#1d4ed8",
             color: "#fff",
             fontWeight: 700,
-            fontSize: "0.9rem",
+            fontSize: "0.95rem",
             padding: "10px 22px",
             borderRadius: "8px",
             textDecoration: "none",
@@ -844,7 +834,7 @@ export default function Home() {
         </section>
 
         <p style={{ color: "#94a3b8", fontSize: "0.8rem", marginTop: "40px", lineHeight: 1.6 }}>
-          Listings last verified October 16, 2026. Always check the official rules on
+          Listings last verified October 17, 2026. Always check the official rules on
           the sponsor&apos;s page before entering. Sweepstakes Central is not affiliated
           with the sponsors listed.
         </p>
@@ -871,9 +861,6 @@ export default function Home() {
             Tips & Guides
           </a>
           <a href="/about" style={{ color: "#64748b", marginRight: "16px" }}>
-            About
-          </a>
-          <a href="/privacy" style={{ color: "#64748b", marginRight: "16px" }}>
             Privacy Policy
           </a>
           <a href="/terms" style={{ color: "#64748b", marginRight: "16px" }}>
