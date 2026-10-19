@@ -17,10 +17,10 @@ interface Listing {
   added: string; // YYYY-MM-DD — NEW badge shows when added within the last 3 days
 }
 
-// Listings verified October 18, 2026. Update this list regularly —
+// Listings verified October 19, 2026. Update this list regularly —
 // remove ended sweepstakes and add new ones by editing this file and redeploying.
 const SWEEPSTAKES: Listing[] = [
-// Listings verified October 18, 2026. Update this list regularly —
+// Listings verified October 19, 2026. Update this list regularly —
 // remove ended sweepstakes and add new ones by editing this file and redeploying.
   // ---- Instant Win Games ----
 
@@ -56,6 +56,33 @@ const SWEEPSTAKES: Listing[] = [
     frequency: "Enter Daily",
     ends: "2026-11-30",
     url: "https://www.heineken.com/us/en/promos/formula1",
+    hot: true,
+    added: "2026-10-15",
+  },
+
+  {
+    id: 145,
+    title: "Keystone Light “Hunt” Instant Win Game",
+    type: "instant",
+    prizes: "516 Winners: Grand Keystone Light x Big Buck Hunter Arcade Game (ARV $12,000) + 15 Realtree Gear Packages (ARV $205), 100 Realtree Hat + T-Shirt Sets (ARV $44) + 400 Realtree Hats (ARV $18); 50 US + DC, 21+",
+    frequency: "Enter Daily",
+    ends: "2026-11-30",
+    url: "https://www.keystonelight.com/hunt",
+    hot: true,
+    added: "2026-10-15",
+  },
+
+  {
+    id: 155,
+    title: "McDonald’s 2026 Monopoly Game",
+    type: "instant",
+    prizes: "Top Prizes: (1) $1,000,000 ($50K/Year for 20 Years), (2) $100,000 Cash, (2) $100,000 Gold Bullion Credit, (6) $50,000 College-Debt Paydown, (3) $50,000 Home Down Payment, (15) 2027 Jeep Cherokee 4x4 (ARV $45,990), (8) Polaris Off-Road Vehicles, (34) $10,000 Cash, (50) Carnival Cruise Packages (ARV $10,000) + Millions of Food, Gift Card & Points Prizes; 50 US + DC, 18+ (McDonald’s Rewards Members)",
+    frequency: "Enter Daily",
+    ends: "2026-11-01",
+    url: "https://www.mcdonalds.com",
+    hot: true,
+    added: "2026-10-16",
+  },
 
   {
     id: 161,
@@ -152,7 +179,24 @@ const SWEEPSTAKES: Listing[] = [
     id: 185,
     title: "Jason’s Deli “50th Anniversary” Instant Win Game",
     type: "instant",
-    prizes: "102,430 Winners: (1) Grand: 3-Night MGM Grand
+    prizes: "102,430 Winners: (1) Grand: 3-Night MGM Grand Las Vegas Stay for 4 + 4 United Flight Vouchers (ARV $5,400); (50) Salad Bar for a Year ($624 Each); (100) Six Flags Ticket Pairs ($160 Each); (200) AMC Movie Ticket Packs ($20.50 Each) + Thousands of Food Rewards & Retro Toys; States with Jason’s Deli, 18+ (Deli Dollars Members)",
+    frequency: "Enter Daily",
+    ends: "2026-10-31",
+    url: "https://www.jasonsdeli.com/deli-brationsweepstakes",
+    hot: true,
+    added: "2026-10-18",
+  },
+
+  {
+    id: 186,
+    title: "Dairy Queen “Spellbound: Secret Lair” Instant Win Game",
+    type: "instant",
+    prizes: "134,900 Winners: (400) $20 DQ Gift Cards (200 US + 200 CA); (134,500) DQ Rewards Point Prizes (25–100 Points); DQ Rewards Members via DQ App, US + Canada, 18+ (Excl. TX & QC)",
+    frequency: "Enter Daily",
+    ends: "2026-11-01",
+    url: "https://www.dairyqueen.com",
+    added: "2026-10-18",
+  },
 
   {
     id: 187,
@@ -198,6 +242,73 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-10-18",
   },
 
+  {
+    id: 199,
+    title: "Nestlé “Coffee-mate Year of Flavor” Instant Win Game",
+    type: "instant",
+    prizes: "805 Winners: (5) Year’s Groceries as $15,000 Check + $6,000 Tax True-Up; (100) Year’s Coffee-mate as $200 Check; (700) Exclusive Coffee-mate Branded Mug (Total ARV $139,700); US + DC, 18+",
+    frequency: "Enter Daily",
+    ends: "2026-11-22",
+    url: "https://www.coffeematesweeps.snipp.us",
+    added: "2026-10-19",
+  },
+
+  {
+    id: 200,
+    title: "Raising Cane’s “Caniac Football” Instant Win Game",
+    type: "instant",
+    prizes: "1,920 Prizes: Merch (Hopsulator 3-in-1, ReHydration Bottle, Fanny Pack, AirTag Holder Set, “No Bad Days” Hats, 30th Birthday Plush) + Free-Food Digital Codes (Sauce, Toast, Drink, Fries) (Est. Value $4,809); Limit 1 Prize Per Person; US, 18+ (Free Caniac Club)",
+    frequency: "Enter Daily",
+    ends: "2026-11-22",
+    url: "https://www.raisingcanes.com/football",
+    added: "2026-10-19",
+  },
+
+  {
+    id: 201,
+    title: "Ken Griffey Jr. “MLB Trivia” Instant Win Game",
+    type: "instant",
+    prizes: "MLB Game Tickets, Autographed Ken Griffey Jr. Items, MLB TV Subscriptions + Instant-Win MLBShop.com Gift Cards and Promo Codes (Est. Value $59,307); 50 US + DC, 18+ (Sponsor: BlueTriton Brands)",
+    frequency: "Enter Daily",
+    ends: "2026-10-31",
+    url: "https://www.baseball-trivia.com",
+    added: "2026-10-19",
+  },
+
+  {
+    id: 202,
+    title: "Dr Pepper & Cheez-It “Fall Football” Instant Win Game",
+    type: "instant",
+    prizes: "3,150 Instant Winners: (600) $25 and (2,550) $10 Rewards — Winner’s Choice of Fanatics eGift Card, Xbox eGift Card, or Fandango Promo Code (Total ARV $40,500); 50 US + DC, 18+",
+    frequency: "Enter Daily",
+    ends: "2026-10-31",
+    url: "https://www.drpeppercheezitgame.com",
+    added: "2026-10-19",
+  },
+
+  {
+    id: 203,
+    title: "Hidden Valley Ranch “Spooky Ranch” Instant Win Game",
+    type: "instant",
+    prizes: "25 Instant Winners: $25 Fandango + $75 Walmart Digital Gift Card Movie-Night Pack Each (ARV $100 Each); 50 US + DC, 18+ (Verified vs Official Sponsor Page)",
+    frequency: "Enter Daily",
+    ends: "2026-10-31",
+    url: "https://www.hiddenvalley.com/spooky-ranch-movie-adventure/",
+    hot: true,
+    added: "2026-10-19",
+  },
+
+  {
+    id: 204,
+    title: "Bud Light “College Game Day” Instant Win Game",
+    type: "instant",
+    prizes: "2,000 Winners: (1,000) $100 Fanatics.com Gift Codes; (500) Bud Light Vintage Hats ($15 Each); (500) Bud Light Vintage T-Shirts ($15 Each); US, 21+",
+    frequency: "Enter Daily",
+    ends: "2026-11-30",
+    url: "https://www.budlight.com/UpgradeYourCollegeGameday",
+    added: "2026-10-19",
+  },
+
   // ---- Sweepstakes ----
 
   {
@@ -214,6 +325,37 @@ const SWEEPSTAKES: Listing[] = [
 
   {
     id: 109,
+    title: "Discover Puerto Rico “Hunt for Love Trip of a Lifetime” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "Grand: 4-Night Puerto Rico Getaway for 2 — Roundtrip Airfare, 1-Bedroom Oceanfront Suite at La Concha Resort, Daily Breakfast + Dinner for 2, Toro Verde Adventure Park + 2 × $100 Dining Certificates (ARV $4,900); 50 US, 18+ (Excl. PR & Territories)",
+    frequency: "Enter Once",
+    ends: "2027-01-25",
+    url: "https://discoverpuertorico.com/hunt-for-love",
+    added: "2026-10-12",
+  },
+
+  {
+    id: 112,
+    title: "BHG $25K Fall Sweepstakes",
+    type: "sweepstakes",
+    prizes: "$25,000 Check (ARV $25,000); 50 US + DC, 21+",
+    frequency: "Enter Daily",
+    ends: "2027-01-31",
+    url: "https://www.bhg.com/25kFall26",
+    hot: true,
+    added: "2026-10-13",
+  },
+
+  {
+    id: 118,
+    title: "Disney + ESPN “We’re Going to the Super Bowl LXI” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "Grand: 4 Tickets to Super Bowl LXI (Feb 14, 2027) + 3-Night Disneyland Resort Stay + 3-Day Park Hoppers for Winner & up to 3 Guests (ARV $12,097); 50 US + DC, 18+",
+    frequency: "Enter Once",
+    ends: "2026-12-31",
+    url: "https://www.espn.com/SBLXI",
+    added: "2026-10-13",
+  },
 
   {
     id: 132,
@@ -300,6 +442,17 @@ const SWEEPSTAKES: Listing[] = [
   },
 
   {
+    id: 180,
+    title: "Barefoot Wine “NFL” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "181 Winners: Grand Trip for 2 to Super Bowl LXI in Inglewood, CA — Airfare, Hotel, Transfers, 2 Game Tickets (ARV $10,000) + 180 × $250 NFLShop.com E-Gift Cards Across 17 Entry Periods (Total ARV $55,000); US (Excl. UT) + DC, 21+",
+    frequency: "Enter Weekly",
+    ends: "2026-12-31",
+    url: "https://www.barefootwine.com/nfl.html",
+    added: "2026-10-17",
+  },
+
+  {
     id: 181,
     title: "Snickers “NFL Halftime” Sweepstakes",
     type: "sweepstakes",
@@ -322,35 +475,11 @@ const SWEEPSTAKES: Listing[] = [
   },
 
   {
-    id: 191,
-    title: "Wheel of Fortune “NBA Week” Sweepstakes",
-    type: "sweepstakes",
-    prizes: "1 Winner: 5-Night LA Trip for 2 — Calamigos Ranch Resort Bungalow, $1,500 Airfare Stipend, 2 NBA Lower-Bowl Tickets, NBA Store Tee + Autographed Ball (ARV $11,785); 50 US, 18+",
-    frequency: "Enter Daily",
-    ends: "2026-10-24",
-    url: "https://www.wheeloffortune.com",
-    hot: true,
-    added: "2026-10-18",
-  },
-
-  {
-    id: 192,
-    title: "Planters “Macy’s Thanksgiving Parade” Sweepstakes",
-    type: "sweepstakes",
-    prizes: "1 Winner: Trip for Up to 5 to NYC for the Macy’s Thanksgiving Day Parade — 5 Grandstand Tickets + $10,000 Travel Voucher for Airfare & Hotel (ARV $10,000); 50 US + DC, 18+",
-    frequency: "Enter Once",
-    ends: "2026-10-22",
-    url: "https://www.mrpeanutparadesweepstakes.com",
-    hot: true,
-    added: "2026-10-18",
-  },
-
-  {
     id: 193,
     title: "Guitar Center “AlphaTheta Beat Lab” Sweepstakes",
     type: "sweepstakes",
     prizes: "1 Winner: AlphaTheta XDJ-AZ-N 4-Channel DJ System ($3,629) + 2 WAVE-EIGHT Speakers ($999 Each) + HDJ-F10 Headphones + Cases, Stands & Cables (ARV $6,695.96); 50 US, 18+",
-    frequency: "Enter Daily",
+    frequency: "Enter Once",
     ends: "2026-10-28",
     url: "https://www.guitarcenter.com",
     added: "2026-10-18",
@@ -385,6 +514,114 @@ const SWEEPSTAKES: Listing[] = [
     prizes: "9 Winners: (1) Grand: Weber Grill, 25 Servings, Cornhole Set, Rocker Chair + Swag (ARV $958.26); (3) First Prizes ($428.96 Each); (5) Runner-Up Swag Boxes ($39.39 Each; Total ARV $2,442.09); 50 US, 18+",
     frequency: "Enter Daily",
     ends: "2026-10-31",
+    url: "https://www.dippindots.com",
+    added: "2026-10-18",
+  },
+
+  {
+    id: 198,
+    title: "BOTE “Greetings from Islamorada” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "1 Winner: 3-Night Florida Keys Stay for Up to 4 at BOTE House Islamorada + $500 Food/Beverage Credit + $500 Airline Credit + BOTE Chair & Tumbler (ARV $4,204); 50 US, 18+",
+    frequency: "Enter Once",
+    ends: "2026-10-31",
+    url: "https://www.boteboard.com",
+    added: "2026-10-18",
+  },
+
+  {
+    id: 205,
+    title: "Drake Waterfowl “Drake x Simmons Sporting Goods” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "1 Winner: 2026 Can-Am Outlander 500 DPS ATV Fully Loaded — 2,500 lb. Winch, Heavy-Duty Bumpers, A-Arm Guards, LinQ Gear Grips, Rear Luggage Rack, Snorkel Kit, LED Light Kit, 26″ Trail King Tires (ARV $14,000+); US, 18+",
+    frequency: "Enter Once",
+    ends: "2026-12-20",
+    url: "https://www.drakewaterfowl.com/pages/drake-x-simmons-sporting-goods-giveaway",
+    added: "2026-10-19",
+  },
+
+  {
+    id: 206,
+    title: "Lowe’s “Lowe’s x Cleveland Browns” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "101 Winners: Grand: $10,000 Lowe’s Gift Card + Browns Helmet Signed by Joel Bitonio + Kobalt Browns Mini Toolbox + 46″ Kobalt Browns Workbench; (100) First Prizes: $10 Lowe’s E-Gift Cards; 50 US + DC, 18+ (Free MyLowe’s Rewards Account)",
+    frequency: "Enter Once",
+    ends: "2027-01-10",
+    url: "https://www.lowes.com/events/register/nfl-cleveland-browns-event",
+    added: "2026-10-19",
+  },
+
+  {
+    id: 207,
+    title: "Bravo Insider “Vanderpump Vegas” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "1 Winner + Guest: Las Vegas Trip — RT Airfare, 4 Nights at The Vanderpump Hotel, $500 Dining Credit, Soleia Beach Daybed Rental + $200 Dining Credit + $500 Spending Money (ARV $4,972.17); 50 US + DC, 18+ (Free Bravo Insider Membership; 21+ for Hotel Check-In)",
+    frequency: "Enter Once",
+    ends: "2026-11-30",
+    url: "https://www.bravotv.com/the-daily-dish/chance-to-win-a-trip-to-las-vegas-sweepstakes-details",
+    added: "2026-10-19",
+  },
+
+  {
+    id: 208,
+    title: "iHeartRadio x JCPenney “Jingle Ball” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "27 Winners: $3,500 NYC Trip for 2 (Airfare, Transfers, 2 Hotel Nights, Z100’s Jingle Ball Tickets Dec 11, Artist Experience) + JCPenney Gift Cards ($1,000/$750/$500/$250) + Signed Artist Merch (Total ARV $13,050); 50 US + DC, 18+ (Trip Drawing Closes Nov 15)",
+    frequency: "Enter Daily",
+    ends: "2026-12-20",
+    url: "https://news.iheart.com/promotions/iheartradio-jingle-ball-x-jcpenney-sweepstakes-1925122/",
+    hot: true,
+    added: "2026-10-19",
+  },
+
+  {
+    id: 209,
+    title: "Cap’n Crunch “Find The Cap’n” Sweepstakes 2026",
+    type: "sweepstakes",
+    prizes: "1 Winner + Up to 3 Guests: Mystery-Location Getaway — RT Coach Airfare for 4, 4 Nights Lodging, Daily Breakfast, Rental Car, Massages + $500 Check for Meals/Incidentals (ARV $7,540); 50 US + DC, 18+ (19+ in AL/NE)",
+    frequency: "Enter Daily",
+    ends: "2026-11-08",
+    url: "https://www.capncrunchmystery.com/",
+    added: "2026-10-19",
+  },
+
+  {
+    id: 210,
+    title: "AirMedCare Network “College Football $10,000” Giveaway",
+    type: "sweepstakes",
+    prizes: "1 Winner: $10,000 Cash via ACH (10 Initial Entries at Registration + 1 Daily, 60 Max Total); US + DC, 18+ (Excl. AK, NY, RI, WV, WY)",
+    frequency: "Enter Daily",
+    ends: "2026-10-25",
+    url: "https://www.amcn-college-football-giveaway.com/",
+    hot: true,
+    added: "2026-10-19",
+  },
+
+  {
+    id: 211,
+    title: "Feastables “Halloween Capitol” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "5 Winners: $10,000 Cash Each (Total ARV $50,000) — Drawn from Registered Entrants in the Winning State on Oct 28 (National Chocolate Day); 50 US + DC + PR & Territories, 18+ (No Purchase Necessary; Receipt Upload Optional)",
+    frequency: "Enter Daily",
+    ends: "2026-10-28",
+    url: "https://feastables.com/pages/halloween-sweepstakes",
+    hot: true,
+    added: "2026-10-19",
+  },
+
+  {
+    id: 212,
+    title: "HGTV “Trick or Treat Yourself” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "1 Winner: $5,000 Cash — Enter Twice Daily (Once on HGTV.com, Once on Food.com); US, 18+",
+    frequency: "Enter Daily",
+    ends: "2026-10-28",
+    url: "https://www.hgtv.com/sweepstakes/trick-or-treat-yourself",
+    added: "2026-10-19",
+  },
+
+];
+
 
 function daysLeft(dateStr: string) {
   const end = new Date(dateStr + "T23:59:59");
@@ -516,6 +753,31 @@ export default function Home() {
               NEW
             </span>
           )}
+          <div style={{ color: "#475569", fontSize: "0.9rem", marginTop: "6px" }}>
+            Prizes: {s.prizes} | {s.frequency} | Ends {formatDate(s.ends)} (
+            {left === 0 ? "ends today" : `${left} day${left === 1 ? "" : "s"} left`})
+          </div>
+        </div>
+        <a
+          href={s.url}
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{
+            background: "#1d4ed8",
+            color: "#fff",
+            fontWeight: 700,
+            fontSize: "0.9rem",
+            padding: "10px 22px",
+            borderRadius: "8px",
+            textDecoration: "none",
+            whiteSpace: "nowrap",
+          }}
+        >
+          Enter Now
+        </a>
+      </li>
+    );
+  }
 
   function renderSection(title: string, items: Listing[]) {
     if (items.length === 0) return null;
@@ -690,7 +952,7 @@ export default function Home() {
         </section>
 
         <p style={{ color: "#94a3b8", fontSize: "0.8rem", marginTop: "40px", lineHeight: 1.6 }}>
-          Listings last verified October 18, 2026. Always check the official rules on
+          Listings last verified October 19, 2026. Always check the official rules on
           the sponsor&apos;s page before entering. Sweepstakes Central is not affiliated
           with the sponsors listed.
         </p>
@@ -732,142 +994,4 @@ export default function Home() {
       </footer>
     </div>
   );
-          }
-          <div style={{ color: "#475569", fontSize: "0.9rem", marginTop: "6px" }}>
-            Prizes: {s.prizes} | {s.frequency} | Ends {formatDate(s.ends)} (
-            {left === 0 ? "ends today" : `${left} day${left === 1 ? "" : "s"} left`})
-          </div>
-        </div>
-        <a
-          href={s.url}
-          target="_blank"
-          rel="noopener noreferrer"
-          style={{
-            background: "#1d4ed8",
-            color: "#fff",
-            fontWeight: 700,
-            fontSize: "0.9rem",
-            padding: "10px 22px",
-            borderRadius: "8px",
-            textDecoration: "none",
-            whiteSpace: "nowrap",
-          }}
-        >
-          Enter Now
-        </a>
-      </li>
-    );
-  }
-    url: "https://www.dippindots.com",
-    added: "2026-10-18",
-  },
-
-  {
-    id: 197,
-    title: "Larceny Bourbon “Orlando Festival” Sweepstakes",
-    type: "sweepstakes",
-    prizes: "1 Winner: 2 × 2-Day VIP Passes to Vans Warped Tour Orlando (Nov 14–15, 2026) + Round-Trip Airfare for 2 + 3-Night Hotel + $500 Prepaid Card (ARV $4,910); 50 US + DC, 21+ (Excl. MD, RI)",
-    frequency: "Enter Daily",
-    ends: "2026-10-23",
-    url: "https://www.livenation.com/larcenyorlandosweeps",
-    added: "2026-10-18",
-  },
-
-  {
-    id: 198,
-    title: "BOTE “Greetings from Islamorada” Sweepstakes",
-    type: "sweepstakes",
-    prizes: "1 Winner: 3-Night Florida Keys Stay for Up to 4 at BOTE House Islamorada + $500 Food/Beverage Credit + $500 Airline Credit + BOTE Chair & Tumbler (ARV $4,204); 50 US, 18+",
-    frequency: "Enter Once",
-    ends: "2026-10-31",
-    url: "https://www.boteboard.com",
-    added: "2026-10-18",
-  },
-
-];
-
-  {
-    id: 180,
-    title: "Barefoot Wine “NFL” Sweepstakes",
-    type: "sweepstakes",
-    prizes: "181 Winners: Grand Trip for 2 to Super Bowl LXI in Inglewood, CA — Airfare, Hotel, Transfers, 2 Game Tickets (ARV $10,000) + 180 × $250 NFLShop.com E-Gift Cards Across 17 Entry Periods (Total ARV $55,000); US (Excl. UT) + DC, 21+",
-    frequency: "Enter Weekly",
-    ends: "2026-12-31",
-    url: "https://www.barefootwine.com/nfl.html",
-    added: "2026-10-17",
-  },
-    title: "Discover Puerto Rico “Hunt for Love Trip of a Lifetime” Sweepstakes",
-    type: "sweepstakes",
-    prizes: "Grand: 4-Night Puerto Rico Getaway for 2 — Roundtrip Airfare, 1-Bedroom Oceanfront Suite at La Concha Resort, Daily Breakfast + Dinner for 2, Toro Verde Adventure Park + 2 × $100 Dining Certificates (ARV $4,900); 50 US, 18+ (Excl. PR & Territories)",
-    frequency: "Enter Once",
-    ends: "2027-01-25",
-    url: "https://discoverpuertorico.com/hunt-for-love",
-    added: "2026-10-12",
-  },
-
-  {
-    id: 112,
-    title: "BHG $25K Fall Sweepstakes",
-    type: "sweepstakes",
-    prizes: "$25,000 Check (ARV $25,000); 50 US + DC, 21+",
-    frequency: "Enter Daily",
-    ends: "2027-01-31",
-    url: "https://www.bhg.com/25kFall26",
-    hot: true,
-    added: "2026-10-13",
-  },
-
-  {
-    id: 118,
-    title: "Disney + ESPN “We’re Going to the Super Bowl LXI” Sweepstakes",
-    type: "sweepstakes",
-    prizes: "Grand: 4 Tickets to Super Bowl LXI (Feb 14, 2027) + 3-Night Disneyland Resort Stay + 3-Day Park Hoppers for Winner & up to 3 Guests (ARV $12,097); 50 US + DC, 18+",
-    frequency: "Enter Once",
-    ends: "2026-12-31",
-    url: "https://www.espn.com/SBLXI",
-    added: "2026-10-13",
-  }, Las Vegas Stay for 4 + 4 United Flight Vouchers (ARV $5,400); (50) Salad Bar for a Year ($624 Each); (100) Six Flags Ticket Pairs ($160 Each); (200) AMC Movie Ticket Packs ($20.50 Each) + Thousands of Food Rewards & Retro Toys; States with Jason’s Deli, 18+ (Deli Dollars Members)",
-    frequency: "Enter Daily",
-    ends: "2026-10-31",
-    url: "https://www.jasonsdeli.com/deli-brationsweepstakes",
-    hot: true,
-    added: "2026-10-18",
-  },
-
-  {
-    id: 186,
-    title: "Dairy Queen “Spellbound: Secret Lair” Instant Win Game",
-    type: "instant",
-    prizes: "134,900 Winners: (400) $20 DQ Gift Cards (200 US + 200 CA); (134,500) DQ Rewards Point Prizes (25–100 Points); DQ Rewards Members via DQ App, US + Canada, 18+ (Excl. TX & QC)",
-    frequency: "Enter Daily",
-    ends: "2026-11-01",
-    url: "https://www.dairyqueen.com",
-    added: "2026-10-18",
-  },
-    hot: true,
-    added: "2026-10-15",
-  },
-
-  {
-    id: 145,
-    title: "Keystone Light “Hunt” Instant Win Game",
-    type: "instant",
-    prizes: "516 Winners: Grand Keystone Light x Big Buck Hunter Arcade Game (ARV $12,000) + 15 Realtree Gear Packages (ARV $205), 100 Realtree Hat + T-Shirt Sets (ARV $44) + 400 Realtree Hats (ARV $18); 50 US + DC, 21+",
-    frequency: "Enter Daily",
-    ends: "2026-11-30",
-    url: "https://www.keystonelight.com/hunt",
-    hot: true,
-    added: "2026-10-15",
-  },
-
-  {
-    id: 155,
-    title: "McDonald’s 2026 Monopoly Game",
-    type: "instant",
-    prizes: "Top Prizes: (1) $1,000,000 ($50K/Year for 20 Years), (2) $100,000 Cash, (2) $100,000 Gold Bullion Credit, (6) $50,000 College-Debt Paydown, (3) $50,000 Home Down Payment, (15) 2027 Jeep Cherokee 4x4 (ARV $45,990), (8) Polaris Off-Road Vehicles, (34) $10,000 Cash, (50) Carnival Cruise Packages (ARV $10,000) + Millions of Food, Gift Card & Points Prizes; 50 US + DC, 18+ (McDonald’s Rewards Members)",
-    frequency: "Enter Daily",
-    ends: "2026-11-01",
-    url: "https://www.mcdonalds.com",
-    hot: true,
-    added: "2026-10-16",
-  },
+}
