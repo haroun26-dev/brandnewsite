@@ -17,10 +17,10 @@ interface Listing {
   added: string; // YYYY-MM-DD — NEW badge shows when added within the last 3 days
 }
 
-// Listings verified October 19, 2026. Update this list regularly —
+// Listings verified October 20, 2026. Update this list regularly —
 // remove ended sweepstakes and add new ones by editing this file and redeploying.
 const SWEEPSTAKES: Listing[] = [
-// Listings verified October 19, 2026. Update this list regularly —
+// Listings verified October 20, 2026. Update this list regularly —
 // remove ended sweepstakes and add new ones by editing this file and redeploying.
   // ---- Instant Win Games ----
 
@@ -309,6 +309,74 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-10-19",
   },
 
+  {
+    id: 213,
+    title: "Yerba Madre “Cash for College” Instant Win Game",
+    type: "instant",
+    prizes: "101 Winners: Grand: $30,000 Digital Check + Rocco Fridge + JBL Flip Speaker + 24 Cases of Yerba Madre + Merch (ARV $33,000) + 100 Instant-Win Prizes — Yerba Madre Cases, Yeti Water Bottles, Miir French Presses, JBL Flip Speakers, Backpacks + 3 Can Area Rugs ($3,000 Each; Total ARV $47,900); 50 US + DC, 18+",
+    frequency: "Enter Daily",
+    ends: "2026-10-31",
+    url: "https://airbaton.net/l/yerbamadre-cashforcollege",
+    hot: true,
+    added: "2026-10-20",
+  },
+
+  {
+    id: 214,
+    title: "Copenhagen “250th Forged in Freedom” Sweepstakes & Instant Win Game",
+    type: "instant",
+    prizes: "13,001 Winners: Grand: 2026 Ford F-250 + $30,000 Check (ARV $138,560) + 13,000 Instant-Win $25 Visa Reward Virtual Cards (Total ARV $463,560); US + DC, 21+ (Registered Tobacco Consumers; Excl. MA & MI)",
+    frequency: "Enter Daily",
+    ends: "2026-11-01",
+    url: "https://www.freshcope.com",
+    added: "2026-10-20",
+  },
+
+  {
+    id: 215,
+    title: "Yesway & Allsup’s Spin-to-Win Game & Sweepstakes",
+    type: "instant",
+    prizes: "Grand: All-Terrain Vehicle (ARV $10,000); First: Trip for 2 to the SEC Football Championship in Atlanta — 2 Hotel Nights + Pre-Game Party Passes, No Airfare (ARV $3,600) + 115,800 Spin-to-Win Instant Prizes (Drinks, Food Vouchers, Fuel Discounts; Total ARV $358,650); AZ, MO, NE, NM, OK, SD, TX, WY Only, 21+ (Yesway/Allsup’s Rewards; Instant Spins Require Qualifying Purchase — Drawings Free by Mail-in)",
+    frequency: "Enter Daily",
+    ends: "2026-11-03",
+    url: "https://allsups.com/sweepstakes/spin-to-win/",
+    added: "2026-10-20",
+  },
+
+  {
+    id: 216,
+    title: "Margaritaville Vacation Club “Vacation a Day” Instant Win Game",
+    type: "instant",
+    prizes: "181 Winners: Grand: Choice of 7-Night Margaritaville at Sea Islander Cruise for 2 + $2,500 Airfare Voucher (ARV up to $5,499) OR 7-Night Resort Stay for 4 + $2,500 Airfare Voucher (ARV up to $8,623) + 180 Daily Prizes: 2-Night Studio-Suite Stays (ARV $973–$1,505 Each); US, 28+",
+    frequency: "Enter Daily",
+    ends: "2027-01-13",
+    url: "https://finsup.margaritavillevacationclub.com/sweepstakes-2026",
+    hot: true,
+    added: "2026-10-20",
+  },
+
+  {
+    id: 217,
+    title: "DSW Shoebox Shuffle Instant Win Game",
+    type: "instant",
+    prizes: "(5) Grand: $500 DSW Gift Cards Each + 150,450 Instant-Win VIP Point Prizes (1,000/400/200 Points; $5/$2/$1 Values; Total ARV $204,750); 50 US + DC, 18+ (Free DSW VIP Rewards Account)",
+    frequency: "Enter Daily",
+    ends: "2026-10-25",
+    url: "https://www.dsw.com/vip-game",
+    added: "2026-10-20",
+  },
+
+  {
+    id: 218,
+    title: "Swig “Take The Chance” Instant Win Game",
+    type: "instant",
+    prizes: "2,263 Winners: (3) $100 Swig Gift Cards + Instant Prizes: 490 Free 24 oz Drinks, 140 Free Pretzel Bites, 630 BOGO Drinks, 1,000 Free Upgrades (Total ARV ~$4,214); US, 18+ (19+ AL/NE, 21+ MS; Excl. NY, RI, HI, AK, FL, DC)",
+    frequency: "Enter Daily",
+    ends: "2026-11-04",
+    url: "https://web.witcontests.com/swig/giveaway/slots/take-the-chance-win-a-dollar10-2610082",
+    added: "2026-10-20",
+  },
+
   // ---- Sweepstakes ----
 
   {
@@ -475,17 +543,6 @@ const SWEEPSTAKES: Listing[] = [
   },
 
   {
-    id: 193,
-    title: "Guitar Center “AlphaTheta Beat Lab” Sweepstakes",
-    type: "sweepstakes",
-    prizes: "1 Winner: AlphaTheta XDJ-AZ-N 4-Channel DJ System ($3,629) + 2 WAVE-EIGHT Speakers ($999 Each) + HDJ-F10 Headphones + Cases, Stands & Cables (ARV $6,695.96); 50 US, 18+",
-    frequency: "Enter Once",
-    ends: "2026-10-28",
-    url: "https://www.guitarcenter.com",
-    added: "2026-10-18",
-  },
-
-  {
     id: 194,
     title: "Depend “Coach Prime” Sweepstakes",
     type: "sweepstakes",
@@ -586,38 +643,93 @@ const SWEEPSTAKES: Listing[] = [
   },
 
   {
-    id: 210,
-    title: "AirMedCare Network “College Football $10,000” Giveaway",
+    id: 219,
+    title: "PROMPERU “The Great Escape” Sweepstakes",
     type: "sweepstakes",
-    prizes: "1 Winner: $10,000 Cash via ACH (10 Initial Entries at Registration + 1 Daily, 60 Max Total); US + DC, 18+ (Excl. AK, NY, RI, WV, WY)",
-    frequency: "Enter Daily",
+    prizes: "1 Winner + Guest: 7-Day Peru Trip (Cusco, Sacred Valley, Inca Trail, Machu Picchu) — Round-Trip Economy Flights to Lima + Lima–Cusco Flights, Intrepid Travel Inca Trail Express for 2, 2× Big Agnes Tent/Sleeping Bag/Pad Sets, 2× Cotopaxi Packs + Fuego Jackets, 2× La Sportiva Boots, AFAR Gift Card + 2-Yr Magazine Sub, $500 World Nomads Visa Gift Card (ARV $10,648); 48 Contiguous US + DC & Canada (Excl. QC), 18+",
+    frequency: "Enter Once",
+    ends: "2026-11-06",
+    url: "https://peru.travel/thegreatescape",
+    hot: true,
+    added: "2026-10-20",
+  },
+
+  {
+    id: 220,
+    title: "Travel Wisconsin “Wonder-Filled Packers” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "14 Winners: 5× Grand: On-Field Flag-Holding Experience + 2 Festival Foods MVP Deck Tickets (Packers vs. Lions, Jan 9/10 2027) + Food/Drinks, Lambeau Tours, Hall of Fame Passes, $200 Packers Pro Shop Card; 5× First: 2 MVP Deck Tickets (Packers vs. Bills, Dec 13, 2026) + Tours + HOF Passes + $200 1919 Kitchen & Tap Card; 4× Second: 4 Outdoor-Bowl Tickets to a Packers Home Game + Autographed Football/Mini Helmet + Tours + HOF Passes; US, 18+ (Excl. AK, HI, FL, NY, RI)",
+    frequency: "Enter Once",
+    ends: "2026-11-11",
+    url: "https://www.travelwisconsin.com/wonder-filled-packers-sweepstakes",
+    added: "2026-10-20",
+  },
+
+  {
+    id: 221,
+    title: "Monster Energy “Call of Duty: Modern Warfare 4 POGA or Polaris Adventures” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "2 Winners: Grand: Monster Energy × Call of Duty: Modern Warfare 4 Co-Branded POGA Xbox Series X Portable Gaming Unit (ARV $2,890); First: Polaris Adventures Experience Voucher for Winner + Guest (Up to $1,000; Travel/Lodging Not Included; Total ARV $3,890); 50 US + DC, 18+",
+    frequency: "Enter Once",
     ends: "2026-10-25",
-    url: "https://www.amcn-college-football-giveaway.com/",
-    hot: true,
-    added: "2026-10-19",
+    url: "https://www.monsterenergy.com/en-us/promotions/codlaunchday26/",
+    added: "2026-10-20",
   },
 
   {
-    id: 211,
-    title: "Feastables “Halloween Capitol” Sweepstakes",
+    id: 222,
+    title: "Green Bay Packers “2026 Fall Tailgate” Sweepstakes",
     type: "sweepstakes",
-    prizes: "5 Winners: $10,000 Cash Each (Total ARV $50,000) — Drawn from Registered Entrants in the Winning State on Oct 28 (National Chocolate Day); 50 US + DC + PR & Territories, 18+ (No Purchase Necessary; Receipt Upload Optional)",
+    prizes: "1 Winner: $500 Packers Pro Shop Gift Card + Custom Packers Nike Home Game Jersey + Original Cheesehead Hat (ARV $698.98); US/DC, 18+ (Excl. FL, NJ, NY)",
     frequency: "Enter Daily",
-    ends: "2026-10-28",
-    url: "https://feastables.com/pages/halloween-sweepstakes",
-    hot: true,
-    added: "2026-10-19",
+    ends: "2026-10-30",
+    url: "https://packers.wyng.com/6ace6cff15a2868c787a42fe",
+    added: "2026-10-20",
   },
 
   {
-    id: 212,
-    title: "HGTV “Trick or Treat Yourself” Sweepstakes",
+    id: 223,
+    title: "Dr Pepper “Football Tuition” Sweepstakes",
     type: "sweepstakes",
-    prizes: "1 Winner: $5,000 Cash — Enter Twice Daily (Once on HGTV.com, Once on Food.com); US, 18+",
+    prizes: "1 Winner: $10,000 Tuition Award via Scholarship America — Payable to an Accredited US College/University/Trade School (Tuition, Fees, Books, Room & Board) or Toward Student Loans; May Be Gifted to One Designee (ARV $10,000); 50 US + DC, 18+ (Excl. PR & Territories)",
     frequency: "Enter Daily",
-    ends: "2026-10-28",
-    url: "https://www.hgtv.com/sweepstakes/trick-or-treat-yourself",
-    added: "2026-10-19",
+    ends: "2026-11-30",
+    url: "https://drpeppertuitiongiveaway.com/",
+    hot: true,
+    added: "2026-10-20",
+  },
+
+  {
+    id: 224,
+    title: "Henkel “Winning Starts At Home” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "76 Winners: 13× Grand: Alex Morgan Autographed Item + $500 U.S. Soccer Store Digital Gift Card + Henkel Sample Box ($597–$704 Each); 13× First: 2026 USWNT Replica Jersey + $150 Gift Card + Sample Box ($320 Each); 50× Second: $150 Gift Card + Sample Box ($220 Each; Total ARV $24,312); 50 US + DC, 18+ (19+ AL/NE)",
+    frequency: "Enter Daily",
+    ends: "2026-11-13",
+    url: "https://henkelsoccersweeps.com/",
+    added: "2026-10-20",
+  },
+
+  {
+    id: 225,
+    title: "MotoSport “Fall Adventure” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "6 Winners: 5 Weekly Gear Packages (Fly Racing, Fox Racing, Icon Motorsports, Leatt, Fasthouse) + Grand: Trip for 2 to Jeff Stanton Adventures + 2026/27 Triumph Scrambler 400 XC ($6,895) + Riding Gear for 2 + Metzeler Tires, Cardo Packtalk Edge, Nelson Rigg Tank Bag + Travel Expenses (ARV $20,565.86; Total ARV $28,182.12); US + DC, 18+ (Void FL, NY, RI)",
+    frequency: "Enter Weekly",
+    ends: "2026-10-26",
+    url: "https://www.motosport.com/win",
+    added: "2026-10-20",
+  },
+
+  {
+    id: 226,
+    title: "American Airlines “USMNT Behind-the-Scenes Experience” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "1 Winner + Guest: 2 Tickets to a 2026 U.S. Men’s National Team Game + Pre-Match Field Access, Game Ball Check-In, Pre-Game Locker Room “Door Knock”; Round-Trip AA Airfare + 2-Night Hotel + $200 Check if Winner Lives >150 Miles from Venue (ARV up to $2,900); US, 21+ (Free AAdvantage Membership)",
+    frequency: "Enter Daily",
+    ends: "2026-10-31",
+    url: "https://www.ussoccerperks.com",
+    added: "2026-10-20",
   },
 
 ];
@@ -952,7 +1064,7 @@ export default function Home() {
         </section>
 
         <p style={{ color: "#94a3b8", fontSize: "0.8rem", marginTop: "40px", lineHeight: 1.6 }}>
-          Listings last verified October 19, 2026. Always check the official rules on
+          Listings last verified October 20, 2026. Always check the official rules on
           the sponsor&apos;s page before entering. Sweepstakes Central is not affiliated
           with the sponsors listed.
         </p>
