@@ -17,10 +17,10 @@ interface Listing {
   added: string; // YYYY-MM-DD — NEW badge shows when added within the last 3 days
 }
 
-// Listings verified October 21, 2026. Update this list regularly —
+// Listings verified October 22, 2026. Update this list regularly —
 // remove ended sweepstakes and add new ones by editing this file and redeploying.
 const SWEEPSTAKES: Listing[] = [
-// Listings verified October 21, 2026. Update this list regularly —
+// Listings verified October 22, 2026. Update this list regularly —
 // remove ended sweepstakes and add new ones by editing this file and redeploying.
   // ---- Instant Win Games ----
 
@@ -107,38 +107,8 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-10-17",
   },
 
-  {
-    id: 170,
-    title: "Clorox “Catch Holiday” Instant Win Game",
-    type: "instant",
-    prizes: "102 Instant Winners: 50 × All Purpose Cleaner Spray ($5.52), 50 × Scentiva Disinfecting Wipes ($8), 2 × Catch Prize Packs (ARV $137.74 Each); 50 US + DC, 18+",
-    frequency: "Enter Daily",
-    ends: "2026-12-15",
-    url: "https://www.clorox.com/lp/clorox-play/",
-    added: "2026-10-17",
-  },
 
-  {
-    id: 171,
-    title: "BeatBox “Sip Into the Season” Instant Win Game",
-    type: "instant",
-    prizes: "Grand: 2 × 2-Day Ikon Ski Passes (2026–27 Season) + $2,500 Cash (ARV $3,100) + 550 Instant Prizes (Bluetooth Speakers, Holiday Scarves, Light-Up Charging Cables); US (Excl. FL & NY), 21+",
-    frequency: "Enter Once",
-    ends: "2026-12-31",
-    url: "https://web.witcontests.com/beatbox/giveaway/spin/sip-into-the-season-260930",
-    added: "2026-10-17",
-  },
 
-  {
-    id: 172,
-    title: "NÜTRL “College Football Final” Sweepstakes & Instant Win",
-    type: "instant",
-    prizes: "Grand: $9,000 Prepaid Card Toward Ultimate Tailgate Experience for 2 in Las Vegas + 18 Instant-Win Tailgate Packs (Cooler, Hat, Chair, Power Bank, Coolies; ARV $203 Each; Total ARV $12,654); 50 US + DC, 21+",
-    frequency: "Enter Daily",
-    ends: "2026-12-04",
-    url: "https://www.airbaton.net",
-    added: "2026-10-17",
-  },
 
   {
     id: 173,
@@ -151,17 +121,6 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-10-17",
   },
 
-  {
-    id: 174,
-    title: "Bud Light X NFL “Upgrade Your Game Day” Instant Win Game",
-    type: "instant",
-    prizes: "11,200 Instant Winners: 50 × NFL Ticket Pairs, 50 Charcoal Grills, 50 NFL Coolers, 50 Tailgate Sets, 1,000 × $100 Fanatics Gift Cards, 10,000 NFL+ Premium Subscriptions (Total ARV $307,400); 50 US + DC, 21+",
-    frequency: "Enter Daily",
-    ends: "2026-11-30",
-    url: "https://www.budlight.com/UpgradeYourGameday",
-    hot: true,
-    added: "2026-10-17",
-  },
 
   {
     id: 184,
@@ -219,16 +178,6 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-10-18",
   },
 
-  {
-    id: 199,
-    title: "Nestlé “Coffee-mate Year of Flavor” Instant Win Game",
-    type: "instant",
-    prizes: "805 Winners: (5) Year’s Groceries as $15,000 Check + $6,000 Tax True-Up; (100) Year’s Coffee-mate as $200 Check; (700) Exclusive Coffee-mate Branded Mug (Total ARV $139,700); US + DC, 18+",
-    frequency: "Enter Daily",
-    ends: "2026-11-22",
-    url: "https://www.coffeematesweeps.snipp.us",
-    added: "2026-10-19",
-  },
 
   {
     id: 200,
@@ -386,6 +335,84 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-10-21",
   },
 
+  {
+    id: 243,
+    title: "Fanta \u201cBuild Your Alebrije\u201d Sweepstakes & Instant Win Game",
+    type: "instant",
+    prizes: "Grand: 4-Day/3-Night Trip for 2 to the Day of the Dead Ball in Chicago (Nov 2027) \u2014 Airfare, Hotel, Event Tickets, Guided D\u00eda de Muertos Tour, $250 Transport Gift Card + $500 Check (ARV $4,600) + 100 Instant-Win Day of the Dead Altar Prize Kits (ARV $79.61 Each); 50 US + DC, 21+",
+    frequency: "Enter Daily",
+    ends: "2026-11-06",
+    url: "https://www.coca-cola.com/us/en/offerings/fanta/dia-de-los-muertos/create-your-own-alebrije",
+    added: "2026-10-22",
+  },
+
+  {
+    id: 244,
+    title: "Jason\u2019s Deli 50th Anniversary Instant Win Game",
+    type: "instant",
+    prizes: "Grand: 3-Night MGM Grand Las Vegas Stay + 4 United Airlines Flight Vouchers (ARV $5,400) + 100,000+ Instant Prizes: 50 \u00d7 Salad-Bar-for-a-Year ($624 Each), 100 Six Flags Ticket Pairs, 200 AMC Movie Packs, 15,000 \u00d7 $5 Rewards, Free-Food Items + Retro Prizes (Schwinn Bikes, Arcade Cabinets; Total ARV $391,413.82); 18+, Legal US Residents in States with a Jason\u2019s Deli (Free Deli Dollars Rewards Membership)",
+    frequency: "Enter Daily",
+    ends: "2026-10-31",
+    url: "https://www.jasonsdeli.com/deli-brationsweepstakes/",
+    hot: true,
+    added: "2026-10-22",
+  },
+
+  {
+    id: 245,
+    title: "Camel \u201cOut There\u201d Daily Instant Win Game",
+    type: "instant",
+    prizes: "800 Instant: Digital Choice Prepaid Mastercards ($25 or $50 Each; ARV $23,000) + 79 Weekly Prizes (Guitar Setups, Hotel Vouchers, Surfboards; ARV $37,600) + 4 Grand: Concert Experiences or LA/NY/Tropical Trips (ARV $1,500\u2013$2,500 Each; Total ARV $69,600); 50 US + DC, 21+ (Tobacco Consumers; Excl. MA & MI; Free camel.com Account)",
+    frequency: "Enter Daily",
+    ends: "2026-11-04",
+    url: "https://www.camel.com",
+    added: "2026-10-22",
+  },
+
+  {
+    id: 246,
+    title: "DSW Shoebox Shuffle Instant Win Game",
+    type: "instant",
+    prizes: "(5) Grand: $500 DSW Gift Cards + (450) 1,000 DSW VIP Rewards Points ($5 Each) + (50,000) 400 Points ($2 Each) + (100,000) 200 Points ($1 Each; Total ARV $204,750); US, 18+ (Free DSW VIP Rewards Membership)",
+    frequency: "Enter Daily",
+    ends: "2026-10-25",
+    url: "https://www.dsw.com/vip-game",
+    added: "2026-10-22",
+  },
+
+  {
+    id: 247,
+    title: "AARP Texas Roadhouse Instant Win Game",
+    type: "instant",
+    prizes: "200 Instant Winners: $10 Texas Roadhouse Gift Cards (Redeemable at Texas Roadhouse, Bubba\u2019s 33, Jaggers); 50 US + DC, 18+ (Free AARP Rewards Registration \u2014 No Paid Membership; Limit 1 Prize/Person)",
+    frequency: "Enter Daily",
+    ends: "2026-10-27",
+    url: "https://sweeps.aarp.org/",
+    added: "2026-10-22",
+  },
+
+  {
+    id: 248,
+    title: "AARP Bed Bath & Beyond Instant Win Game",    type: "instant",
+    prizes: "200 Instant Winners: $10 Bed Bath & Beyond Gift Cards; 50 US + DC, 18+ (Free AARP Rewards Registration \u2014 No Paid Membership; Limit 1 Prize/Person)",
+    frequency: "Enter Daily",
+    ends: "2026-10-24",
+    url: "https://sweeps.aarp.org/",
+    added: "2026-10-22",
+  },
+
+  {
+    id: 249,
+    title: "Dr. Squatch \u00d7 IShowSpeed Loot Box Bundle Sweepstakes",
+    type: "instant",
+    prizes: "25 Instant Winners: $10,000 Cash Each (Total Loot-Box Pool $250,000); 50 US + DC, 18+ (No Purchase Necessary \u2014 Up to 5 Free Scratchers/Person via AMOE Form; Scratch to Reveal Instant Win)",
+    frequency: "Enter Once",
+    ends: "2026-10-25",
+    url: "https://speedrunmdm.com",
+    hot: true,
+    added: "2026-10-22",
+  },
+
   // ---- Sweepstakes ----
 
   {
@@ -482,29 +509,7 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-10-16",
   },
 
-  {
-    id: 164,
-    title: "Sapporo “Flyaway to Japan” Sweepstakes",
-    type: "sweepstakes",
-    prizes: "Grand: Trip for 2 to Tokyo, Japan — Round-Trip Airfare, 4-Night Hotel, $1,500 Prize Check (ARV $7,100) + 5 × Onimusha Custom Fan Kits (ARV $1,000 Each); 50 US + DC, 21+",
-    frequency: "Enter Once",
-    ends: "2026-12-31",
-    url: "https://www.sapporotojapan.com",
-    hot: true,
-    added: "2026-10-16",
-  },
 
-  {
-    id: 166,
-    title: "Hallmark Channel “Countdown To Christmas” Sweepstakes",
-    type: "sweepstakes",
-    prizes: "Grand: $20,000 Check + $250 Spoonful of Comfort Gift Card (ARV $20,250) + 11 Weekly Prizes of $1,000 + Gift Packages (Total ARV $32,759.89); 50 US + DC + PR, 18+",
-    frequency: "Enter Once",
-    ends: "2026-12-29",
-    url: "https://christmasmoviegame.hallmarkchannel.com",
-    hot: true,
-    added: "2026-10-16",
-  },
 
   {
     id: 178,
@@ -743,6 +748,98 @@ const SWEEPSTAKES: Listing[] = [
     ends: "2026-12-19",
     url: "https://www.wheeloffortune.com",
     added: "2026-10-21",
+  },
+
+  {
+    id: 250,
+    title: "Montana Knife Company Ultimate Basecamp 4x4 RV Giveaway",
+    type: "sweepstakes",
+    prizes: "Grand: Ridge XT Overlander 4x4 RV + Gear Package (Traeger Ironwood 885, MKC Culinary Set, $1,500 Boot Barn Gift Card, Solar Generator, Bakcou eBike, Vortex Optics, YETI Package, Sitka, Rumpl; ARV $183,000) OR $100,000 Cash Substitute + Gear (ARV $119,000); US (Excl. NY & FL) + DC, 18+ (Valid Driver\u2019s License)",
+    frequency: "Enter Once",
+    ends: "2026-12-01",
+    url: "https://www.montanaknifecompany.com/pages/ultimate-basecamp-4x4-rv-giveaway",
+    hot: true,
+    added: "2026-10-22",
+  },
+
+  {
+    id: 251,
+    title: "Ford NASCAR Cup Series Chase Sweepstakes",
+    type: "sweepstakes",
+    prizes: "Grand: 2026 Ford F-150 Raptor (Up to $94,360 ARV) + 10 Weekly Prizes (Autographed Ford Racing Flags, Swag Bags, NASCAR Shop Gift Cards, Race Tickets, Merch Packages; Total Prize Value $96,860); 50 US + DC, 18+ (Valid Driver\u2019s License)",
+    frequency: "Enter Daily",
+    ends: "2026-11-08",
+    url: "https://thechasefordpromo.nascar.com/",
+    hot: true,
+    added: "2026-10-22",
+  },
+
+  {
+    id: 252,
+    title: "Redline Society RS61 Twin Turbo F-150 Giveaway",
+    type: "sweepstakes",
+    prizes: "Grand: Twin Turbo Ford F-150 (5.0L Coyote V8, 1,300+ WHP, MSRP ~$90,000) + $30,000 Cash Check (Total ARV $120,000); 50 US + DC, 18+ (No Purchase Necessary \u2014 Free Entry Path per Official Rules)",
+    frequency: "Enter Once",
+    ends: "2027-01-07",
+    url: "https://redlinesociety.com/giveaways/rs61-twin-turbo-f150",
+    hot: true,
+    added: "2026-10-22",
+  },
+
+  {
+    id: 253,
+    title: "PCH Cadillac Escalade ESV Giveaway",
+    type: "sweepstakes",
+    prizes: "Grand: Cadillac Escalade ESV 4WD Sport OR $75,000 Cash; US, 21+ (No Purchase Necessary; Free Mail-in Entry Option)",
+    frequency: "Enter Once",
+    ends: "2026-12-17",
+    url: "https://www.pch.com/pages/giveaway-m002",
+    hot: true,
+    added: "2026-10-22",
+  },
+
+  {
+    id: 254,
+    title: "Eckler\u2019s $6,000 Sweepstakes",
+    type: "sweepstakes",
+    prizes: "(6) Winners: Payment Vouchers of up to $1,000 Each for AmericanMuscle.com, AmericanTrucks.com, ExtremeTerrain.com, Throtl.com or Ecklers.com (Total ARV $6,000); US + DC + Canada (Excl. FL, NY, RI, QC), 18+",
+    frequency: "Enter Daily",
+    ends: "2026-11-18",
+    url: "https://www.ecklers.com/ek-sweepstakes.html",
+    added: "2026-10-22",
+  },
+
+  {
+    id: 255,
+    title: "TWIX Hallowmas Sweepstakes",
+    type: "sweepstakes",
+    prizes: "Grand: $10,000 Cash + 200 TWIX Bars ($10,314 ARV) + 2 Category Prizes: $5,000 Cash + 100 TWIX Bars Each ($5,157 Each; Total ARV $20,628); 50 US + DC, 18+ (Enter by Uploading a Hallowmas Photo or Short Video)",
+    frequency: "Enter Once",
+    ends: "2026-11-08",
+    url: "https://www.twix.com/hallowmas",
+    added: "2026-10-22",
+  },
+
+  {
+    id: 256,
+    title: "Korea Now \u201cAll You Imagine\u201d Sweepstakes",
+    type: "sweepstakes",
+    prizes: "Grand: 2 Round-Trip Economy Tickets to Incheon, South Korea (ARV $4,000) + 20 \u00d7 K-Beauty Skincare Products (ARV $30 Each; 21 Winners Total); 50 US + DC + Canada (Excl. QC), 18+",
+    frequency: "Enter Once",
+    ends: "2026-11-30",
+    url: "https://www.koreanow.us",
+    added: "2026-10-22",
+  },
+
+  {
+    id: 257,
+    title: "Hallmark Channel \u201cVery Merry Giveaway\u201d Sweepstakes",
+    type: "sweepstakes",
+    prizes: "Grand: 8-Day/7-Night Collette Christmas Markets of Austria & Germany Tour for 2 + $1,000 Check (ARV $10,398) + 103 Daily Prizes (Holiday Prize Packs, Cricut Machines, Biltmore Getaways, Gift Cards, Prepaid Cards; ARV $19,764.34; Total ARV $30,162.34); 50 US + DC + PR, 21+",
+    frequency: "Enter Daily",
+    ends: "2026-12-25",
+    url: "https://verymerrygiveaway.hallmarkchannel.com",
+    added: "2026-10-22",
   },
 
 ];
@@ -1077,7 +1174,7 @@ export default function Home() {
         </section>
 
         <p style={{ color: "#94a3b8", fontSize: "0.8rem", marginTop: "40px", lineHeight: 1.6 }}>
-          Listings last verified October 21, 2026. Always check the official rules on
+          Listings last verified October 22, 2026. Always check the official rules on
           the sponsor&apos;s page before entering. Sweepstakes Central is not affiliated
           with the sponsors listed.
         </p>
