@@ -17,10 +17,10 @@ interface Listing {
   added: string; // YYYY-MM-DD — NEW badge shows when added within the last 3 days
 }
 
-// Listings verified October 22, 2026. Update this list regularly —
+// Listings verified October 23, 2026. Update this list regularly —
 // remove ended sweepstakes and add new ones by editing this file and redeploying.
 const SWEEPSTAKES: Listing[] = [
-// Listings verified October 22, 2026. Update this list regularly —
+// Listings verified October 23, 2026. Update this list regularly —
 // remove ended sweepstakes and add new ones by editing this file and redeploying.
   // ---- Instant Win Games ----
 
@@ -411,6 +411,84 @@ const SWEEPSTAKES: Listing[] = [
     url: "https://speedrunmdm.com",
     hot: true,
     added: "2026-10-22",
+  },
+
+  {
+    id: 258,
+    title: "Frito-Lay \u201cHappy Holi-Lays\u201d Instant Win Game",
+    type: "instant",
+    prizes: "1,297 Instant Winners: Holi-Lays Glass & Wood Chip Bowls, Sweaters, Charcuterie Sets, Lays x Le Creuset Casseroles, Multicookers & More (Total ARV $103,795); 50 US + DC, 18+ (Free Code Request, No Purchase Necessary; Entry Opens Oct 26, 2026)",
+    frequency: "Enter Daily",
+    ends: "2026-12-27",
+    url: "https://www.happyholi-lays.com",
+    hot: true,
+    added: "2026-10-23",
+  },
+
+  {
+    id: 259,
+    title: "Skrewball Peanut Butter Whiskey \u201cHalloween\u201d Instant Win Game",
+    type: "instant",
+    prizes: "200 Instant Winners: Halloween Costume Set for 4 (1 Skrewball Bottle Costume + 3 Shot Costumes; No Alcohol Included; ARV $35 Each; Total ARV $7,000); 50 US + DC, 21+",
+    frequency: "Enter Daily",
+    ends: "2026-11-15",
+    url: "https://www.skrewballwhiskey.com",
+    added: "2026-10-23",
+  },
+
+  {
+    id: 260,
+    title: "Natural Light \u201cGreat Prizes\u201d Instant Win Game",
+    type: "instant",
+    prizes: "60 Instant Winners Across 12 Entry Periods: Natty Merch Incl. LED Signs, Coolers, Dartboards, Boat Shoes, Garden Gnomes & Recliner Chairs (ARV $30\u2013$407 Each); 50 US + DC, 21+",
+    frequency: "Enter Daily",
+    ends: "2026-12-31",
+    url: "https://www.naturallight.com/GreatPrizes",
+    added: "2026-10-23",
+  },
+
+  {
+    id: 261,
+    title: "76 / Phillips 66 / Conoco \u201cFeedback Giveaway\u201d Instant Win Game",
+    type: "instant",
+    prizes: "100 Instant Winners: $10 Gas Gift Cards Each + 3 Monthly $100 Gift Card Drawings (Total ARV $1,300); US, Licensed Drivers of Majority Age (Entry via Customer Survey or Free Mail-in AMOE; Limit 1 Play/Day, 15 Total)",
+    frequency: "Enter Daily",
+    ends: "2026-12-31",
+    url: "https://76feedback.com",
+    added: "2026-10-23",
+  },
+
+  {
+    id: 262,
+    title: "Hidden Valley \u201cSpooky Ranch Movie Adventure\u201d Instant Win Game",
+    type: "instant",
+    prizes: "100 Instant Winners: Prize Pack of $25 Fandango Gift Card + $75 Walmart Gift Card (ARV $100 Each; Total ARV $10,000); 50 US + DC, 18+",
+    frequency: "Enter Daily",
+    ends: "2026-10-31",
+    url: "https://www.hiddenvalley.com/spooky-ranch-movie-adventure",
+    added: "2026-10-23",
+  },
+
+  {
+    id: 263,
+    title: "Recreation \u201cBondi Beach\u201d Instant Win Giveaway",
+    type: "instant",
+    prizes: "10 Instant Winners: $500 Recreation Prize Pack Each (Choice of Fragrance, Skincare & Body Mists) + Every Entrant Gets 10% Off (Australian Sponsor; No Age Restriction Stated; One Entry Per Email)",
+    frequency: "Enter Once",
+    ends: "2026-10-31",
+    url: "https://recreationbeauty.com/pages/win-1-of-10-x-500-recreation-packs",
+    added: "2026-10-23",
+  },
+
+  {
+    id: 264,
+    title: "Cape Kennedy Clothing \u201cMonthly\u201d Instant Win Sweepstakes",
+    type: "instant",
+    prizes: "25 Winners Per Monthly Period: Cape Kennedy Shirt of Choice w/ Free Shipping (ARV $69.99 Each; $1,749.75 October Pool); 50 US + DC, 18+ (One Entry Per Person Per Period)",
+    frequency: "Enter Once",
+    ends: "2026-10-31",
+    url: "https://capekennedyclothing.com",
+    added: "2026-10-23",
   },
 
   // ---- Sweepstakes ----
@@ -842,6 +920,84 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-10-22",
   },
 
+  {
+    id: 266,
+    title: "LPGA Ford Tee-To-Trail Sweepstakes 2026",
+    type: "sweepstakes",
+    prizes: "Grand: 2026 Ford Bronco Badlands w/ Sasquatch Package (MSRP $57,925) + Golf Trip for Winner + 3 Guests to an LPGA-Sanctioned Course (ARV $6,000; Total ARV up to $63,925); 50 US + DC, 21+ (Valid US Driver\u2019s License)",
+    frequency: "Enter Once",
+    ends: "2026-11-22",
+    url: "https://www.lpga.com/ford-tee-to-trail-sweepstakes",
+    hot: true,
+    added: "2026-10-23",
+  },
+
+  {
+    id: 267,
+    title: "Perdue Holiday Drop Sweepstakes",
+    type: "sweepstakes",
+    prizes: "(5) Grand: NYC Holiday Dinner Trip for 2 \u2014 RT Airfare, 2 Nights at a Manhattan Moxy Hotel, Exclusive Food Network Kitchen Holiday Dinner w/ Chef Lorenzo Espada (Dec 2), $1,000 Visa Prepaid Card + $1,750 Visa Prepaid Tax Card (ARV $6,850 Each); 48 Contiguous US + DC, 18+ (19+ AL/NE, 21+ MS)",
+    frequency: "Enter Daily",
+    ends: "2026-11-06",
+    url: "https://www.perdue.com/holiday-drop",
+    added: "2026-10-23",
+  },
+
+  {
+    id: 268,
+    title: "Visit Orlando Win an Orlando Family Vacation Sweepstakes",
+    type: "sweepstakes",
+    prizes: "Grand: 4-Day/3-Night Walt Disney World Trip for 4 \u2014 4 \u00d7 $250 Frontier Flight Vouchers, 3 Nights at a Moderate Disney Resort Hotel, 4 \u00d7 4-Day Park Hopper Tickets (ARV $4,950); 48 Contiguous US + DC, 21+",
+    frequency: "Enter Daily",
+    ends: "2027-01-18",
+    url: "https://www.visitorlando.com/win-a-trip/",
+    added: "2026-10-23",
+  },
+
+  {
+    id: 269,
+    title: "DAXXIFY 3 For 3 Sweepstakes",
+    type: "sweepstakes",
+    prizes: "(3) Winners: $7,200 Check Each for 3 Years of DAXXIFY Treatments (Total ARV $21,600); 50 US + DC, 21+",
+    frequency: "Enter Once",
+    ends: "2026-12-31",
+    url: "https://www.daxxify.com/lp/3for3-sweeps",
+    added: "2026-10-23",
+  },
+
+  {
+    id: 270,
+    title: "Michelob Ultra Greenside Pass 2026 Sweepstakes",
+    type: "sweepstakes",
+    prizes: "Entry Period 4: (1) Custom Golf Club Fitting + Golf Clubs, Round of Golf for 4 at a TPC Course + 1-Yr 18 Birdies Subscription (ARV $4,900); (5) Grab & Go Golf Kits + 1-Yr 18 Birdies Subscription (ARV $89.14 Each; Total ARV $21,369); 50 US + DC, 21+",
+    frequency: "Enter Once",
+    ends: "2027-01-31",
+    url: "https://www.michelobultra.com/superioraccess/greenside26",
+    added: "2026-10-23",
+  },
+
+  {
+    id: 271,
+    title: "2027 Genesis Invitational Dream Sweepstakes",
+    type: "sweepstakes",
+    prizes: "Grand: Golf for 2 at Riviera Country Club (Preview Day Jan 25, 2027) + Honorary Observer + Backlot VIP Hospitality at the 2027 Tournament, Aventon E-Bike, 2 Vortex Rangefinders, Weeklong Grounds Passes (ARV $17,280) + 3 Runner-Up Prizes (2 Single-Day Grounds Tickets + Rangefinder, $660 Each); 50 US + DC, 18+ (Airfare/Hotel Not Included)",
+    frequency: "Enter Once",
+    ends: "2026-11-30",
+    url: "https://genesisinvitational.com/2027-sweepstakes/",
+    added: "2026-10-23",
+  },
+
+  {
+    id: 272,
+    title: "Good Sam Ultimate Ice Fishing Giveaway 2026",
+    type: "sweepstakes",
+    prizes: "(3) Grand: Ice Castle Fish House 6.5x12 V Special ($19,400 MSRP); 2-Night Stay at Trapper\u2019s Landing Lodge, Leech Lake MN ($1,799); Reed\u2019s Sporting Goods Ice Fishing Package ($1,700); US (Excl. PR) + Canada (Excl. QC), 18+",
+    frequency: "Enter Once",
+    ends: "2026-12-06",
+    url: "https://gleam.io/8JzGD/the-ultimate-ice-fishing-giveaway-2026",
+    added: "2026-10-23",
+  },
+
 ];
 
 
@@ -1174,7 +1330,7 @@ export default function Home() {
         </section>
 
         <p style={{ color: "#94a3b8", fontSize: "0.8rem", marginTop: "40px", lineHeight: 1.6 }}>
-          Listings last verified October 22, 2026. Always check the official rules on
+          Listings last verified October 23, 2026. Always check the official rules on
           the sponsor&apos;s page before entering. Sweepstakes Central is not affiliated
           with the sponsors listed.
         </p>
