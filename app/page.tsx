@@ -17,10 +17,10 @@ interface Listing {
   added: string; // YYYY-MM-DD — NEW badge shows when added within the last 3 days
 }
 
-// Listings verified October 23, 2026. Update this list regularly —
+// Listings verified October 24, 2026. Update this list regularly —
 // remove ended sweepstakes and add new ones by editing this file and redeploying.
 const SWEEPSTAKES: Listing[] = [
-// Listings verified October 23, 2026. Update this list regularly —
+// Listings verified October 24, 2026. Update this list regularly —
 // remove ended sweepstakes and add new ones by editing this file and redeploying.
   // ---- Instant Win Games ----
 
@@ -489,6 +489,73 @@ const SWEEPSTAKES: Listing[] = [
     ends: "2026-10-31",
     url: "https://capekennedyclothing.com",
     added: "2026-10-23",
+  },
+
+  {
+    id: 273,
+    title: "Jameson Irish Whiskey \u201cFirst Round on Us\u201d Instant Win Game",
+    type: "instant",
+    prizes: "5,000 Instant Winners: $20 via PayPal or Venmo Toward Your Next Round of Jameson (Total ARV $100,000); 21+, Legal Residents of AZ, HI, IN, KY, LA, ME, MD, MA, MS, NH, NC, OR, PA, TN, TX, UT, VA Only",
+    frequency: "Enter Daily",
+    ends: "2026-11-30",
+    url: "https://www.jamesonwhiskey.com/en-us/first-round-on-jameson-sweeps",
+    hot: true,
+    added: "2026-10-24",
+  },
+
+  {
+    id: 274,
+    title: "Jameson Irish Whiskey \u201cFall Sports\u201d Instant Win Game",
+    type: "instant",
+    prizes: "105 Instant Winners: 13 \u00d7 $1,500 Toward Streaming Services (via PayPal/Venmo) + 92 Replica Football Jerseys ($25 Each; Total ARV $21,800); 50 US + DC, 21+ (Valid Driver\u2019s License or Gov\u2019t Photo ID)",
+    frequency: "Enter Daily",
+    ends: "2026-10-31",
+    url: "https://www.jamesonwhiskey.com/en-us/its-on",
+    added: "2026-10-24",
+  },
+
+  {
+    id: 275,
+    title: "AARP \u201cMovies for Grownups\u201d Sweepstakes + Instant Win Game",
+    type: "instant",
+    prizes: "597 Instant-Win Amazon Gift Cards (2 \u00d7 $500, 5 \u00d7 $50, 20 \u00d7 $20, 100 \u00d7 $10, 470 \u00d7 $5) + Grand: Trip for 2 to Los Angeles for the Movies for Grownups Awards (ARV $10,900); 50 US + DC, 21+ (Free AARP.org Account)",
+    frequency: "Enter Daily",
+    ends: "2026-11-16",
+    url: "https://www.aarp.org/membership/sweeps/movies-for-grownups-sweepstakes/",
+    added: "2026-10-24",
+  },
+
+  {
+    id: 276,
+    title: "AARP Rewards Amazon Instant Win Game",
+    type: "instant",
+    prizes: "15 Instant Winners: $100 Amazon.com eGift Cards Each (Total ARV $1,500); 50 US + DC, 18+ (Free AARP Rewards Enrollment \u2014 No Paid Membership)",
+    frequency: "Enter Daily",
+    ends: "2026-10-26",
+    url: "https://sweeps.aarp.org/",
+    added: "2026-10-24",
+  },
+
+  {
+    id: 277,
+    title: "AARP Rewards Michaels Instant Win Game",
+    type: "instant",
+    prizes: "200 Instant Winners: $10 Michaels Gift Cards Each (Total ARV $2,000); 50 US + DC, 18+ (Free AARP Rewards Enrollment \u2014 No Paid Membership; Free No-Points Entry Form)",
+    frequency: "Enter Daily",
+    ends: "2026-10-29",
+    url: "https://sweeps.aarp.org/",
+    added: "2026-10-24",
+  },
+
+  {
+    id: 278,
+    title: "AARP Rewards Publix Instant Win Game",
+    type: "instant",
+    prizes: "200 Instant Winners: $10 Publix eGift Cards Each (Total ARV $2,000); 50 US + DC, 18+ (Free AARP Rewards Enrollment \u2014 No Paid Membership)",
+    frequency: "Enter Daily",
+    ends: "2026-10-28",
+    url: "https://sweeps.aarp.org/",
+    added: "2026-10-24",
   },
 
   // ---- Sweepstakes ----
@@ -998,6 +1065,84 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-10-23",
   },
 
+  {
+    id: 279,
+    title: "Best Buy \u201cStore Speedrun\u201d Sweepstakes",
+    type: "sweepstakes",
+    prizes: "Grand: 3-Day/2-Night Minnesota Trip for 2 + 2-Minute Best Buy Store Speedrun to Keep Up to $20,000 in Tech + $7,000 Tax Payment (ARV $30,000) + 20 HP OMEN Laptops ($2,599.99 Each) + 100 \u00d7 $50 My Best Buy Certificates (Total ARV $86,999.80); 50 US + DC + PR, 18+ (or Age of Majority)",
+    frequency: "Enter Daily",
+    ends: "2026-11-30",
+    url: "https://www.bestbuy.com/store-speedrun-sweepstakes",
+    hot: true,
+    added: "2026-10-24",
+  },
+
+  {
+    id: 280,
+    title: "Renewal by Andersen \u201cRenew Your Home\u201d Sweepstakes",
+    type: "sweepstakes",
+    prizes: "(4) Grand: $25,000 Gift Certificates Each Toward Renewal by Andersen Products + Installation (Total ARV $100,000); 50 US (Excl. HI) + DC + BC/Ontario, Age of Majority (Retailer-Served Areas Only)",
+    frequency: "Enter Once",
+    ends: "2027-01-12",
+    url: "https://renewyourhome.featuredpromo.com/",
+    added: "2026-10-24",
+  },
+
+  {
+    id: 281,
+    title: "Cricket Wireless \u201cZoo Atlanta Flyaway\u201d Sweepstakes",
+    type: "sweepstakes",
+    prizes: "Grand: Trip for 4 to Zoo Atlanta \u2014 RT Coach Airfare, 2 Hotel Nights, Ground Transportation, 4 Zoo Tickets + $1,000 Prepaid Gift Card (ARV $10,000); 50 US + DC, 21+",
+    frequency: "Enter Daily",
+    ends: "2026-12-04",
+    url: "https://www.cricketsweepstakes.com/zooatlanta",
+    added: "2026-10-24",
+  },
+
+  {
+    id: 282,
+    title: "Disney+ Perks \u201cCollege Football Game\u201d Sweepstakes",
+    type: "sweepstakes",
+    prizes: "(2) Winners: 3-Day/2-Night Trip for 2 to the Texas at Texas A&M Game (Nov 27, 2026, College Station, TX) \u2014 Airfare, 2 Hotel Nights, 2 Game Tickets + $500 Cash (ARV $4,100 Each; Total ARV $8,200); 50 US + DC, 18+ (Disney+ Perks Login Required; Email AMOE Available)",
+    frequency: "Enter Daily",
+    ends: "2026-11-06",
+    url: "https://perks.disneyplus.com",
+    added: "2026-10-24",
+  },
+
+  {
+    id: 283,
+    title: "Seagram\u2019s Escapes \u201cEscape the Bustle\u201d Sweepstakes",
+    type: "sweepstakes",
+    prizes: "25 Winners: Backyard Movie-Night Prize Packs \u2014 iLive Cinema Pop-up Movie Theatre Kit, 5\u2019 Faux Fur Bean Bag, Faux Fur Throw + Movie Time Snack Bucket (ARV $519.05 Each; Total ARV $12,976.25); 50 US, 21+",
+    frequency: "Enter Once",
+    ends: "2026-10-31",
+    url: "https://www.seagramsescapes.com/escapethebustle",
+    added: "2026-10-24",
+  },
+
+  {
+    id: 284,
+    title: "SEGA Shop \u201cSonic 35th Anniversary Memories and Beyond\u201d Sweepstakes",
+    type: "sweepstakes",
+    prizes: "Grand: Nintendo Switch 2 + 3 Sonic Games + $500 SEGA Shop Gift Card + Art Print, Varsity Jacket, Crossbody Bag, Hat + Mug (ARV $1,484.94) + 3 Secondary Prizes ($89.98 Each) + 5 Tertiary Prizes ($42.98 Each; Total ARV $1,969.78); 50 US + DC, 18+",
+    frequency: "Enter Once",
+    ends: "2026-10-29",
+    url: "https://shop.sega.com/pages/sonic-the-hedgehog-35th-anniversary-memories-and-beyond-sweepstakes",
+    added: "2026-10-24",
+  },
+
+  {
+    id: 285,
+    title: "Pepsi \u00d7 Off Season \u201cCan Jacket\u201d Sweepstakes",
+    type: "sweepstakes",
+    prizes: "14,000 Winners: Mini NFL Puffer Can Jackets \u2014 900 Per Each of 15 NFL Teams + 500 Pepsi \u00d7 Off Season Designs (ARV $30 Each; Total ARV $420,000); 50 US + DC, 18+ (19+ AL/NE)",
+    frequency: "Enter Daily",
+    ends: "2026-11-30",
+    url: "https://offseasonpepsisweeps.com",
+    added: "2026-10-24",
+  },
+
 ];
 
 
@@ -1330,7 +1475,7 @@ export default function Home() {
         </section>
 
         <p style={{ color: "#94a3b8", fontSize: "0.8rem", marginTop: "40px", lineHeight: 1.6 }}>
-          Listings last verified October 23, 2026. Always check the official rules on
+          Listings last verified October 24, 2026. Always check the official rules on
           the sponsor&apos;s page before entering. Sweepstakes Central is not affiliated
           with the sponsors listed.
         </p>
