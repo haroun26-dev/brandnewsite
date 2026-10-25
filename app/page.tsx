@@ -17,10 +17,10 @@ interface Listing {
   added: string; // YYYY-MM-DD — NEW badge shows when added within the last 3 days
 }
 
-// Listings verified October 24, 2026. Update this list regularly —
+// Listings verified October 25, 2026. Update this list regularly —
 // remove ended sweepstakes and add new ones by editing this file and redeploying.
 const SWEEPSTAKES: Listing[] = [
-// Listings verified October 24, 2026. Update this list regularly —
+// Listings verified October 25, 2026. Update this list regularly —
 // remove ended sweepstakes and add new ones by editing this file and redeploying.
   // ---- Instant Win Games ----
 
@@ -391,15 +391,6 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-10-22",
   },
 
-  {
-    id: 248,
-    title: "AARP Bed Bath & Beyond Instant Win Game",    type: "instant",
-    prizes: "200 Instant Winners: $10 Bed Bath & Beyond Gift Cards; 50 US + DC, 18+ (Free AARP Rewards Registration \u2014 No Paid Membership; Limit 1 Prize/Person)",
-    frequency: "Enter Daily",
-    ends: "2026-10-24",
-    url: "https://sweeps.aarp.org/",
-    added: "2026-10-22",
-  },
 
   {
     id: 249,
@@ -556,6 +547,51 @@ const SWEEPSTAKES: Listing[] = [
     ends: "2026-10-28",
     url: "https://sweeps.aarp.org/",
     added: "2026-10-24",
+  },
+
+
+  {
+    id: 286,
+    title: "Skrewball Peanut Butter Whiskey \u201cCollege Tailgate Tour\u201d Instant Win Game",
+    type: "instant",
+    prizes: "Grand: Las Vegas Trip for 2 \u2014 Airfare, 2 Hotel Nights, Event Tickets or $3,000 Ticket Gift Card (ARV $6,000; Travel Jan 24\u201326, 2027) + 20 Instant-Win Skrewball Hats ($15 Each; Total ARV $6,300); 50 US + DC, 21+ (Valid Photo ID)",
+    frequency: "Enter Daily",
+    ends: "2027-01-10",
+    url: "https://www.skrewballwhiskey.com/en/collegetailgatetour",
+    added: "2026-10-25",
+  },
+
+  {
+    id: 287,
+    title: "Mondel\u00e8z \u201cPack a Snacktime Friend\u201d Instant Win Game",
+    type: "instant",
+    prizes: "Grand: Trip for 4 to Winner\u2019s Choice of US Destination (ARV $15,730) + 378 Instant Prizes: 100 \u00d7 1-Year Disney+ Premium ($228 Each), 139 \u00d7 $80 Movie E-Gift Cards, 139 \u00d7 Snack Product Coupons (Up to $7; Total ARV $50,623); 50 US + DC + PR, 18+",
+    frequency: "Enter Daily",
+    ends: "2026-10-31",
+    url: "https://www.backtoschoolsnacks.com",
+    added: "2026-10-25",
+  },
+
+  {
+    id: 288,
+    title: "Smirnoff Ice \u201cHalloween\u201d Instant Win Game",
+    type: "instant",
+    prizes: "100 Instant Winners: Smirnoff Ice Branded Adult Halloween Costumes (ARV $45 Each; Total ARV $4,500); 48 Contiguous US (Excl. VA) + DC, 21+",
+    frequency: "Enter Weekly",
+    ends: "2026-10-31",
+    url: "https://www.spiritspromos.com/smirnoff-ice/halloween-sweeps",
+    added: "2026-10-25",
+  },
+
+  {
+    id: 289,
+    title: "BeatBox \u201cXtreme Sour Black Cherry Spin & Win\u201d Instant Win Game",
+    type: "instant",
+    prizes: "Grand: $6,000 Prepaid Card + Xtreme BeatBox Swag (ARV $6,500) + Instant-Win Speakers, Coolers & Gift Cards (Total ARV $38,775); US (Excl. FL, NY), 21+",
+    frequency: "Enter Once",
+    ends: "2026-10-31",
+    url: "https://witcontests.com/beatbox-xtreme-sour-black-cherry-sweepstakes-age-verification",
+    added: "2026-10-25",
   },
 
   // ---- Sweepstakes ----
@@ -1143,6 +1179,87 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-10-24",
   },
 
+
+  {
+    id: 290,
+    title: "Music City Nashville \u201cGrand Holiday Escape\u201d Sweepstakes",
+    type: "sweepstakes",
+    prizes: "Grand: 3-Night Gaylord Opryland Resort Stay for Winner + 3 Guests (Dec 12\u201315, 2026) \u2014 4 Tickets Each to Opry Country Christmas, POMP/SNOW/CIRQUEumstance & ice! Featuring HOME ALONE + $500 Dining Credit + 2 Music City Gift Bags (ARV $2,365); 48 Contiguous US + DC, 18+",
+    frequency: "Enter Once",
+    ends: "2026-11-22",
+    url: "https://www.visitmusiccity.com/winatrip",
+    added: "2026-10-25",
+  },
+
+  {
+    id: 291,
+    title: "Ford \u201cBronco Wild Fund\u201d Sweepstakes",
+    type: "sweepstakes",
+    prizes: "Grand: 2026 Ford Bronco Big Bend SUV (Value Capped at $50,000 Incl. Fees/Tax) + $10,000 Check (Total ARV $60,000); 50 US + DC, 18+ (Valid Driver\u2019s License)",
+    frequency: "Enter Once",
+    ends: "2026-11-30",
+    url: "https://fordeventreg.com/BWFGeneralRegistration",
+    hot: true,
+    added: "2026-10-25",
+  },
+
+  {
+    id: 292,
+    title: "House of Suntory \u201cJapan Travel Package\u201d Promotion",
+    type: "sweepstakes",
+    prizes: "Grand: Japan Trip for 2 \u2014 Round-Trip Economy Airfare, 4 Nights Tokyo + 2 Nights Kyoto, First-Class Shinkansen Tokyo\u2013Kyoto, Yamazaki Distillery Tour, Osaka Day Trip + Cocktail/Dining Experiences (ARV $21,550; Travel in 2027, No Alcohol in Prize); 50 US + DC, Canada (Excl. QC) & UK, 21+ (SMS Verification Required)",
+    frequency: "Enter Once",
+    ends: "2026-12-01",
+    url: "https://house.suntory.com/mysuntorytime",
+    hot: true,
+    added: "2026-10-25",
+  },
+
+  {
+    id: 293,
+    title: "Getaways by Southwest \u201cEmail\u201d Sweepstakes",
+    type: "sweepstakes",
+    prizes: "Grand: $3,500 Getaways by Southwest Voucher Toward a Vacation Package (Round-Trip Southwest Flights for 2 + Min. 3 Hotel Nights; Voucher Only, Costs Above $3,500 Winner\u2019s Responsibility; ARV $3,500); 50 US + DC, 21+ (Entry by Subscribing to Getaways by Southwest Emails)",
+    frequency: "Enter Once",
+    ends: "2026-11-02",
+    url: "https://www.southwest.com/GetawaysEmailSweeps",
+    added: "2026-10-25",
+  },
+
+  {
+    id: 294,
+    title: "Visit Beloit \u201cConnect in Beloit\u201d Sweepstakes",
+    type: "sweepstakes",
+    prizes: "Grand: 2 Nights at Hotel Goodwin (~$300) + $100 Benedetti\u2019s Supper Club + $100 Butterfly Club + $50 Maxine\u2019s Social + $50 Rooftop at Hotel Goodwin Gift Cards (Total ~$600); 50 US + DC + Canada (Excl. QC), 18+",
+    frequency: "Enter Once",
+    ends: "2026-12-31",
+    url: "https://visitbeloit.com/win/",
+    added: "2026-10-25",
+  },
+
+  {
+    id: 295,
+    title: "INSP \u201cFrontier Feast\u201d Sweepstakes",
+    type: "sweepstakes",
+    prizes: "Grand: 7-Quart Crockpot Slow Cooker + 20-Piece Blue Willow China Set + $250 Visa Gift Card (ARV $525); 50 US + DC, 18+",
+    frequency: "Enter Daily",
+    ends: "2026-11-02",
+    url: "https://www.insp.com/sweepstakes/frontier-feast-sweepstakes/",
+    added: "2026-10-25",
+  },
+
+  {
+    id: 296,
+    title: "FedEx \u201cSuper Bowl LXI\u201d Sweepstakes",
+    type: "sweepstakes",
+    prizes: "2 Grand: 5-Day/4-Night Trip for 2 to Super Bowl LXI in LA \u2014 Airfare, 4 Hotel Nights, NFL Alumni Welcome Reception, Players Tailgate Party, 2 Lower-Level End-Zone/Corner Tickets + Gift Bag (ARV $39,500 Each) + Mid-Campaign: Trip for 2 to the 2027 NFL Draft (ARV $22,100) + 1 \u00d7 $10,000 Check, 1 \u00d7 $5,000 Check, 2 \u00d7 $2,500 Checks; 50 US + DC or Canada, Age of Majority (Free Online Registration Entry)",
+    frequency: "Enter Once",
+    ends: "2026-12-11",
+    url: "https://www.fedex.com/nflsweeps",
+    hot: true,
+    added: "2026-10-25",
+  },
+
 ];
 
 
@@ -1475,7 +1592,7 @@ export default function Home() {
         </section>
 
         <p style={{ color: "#94a3b8", fontSize: "0.8rem", marginTop: "40px", lineHeight: 1.6 }}>
-          Listings last verified October 24, 2026. Always check the official rules on
+          Listings last verified October 25, 2026. Always check the official rules on
           the sponsor&apos;s page before entering. Sweepstakes Central is not affiliated
           with the sponsors listed.
         </p>
