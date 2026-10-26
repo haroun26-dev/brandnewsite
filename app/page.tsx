@@ -17,10 +17,10 @@ interface Listing {
   added: string; // YYYY-MM-DD — NEW badge shows when added within the last 3 days
 }
 
-// Listings verified October 25, 2026. Update this list regularly —
+// Listings verified October 26, 2026. Update this list regularly —
 // remove ended sweepstakes and add new ones by editing this file and redeploying.
 const SWEEPSTAKES: Listing[] = [
-// Listings verified October 25, 2026. Update this list regularly —
+// Listings verified October 26, 2026. Update this list regularly —
 // remove ended sweepstakes and add new ones by editing this file and redeploying.
   // ---- Instant Win Games ----
 
@@ -369,16 +369,6 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-10-22",
   },
 
-  {
-    id: 246,
-    title: "DSW Shoebox Shuffle Instant Win Game",
-    type: "instant",
-    prizes: "(5) Grand: $500 DSW Gift Cards + (450) 1,000 DSW VIP Rewards Points ($5 Each) + (50,000) 400 Points ($2 Each) + (100,000) 200 Points ($1 Each; Total ARV $204,750); US, 18+ (Free DSW VIP Rewards Membership)",
-    frequency: "Enter Daily",
-    ends: "2026-10-25",
-    url: "https://www.dsw.com/vip-game",
-    added: "2026-10-22",
-  },
 
   {
     id: 247,
@@ -392,17 +382,6 @@ const SWEEPSTAKES: Listing[] = [
   },
 
 
-  {
-    id: 249,
-    title: "Dr. Squatch \u00d7 IShowSpeed Loot Box Bundle Sweepstakes",
-    type: "instant",
-    prizes: "25 Instant Winners: $10,000 Cash Each (Total Loot-Box Pool $250,000); 50 US + DC, 18+ (No Purchase Necessary \u2014 Up to 5 Free Scratchers/Person via AMOE Form; Scratch to Reveal Instant Win)",
-    frequency: "Enter Once",
-    ends: "2026-10-25",
-    url: "https://speedrunmdm.com",
-    hot: true,
-    added: "2026-10-22",
-  },
 
   {
     id: 258,
@@ -592,6 +571,63 @@ const SWEEPSTAKES: Listing[] = [
     ends: "2026-10-31",
     url: "https://witcontests.com/beatbox-xtreme-sour-black-cherry-sweepstakes-age-verification",
     added: "2026-10-25",
+  },
+
+
+  {
+    id: 297,
+    title: "Miller Lite \u201cFootball 2026\u201d Instant Win Game",
+    type: "instant",
+    prizes: "1,001 Winners: (1,000) $25 Venmo Payments (ARV $25 Each) + National Grand: Trip for 2 to a 2027/28 Regular-Season NFL Game \u2014 Round-Trip Airfare, 2 Hotel Nights, 2 Game Tickets + $250 Spending Money (ARV $3,067); 21+, US (National Entry Excl. ME; Keyword Prizes State-Specific)",
+    frequency: "Enter Daily",
+    ends: "2027-01-03",
+    url: "https://www.millerlite.com/football",
+    hot: true,
+    added: "2026-10-26",
+  },
+
+  {
+    id: 298,
+    title: "Miller High Life \u201cHunt\u201d Instant Win Game",
+    type: "instant",
+    prizes: "500 Winners: (200) 12-Month onX Hunt Premium Memberships (ARV $100 Each) + (100) Baseball Caps (ARV $18 Each) + (100) Winter Hats (ARV $18 Each) + (100) Decks of Cards (ARV $5 Each; Total ARV $24,100); MN, ND, WI Only, 21+ (Limit 1 Prize Per Household)",
+    frequency: "Enter Daily",
+    ends: "2026-12-06",
+    url: "https://mc.beveragepromo.com/263026",
+    added: "2026-10-26",
+  },
+
+  {
+    id: 299,
+    title: "Dr Pepper and Cheez-It \u201cFall Football\u201d Instant Win Game",
+    type: "instant",
+    prizes: "3,150 Winners: (600) $25 eGift Cards (Fanatics or Xbox) or $25 Fandango Promo Codes + (2,550) $10 eGift Cards or $10 Fandango Promo Codes (Total ARV $40,500); 50 US + DC, 18+ (Limit 1 Prize Per Person)",
+    frequency: "Enter Daily",
+    ends: "2026-10-31",
+    url: "https://www.DrPepperCheezItGame.com",
+    added: "2026-10-26",
+  },
+
+  {
+    id: 300,
+    title: "Dairy Queen \u201cMystery Blizzard Plushies\u201d Instant Win Game",
+    type: "instant",
+    prizes: "20 Winners: (10) US Winners: Free Blizzard Treats for a Year as a $750 DQ Gift Card Each + (10) Canadian Winners: DQ Gift Card Worth $1,025 CAD Each; US + DC (Excl. TX) + Canada (Excl. QC), 18+ (DQ Rewards Members; Free Mail-in Entry Available)",
+    frequency: "Enter Daily",
+    ends: "2026-10-31",
+    url: "https://www.dairyqueen.com/en-us/plushie-sweeps",
+    added: "2026-10-26",
+  },
+
+  {
+    id: 301,
+    title: "Reolink \u201cHalloween Pumpkin Smash\u201d Instant Win Game",
+    type: "instant",
+    prizes: "16 Winners: (3) Elite Floodlight WiFi Cameras ($249.99 Each) + (3) Solar Floodlight Cams ($128.99 Each) + (10) E1 Cameras ($45.99 Each) Awarded as 100%-Off Product Coupons (Redeem by Nov 5, 2026); 18+ or Age of Majority, Logged-in Reolink Account (Void Where Prohibited)",
+    frequency: "Enter Daily",
+    ends: "2026-11-01",
+    url: "https://reolink.club/FPD2026-COM",
+    added: "2026-10-26",
   },
 
   // ---- Sweepstakes ----
@@ -1260,6 +1296,85 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-10-25",
   },
 
+
+  {
+    id: 302,
+    title: "Avon \u201cBeauty & Cheer\u201d Sweepstakes",
+    type: "sweepstakes",
+    prizes: "4 Winners: Avon Prize Package Each \u2014 Senses S\u2019mores & Snuggles Bubble Bath, Hand Cream & Whipped Body Butter, Hot Chocolate Lip Balm, Anew Serums/Creams, Imari Dreams Eau de Parfum, fmg Glimmer Makeup, Jewelry, Holiday Mug + Reindeer Countdown to Christmas (ARV $576 Each; Total ARV $2,304); 50 US + DC, 18+",
+    frequency: "Enter Once",
+    ends: "2026-11-17",
+    url: "https://www.avon.com/sweepstakes/beauty--cheer-sweepstakes",
+    added: "2026-10-26",
+  },
+
+  {
+    id: 303,
+    title: "Sony Electronics \u201cDallas Cowboys\u201d WH-1000XM6 Headphones Sweepstakes",
+    type: "sweepstakes",
+    prizes: "5 Winners: Sony x Cowboys WH-1000XM6 Headphones Each (ARV $459.99 Each); 50 US + DC (Excl. Territories), 18+ (19+ AL/NE, 21+ MS)",
+    frequency: "Enter Once",
+    ends: "2026-11-30",
+    url: "https://cloud.email.sel.sony.com/SonyxCowboysHeadphones",
+    added: "2026-10-26",
+  },
+
+  {
+    id: 304,
+    title: "Eckrich \u201cBig Ten Championship Game\u201d Sweepstakes",
+    type: "sweepstakes",
+    prizes: "Grand: Trip for 2 to the 2026 Discover Big Ten Championship Game in Indianapolis (Dec 5, 2026) \u2014 2 Game Tickets, Round-Trip Economy Airfare or Ground Transport Within 150 Miles + 2 Hotel Nights (Dec 4\u20135, 2026; ARV $2,250); US, 18+",
+    frequency: "Enter Once",
+    ends: "2026-11-15",
+    url: "https://eckrich.sfdbrands.com/en-us/promotions/ticket-giveaway/",
+    added: "2026-10-26",
+  },
+
+  {
+    id: 305,
+    title: "Glenmorangie \u201cOnce Upon A Time In Scotland\u201d Sweepstakes",
+    type: "sweepstakes",
+    prizes: "Grand: 3-Night Trip for 2 to Tain, Scotland \u2014 Round-Trip Economy Flights, 3 Nights at The Glenmorangie House with Bed & Breakfast and Dinner, Ground Transport, Glenmorangie Distillery Tour + Highland Activities (ARV $4,800); US + DC, 21+ (Excl. UT)",
+    frequency: "Enter Once",
+    ends: "2026-12-15",
+    url: "https://glenmorangie.wyng.com/OnceUponATimeInScotland",
+    added: "2026-10-26",
+  },
+
+  {
+    id: 306,
+    title: "Santa Margherita \u201cHoliday\u201d Sweepstakes",
+    type: "sweepstakes",
+    prizes: "725 Winners: Set of 5 Scented Candles Inspired by Santa Margherita\u2019s Five Wines (ARV $77 Each); US, 21+ (Listed States Only \u2014 See Official Rules)",
+    frequency: "Enter Once",
+    ends: "2026-12-31",
+    url: "https://www.santamargheritawines.com/holidaygiveaway",
+    added: "2026-10-26",
+  },
+
+  {
+    id: 307,
+    title: "Major League Fishing \u201cBass Pro Shops Z19\u201d Sweepstakes",
+    type: "sweepstakes",
+    prizes: "Grand: Nitro Z19 with 200 L Pro XS Mercury Package (ARV $57,995) + $2,500 Rapala.com Gift Card + Champion 2400W Dual Fuel Inverter (ARV $599.99) + BUBBA Prize Package with Net, Smart Fish Scale + Hat (ARV $433.97; Total ARV $61,528.96); 48 Contiguous US + DC, 18+",
+    frequency: "Enter Daily",
+    ends: "2026-11-20",
+    url: "https://majorleaguefishing.com/promos",
+    hot: true,
+    added: "2026-10-26",
+  },
+
+  {
+    id: 308,
+    title: "Blacktop Ranch \u201cGod\u2019s Country Getaway\u201d Sweepstakes",
+    type: "sweepstakes",
+    prizes: "Grand: Blacktop Ranch Hunt in Junction, TX (Nov 28\u2013Dec 1, 2026) for Winner + 1 Guest 21+ \u2014 Airfare, 3 Nights Lodging, Texas Ground Transport, Onsite Food, All Hunting Expenses, Processing + Shoulder-Mount Taxidermy for One Axis, Blackbuck or Fallow Buck + $500 Clothing Package (ARV $12,400); 50 US + DC (Excl. NY, FL, RI), 18+ (19+ AL/NE, 21+ MS; Fixed Trip Dates)",
+    frequency: "Enter Once",
+    ends: "2026-11-09",
+    url: "https://app.viralsweep.com/sweeps/full/bbce07-239148",
+    added: "2026-10-26",
+  },
+
 ];
 
 
@@ -1592,7 +1707,7 @@ export default function Home() {
         </section>
 
         <p style={{ color: "#94a3b8", fontSize: "0.8rem", marginTop: "40px", lineHeight: 1.6 }}>
-          Listings last verified October 25, 2026. Always check the official rules on
+          Listings last verified October 26, 2026. Always check the official rules on
           the sponsor&apos;s page before entering. Sweepstakes Central is not affiliated
           with the sponsors listed.
         </p>
