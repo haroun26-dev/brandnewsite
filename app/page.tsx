@@ -17,10 +17,10 @@ interface Listing {
   added: string; // YYYY-MM-DD — NEW badge shows when added within the last 3 days
 }
 
-// Listings verified October 26, 2026. Update this list regularly —
+// Listings verified October 27, 2026. Update this list regularly —
 // remove ended sweepstakes and add new ones by editing this file and redeploying.
 const SWEEPSTAKES: Listing[] = [
-// Listings verified October 26, 2026. Update this list regularly —
+// Listings verified October 27, 2026. Update this list regularly —
 // remove ended sweepstakes and add new ones by editing this file and redeploying.
   // ---- Instant Win Games ----
 
@@ -495,16 +495,6 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-10-24",
   },
 
-  {
-    id: 276,
-    title: "AARP Rewards Amazon Instant Win Game",
-    type: "instant",
-    prizes: "15 Instant Winners: $100 Amazon.com eGift Cards Each (Total ARV $1,500); 50 US + DC, 18+ (Free AARP Rewards Enrollment \u2014 No Paid Membership)",
-    frequency: "Enter Daily",
-    ends: "2026-10-26",
-    url: "https://sweeps.aarp.org/",
-    added: "2026-10-24",
-  },
 
   {
     id: 277,
@@ -628,6 +618,51 @@ const SWEEPSTAKES: Listing[] = [
     ends: "2026-11-01",
     url: "https://reolink.club/FPD2026-COM",
     added: "2026-10-26",
+  },
+
+  {
+    id: 309,
+    title: "Culver's \u201cCurdtoberfest\u201d Sweepstakes & Instant Win",
+    type: "instant",
+    prizes: "Grand: Trip for 4 to Munich, Germany \u2014 Round-Trip Airfare, 5-Night Hotel, Tours + $1,000 Spending Money (ARV up to $19,900); $2,000 Check; 5 \u00d7 $500 Prepaid Cards; 6,000 Instant-Win Free Medium Cheese Curd Coupons; 50 US + DC, 18+",
+    frequency: "Enter Daily",
+    ends: "2026-10-31",
+    url: "https://curdtoberfest.culvers.com",
+    hot: true,
+    added: "2026-10-27",
+  },
+
+  {
+    id: 310,
+    title: "Ken Griffey Jr. \u201cMLB Trivia\u201d Instant Win Game",
+    type: "instant",
+    prizes: "689 Winners: Grand Trip for 2 to a 2026 MLB World Series Game (ARV $11,000) + 80 \u00d7 $100 MLBShop Gift Cards + 195 \u00d7 $50 + 350 \u00d7 $30 MLBShop Gift Cards + More; 50 US + DC, 18+",
+    frequency: "Enter Daily",
+    ends: "2026-10-31",
+    url: "https://www.baseball-trivia.com",
+    added: "2026-10-27",
+  },
+
+  {
+    id: 311,
+    title: "Miller High Life \u201cMusic\u201d Instant Win Game",
+    type: "instant",
+    prizes: "500 Winners: Crosley Mini Jukebox Speaker Each (ARV $12; Total ARV $6,000); 50 US + DC, 21+",
+    frequency: "Enter Daily",
+    ends: "2026-11-02",
+    url: "https://www.millerhighlife.com/music",
+    added: "2026-10-27",
+  },
+
+  {
+    id: 312,
+    title: "Dos Equis \u201cMost Interesting Man\u201d Instant Win Game",
+    type: "instant",
+    prizes: "300 Winners: Most Interesting Man Merchandise Kit Each (Total Prize Pool $4,500); 50 US + DC, 21+",
+    frequency: "Enter Daily",
+    ends: "2026-12-31",
+    url: "https://www.dosequis.com/mostinterestingsweeps",
+    added: "2026-10-27",
   },
 
   // ---- Sweepstakes ----
@@ -1375,6 +1410,97 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-10-26",
   },
 
+  {
+    id: 313,
+    title: "My Nintendo \u201cHoliday Magic\u201d Sweepstakes",
+    type: "sweepstakes",
+    prizes: "Grand: 3-Day/2-Night Trip for Winner + Up to 3 Guests to New York City \u2014 JetBlue Round-Trip Certificates, 2-Night Hotel, Airport Transfers + VIP Nintendo NEW YORK Store Experience (ARV $3,271); Contiguous US + DC (Excl. AK, HI), 18+ (Nintendo Account + 10 Platinum Points per Entry, Limit 10 Entries)",
+    frequency: "Enter Once",
+    ends: "2026-11-02",
+    url: "https://my.nintendo.com/rewards/fda3e5a574c668e6",
+    hot: true,
+    added: "2026-10-27",
+  },
+
+  {
+    id: 314,
+    title: "Audacy \u201cFontaines D.C. in Ireland\u201d Flyaway Sweepstakes",
+    type: "sweepstakes",
+    prizes: "Grand: Trip for 2 to Ireland \u2014 Round-Trip Coach Airfare to Dublin, 3-Night Dublin Hotel, Shuttle Passes + 2 Tickets to Fontaines D.C. at Slane Castle, June 27, 2027 (ARV $4,950); 48 Contiguous US + DC (Excl. AK, HI), 21+ (Valid Passport Required)",
+    frequency: "Enter Once",
+    ends: "2026-11-01",
+    url: "https://www.audacy.com/national/contests/see-fontaines-dc-in-ireland",
+    added: "2026-10-27",
+  },
+
+  {
+    id: 315,
+    title: "Jollibee \u00d7 Forgotten Island Sweepstakes",
+    type: "sweepstakes",
+    prizes: "Grand: 5-Night Philippines Trip for 2 \u2014 Island-Hopping Tour, Massages, Scuba Diving, Kayaking + More (ARV $11,000); Plus Catalina Island, Cape Cod & National Park Trips; 50 US + DC & Canada (Excl. Quebec), 18+ (Free Jollibee Rewards Membership; Free Mail-in Entry Available)",
+    frequency: "Enter Once",
+    ends: "2026-10-31",
+    url: "https://www.jollibeefoods.com/forgotten-island-sweepstakes",
+    added: "2026-10-27",
+  },
+
+  {
+    id: 316,
+    title: "ViewSonic \u201cTrick Or Tech!\u201d Halloween Sweepstakes",
+    type: "sweepstakes",
+    prizes: "3 Winners: VX2730D-4K Gaming Monitor (ARV $449), VP2766-2K Monitor (ARV $315), VX1654 Portable Monitor (ARV $225); US + Canada, 18+ (Void in AZ, RI, Quebec)",
+    frequency: "Enter Once",
+    ends: "2026-10-31",
+    url: "https://www.viewsonic.com/us/halloween-sweepstakes",
+    added: "2026-10-27",
+  },
+
+  {
+    id: 317,
+    title: "Sparkle \u201cHome Essentials\u201d Sweepstakes",
+    type: "sweepstakes",
+    prizes: "Grand: Year\u2019s Supply of Sparkle Paper Towels \u2014 53 Double Rolls Awarded as 10 \u00d7 $9 Coupons (ARV $90); 50 US + DC, 18+",
+    frequency: "Enter Once",
+    ends: "2026-11-15",
+    url: "https://www.sparkletowels.com/win-a-year-supply-sweeps",
+    added: "2026-10-27",
+  },
+
+  {
+    id: 318,
+    title: "Spirit Halloween x Butterfinger \u201c$15,000\u201d Sweepstakes",
+    type: "sweepstakes",
+    prizes: "1 Winner: $15,000 Cash; 50 US + DC + Canada (Excl. Quebec), Age of Majority",
+    frequency: "Enter Once",
+    ends: "2026-11-01",
+    url: "https://www.spirithalloween.com/sweeps",
+    hot: true,
+    added: "2026-10-27",
+  },
+
+  {
+    id: 319,
+    title: "HexClad \u201cGordon\u2019s Golden Ticket to Italy\u201d Sweepstakes",
+    type: "sweepstakes",
+    prizes: "1 Winner: 8-Day/7-Night Italy Trip for 2 \u2014 First-Class Flights, 5-Star Hotels, Michelin-Starred Dinners, $10,000 Spending Money + $25,000 Tax Offset (Total ARV $156,500); 50 US + DC + Canada, 21+",
+    frequency: "Enter Once",
+    ends: "2026-11-02",
+    url: "https://hexclad.com/pages/gordons-golden-ticket-italy",
+    hot: true,
+    added: "2026-10-27",
+  },
+
+  {
+    id: 320,
+    title: "Coca-Cola \u201cFriday for the Win Football\u201d Sweepstakes",
+    type: "sweepstakes",
+    prizes: "365 Winners: 65\u201d Smart TV, Game Tickets (ARV $1,500), Letterman Jackets, Gift Cards + More; 50 US + DC + PR, 18+",
+    frequency: "Enter Weekly",
+    ends: "2026-11-29",
+    url: "https://www.coca-cola.com/us/en/offerings/fan-work/football",
+    added: "2026-10-27",
+  },
+
 ];
 
 
@@ -1707,7 +1833,7 @@ export default function Home() {
         </section>
 
         <p style={{ color: "#94a3b8", fontSize: "0.8rem", marginTop: "40px", lineHeight: 1.6 }}>
-          Listings last verified October 26, 2026. Always check the official rules on
+          Listings last verified October 27, 2026. Always check the official rules on
           the sponsor&apos;s page before entering. Sweepstakes Central is not affiliated
           with the sponsors listed.
         </p>
