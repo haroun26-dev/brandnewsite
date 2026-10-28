@@ -17,10 +17,10 @@ interface Listing {
   added: string; // YYYY-MM-DD — NEW badge shows when added within the last 3 days
 }
 
-// Listings verified October 27, 2026. Update this list regularly —
+// Listings verified October 28, 2026. Update this list regularly —
 // remove ended sweepstakes and add new ones by editing this file and redeploying.
 const SWEEPSTAKES: Listing[] = [
-// Listings verified October 27, 2026. Update this list regularly —
+// Listings verified October 28, 2026. Update this list regularly —
 // remove ended sweepstakes and add new ones by editing this file and redeploying.
   // ---- Instant Win Games ----
 
@@ -370,16 +370,6 @@ const SWEEPSTAKES: Listing[] = [
   },
 
 
-  {
-    id: 247,
-    title: "AARP Texas Roadhouse Instant Win Game",
-    type: "instant",
-    prizes: "200 Instant Winners: $10 Texas Roadhouse Gift Cards (Redeemable at Texas Roadhouse, Bubba\u2019s 33, Jaggers); 50 US + DC, 18+ (Free AARP Rewards Registration \u2014 No Paid Membership; Limit 1 Prize/Person)",
-    frequency: "Enter Daily",
-    ends: "2026-10-27",
-    url: "https://sweeps.aarp.org/",
-    added: "2026-10-22",
-  },
 
 
 
@@ -663,6 +653,39 @@ const SWEEPSTAKES: Listing[] = [
     ends: "2026-12-31",
     url: "https://www.dosequis.com/mostinterestingsweeps",
     added: "2026-10-27",
+  },
+
+  {
+    id: 321,
+    title: "AARP Rewards Amazon Instant Win Game",
+    type: "instant",
+    prizes: "15 Winners: $100 Amazon.com eGift Card Each (Total ARV $1,500); 50 US + DC, 18+ (Free AARP Rewards Enrollment \u2014 No Paid Membership; Free No-Points Entry Form; Limit 1 Prize/Person)",
+    frequency: "Enter Daily",
+    ends: "2026-11-02",
+    url: "https://sweeps.aarp.org/",
+    added: "2026-10-28",
+  },
+
+  {
+    id: 322,
+    title: "AARP Rewards Five Guys Instant Win Game",
+    type: "instant",
+    prizes: "200 Winners: $10 Five Guys eGift Card Each (Total ARV $2,000); 50 US + DC, 18+ (Free AARP Rewards Enrollment \u2014 No Paid Membership)",
+    frequency: "Enter Daily",
+    ends: "2026-11-03",
+    url: "https://sweeps.aarp.org/",
+    added: "2026-10-28",
+  },
+
+  {
+    id: 323,
+    title: "AARP Rewards Staples Instant Win Game",
+    type: "instant",
+    prizes: "200 Winners: $10 Staples Gift Card Each (Total ARV $2,000); 50 US + DC, 18+ (Free AARP Rewards Enrollment \u2014 No Paid Membership; Free No-Points Entry Form)",
+    frequency: "Enter Daily",
+    ends: "2026-11-01",
+    url: "https://sweeps.aarp.org/",
+    added: "2026-10-28",
   },
 
   // ---- Sweepstakes ----
@@ -1501,6 +1524,84 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-10-27",
   },
 
+  {
+    id: 324,
+    title: "APQS \u201cTilly on the Deluxe Table\u201d Sweepstakes",
+    type: "sweepstakes",
+    prizes: "1 Winner: Tilly Longarm Quilting Machine with Deluxe Table, Transferable Lifetime Warranty, Customer Support + Mobile App Access (ARV $29,400); US + Canada, 18+",
+    frequency: "Enter Daily",
+    ends: "2026-11-11",
+    url: "https://www.apqs.com/shopping-tools/giveaway/tilly-2026/",
+    hot: true,
+    added: "2026-10-28",
+  },
+
+  {
+    id: 325,
+    title: "Floor & Decor $5,000 Home Makeover Sweepstakes",
+    type: "sweepstakes",
+    prizes: "1 Winner: $5,000 Home Makeover Awarded as Floor & Decor Gift Cards (ARV $5,000); 50 US + DC, 18+ (Valid Driver\u2019s License or Gov\u2019t Photo ID)",
+    frequency: "Enter Once",
+    ends: "2026-11-19",
+    url: "https://www.floordecorhomemakeover.com",
+    added: "2026-10-28",
+  },
+
+  {
+    id: 326,
+    title: "Fandango \u201cDestined for Adventure\u201d Sweepstakes",
+    type: "sweepstakes",
+    prizes: "1 Winner + Up to 3 Guests: Los Angeles Trip \u2014 Round-Trip Economy Flights, Airport Transfers, 2 Nights\u2019 Hotel with Daily Breakfast, Wizard-Themed Escape Game, Cooking Class + Private 5-Hour Fairy-Tale-Themed LA Tour (ARV $4,995); 50 US + DC, 18+",
+    frequency: "Enter Once",
+    ends: "2026-11-29",
+    url: "https://destinedforadventuresweepstakes.entertowinprizes.com",
+    added: "2026-10-28",
+  },
+
+  {
+    id: 327,
+    title: "Disney+ Perks College Football Game Sweepstakes",
+    type: "sweepstakes",
+    prizes: "2 Winners, Each: 3-Day/2-Night Trip for 2 to the Texas at Texas A&M Game (Nov 27, 2026) \u2014 Round-Trip Economy Airfare, 2 Nights\u2019 Hotel, 2 Game Tickets + $500 Cash (ARV $4,100 Each); 50 US + DC, 18+ (Disney+ Perks; Free Email AMOE Available)",
+    frequency: "Enter Daily",
+    ends: "2026-11-06",
+    url: "https://perks.disneyplus.com",
+    added: "2026-10-28",
+  },
+
+  {
+    id: 328,
+    title: "SiriusXM Tortuga Sweepstakes",
+    type: "sweepstakes",
+    prizes: "1 Winner + Guest: VIP Trip for 2 to Rock The Ocean\u2019s Tortuga Music Festival, Ft. Lauderdale, FL (Apr 2\u20134, 2027) \u2014 Round-Trip Coach Airfare, 4 Nights\u2019 Hotel, 2 VIP 3-Day Tickets, Swag Bag, Backstage Tour + Welcome Party Passes, Rock the Ocean Experiences + $200 Gift Card (ARV $4,000); US + DC + PR, 21+ (Current SiriusXM Subscriber as of Oct 20, 2026 Required)",
+    frequency: "Enter Once",
+    ends: "2026-11-22",
+    url: "https://www.siriusxm.com/tortuga2027",
+    added: "2026-10-28",
+  },
+
+  {
+    id: 329,
+    title: "Sony Electronics Pittsburgh Steelers WH-1000XM6 Headphones Sweepstakes",
+    type: "sweepstakes",
+    prizes: "5 Winners, Each: Sony x Steelers WH-1000XM6 Headphones (ARV $459.99 Each; Total ARV $2,299.95); 50 US + DC, 18+ (19+ AL/NE, 21+ MS)",
+    frequency: "Enter Once",
+    ends: "2026-11-30",
+    url: "https://cloud.email.sel.sony.com/SonyxSteelersHeadphones",
+    added: "2026-10-28",
+  },
+
+  {
+    id: 330,
+    title: "Allegiant Double Down Tour Flyaway Sweepstakes",
+    type: "sweepstakes",
+    prizes: "1 Winner + Guest: Fan Flyaway for 2 to the Double Down Tour with Luke Bryan & Jason Aldean at Allegiant Stadium, Las Vegas (Dec 11, 2026) \u2014 Round-Trip Allegiant Flights to LAS, Hotel Stay + 2 Concert Tickets (ARV $2,258); 50 US + DC, 21+",
+    frequency: "Enter Once",
+    ends: "2026-11-20",
+    url: "https://www.allegiantair.com/deals/DoubleDownFlyawaySweepstakes/",
+    added: "2026-10-28",
+  },
+
 ];
 
 
@@ -1833,7 +1934,7 @@ export default function Home() {
         </section>
 
         <p style={{ color: "#94a3b8", fontSize: "0.8rem", marginTop: "40px", lineHeight: 1.6 }}>
-          Listings last verified October 27, 2026. Always check the official rules on
+          Listings last verified October 28, 2026. Always check the official rules on
           the sponsor&apos;s page before entering. Sweepstakes Central is not affiliated
           with the sponsors listed.
         </p>
