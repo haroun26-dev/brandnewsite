@@ -17,10 +17,10 @@ interface Listing {
   added: string; // YYYY-MM-DD — NEW badge shows when added within the last 3 days
 }
 
-// Listings verified October 28, 2026. Update this list regularly —
+// Listings verified October 29, 2026. Update this list regularly —
 // remove ended sweepstakes and add new ones by editing this file and redeploying.
 const SWEEPSTAKES: Listing[] = [
-// Listings verified October 28, 2026. Update this list regularly —
+// Listings verified October 29, 2026. Update this list regularly —
 // remove ended sweepstakes and add new ones by editing this file and redeploying.
   // ---- Instant Win Games ----
 
@@ -497,16 +497,6 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-10-24",
   },
 
-  {
-    id: 278,
-    title: "AARP Rewards Publix Instant Win Game",
-    type: "instant",
-    prizes: "200 Instant Winners: $10 Publix eGift Cards Each (Total ARV $2,000); 50 US + DC, 18+ (Free AARP Rewards Enrollment \u2014 No Paid Membership)",
-    frequency: "Enter Daily",
-    ends: "2026-10-28",
-    url: "https://sweeps.aarp.org/",
-    added: "2026-10-24",
-  },
 
 
   {
@@ -686,6 +676,50 @@ const SWEEPSTAKES: Listing[] = [
     ends: "2026-11-01",
     url: "https://sweeps.aarp.org/",
     added: "2026-10-28",
+  },
+
+  {
+    id: 331,
+    title: "Kaytee \u201cUltimate Fan\u201d Instant Win Game",
+    type: "instant",
+    prizes: "81 Awards: 72 Instant-Win Packers Merch Prizes (Shirts, Hats, Drinkware, YETI Item, Plush; $11.99\u2013$47.99 Each) + Drawing Prizes: Grand Dec 13 Packers Trip for 4 (ARV $13,582), First Dec 13 Packers Trip for 4 (ARV $9,382), Bowl-Ticket Package ($1,294) + 6 Shopping/Tour/Bird-Food Packages ($422 Each); 48 Contiguous US + DC, 18+ (19+ AL/NE)",
+    frequency: "Enter Daily",
+    ends: "2026-10-31",
+    url: "https://www.kayteefansweeps.com",
+    added: "2026-10-29",
+  },
+
+  {
+    id: 332,
+    title: "Shokz x TCS New York City Marathon Lucky Draw",
+    type: "instant",
+    prizes: "60 Winners: (5) NYC Marathon Co-Branded OpenRun Pro 2 Headphones, (10) OpenRun Pro 2 Headphones, (15) Stainless-Steel Tumblers, (30) Tote Bags (Total Est. Value $2,699); 50 US + DC, 18+",
+    frequency: "Enter Once",
+    ends: "2026-11-01",
+    url: "https://shokz.com/pages/new-york-city-marathon",
+    added: "2026-10-29",
+  },
+
+  {
+    id: 333,
+    title: "AARP Rewards Papa Johns Instant Win Game",
+    type: "instant",
+    prizes: "200 Winners: $10 Papa Johns Gift Cards Each (Total ARV $2,000); 50 US + DC, 18+ (Free AARP Rewards Enrollment \u2014 No Paid Membership; Free No-Points Entry Form; Limit 1 Prize/Person)",
+    frequency: "Enter Daily",
+    ends: "2026-10-30",
+    url: "https://sweeps.aarp.org/",
+    added: "2026-10-29",
+  },
+
+  {
+    id: 334,
+    title: "Ezra Brooks \u201c90 Prizes for 90 Proof\u201d Instant Win Sweepstakes",
+    type: "instant",
+    prizes: "90 Prizes: (30) Grills, (59) Outdoor Heaters + (1) Grand Prize (Total ARV $21,000; No Alcohol Awarded); 50 US + DC, 21+",
+    frequency: "Enter Daily",
+    ends: "2026-12-31",
+    url: "https://airbaton.net/l/ezrabrooks90",
+    added: "2026-10-29",
   },
 
   // ---- Sweepstakes ----
@@ -1602,6 +1636,96 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-10-28",
   },
 
+  {
+    id: 335,
+    title: "Valpak \u201cFree Ride\u201d Sweepstakes",
+    type: "sweepstakes",
+    prizes: "1 Winner: 2026 Jeep Wrangler 2-Door Sport (ARV $40,625); 50 US + DC, 18+ (Valid Driver\u2019s License + Insurance Required for Delivery)",
+    frequency: "Enter Daily",
+    ends: "2026-11-06",
+    url: "https://valpak.com/freeride",
+    hot: true,
+    added: "2026-10-29",
+  },
+
+  {
+    id: 336,
+    title: "MSC Cruises \u201cHoliday, and Make It Grand\u201d Sweepstakes",
+    type: "sweepstakes",
+    prizes: "1 Winner + Up to 7 Guests: 7-Night Cruise Aboard MSC World Atlantic in the Grand Hamptons Villa, Valid One Year from Jan 2028 (ARV $30,000); 50 US + DC, 21+",
+    frequency: "Enter Once",
+    ends: "2027-01-21",
+    url: "https://www.msccruisesusa.com/grand-hamptons-villa-sweepstakes",
+    hot: true,
+    added: "2026-10-29",
+  },
+
+  {
+    id: 337,
+    title: "Wairau River New Zealand Trip Sweepstakes",
+    type: "sweepstakes",
+    prizes: "1 Winner + Guest 21+: Trip for 2 to New Zealand \u2014 Round-Trip Coach Airfare, 2 Nights Blenheim + 3 Nights Auckland Hotel, $500 Travel Stipend, Wairau River Winery Tour + Lunch (ARV up to $7,000); 50 US + DC, 21+ (Valid Photo ID; Passports Required)",
+    frequency: "Enter Daily",
+    ends: "2026-10-31",
+    url: "https://www.WairauRiverNZ.com",
+    added: "2026-10-29",
+  },
+
+  {
+    id: 338,
+    title: "Valpak \u201c$5,000 Holiday Haul\u201d Sweepstakes",
+    type: "sweepstakes",
+    prizes: "1 Winner: $5,000 Check (ARV $5,000); 50 US + DC, 18+",
+    frequency: "Enter Daily",
+    ends: "2026-12-04",
+    url: "https://valpak.com/holiday",
+    added: "2026-10-29",
+  },
+
+  {
+    id: 339,
+    title: "Klean Freak Cancun Giveaway",
+    type: "sweepstakes",
+    prizes: "1 Winner + Guest: 4-Night Cancun Trip \u2014 Round-Trip Economy Airfare + Hotel (ARV $5,000; Meals/Transport/Excursions Not Included); 48 Contiguous US + DC, 18+ (Winner + Guest Need Valid Passports)",
+    frequency: "Enter Once",
+    ends: "2026-11-10",
+    url: "https://www.kleanfreak.com/pages/cancun-giveaway",
+    added: "2026-10-29",
+  },
+
+  {
+    id: 340,
+    title: "DAHON Black Friday Giveaway",
+    type: "sweepstakes",
+    prizes: "2 Winners, Each: DAHON Unio E20 E-Bike ($2,699 Each; Total $5,398); US Residents (No Minimum Age Stated in Rules; One Email Registration Per User)",
+    frequency: "Enter Once",
+    ends: "2026-11-02",
+    url: "https://usa.dahon.com/pages/black-friday",
+    added: "2026-10-29",
+  },
+
+  {
+    id: 341,
+    title: "Sony Electronics Seattle Seahawks WH-1000XM6 Headphones Sweepstakes",
+    type: "sweepstakes",
+    prizes: "5 Winners, Each: Sony x Seahawks WH-1000XM6 Headphones (ARV $459.99 Each; Total ARV $2,299.95); 50 US + DC, 18+ (19+ AL/NE, 21+ MS)",
+    frequency: "Enter Once",
+    ends: "2026-11-30",
+    url: "https://cloud.email.sel.sony.com/SonyxSeahawksHeadphones",
+    added: "2026-10-29",
+  },
+
+  {
+    id: 342,
+    title: "Dippin\u2019 Dots \u201cKickoff to Cool\u201d Sweepstakes",
+    type: "sweepstakes",
+    prizes: "9 Winners: Grand \u2014 25-Serving Dippin\u2019 Dots Home Delivery + Weber 22\u201d Jumbo Joe Grill, Cornhole Set, Apron, Dr Pepper Cooler, Throw Blanket, GCI Rocker + Swag Box (ARV $958.26); 3 First \u2014 Delivery + Swag (ARV $428.96 Each); 5 Runner-Up \u2014 Swag Boxes (ARV $39.39 Each; Total ARV $2,442.09); 50 US + DC, 18+",
+    frequency: "Enter Daily",
+    ends: "2026-10-31",
+    url: "https://www.dippindots.com/tailgate-sweeps/",
+    added: "2026-10-29",
+  },
+
 ];
 
 
@@ -1934,7 +2058,7 @@ export default function Home() {
         </section>
 
         <p style={{ color: "#94a3b8", fontSize: "0.8rem", marginTop: "40px", lineHeight: 1.6 }}>
-          Listings last verified October 28, 2026. Always check the official rules on
+          Listings last verified October 29, 2026. Always check the official rules on
           the sponsor&apos;s page before entering. Sweepstakes Central is not affiliated
           with the sponsors listed.
         </p>
