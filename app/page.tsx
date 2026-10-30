@@ -17,10 +17,10 @@ interface Listing {
   added: string; // YYYY-MM-DD — NEW badge shows when added within the last 3 days
 }
 
-// Listings verified October 29, 2026. Update this list regularly —
+// Listings verified October 30, 2026. Update this list regularly —
 // remove ended sweepstakes and add new ones by editing this file and redeploying.
 const SWEEPSTAKES: Listing[] = [
-// Listings verified October 29, 2026. Update this list regularly —
+// Listings verified October 30, 2026. Update this list regularly —
 // remove ended sweepstakes and add new ones by editing this file and redeploying.
   // ---- Instant Win Games ----
 
@@ -486,16 +486,6 @@ const SWEEPSTAKES: Listing[] = [
   },
 
 
-  {
-    id: 277,
-    title: "AARP Rewards Michaels Instant Win Game",
-    type: "instant",
-    prizes: "200 Instant Winners: $10 Michaels Gift Cards Each (Total ARV $2,000); 50 US + DC, 18+ (Free AARP Rewards Enrollment \u2014 No Paid Membership; Free No-Points Entry Form)",
-    frequency: "Enter Daily",
-    ends: "2026-10-29",
-    url: "https://sweeps.aarp.org/",
-    added: "2026-10-24",
-  },
 
 
 
@@ -720,6 +710,51 @@ const SWEEPSTAKES: Listing[] = [
     ends: "2026-12-31",
     url: "https://airbaton.net/l/ezrabrooks90",
     added: "2026-10-29",
+  },
+
+  {
+    id: 343,
+    title: "Club Wyndham \u201cWander Your Way\u201d Instant Win Game",
+    type: "instant",
+    prizes: "1,500 Instant Winners: $10 Travel Credit Each (250 Per Monthly Period) + 6 Monthly Prizes: Wyndham Rewards Points + Travel Credit (ARV $975\u2013$31,200 Each) + Grand: 7-Night Stay at Wyndham Grand Crete Mirabello Bay, Wyndham Grand Athens, or Zeus Eleva Ajul + $2,000 Airfare Voucher (ARV $2,658\u2013$4,688; Total ARV $81,113); 50 US + DC, 28+",
+    frequency: "Enter Monthly",
+    ends: "2027-04-30",
+    url: "https://getaways.clubwyndham.com/sweepstakes-2027/instant-win",
+    hot: true,
+    added: "2026-10-30",
+  },
+
+  {
+    id: 344,
+    title: "Synchrony \u201c$5K in Play\u201d Instant Win Game",
+    type: "instant",
+    prizes: "5 Grand: $5,000 Check Each + 201 Instant Winners: 70 \u00d7 $100 DoorDash Codes, 61 \u00d7 $100 Fandango Codes, 70 \u00d7 $100 Starbucks Codes (Total ARV $45,100); 50 US + DC + Territories, 18+ (Eligible Synchrony Cardholders Only; Register by Oct 31, 2026; Plays Redeemed Nov 18\u2013Dec 31, 2026)",
+    frequency: "Enter Once",
+    ends: "2026-12-31",
+    url: "https://www.5kinplaysweeps.com/",
+    added: "2026-10-30",
+  },
+
+  {
+    id: 345,
+    title: "Green Bay Packers \u201cGet in the Game\u201d Instant Win Promotion",
+    type: "instant",
+    prizes: "42 Instant Winners: 15 Pairs Lambeau Field Classic Stadium Tour Passes (ARV $46/Pair), 15 Pairs Packers Hall of Fame Tour Passes (ARV $40/Pair), 12 \u00d7 $25 Packers Pro Shop Gift Cards + 12 Monthly Drawing Grand Prizes: 1-Night Oneida Casino Hotel Stay + $50 Free Play + $25 Dining Credit (ARV $325 Each; Total ARV $5,490); 50 US (Excl. NY, NJ, FL), 21+",
+    frequency: "Enter Once",
+    ends: "2027-01-29",
+    url: "https://web.witcontests.com/packers/giveaway/slots/get-in-the-game-261001",
+    added: "2026-10-30",
+  },
+
+  {
+    id: 346,
+    title: "CrunchLabs \u201cBuild Box Platinum Ticket\u201d Instant Win Game",
+    type: "instant",
+    prizes: "12 Grand Prizes (1 Per Month): 3-Day/2-Night Trip for Winner + 3 Guests to CrunchLabs in Sunnyvale, CA with Mark Rober \u2014 Round-Trip Coach Airfare for 4, Hotel + Ground Transport (ARV ~$4,500 Each); 50 US + DC, 18+ (Free Mail-in Game-Piece Requests Available)",
+    frequency: "Enter Monthly",
+    ends: "2027-05-31",
+    url: "https://www.crunchlabs.com/pages/sweepstakes",
+    added: "2026-10-30",
   },
 
   // ---- Sweepstakes ----
@@ -1285,16 +1320,6 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-10-24",
   },
 
-  {
-    id: 284,
-    title: "SEGA Shop \u201cSonic 35th Anniversary Memories and Beyond\u201d Sweepstakes",
-    type: "sweepstakes",
-    prizes: "Grand: Nintendo Switch 2 + 3 Sonic Games + $500 SEGA Shop Gift Card + Art Print, Varsity Jacket, Crossbody Bag, Hat + Mug (ARV $1,484.94) + 3 Secondary Prizes ($89.98 Each) + 5 Tertiary Prizes ($42.98 Each; Total ARV $1,969.78); 50 US + DC, 18+",
-    frequency: "Enter Once",
-    ends: "2026-10-29",
-    url: "https://shop.sega.com/pages/sonic-the-hedgehog-35th-anniversary-memories-and-beyond-sweepstakes",
-    added: "2026-10-24",
-  },
 
   {
     id: 285,
@@ -1726,6 +1751,84 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-10-29",
   },
 
+  {
+    id: 347,
+    title: "Cove Home \u201cHoliday Hosting\u201d Sweepstakes",
+    type: "sweepstakes",
+    prizes: "2 Winners, Each: $500 Cove Home Promotional E-Gift Card for Home Goods/Kitchenware (Total ARV $1,000); US, 18+",
+    frequency: "Enter Once",
+    ends: "2026-11-09",
+    url: "https://cove-home.co/pages/holiday-giveaway",
+    added: "2026-10-30",
+  },
+
+  {
+    id: 348,
+    title: "The North Face \u201cXPLR Pass Holiday\u201d Sweepstakes",
+    type: "sweepstakes",
+    prizes: "4 Winners, Each: $1,000 The North Face E-Gift Card (Total ARV $4,000); US, 18+ (Free XPLR Pass Membership Required; Favorite a Product and Keep It Saved Through the End Date)",
+    frequency: "Enter Once",
+    ends: "2026-11-13",
+    url: "https://www.thenorthface.com/en-us/xplr-pass/xplr-pass-sweepstakes",
+    added: "2026-10-30",
+  },
+
+  {
+    id: 349,
+    title: "Dave Ramsey \u201cChristmas Cash\u201d Sweepstakes",
+    type: "sweepstakes",
+    prizes: "9 Winners: (1) Grand: $10,000 Cash Check + (8) Weekly: $500 Cash Each (Total ARV $14,000); 50 US + DC, 18+",
+    frequency: "Enter Daily",
+    ends: "2026-12-20",
+    url: "https://www.ramseysolutions.com/giveaway",
+    hot: true,
+    added: "2026-10-30",
+  },
+
+  {
+    id: 350,
+    title: "Pedigree \u201cPawliday\u201d Sweepstakes",
+    type: "sweepstakes",
+    prizes: "Grand: PEDIGREE Pawliday Gift Box (Camera, Dog Bandana, Bowl, Mug, Toys, Treats, Winter Hat, Custom Photo Ornament; Box ARV $217) + a Year\u2019s Supply of PEDIGREE Dog Food + a Hand-Painted Recreation of Your Pawliday Portrait + Runner-Up Pawliday Gift Boxes; 50 US + DC, 18+ (Entry by Uploading a Holiday Pet Photo; Photo Not Judged)",
+    frequency: "Enter Once",
+    ends: "2026-12-05",
+    url: "https://www.pedigree.com/pawliday",
+    added: "2026-10-30",
+  },
+
+  {
+    id: 351,
+    title: "Depend \u201cCoach Prime\u201d Sweepstakes",
+    type: "sweepstakes",
+    prizes: "101 Winners: Grand: 2-Night Trip for 2 to a Colorado Buffaloes Game in Boulder, CO \u2014 Round-Trip Airfare, Hotel, Game Tickets, Pre-Game Hospitality Passes, Meet-and-Greet with Deion Sanders + $500 Cash + (100) Depend Product Packs (Underwear, Washcloths, Socks, Boxer Briefs); US, 18+",
+    frequency: "Enter Once",
+    ends: "2026-10-31",
+    url: "https://dependsweepstakes.com",
+    added: "2026-10-30",
+  },
+
+  {
+    id: 352,
+    title: "SCHEELS \u201cUltimate Shopping\u201d Giveaway",
+    type: "sweepstakes",
+    prizes: "2 Winners, Each: $500 SCHEELS Gift Card + $25 Event Ticket + Each Winner Designates 3 Guests (Each: $100 SCHEELS Gift Card + $25 Event Ticket; Total ARV $1,800); US, 18+",
+    frequency: "Enter Once",
+    ends: "2026-11-03",
+    url: "https://www.scheels.com/rtw/XJXtm4",
+    added: "2026-10-30",
+  },
+
+  {
+    id: 353,
+    title: "Big Sky Brands \u201cFar Out Flavors\u201d Contest",
+    type: "sweepstakes",
+    prizes: "23 Winners (Total ~$1,820): Grand: Year\u2019s Supply of Big Sky Mints + Hat, Tote + $500 CAD Gift Card; 2nd: 6-Month Supply + Hat, Tote + $250 CAD Gift Card; 3rd: 3-Month Supply + Hat, Tote + $50 CAD Gift Card + 20 Swag Boxes (~$68 CAD Each); US + Canada, 18+ (Top Prizes via Instagram Entry; Swag Boxes via Email Entry)",
+    frequency: "Enter Once",
+    ends: "2026-11-16",
+    url: "https://bigskybrands.com/pages/far-out-flavors",
+    added: "2026-10-30",
+  },
+
 ];
 
 
@@ -2058,7 +2161,7 @@ export default function Home() {
         </section>
 
         <p style={{ color: "#94a3b8", fontSize: "0.8rem", marginTop: "40px", lineHeight: 1.6 }}>
-          Listings last verified October 29, 2026. Always check the official rules on
+          Listings last verified October 30, 2026. Always check the official rules on
           the sponsor&apos;s page before entering. Sweepstakes Central is not affiliated
           with the sponsors listed.
         </p>
