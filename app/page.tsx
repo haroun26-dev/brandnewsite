@@ -17,10 +17,10 @@ interface Listing {
   added: string; // YYYY-MM-DD — NEW badge shows when added within the last 3 days
 }
 
-// Listings verified October 30, 2026. Update this list regularly —
+// Listings verified October 31, 2026. Update this list regularly —
 // remove ended sweepstakes and add new ones by editing this file and redeploying.
 const SWEEPSTAKES: Listing[] = [
-// Listings verified October 30, 2026. Update this list regularly —
+// Listings verified October 31, 2026. Update this list regularly —
 // remove ended sweepstakes and add new ones by editing this file and redeploying.
   // ---- Instant Win Games ----
 
@@ -691,17 +691,6 @@ const SWEEPSTAKES: Listing[] = [
   },
 
   {
-    id: 333,
-    title: "AARP Rewards Papa Johns Instant Win Game",
-    type: "instant",
-    prizes: "200 Winners: $10 Papa Johns Gift Cards Each (Total ARV $2,000); 50 US + DC, 18+ (Free AARP Rewards Enrollment \u2014 No Paid Membership; Free No-Points Entry Form; Limit 1 Prize/Person)",
-    frequency: "Enter Daily",
-    ends: "2026-10-30",
-    url: "https://sweeps.aarp.org/",
-    added: "2026-10-29",
-  },
-
-  {
     id: 334,
     title: "Ezra Brooks \u201c90 Prizes for 90 Proof\u201d Instant Win Sweepstakes",
     type: "instant",
@@ -755,6 +744,28 @@ const SWEEPSTAKES: Listing[] = [
     ends: "2027-05-31",
     url: "https://www.crunchlabs.com/pages/sweepstakes",
     added: "2026-10-30",
+  },
+
+  {
+    id: 354,
+    title: "AARP Rewards T.J. Maxx Instant Win Game",
+    type: "instant",
+    prizes: "200 Winners: $10 T.J. Maxx Gift Cards Each (Total ARV $2,000); 50 US + DC, 18+ (Free AARP Rewards Enrollment \u2014 No Paid Membership; Free No-Points Entry Form; Limit 1 Prize/Person)",
+    frequency: "Enter Daily",
+    ends: "2026-11-04",
+    url: "https://sweeps.aarp.org/",
+    added: "2026-10-31",
+  },
+
+  {
+    id: 355,
+    title: "AARP Rewards JCPenney Instant Win Game",
+    type: "instant",
+    prizes: "200 Winners: $10 JCPenney eGift Cards Each (Total ARV $2,000); 50 US + DC, 18+ (Free AARP Rewards Enrollment \u2014 No Paid Membership; Free No-Points Entry Form; Limit 1 Prize/Person)",
+    frequency: "Enter Daily",
+    ends: "2026-11-05",
+    url: "https://sweeps.aarp.org/",
+    added: "2026-10-31",
   },
 
   // ---- Sweepstakes ----
@@ -1829,6 +1840,95 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-10-30",
   },
 
+  {
+    id: 356,
+    title: "Hot Wheels \u201cRam Trucks\u201d Sweepstakes",
+    type: "sweepstakes",
+    prizes: "Grand: 2026 Ram 1500 Truck (ARV Up to $70,000); US + DC, 18+ (Valid Driver\u2019s License)",
+    frequency: "Enter Daily",
+    ends: "2026-12-14",
+    url: "https://www.hotwheels.com/ramsweepstakes",
+    hot: true,
+    added: "2026-10-31",
+  },
+
+  {
+    id: 357,
+    title: "Tourism Whistler \u201cGo Bigger in Whistler\u201d Sweepstakes",
+    type: "sweepstakes",
+    prizes: "Grand: 6-Night Trip for 2 to Whistler, British Columbia \u2014 Round-Trip Airfare, 6 Nights at The Westin Resort & Spa Whistler, 3-Day Lift Tickets, Ski/Snowboard Rentals, Dawn Patrol Heli-Skiing, Sightseeing Tour + Dinners (Approx. Value $14,000); US, 18+ (Excl. FL & NY)",
+    frequency: "Enter Once",
+    ends: "2027-05-05",
+    url: "https://www.whistler.com/winter-contest/",
+    added: "2026-10-31",
+  },
+
+  {
+    id: 358,
+    title: "Ultimate iHeartCountry Christmas Vacation Sweepstakes",
+    type: "sweepstakes",
+    prizes: "Grand: Las Vegas Trip for 2 (Dec 9\u201312, 2026) \u2014 Round-Trip Airfare, 3 Nights at Caesars Palace, 2 Tickets to Thomas Rhett (Dec 10), 2 Tickets to Luke Bryan & Jason Aldean Double Down Concert (Dec 11), Bacchanal Buffet Dinner for 2 + $200 Ground Transport Gift Card (ARV $3,993); 50 US + DC, 21+",
+    frequency: "Enter Daily",
+    ends: "2026-11-15",
+    url: "https://news.iheart.com/promotions/ultimate-iheartcountry-christmas-vacation-2026-national-1928322/",
+    added: "2026-10-31",
+  },
+
+  {
+    id: 359,
+    title: "Peet\u2019s Coffee \u201cHome for the Holidays\u201d Sweepstakes",
+    type: "sweepstakes",
+    prizes: "4 Winners, Each: 4 Southwest One-Way Flight E-Passes (Round-Trip Travel for Winner + 1 Guest; Flights Only, No Hotel/Meals) (ARV $800 Each); US + DC, 19+ (Excl. RI & TN)",
+    frequency: "Enter Once",
+    ends: "2026-12-13",
+    url: "https://www.peets.com/pages/holiday-giveaway",
+    added: "2026-10-31",
+  },
+
+  {
+    id: 360,
+    title: "Bloomington Minnesota 2026 Holiday Giveaway",
+    type: "sweepstakes",
+    prizes: "Grand: $1,000 Mall of America Gift Card + 11 Runners-Up, Each: 2-Night Stay at a Participating Bloomington Hotel + $100 Mall of America Gift Card (Airfare Not Included); US + Canada (Excl. QC), 18+",
+    frequency: "Enter Daily",
+    ends: "2026-12-31",
+    url: "https://www.bloomingtonmn.org/holiday-savings-and-giveaway/",
+    added: "2026-10-31",
+  },
+
+  {
+    id: 361,
+    title: "Dallas Cowboys Invisalign Super Bowl Sweepstakes",
+    type: "sweepstakes",
+    prizes: "Grand: Trip for 2 to Super Bowl LXI in Inglewood, CA \u2014 Round-Trip Economy Airfare, 2 Hotel Nights, 2 Game Tickets Feb 14, 2027 (ARV $7,000); 50 US + DC (Excl. FL & NY), 21+",
+    frequency: "Enter Daily",
+    ends: "2026-11-06",
+    url: "https://www.dallascowboys.com/fans/invisalign",
+    added: "2026-10-31",
+  },
+
+  {
+    id: 362,
+    title: "Hallmark Channel \u201cSnack Watch and Win\u201d Sweepstakes",
+    type: "sweepstakes",
+    prizes: "Grand: $5,000 Shopping Spree Check + 1-Year Supply of Orville Redenbacher\u2019s Microwave Popcorn + 6 Seasonings + Hallmark Channel Blanket (ARV $5,315.59) + 25 First Prizes: Popcorn Supply + Seasonings + Blanket ($315.59 Each) + 275 Weekly Prizes: Blanket + 6-Pack Popcorn + Seasoning ($53.67 Each; Total ARV $20,389.89); 50 US + DC, Age of Majority",
+    frequency: "Enter Daily",
+    ends: "2026-12-31",
+    url: "https://www.snackwatchandwin.com",
+    added: "2026-10-31",
+  },
+
+  {
+    id: 363,
+    title: "Kansas City Chiefs \u201cUltimate KC Holiday\u201d Sweepstakes",
+    type: "sweepstakes",
+    prizes: "Grand: 4 Club-Level Tickets to Chiefs vs. Patriots (Dec 21, 2026) + Field Passes + Postgame Field Photo + 4 Find Magic Tickets to the Hallmark Christmas Experience (ARV $5,000); US, 18+ (Excl. FL, NY & PR)",
+    frequency: "Enter Once",
+    ends: "2026-11-15",
+    url: "https://web.witcontests.com/chiefs/sweepstakes/win/the-ultimate-kc-holiday-261001",
+    added: "2026-10-31",
+  },
+
 ];
 
 
@@ -2161,7 +2261,7 @@ export default function Home() {
         </section>
 
         <p style={{ color: "#94a3b8", fontSize: "0.8rem", marginTop: "40px", lineHeight: 1.6 }}>
-          Listings last verified October 30, 2026. Always check the official rules on
+          Listings last verified October 31, 2026. Always check the official rules on
           the sponsor&apos;s page before entering. Sweepstakes Central is not affiliated
           with the sponsors listed.
         </p>
