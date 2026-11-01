@@ -17,10 +17,10 @@ interface Listing {
   added: string; // YYYY-MM-DD — NEW badge shows when added within the last 3 days
 }
 
-// Listings verified October 31, 2026. Update this list regularly —
+// Listings verified November 1, 2026. Update this list regularly —
 // remove ended sweepstakes and add new ones by editing this file and redeploying.
 const SWEEPSTAKES: Listing[] = [
-// Listings verified October 31, 2026. Update this list regularly —
+// Listings verified November 1, 2026. Update this list regularly —
 // remove ended sweepstakes and add new ones by editing this file and redeploying.
   // ---- Instant Win Games ----
 
@@ -347,18 +347,6 @@ const SWEEPSTAKES: Listing[] = [
   },
 
   {
-    id: 244,
-    title: "Jason\u2019s Deli 50th Anniversary Instant Win Game",
-    type: "instant",
-    prizes: "Grand: 3-Night MGM Grand Las Vegas Stay + 4 United Airlines Flight Vouchers (ARV $5,400) + 100,000+ Instant Prizes: 50 \u00d7 Salad-Bar-for-a-Year ($624 Each), 100 Six Flags Ticket Pairs, 200 AMC Movie Packs, 15,000 \u00d7 $5 Rewards, Free-Food Items + Retro Prizes (Schwinn Bikes, Arcade Cabinets; Total ARV $391,413.82); 18+, Legal US Residents in States with a Jason\u2019s Deli (Free Deli Dollars Rewards Membership)",
-    frequency: "Enter Daily",
-    ends: "2026-10-31",
-    url: "https://www.jasonsdeli.com/deli-brationsweepstakes/",
-    hot: true,
-    added: "2026-10-22",
-  },
-
-  {
     id: 245,
     title: "Camel \u201cOut There\u201d Daily Instant Win Game",
     type: "instant",
@@ -419,39 +407,6 @@ const SWEEPSTAKES: Listing[] = [
   },
 
   {
-    id: 262,
-    title: "Hidden Valley \u201cSpooky Ranch Movie Adventure\u201d Instant Win Game",
-    type: "instant",
-    prizes: "100 Instant Winners: Prize Pack of $25 Fandango Gift Card + $75 Walmart Gift Card (ARV $100 Each; Total ARV $10,000); 50 US + DC, 18+",
-    frequency: "Enter Daily",
-    ends: "2026-10-31",
-    url: "https://www.hiddenvalley.com/spooky-ranch-movie-adventure",
-    added: "2026-10-23",
-  },
-
-  {
-    id: 263,
-    title: "Recreation \u201cBondi Beach\u201d Instant Win Giveaway",
-    type: "instant",
-    prizes: "10 Instant Winners: $500 Recreation Prize Pack Each (Choice of Fragrance, Skincare & Body Mists) + Every Entrant Gets 10% Off (Australian Sponsor; No Age Restriction Stated; One Entry Per Email)",
-    frequency: "Enter Once",
-    ends: "2026-10-31",
-    url: "https://recreationbeauty.com/pages/win-1-of-10-x-500-recreation-packs",
-    added: "2026-10-23",
-  },
-
-  {
-    id: 264,
-    title: "Cape Kennedy Clothing \u201cMonthly\u201d Instant Win Sweepstakes",
-    type: "instant",
-    prizes: "25 Winners Per Monthly Period: Cape Kennedy Shirt of Choice w/ Free Shipping (ARV $69.99 Each; $1,749.75 October Pool); 50 US + DC, 18+ (One Entry Per Person Per Period)",
-    frequency: "Enter Once",
-    ends: "2026-10-31",
-    url: "https://capekennedyclothing.com",
-    added: "2026-10-23",
-  },
-
-  {
     id: 273,
     title: "Jameson Irish Whiskey \u201cFirst Round on Us\u201d Instant Win Game",
     type: "instant",
@@ -460,17 +415,6 @@ const SWEEPSTAKES: Listing[] = [
     ends: "2026-11-30",
     url: "https://www.jamesonwhiskey.com/en-us/first-round-on-jameson-sweeps",
     hot: true,
-    added: "2026-10-24",
-  },
-
-  {
-    id: 274,
-    title: "Jameson Irish Whiskey \u201cFall Sports\u201d Instant Win Game",
-    type: "instant",
-    prizes: "105 Instant Winners: 13 \u00d7 $1,500 Toward Streaming Services (via PayPal/Venmo) + 92 Replica Football Jerseys ($25 Each; Total ARV $21,800); 50 US + DC, 21+ (Valid Driver\u2019s License or Gov\u2019t Photo ID)",
-    frequency: "Enter Daily",
-    ends: "2026-10-31",
-    url: "https://www.jamesonwhiskey.com/en-us/its-on",
     added: "2026-10-24",
   },
 
@@ -500,39 +444,6 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-10-25",
   },
 
-  {
-    id: 287,
-    title: "Mondel\u00e8z \u201cPack a Snacktime Friend\u201d Instant Win Game",
-    type: "instant",
-    prizes: "Grand: Trip for 4 to Winner\u2019s Choice of US Destination (ARV $15,730) + 378 Instant Prizes: 100 \u00d7 1-Year Disney+ Premium ($228 Each), 139 \u00d7 $80 Movie E-Gift Cards, 139 \u00d7 Snack Product Coupons (Up to $7; Total ARV $50,623); 50 US + DC + PR, 18+",
-    frequency: "Enter Daily",
-    ends: "2026-10-31",
-    url: "https://www.backtoschoolsnacks.com",
-    added: "2026-10-25",
-  },
-
-  {
-    id: 288,
-    title: "Smirnoff Ice \u201cHalloween\u201d Instant Win Game",
-    type: "instant",
-    prizes: "100 Instant Winners: Smirnoff Ice Branded Adult Halloween Costumes (ARV $45 Each; Total ARV $4,500); 48 Contiguous US (Excl. VA) + DC, 21+",
-    frequency: "Enter Weekly",
-    ends: "2026-10-31",
-    url: "https://www.spiritspromos.com/smirnoff-ice/halloween-sweeps",
-    added: "2026-10-25",
-  },
-
-  {
-    id: 289,
-    title: "BeatBox \u201cXtreme Sour Black Cherry Spin & Win\u201d Instant Win Game",
-    type: "instant",
-    prizes: "Grand: $6,000 Prepaid Card + Xtreme BeatBox Swag (ARV $6,500) + Instant-Win Speakers, Coolers & Gift Cards (Total ARV $38,775); US (Excl. FL, NY), 21+",
-    frequency: "Enter Once",
-    ends: "2026-10-31",
-    url: "https://witcontests.com/beatbox-xtreme-sour-black-cherry-sweepstakes-age-verification",
-    added: "2026-10-25",
-  },
-
 
   {
     id: 297,
@@ -558,28 +469,6 @@ const SWEEPSTAKES: Listing[] = [
   },
 
   {
-    id: 299,
-    title: "Dr Pepper and Cheez-It \u201cFall Football\u201d Instant Win Game",
-    type: "instant",
-    prizes: "3,150 Winners: (600) $25 eGift Cards (Fanatics or Xbox) or $25 Fandango Promo Codes + (2,550) $10 eGift Cards or $10 Fandango Promo Codes (Total ARV $40,500); 50 US + DC, 18+ (Limit 1 Prize Per Person)",
-    frequency: "Enter Daily",
-    ends: "2026-10-31",
-    url: "https://www.DrPepperCheezItGame.com",
-    added: "2026-10-26",
-  },
-
-  {
-    id: 300,
-    title: "Dairy Queen \u201cMystery Blizzard Plushies\u201d Instant Win Game",
-    type: "instant",
-    prizes: "20 Winners: (10) US Winners: Free Blizzard Treats for a Year as a $750 DQ Gift Card Each + (10) Canadian Winners: DQ Gift Card Worth $1,025 CAD Each; US + DC (Excl. TX) + Canada (Excl. QC), 18+ (DQ Rewards Members; Free Mail-in Entry Available)",
-    frequency: "Enter Daily",
-    ends: "2026-10-31",
-    url: "https://www.dairyqueen.com/en-us/plushie-sweeps",
-    added: "2026-10-26",
-  },
-
-  {
     id: 301,
     title: "Reolink \u201cHalloween Pumpkin Smash\u201d Instant Win Game",
     type: "instant",
@@ -588,29 +477,6 @@ const SWEEPSTAKES: Listing[] = [
     ends: "2026-11-01",
     url: "https://reolink.club/FPD2026-COM",
     added: "2026-10-26",
-  },
-
-  {
-    id: 309,
-    title: "Culver's \u201cCurdtoberfest\u201d Sweepstakes & Instant Win",
-    type: "instant",
-    prizes: "Grand: Trip for 4 to Munich, Germany \u2014 Round-Trip Airfare, 5-Night Hotel, Tours + $1,000 Spending Money (ARV up to $19,900); $2,000 Check; 5 \u00d7 $500 Prepaid Cards; 6,000 Instant-Win Free Medium Cheese Curd Coupons; 50 US + DC, 18+",
-    frequency: "Enter Daily",
-    ends: "2026-10-31",
-    url: "https://curdtoberfest.culvers.com",
-    hot: true,
-    added: "2026-10-27",
-  },
-
-  {
-    id: 310,
-    title: "Ken Griffey Jr. \u201cMLB Trivia\u201d Instant Win Game",
-    type: "instant",
-    prizes: "689 Winners: Grand Trip for 2 to a 2026 MLB World Series Game (ARV $11,000) + 80 \u00d7 $100 MLBShop Gift Cards + 195 \u00d7 $50 + 350 \u00d7 $30 MLBShop Gift Cards + More; 50 US + DC, 18+",
-    frequency: "Enter Daily",
-    ends: "2026-10-31",
-    url: "https://www.baseball-trivia.com",
-    added: "2026-10-27",
   },
 
   {
@@ -666,17 +532,6 @@ const SWEEPSTAKES: Listing[] = [
     ends: "2026-11-01",
     url: "https://sweeps.aarp.org/",
     added: "2026-10-28",
-  },
-
-  {
-    id: 331,
-    title: "Kaytee \u201cUltimate Fan\u201d Instant Win Game",
-    type: "instant",
-    prizes: "81 Awards: 72 Instant-Win Packers Merch Prizes (Shirts, Hats, Drinkware, YETI Item, Plush; $11.99\u2013$47.99 Each) + Drawing Prizes: Grand Dec 13 Packers Trip for 4 (ARV $13,582), First Dec 13 Packers Trip for 4 (ARV $9,382), Bowl-Ticket Package ($1,294) + 6 Shopping/Tour/Bird-Food Packages ($422 Each); 48 Contiguous US + DC, 18+ (19+ AL/NE)",
-    frequency: "Enter Daily",
-    ends: "2026-10-31",
-    url: "https://www.kayteefansweeps.com",
-    added: "2026-10-29",
   },
 
   {
@@ -766,6 +621,50 @@ const SWEEPSTAKES: Listing[] = [
     ends: "2026-11-05",
     url: "https://sweeps.aarp.org/",
     added: "2026-10-31",
+  },
+
+  {
+    id: 364,
+    title: "AARP Rewards Panera Bread Instant Win Game",
+    type: "instant",
+    prizes: "200 Winners: $10 Panera Bread Gift Cards Each (Total ARV $2,000); 50 US + DC, 18+ (Free AARP Rewards Enrollment \u2014 No Paid Membership; Free No-Points Entry Form; Limit 1 Prize/Person)",
+    frequency: "Enter Daily",
+    ends: "2026-11-06",
+    url: "https://sweeps.aarp.org/",
+    added: "2026-11-01",
+  },
+
+  {
+    id: 365,
+    title: "Deschutes Brewery \u201cTry One on Us\u201d Instant Win Promotion",
+    type: "instant",
+    prizes: "Up to 240 Winners: $8 via PayPal or Venmo Each (Total ARV $1,920); 21+ (AL, AR, AZ, HI, IN, KY, LA, MO, NC, OR, PA, TN, TX, UT, VA, WV Only; Valid Government Photo ID; PayPal/Venmo Account Required)",
+    frequency: "Enter Daily",
+    ends: "2027-04-30",
+    url: "https://iframe-mdm.deschutesbrewery.com/dbfboffer/",
+    added: "2026-11-01",
+  },
+
+  {
+    id: 366,
+    title: "Dos Equis \u201cSummer Fuerza Regida\u201d Instant Win + Sweepstakes",
+    type: "instant",
+    prizes: "3 Grand: Trip for 2 to a Fuerza Regida Concert \u2014 Airfare, 2 Hotel Nights, Tickets (ARV $3,000 Each) + 35 Instant: 5 Autographed Guitars ($250 Each), 10 Autographed Vinyl Albums ($20 Each), 20 Sonos Roam 2 Speakers ($150 Each; Total ARV $13,450); 50 US + DC, 21+",
+    frequency: "Enter Daily",
+    ends: "2026-12-31",
+    url: "https://www.dosequis.com/en-us/xx-sweepstakes/fuerzaregida2026/",
+    added: "2026-11-01",
+  },
+
+  {
+    id: 367,
+    title: "SaverLife \u201cScratch and Save\u201d 2026 Instant Win Game",
+    type: "instant",
+    prizes: "1,500 Instant Winners: 1,200 \u00d7 $5 PayPal Payments + 300 \u00d7 $20 PayPal Payments (Total ARV $12,000); 50 US + DC, 18+ (Free SaverLife Membership; Valid PayPal Account Required; Limit 1 Prize/Person)",
+    frequency: "Enter Weekly",
+    ends: "2027-01-05",
+    url: "https://app.saverlife.org/scratchandsaveamoe20",
+    added: "2026-11-01",
   },
 
   // ---- Sweepstakes ----
@@ -1320,17 +1219,6 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-10-24",
   },
 
-  {
-    id: 283,
-    title: "Seagram\u2019s Escapes \u201cEscape the Bustle\u201d Sweepstakes",
-    type: "sweepstakes",
-    prizes: "25 Winners: Backyard Movie-Night Prize Packs \u2014 iLive Cinema Pop-up Movie Theatre Kit, 5\u2019 Faux Fur Bean Bag, Faux Fur Throw + Movie Time Snack Bucket (ARV $519.05 Each; Total ARV $12,976.25); 50 US, 21+",
-    frequency: "Enter Once",
-    ends: "2026-10-31",
-    url: "https://www.seagramsescapes.com/escapethebustle",
-    added: "2026-10-24",
-  },
-
 
   {
     id: 285,
@@ -1527,28 +1415,6 @@ const SWEEPSTAKES: Listing[] = [
   },
 
   {
-    id: 315,
-    title: "Jollibee \u00d7 Forgotten Island Sweepstakes",
-    type: "sweepstakes",
-    prizes: "Grand: 5-Night Philippines Trip for 2 \u2014 Island-Hopping Tour, Massages, Scuba Diving, Kayaking + More (ARV $11,000); Plus Catalina Island, Cape Cod & National Park Trips; 50 US + DC & Canada (Excl. Quebec), 18+ (Free Jollibee Rewards Membership; Free Mail-in Entry Available)",
-    frequency: "Enter Once",
-    ends: "2026-10-31",
-    url: "https://www.jollibeefoods.com/forgotten-island-sweepstakes",
-    added: "2026-10-27",
-  },
-
-  {
-    id: 316,
-    title: "ViewSonic \u201cTrick Or Tech!\u201d Halloween Sweepstakes",
-    type: "sweepstakes",
-    prizes: "3 Winners: VX2730D-4K Gaming Monitor (ARV $449), VP2766-2K Monitor (ARV $315), VX1654 Portable Monitor (ARV $225); US + Canada, 18+ (Void in AZ, RI, Quebec)",
-    frequency: "Enter Once",
-    ends: "2026-10-31",
-    url: "https://www.viewsonic.com/us/halloween-sweepstakes",
-    added: "2026-10-27",
-  },
-
-  {
     id: 317,
     title: "Sparkle \u201cHome Essentials\u201d Sweepstakes",
     type: "sweepstakes",
@@ -1697,17 +1563,6 @@ const SWEEPSTAKES: Listing[] = [
   },
 
   {
-    id: 337,
-    title: "Wairau River New Zealand Trip Sweepstakes",
-    type: "sweepstakes",
-    prizes: "1 Winner + Guest 21+: Trip for 2 to New Zealand \u2014 Round-Trip Coach Airfare, 2 Nights Blenheim + 3 Nights Auckland Hotel, $500 Travel Stipend, Wairau River Winery Tour + Lunch (ARV up to $7,000); 50 US + DC, 21+ (Valid Photo ID; Passports Required)",
-    frequency: "Enter Daily",
-    ends: "2026-10-31",
-    url: "https://www.WairauRiverNZ.com",
-    added: "2026-10-29",
-  },
-
-  {
     id: 338,
     title: "Valpak \u201c$5,000 Holiday Haul\u201d Sweepstakes",
     type: "sweepstakes",
@@ -1748,17 +1603,6 @@ const SWEEPSTAKES: Listing[] = [
     frequency: "Enter Once",
     ends: "2026-11-30",
     url: "https://cloud.email.sel.sony.com/SonyxSeahawksHeadphones",
-    added: "2026-10-29",
-  },
-
-  {
-    id: 342,
-    title: "Dippin\u2019 Dots \u201cKickoff to Cool\u201d Sweepstakes",
-    type: "sweepstakes",
-    prizes: "9 Winners: Grand \u2014 25-Serving Dippin\u2019 Dots Home Delivery + Weber 22\u201d Jumbo Joe Grill, Cornhole Set, Apron, Dr Pepper Cooler, Throw Blanket, GCI Rocker + Swag Box (ARV $958.26); 3 First \u2014 Delivery + Swag (ARV $428.96 Each); 5 Runner-Up \u2014 Swag Boxes (ARV $39.39 Each; Total ARV $2,442.09); 50 US + DC, 18+",
-    frequency: "Enter Daily",
-    ends: "2026-10-31",
-    url: "https://www.dippindots.com/tailgate-sweeps/",
     added: "2026-10-29",
   },
 
@@ -1804,17 +1648,6 @@ const SWEEPSTAKES: Listing[] = [
     frequency: "Enter Once",
     ends: "2026-12-05",
     url: "https://www.pedigree.com/pawliday",
-    added: "2026-10-30",
-  },
-
-  {
-    id: 351,
-    title: "Depend \u201cCoach Prime\u201d Sweepstakes",
-    type: "sweepstakes",
-    prizes: "101 Winners: Grand: 2-Night Trip for 2 to a Colorado Buffaloes Game in Boulder, CO \u2014 Round-Trip Airfare, Hotel, Game Tickets, Pre-Game Hospitality Passes, Meet-and-Greet with Deion Sanders + $500 Cash + (100) Depend Product Packs (Underwear, Washcloths, Socks, Boxer Briefs); US, 18+",
-    frequency: "Enter Once",
-    ends: "2026-10-31",
-    url: "https://dependsweepstakes.com",
     added: "2026-10-30",
   },
 
@@ -1927,6 +1760,72 @@ const SWEEPSTAKES: Listing[] = [
     ends: "2026-11-15",
     url: "https://web.witcontests.com/chiefs/sweepstakes/win/the-ultimate-kc-holiday-261001",
     added: "2026-10-31",
+  },
+
+  {
+    id: 368,
+    title: "iHeartRadio \u201cA Perfect Circle Flyaway\u201d Sweepstakes",
+    type: "sweepstakes",
+    prizes: "Grand: Trip for Winner + Guest to Honolulu, HI to See A Perfect Circle Live \u2014 Airfare, Hotel, Concert Tickets, Meet-and-Greet with Billy Howerdel + Band-Signed Guitar (ARV $3,500); US, 18+",
+    frequency: "Enter Daily",
+    ends: "2026-11-08",
+    url: "https://news.iheart.com/promotions/a-perfect-circle-flyaway-sweepstakes-1929685/",
+    added: "2026-11-01",
+  },
+
+  {
+    id: 369,
+    title: "Pittsburgh Steelers x GEICO \u201cAway We Go\u201d Sweepstakes",
+    type: "sweepstakes",
+    prizes: "2 Winners, Each + Guest: Trip to a 2026\u201327 Away Steelers Game \u2014 Round-Trip Coach Airfare for 2 (Up to $1,500), 2 Hotel Nights (ARV $600), Up to 2 Game Tickets (Up to $400), $700 Visa Gift Card, Luggage Prize Pack (ARV $270) + Autographed Jersey (ARV $350; ARV Up to $3,820 Each; $7,640 Total); US (Excl. NY & FL), 18+",
+    frequency: "Enter Once",
+    ends: "2026-11-30",
+    url: "https://steelers.formstack.com/forms/geico_away_we_go_sweepstakes",
+    added: "2026-11-01",
+  },
+
+  {
+    id: 370,
+    title: "Tatcha \u201cAdvent Calendar\u201d Sweepstakes",
+    type: "sweepstakes",
+    prizes: "5 Winners, Each: 2 Tatcha Skincare Advent Calendars \u2014 One for the Winner and One for a Friend; US, 18+ (Optional Referral Bonus Entries)",
+    frequency: "Enter Once",
+    ends: "2026-11-19",
+    url: "https://refer.tatcha.com/october2026sweepstakes",
+    added: "2026-11-01",
+  },
+
+  {
+    id: 371,
+    title: "Penguin Random House \u201cFall Into Cozy\u201d Sweepstakes",
+    type: "sweepstakes",
+    prizes: "Grand: 5 Books + MoonSleep MoonSpoon Pillow with Deep Plum Zip Cover + \u201cFallin\u2019 for Books\u201d Sweatshirt (ARV $356); 50 US + DC, 18+",
+    frequency: "Enter Once",
+    ends: "2026-11-06",
+    url: "https://sites.prh.com/fallintocozysweeps",
+    added: "2026-11-01",
+  },
+
+  {
+    id: 372,
+    title: "New Orleans Saints \u201cWay to Beach\u201d Sweepstakes",
+    type: "sweepstakes",
+    prizes: "Grand: 3-Night Trip for 2 to Pensacola or Perdido Key, FL \u2014 Hotel, $250 in Local-Restaurant Gift Cards, Boat and Trolley Tour + 2 Tickets to Saints vs. Packers in New Orleans (ARV $2,190); US, 18+",
+    frequency: "Enter Once",
+    ends: "2026-11-02",
+    url: "https://www.neworleanssaints.com/fans/contests/saints-beach-getaway-sweepstakes",
+    added: "2026-11-01",
+  },
+
+  {
+    id: 373,
+    title: "Whisky Advocate \u201cTop 20 Whisky\u201d Sweepstakes",
+    type: "sweepstakes",
+    prizes: "Grand: Top 3 Whiskies of 2026 from Whisky Advocate\u2019s Top 20 List, Including Whisky of the Year (ARV $270); Legal US, 21+",
+    frequency: "Enter Once",
+    ends: "2026-11-24",
+    url: "https://app.viralsweep.com/sweeps/full/f9764e-239365?framed=1",
+    added: "2026-11-01",
   },
 
 ];
@@ -2261,7 +2160,7 @@ export default function Home() {
         </section>
 
         <p style={{ color: "#94a3b8", fontSize: "0.8rem", marginTop: "40px", lineHeight: 1.6 }}>
-          Listings last verified October 31, 2026. Always check the official rules on
+          Listings last verified November 1, 2026. Always check the official rules on
           the sponsor&apos;s page before entering. Sweepstakes Central is not affiliated
           with the sponsors listed.
         </p>
