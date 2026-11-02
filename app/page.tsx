@@ -17,10 +17,10 @@ interface Listing {
   added: string; // YYYY-MM-DD — NEW badge shows when added within the last 3 days
 }
 
-// Listings verified November 1, 2026. Update this list regularly —
+// Listings verified November 2, 2026. Update this list regularly —
 // remove ended sweepstakes and add new ones by editing this file and redeploying.
 const SWEEPSTAKES: Listing[] = [
-// Listings verified November 1, 2026. Update this list regularly —
+// Listings verified November 2, 2026. Update this list regularly —
 // remove ended sweepstakes and add new ones by editing this file and redeploying.
   // ---- Instant Win Games ----
 
@@ -70,18 +70,6 @@ const SWEEPSTAKES: Listing[] = [
     url: "https://www.keystonelight.com/hunt",
     hot: true,
     added: "2026-10-15",
-  },
-
-  {
-    id: 155,
-    title: "McDonald’s 2026 Monopoly Game",
-    type: "instant",
-    prizes: "Top Prizes: (1) $1,000,000 ($50K/Year for 20 Years), (2) $100,000 Cash, (2) $100,000 Gold Bullion Credit, (6) $50,000 College-Debt Paydown, (3) $50,000 Home Down Payment, (15) 2027 Jeep Cherokee 4x4 (ARV $45,990), (8) Polaris Off-Road Vehicles, (34) $10,000 Cash, (50) Carnival Cruise Packages (ARV $10,000) + Millions of Food, Gift Card & Points Prizes; 50 US + DC, 18+ (McDonald’s Rewards Members)",
-    frequency: "Enter Daily",
-    ends: "2026-11-01",
-    url: "https://www.mcdonalds.com",
-    hot: true,
-    added: "2026-10-16",
   },
 
   {
@@ -135,28 +123,6 @@ const SWEEPSTAKES: Listing[] = [
   },
 
   {
-    id: 186,
-    title: "Dairy Queen “Spellbound: Secret Lair” Instant Win Game",
-    type: "instant",
-    prizes: "134,900 Winners: (400) $20 DQ Gift Cards (200 US + 200 CA); (134,500) DQ Rewards Point Prizes (25–100 Points); DQ Rewards Members via DQ App, US + Canada, 18+ (Excl. TX & QC)",
-    frequency: "Enter Daily",
-    ends: "2026-11-01",
-    url: "https://www.dairyqueen.com",
-    added: "2026-10-18",
-  },
-
-  {
-    id: 187,
-    title: "Fanta “Halloween” Instant Win Game",
-    type: "instant",
-    prizes: "7,000 Winners: (2,800) Halloween Masks ($8 Each); (2,400) Pairs of AMC Black Movie Tickets ($21/Pair); (1,500) Fanta Beanies ($25 Each); (300) Fanta Tote Bags ($20 Each); 50 US + DC, 13+",
-    frequency: "Enter Daily",
-    ends: "2026-11-01",
-    url: "https://www.coca-cola.com/us/en/offerings/fanta/fanta-halloween/spook-the-wheel",
-    added: "2026-10-18",
-  },
-
-  {
     id: 189,
     title: "Schaeffer “Season 2026” Instant Win and Sweeps",
     type: "instant",
@@ -199,17 +165,6 @@ const SWEEPSTAKES: Listing[] = [
     ends: "2026-11-30",
     url: "https://www.budlight.com/UpgradeYourCollegeGameday",
     added: "2026-10-19",
-  },
-
-  {
-    id: 214,
-    title: "Copenhagen “250th Forged in Freedom” Sweepstakes & Instant Win Game",
-    type: "instant",
-    prizes: "13,001 Winners: Grand: 2026 Ford F-250 + $30,000 Check (ARV $138,560) + 13,000 Instant-Win $25 Visa Reward Virtual Cards (Total ARV $463,560); US + DC, 21+ (Registered Tobacco Consumers; Excl. MA & MI)",
-    frequency: "Enter Daily",
-    ends: "2026-11-01",
-    url: "https://www.freshcope.com",
-    added: "2026-10-20",
   },
 
   {
@@ -469,17 +424,6 @@ const SWEEPSTAKES: Listing[] = [
   },
 
   {
-    id: 301,
-    title: "Reolink \u201cHalloween Pumpkin Smash\u201d Instant Win Game",
-    type: "instant",
-    prizes: "16 Winners: (3) Elite Floodlight WiFi Cameras ($249.99 Each) + (3) Solar Floodlight Cams ($128.99 Each) + (10) E1 Cameras ($45.99 Each) Awarded as 100%-Off Product Coupons (Redeem by Nov 5, 2026); 18+ or Age of Majority, Logged-in Reolink Account (Void Where Prohibited)",
-    frequency: "Enter Daily",
-    ends: "2026-11-01",
-    url: "https://reolink.club/FPD2026-COM",
-    added: "2026-10-26",
-  },
-
-  {
     id: 311,
     title: "Miller High Life \u201cMusic\u201d Instant Win Game",
     type: "instant",
@@ -521,28 +465,6 @@ const SWEEPSTAKES: Listing[] = [
     ends: "2026-11-03",
     url: "https://sweeps.aarp.org/",
     added: "2026-10-28",
-  },
-
-  {
-    id: 323,
-    title: "AARP Rewards Staples Instant Win Game",
-    type: "instant",
-    prizes: "200 Winners: $10 Staples Gift Card Each (Total ARV $2,000); 50 US + DC, 18+ (Free AARP Rewards Enrollment \u2014 No Paid Membership; Free No-Points Entry Form)",
-    frequency: "Enter Daily",
-    ends: "2026-11-01",
-    url: "https://sweeps.aarp.org/",
-    added: "2026-10-28",
-  },
-
-  {
-    id: 332,
-    title: "Shokz x TCS New York City Marathon Lucky Draw",
-    type: "instant",
-    prizes: "60 Winners: (5) NYC Marathon Co-Branded OpenRun Pro 2 Headphones, (10) OpenRun Pro 2 Headphones, (15) Stainless-Steel Tumblers, (30) Tote Bags (Total Est. Value $2,699); 50 US + DC, 18+",
-    frequency: "Enter Once",
-    ends: "2026-11-01",
-    url: "https://shokz.com/pages/new-york-city-marathon",
-    added: "2026-10-29",
   },
 
   {
@@ -665,6 +587,18 @@ const SWEEPSTAKES: Listing[] = [
     ends: "2027-01-05",
     url: "https://app.saverlife.org/scratchandsaveamoe20",
     added: "2026-11-01",
+  },
+
+  {
+    id: 374,
+    title: "Starbucks \u201cUncap, Scan & Win\u201d Instant Win Game",
+    type: "instant",
+    prizes: "300,500 Instant Prizes: 50,000 \u00d7 60 Stars, 175,000 \u00d7 25 Stars, 50,000 Grande Beverage Coupons, 25,500 Bakery Item Coupons + 4 Grand: Starbucks for a Year (1 Free Food Item or Standard Beverage Per Day for 365 Days; ARV $3,935 Each; Total ARV $614,425); 50 US + DC, 18+ (Free Starbucks Rewards Membership; No Purchase Necessary)",
+    frequency: "Enter Daily",
+    ends: "2026-12-31",
+    url: "https://uncapstars.starbucks.com",
+    hot: true,
+    added: "2026-11-02",
   },
 
   // ---- Sweepstakes ----
@@ -1404,17 +1338,6 @@ const SWEEPSTAKES: Listing[] = [
   },
 
   {
-    id: 314,
-    title: "Audacy \u201cFontaines D.C. in Ireland\u201d Flyaway Sweepstakes",
-    type: "sweepstakes",
-    prizes: "Grand: Trip for 2 to Ireland \u2014 Round-Trip Coach Airfare to Dublin, 3-Night Dublin Hotel, Shuttle Passes + 2 Tickets to Fontaines D.C. at Slane Castle, June 27, 2027 (ARV $4,950); 48 Contiguous US + DC (Excl. AK, HI), 21+ (Valid Passport Required)",
-    frequency: "Enter Once",
-    ends: "2026-11-01",
-    url: "https://www.audacy.com/national/contests/see-fontaines-dc-in-ireland",
-    added: "2026-10-27",
-  },
-
-  {
     id: 317,
     title: "Sparkle \u201cHome Essentials\u201d Sweepstakes",
     type: "sweepstakes",
@@ -1422,18 +1345,6 @@ const SWEEPSTAKES: Listing[] = [
     frequency: "Enter Once",
     ends: "2026-11-15",
     url: "https://www.sparkletowels.com/win-a-year-supply-sweeps",
-    added: "2026-10-27",
-  },
-
-  {
-    id: 318,
-    title: "Spirit Halloween x Butterfinger \u201c$15,000\u201d Sweepstakes",
-    type: "sweepstakes",
-    prizes: "1 Winner: $15,000 Cash; 50 US + DC + Canada (Excl. Quebec), Age of Majority",
-    frequency: "Enter Once",
-    ends: "2026-11-01",
-    url: "https://www.spirithalloween.com/sweeps",
-    hot: true,
     added: "2026-10-27",
   },
 
@@ -1828,6 +1739,61 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-11-01",
   },
 
+  {
+    id: 375,
+    title: "Musora \u201cEl Estepario\u201d Sweepstakes",
+    type: "sweepstakes",
+    prizes: "Grand: 2-Night Trip for Winner to Valencia, Spain \u2014 Airfare, Hotel, $150 Travel Stipend, Meet-and-Greet and Jam Session with El Estepario, Signed Pearl Drum Set + 1 Year of Musora Online Music Lessons (ARV $9,578) + 2 Runner-Up: 12-Month Musora Annual Memberships ($279 Each); 18+ (Sponsor States No Location Restrictions; US Entrants Eligible)",
+    frequency: "Enter Once",
+    ends: "2026-11-16",
+    url: "https://www.musora.com/win",
+    added: "2026-11-02",
+  },
+
+  {
+    id: 376,
+    title: "Greenrow \u201cSerenbe Getaway\u201d Sweepstakes",
+    type: "sweepstakes",
+    prizes: "Grand: 2-Night Stay for Up to 8 Guests at the GreenRow Lake House at The Inn at Serenbe + $1,000 GreenRow Gift Card (ARV $4,800); US, 18+",
+    frequency: "Enter Once",
+    ends: "2026-11-24",
+    url: "https://www.greenrow.com/pages/sweepstakes/serenbe/",
+    added: "2026-11-02",
+  },
+
+  {
+    id: 377,
+    title: "GEICO \u201cBirds on the Go\u201d Sweepstakes",
+    type: "sweepstakes",
+    prizes: "2 Winners, Each + Guest: Trip to Philadelphia Eagles vs. Dallas Cowboys Game at AT&T Stadium (Nov 26, 2026) \u2014 2 Game Tickets ($500), Round-Trip Coach Airfare PHL\u2013DFW ($1,200), 2 Hotel Nights ($750) + $500 Visa Gift Card (ARV $2,950 Each; $5,900 Total); PA, DE, NJ Only, 21+",
+    frequency: "Enter Once",
+    ends: "2026-11-09",
+    url: "https://philadelphiaeagles.com/geicosweepstakes",
+    added: "2026-11-02",
+  },
+
+  {
+    id: 378,
+    title: "Resident Evil \u201c30th Anniversary\u201d Sweepstakes",
+    type: "sweepstakes",
+    prizes: "3 Winners, Each: 1 Resident Evil Requiem Game Code for Steam (ARV $69.99 Each; Total ARV $209.97); 50 US + DC, 18+ (Sponsor: G FUEL; Bonus Entries via Social/Referral Tasks)",
+    frequency: "Enter Once",
+    ends: "2026-11-06",
+    url: "https://gfuel.com/pages/giveaways/requiem-30",
+    added: "2026-11-02",
+  },
+
+  {
+    id: 379,
+    title: "J\u00e4germeister \u201cLoyalty Q4\u201d Sweepstakes",
+    type: "sweepstakes",
+    prizes: "5 Winners: Grand: Branded J\u00e4germeister Adirondack-Style Chair (ARV $150) + 4 First: Branded J\u00e4germeister ShotSkis (ARV $50 Each; No Alcohol in Any Prize); 50 US + DC, 21+ (Valid US Driver\u2019s License or Government Photo ID)",
+    frequency: "Enter Once",
+    ends: "2026-11-15",
+    url: "https://us.jagermeister.com/join-us",
+    added: "2026-11-02",
+  },
+
 ];
 
 
@@ -2160,7 +2126,7 @@ export default function Home() {
         </section>
 
         <p style={{ color: "#94a3b8", fontSize: "0.8rem", marginTop: "40px", lineHeight: 1.6 }}>
-          Listings last verified November 1, 2026. Always check the official rules on
+          Listings last verified November 2, 2026. Always check the official rules on
           the sponsor&apos;s page before entering. Sweepstakes Central is not affiliated
           with the sponsors listed.
         </p>
