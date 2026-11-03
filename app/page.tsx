@@ -17,10 +17,10 @@ interface Listing {
   added: string; // YYYY-MM-DD — NEW badge shows when added within the last 3 days
 }
 
-// Listings verified November 2, 2026. Update this list regularly —
+// Listings verified November 3, 2026. Update this list regularly —
 // remove ended sweepstakes and add new ones by editing this file and redeploying.
 const SWEEPSTAKES: Listing[] = [
-// Listings verified November 2, 2026. Update this list regularly —
+// Listings verified November 3, 2026. Update this list regularly —
 // remove ended sweepstakes and add new ones by editing this file and redeploying.
   // ---- Instant Win Games ----
 
@@ -424,17 +424,6 @@ const SWEEPSTAKES: Listing[] = [
   },
 
   {
-    id: 311,
-    title: "Miller High Life \u201cMusic\u201d Instant Win Game",
-    type: "instant",
-    prizes: "500 Winners: Crosley Mini Jukebox Speaker Each (ARV $12; Total ARV $6,000); 50 US + DC, 21+",
-    frequency: "Enter Daily",
-    ends: "2026-11-02",
-    url: "https://www.millerhighlife.com/music",
-    added: "2026-10-27",
-  },
-
-  {
     id: 312,
     title: "Dos Equis \u201cMost Interesting Man\u201d Instant Win Game",
     type: "instant",
@@ -443,17 +432,6 @@ const SWEEPSTAKES: Listing[] = [
     ends: "2026-12-31",
     url: "https://www.dosequis.com/mostinterestingsweeps",
     added: "2026-10-27",
-  },
-
-  {
-    id: 321,
-    title: "AARP Rewards Amazon Instant Win Game",
-    type: "instant",
-    prizes: "15 Winners: $100 Amazon.com eGift Card Each (Total ARV $1,500); 50 US + DC, 18+ (Free AARP Rewards Enrollment \u2014 No Paid Membership; Free No-Points Entry Form; Limit 1 Prize/Person)",
-    frequency: "Enter Daily",
-    ends: "2026-11-02",
-    url: "https://sweeps.aarp.org/",
-    added: "2026-10-28",
   },
 
   {
@@ -599,6 +577,29 @@ const SWEEPSTAKES: Listing[] = [
     url: "https://uncapstars.starbucks.com",
     hot: true,
     added: "2026-11-02",
+  },
+
+  {
+    id: 380,
+    title: "Miller Lite “Holiday 2026” Instant Win Game",
+    type: "instant",
+    prizes: "600 Instant Prizes: 100 Quarter-Zips (ARV $46 Each), 100 Crewneck Sweaters (ARV $33 Each), 400 Beanies (ARV $7.50 Each) + National/Keyword Drawings Incl. 50 \u00d7 $500 Venmo Payments (Total ARV $48,692); 50 US + DC, 21+",
+    frequency: "Enter Daily",
+    ends: "2026-12-31",
+    url: "https://www.millerlite.com/holiday",
+    added: "2026-11-03",
+  },
+
+  {
+    id: 381,
+    title: "Coca-Cola “2026 Holiday” Instant Win Game",
+    type: "instant",
+    prizes: "82,094 Prizes: Grand: 5-Day/4-Night Fairbanks, Alaska Trip for 2 (ARV $4,650) + Instant: 7 \u00d7 $100 Coke Store Prepaid Cards, 75 \u00d7 $25 Coke Store Prepaid Cards, 1,840 \u00d7 $20 Disney Store Gift Cards, 10,000 AMC Black Ticket Pairs ($21 Each), 70,000 \u00d7 20 oz Coke Digital Coupons + Merch (Total Instant Pool 80,000+); 50 US + DC, 18+ (Free Coca-Cola Account)",
+    frequency: "Enter Daily",
+    ends: "2027-01-03",
+    url: "https://www.coca-cola.com",
+    hot: true,
+    added: "2026-11-03",
   },
 
   // ---- Sweepstakes ----
@@ -1202,17 +1203,6 @@ const SWEEPSTAKES: Listing[] = [
   },
 
   {
-    id: 293,
-    title: "Getaways by Southwest \u201cEmail\u201d Sweepstakes",
-    type: "sweepstakes",
-    prizes: "Grand: $3,500 Getaways by Southwest Voucher Toward a Vacation Package (Round-Trip Southwest Flights for 2 + Min. 3 Hotel Nights; Voucher Only, Costs Above $3,500 Winner\u2019s Responsibility; ARV $3,500); 50 US + DC, 21+ (Entry by Subscribing to Getaways by Southwest Emails)",
-    frequency: "Enter Once",
-    ends: "2026-11-02",
-    url: "https://www.southwest.com/GetawaysEmailSweeps",
-    added: "2026-10-25",
-  },
-
-  {
     id: 294,
     title: "Visit Beloit \u201cConnect in Beloit\u201d Sweepstakes",
     type: "sweepstakes",
@@ -1220,17 +1210,6 @@ const SWEEPSTAKES: Listing[] = [
     frequency: "Enter Once",
     ends: "2026-12-31",
     url: "https://visitbeloit.com/win/",
-    added: "2026-10-25",
-  },
-
-  {
-    id: 295,
-    title: "INSP \u201cFrontier Feast\u201d Sweepstakes",
-    type: "sweepstakes",
-    prizes: "Grand: 7-Quart Crockpot Slow Cooker + 20-Piece Blue Willow China Set + $250 Visa Gift Card (ARV $525); 50 US + DC, 18+",
-    frequency: "Enter Daily",
-    ends: "2026-11-02",
-    url: "https://www.insp.com/sweepstakes/frontier-feast-sweepstakes/",
     added: "2026-10-25",
   },
 
@@ -1326,18 +1305,6 @@ const SWEEPSTAKES: Listing[] = [
   },
 
   {
-    id: 313,
-    title: "My Nintendo \u201cHoliday Magic\u201d Sweepstakes",
-    type: "sweepstakes",
-    prizes: "Grand: 3-Day/2-Night Trip for Winner + Up to 3 Guests to New York City \u2014 JetBlue Round-Trip Certificates, 2-Night Hotel, Airport Transfers + VIP Nintendo NEW YORK Store Experience (ARV $3,271); Contiguous US + DC (Excl. AK, HI), 18+ (Nintendo Account + 10 Platinum Points per Entry, Limit 10 Entries)",
-    frequency: "Enter Once",
-    ends: "2026-11-02",
-    url: "https://my.nintendo.com/rewards/fda3e5a574c668e6",
-    hot: true,
-    added: "2026-10-27",
-  },
-
-  {
     id: 317,
     title: "Sparkle \u201cHome Essentials\u201d Sweepstakes",
     type: "sweepstakes",
@@ -1345,18 +1312,6 @@ const SWEEPSTAKES: Listing[] = [
     frequency: "Enter Once",
     ends: "2026-11-15",
     url: "https://www.sparkletowels.com/win-a-year-supply-sweeps",
-    added: "2026-10-27",
-  },
-
-  {
-    id: 319,
-    title: "HexClad \u201cGordon\u2019s Golden Ticket to Italy\u201d Sweepstakes",
-    type: "sweepstakes",
-    prizes: "1 Winner: 8-Day/7-Night Italy Trip for 2 \u2014 First-Class Flights, 5-Star Hotels, Michelin-Starred Dinners, $10,000 Spending Money + $25,000 Tax Offset (Total ARV $156,500); 50 US + DC + Canada, 21+",
-    frequency: "Enter Once",
-    ends: "2026-11-02",
-    url: "https://hexclad.com/pages/gordons-golden-ticket-italy",
-    hot: true,
     added: "2026-10-27",
   },
 
@@ -1492,17 +1447,6 @@ const SWEEPSTAKES: Listing[] = [
     frequency: "Enter Once",
     ends: "2026-11-10",
     url: "https://www.kleanfreak.com/pages/cancun-giveaway",
-    added: "2026-10-29",
-  },
-
-  {
-    id: 340,
-    title: "DAHON Black Friday Giveaway",
-    type: "sweepstakes",
-    prizes: "2 Winners, Each: DAHON Unio E20 E-Bike ($2,699 Each; Total $5,398); US Residents (No Minimum Age Stated in Rules; One Email Registration Per User)",
-    frequency: "Enter Once",
-    ends: "2026-11-02",
-    url: "https://usa.dahon.com/pages/black-friday",
     added: "2026-10-29",
   },
 
@@ -1718,17 +1662,6 @@ const SWEEPSTAKES: Listing[] = [
   },
 
   {
-    id: 372,
-    title: "New Orleans Saints \u201cWay to Beach\u201d Sweepstakes",
-    type: "sweepstakes",
-    prizes: "Grand: 3-Night Trip for 2 to Pensacola or Perdido Key, FL \u2014 Hotel, $250 in Local-Restaurant Gift Cards, Boat and Trolley Tour + 2 Tickets to Saints vs. Packers in New Orleans (ARV $2,190); US, 18+",
-    frequency: "Enter Once",
-    ends: "2026-11-02",
-    url: "https://www.neworleanssaints.com/fans/contests/saints-beach-getaway-sweepstakes",
-    added: "2026-11-01",
-  },
-
-  {
     id: 373,
     title: "Whisky Advocate \u201cTop 20 Whisky\u201d Sweepstakes",
     type: "sweepstakes",
@@ -1792,6 +1725,94 @@ const SWEEPSTAKES: Listing[] = [
     ends: "2026-11-15",
     url: "https://us.jagermeister.com/join-us",
     added: "2026-11-02",
+  },
+
+  {
+    id: 382,
+    title: "The North Face “Holiday Wish List” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "4 Winners: $1,000 The North Face E-Gift Card Each (Total ARV $4,000); US, 18+ (Free XPLR Pass Account; Favorite at Least One Item to Enter)",
+    frequency: "Enter Once",
+    ends: "2026-11-13",
+    url: "https://www.thenorthface.com/en-us/xplr-pass/xplr-pass-sweepstakes",
+    added: "2026-11-03",
+  },
+
+  {
+    id: 383,
+    title: "The Neighbourhood “Wourld Tour Flyaway” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "1 Winner + Guest: San Francisco Trip Dec 1\u20133, 2026 \u2014 2 Round-Trip Economy Flights, 2 Hotel Nights, 2 Tickets to The Neighbourhood Wourld Tour Concert Dec 2, 2026 (ARV $2,000); US Incl. DC + PR, Age of Majority",
+    frequency: "Enter Once",
+    ends: "2026-11-11",
+    url: "https://forms.sonymusicfans.com/campaign/sony-music-now-the-neighbourhood-flyaway-giveaway/",
+    added: "2026-11-03",
+  },
+
+  {
+    id: 384,
+    title: "WD-40 “Thanks for Giving” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "1 Winner: $250 Amazon Gift Card; US, 18+",
+    frequency: "Enter Once",
+    ends: "2026-11-15",
+    url: "https://thanksforgivingsweepstakes.wd40.com/",
+    added: "2026-11-03",
+  },
+
+  {
+    id: 385,
+    title: "New York Jets “Your Ticket to Sail” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "1 Winner: $2,000 Carnival Cruise Line Gift Card + $1,000 American Express Gift Card (ARV $3,000); US, 18+",
+    frequency: "Enter Once",
+    ends: "2026-11-19",
+    url: "https://www.newyorkjets.com/fans/sweepstakes/26carnival",
+    added: "2026-11-03",
+  },
+
+  {
+    id: 386,
+    title: "Delta Faucet “$2,100 Hair Care” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "1 Winner: Hair Care Prize Package \u2014 Delta Versacurl Tool, H2Okinetic Raincan Shower Head, Clarifi Filter System/Cartridges, RevAir Complete Routine Bundle + 10 The Doux Hair-Care Products (ARV $2,100); 50 US + DC, 18+",
+    frequency: "Enter Once",
+    ends: "2026-11-15",
+    url: "https://www.deltafaucet.com/giveaways",
+    added: "2026-11-03",
+  },
+
+  {
+    id: 387,
+    title: "Smirnoff Ice “Holiday Kayak” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "2 Winners: Smirnoff Ice Branded Kayak Each (ARV $3,666.66 Each; Total ARV $7,333.32); US, 21+",
+    frequency: "Enter Once",
+    ends: "2026-12-31",
+    url: "https://www.spiritspromos.com/smirnoff-ice/kayak-sweeps/en/submission/form",
+    added: "2026-11-03",
+  },
+
+  {
+    id: 388,
+    title: "Jai Alai “Days” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "20 Winners: Jai Alai Prize Pack Each \u2014 Branded Holiday Sweater, Beanie, Camp Mug + Socks (ARV Up to $100 Each); 48 Contiguous US + DC, 21+ (Void AK & HI)",
+    frequency: "Enter Daily",
+    ends: "2026-12-11",
+    url: "https://www.hp2win.com/JAIALAIDAYS26",
+    added: "2026-11-03",
+  },
+
+  {
+    id: 389,
+    title: "SiriusXM “Tortuga Music Festival 2027” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "1 Winner + Guest: VIP Trip to Tortuga Music Festival, Ft. Lauderdale, Apr 2\u20134, 2027 \u2014 Round-Trip Coach Airfare for 2, 4 Hotel Nights, 2 VIP 3-Day Tickets, Backstage Tour, Welcome Party + $200 Gift Card (ARV $4,000); US + DC + PR, 21+ (Current SiriusXM Subscribers Only \u2014 Plan Active On/Before Oct 20, 2026)",
+    frequency: "Enter Once",
+    ends: "2026-11-22",
+    url: "https://www.siriusxm.com/tortuga2027",
+    added: "2026-11-03",
   },
 
 ];
@@ -2126,7 +2147,7 @@ export default function Home() {
         </section>
 
         <p style={{ color: "#94a3b8", fontSize: "0.8rem", marginTop: "40px", lineHeight: 1.6 }}>
-          Listings last verified November 2, 2026. Always check the official rules on
+          Listings last verified November 3, 2026. Always check the official rules on
           the sponsor&apos;s page before entering. Sweepstakes Central is not affiliated
           with the sponsors listed.
         </p>
