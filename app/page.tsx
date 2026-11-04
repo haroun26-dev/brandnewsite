@@ -17,10 +17,10 @@ interface Listing {
   added: string; // YYYY-MM-DD — NEW badge shows when added within the last 3 days
 }
 
-// Listings verified November 3, 2026. Update this list regularly —
+// Listings verified November 4, 2026. Update this list regularly —
 // remove ended sweepstakes and add new ones by editing this file and redeploying.
 const SWEEPSTAKES: Listing[] = [
-// Listings verified November 3, 2026. Update this list regularly —
+// Listings verified November 4, 2026. Update this list regularly —
 // remove ended sweepstakes and add new ones by editing this file and redeploying.
   // ---- Instant Win Games ----
 
@@ -165,17 +165,6 @@ const SWEEPSTAKES: Listing[] = [
     ends: "2026-11-30",
     url: "https://www.budlight.com/UpgradeYourCollegeGameday",
     added: "2026-10-19",
-  },
-
-  {
-    id: 215,
-    title: "Yesway & Allsup’s Spin-to-Win Game & Sweepstakes",
-    type: "instant",
-    prizes: "Grand: All-Terrain Vehicle (ARV $10,000); First: Trip for 2 to the SEC Football Championship in Atlanta — 2 Hotel Nights + Pre-Game Party Passes, No Airfare (ARV $3,600) + 115,800 Spin-to-Win Instant Prizes (Drinks, Food Vouchers, Fuel Discounts; Total ARV $358,650); AZ, MO, NE, NM, OK, SD, TX, WY Only, 21+ (Yesway/Allsup’s Rewards; Instant Spins Require Qualifying Purchase — Drawings Free by Mail-in)",
-    frequency: "Enter Daily",
-    ends: "2026-11-03",
-    url: "https://allsups.com/sweepstakes/spin-to-win/",
-    added: "2026-10-20",
   },
 
   {
@@ -435,17 +424,6 @@ const SWEEPSTAKES: Listing[] = [
   },
 
   {
-    id: 322,
-    title: "AARP Rewards Five Guys Instant Win Game",
-    type: "instant",
-    prizes: "200 Winners: $10 Five Guys eGift Card Each (Total ARV $2,000); 50 US + DC, 18+ (Free AARP Rewards Enrollment \u2014 No Paid Membership)",
-    frequency: "Enter Daily",
-    ends: "2026-11-03",
-    url: "https://sweeps.aarp.org/",
-    added: "2026-10-28",
-  },
-
-  {
     id: 334,
     title: "Ezra Brooks \u201c90 Prizes for 90 Proof\u201d Instant Win Sweepstakes",
     type: "instant",
@@ -600,6 +578,52 @@ const SWEEPSTAKES: Listing[] = [
     url: "https://www.coca-cola.com",
     hot: true,
     added: "2026-11-03",
+  },
+
+  {
+    id: 390,
+    title: "Wonka \u201cGolden Ticket\u201d Instant Win Game",
+    type: "instant",
+    prizes: "1 Golden Ticket Experience: 4-Day/3-Night Las Vegas Trip for Winner + Up to 3 Guests \u2014 Airfare, 2 Double Rooms, Ground Transport, 4 VIP Netflix House Tickets + $1,000 Check (ARV $9,000) + 1,440 Instant: Wonka Factory Bundle Tote Bags (ARV $55 Each; Total ARV $124,200); 50 US + DC, 21+",
+    frequency: "Enter Daily",
+    ends: "2027-07-31",
+    url: "https://www.wonka.com/us/en/xp/golden-ticket/",
+    hot: true,
+    added: "2026-11-04",
+  },
+
+  {
+    id: 391,
+    title: "Starbucks \u201cUncap, Scan & Win 2026\u201d Instant Win Game",
+    type: "instant",
+    prizes: "300,500 Instant Prizes: 50,000 \u00d7 60 Stars, 175,000 \u00d7 25 Stars, 50,000 Handcrafted Beverage Coupons (ARV $10 Each), 25,500 Bakery Coupons (ARV $3.87 Each) + 4 Grand: \u201cStarbucks for a Year\u201d Daily Food/Beverage Credit, 365 Days (ARV $3,935 Each); 50 US + DC, 18+ (Free Starbucks Rewards Membership)",
+    frequency: "Enter Daily",
+    ends: "2026-12-31",
+    url: "https://uncapstars.starbucks.com",
+    hot: true,
+    added: "2026-11-04",
+  },
+
+  {
+    id: 392,
+    title: "poppi \u201cShirley Vibes\u201d Instant Win Game",
+    type: "instant",
+    prizes: "135 Winners: 9 \u00d7 $1,000 Digital Gift Cards (One Each Friday) + 126 \u00d7 $100 Digital Gift Cards (Two Per Day; Total ARV $21,600); US + DC, 18+ (19+ AL, NE; Receipt or Product-Photo Upload, or Free Mail-in Entry)",
+    frequency: "Enter Daily",
+    ends: "2027-01-01",
+    url: "https://poppishirleyvibes.com",
+    added: "2026-11-04",
+  },
+
+  {
+    id: 393,
+    title: "Frito-Lay \u201cHappy Holi-Lays\u201d Instant Win Game",
+    type: "instant",
+    prizes: "1,297 Instant Prizes: 439 Glass Chip Bowls ($30), 439 Wood Chip Bowls ($80), 171 Sweaters ($75), 170 Charcuterie Sets ($100), 48 Lay\u2019s \u00d7 Le Creuset Casseroles ($355), 15 Multicookers ($350), 15 Tile Word Game Sets ($226; Total ARV $103,795; Limit 3 Prizes/Person); 50 US + DC, 18+ (19+ AL, NE; Scan Participating Lay\u2019s Bag or Free Daily Code, No Purchase Needed)",
+    frequency: "Enter Daily",
+    ends: "2026-12-27",
+    url: "https://happyholi-lays.com",
+    added: "2026-11-04",
   },
 
   // ---- Sweepstakes ----
@@ -1507,17 +1531,6 @@ const SWEEPSTAKES: Listing[] = [
   },
 
   {
-    id: 352,
-    title: "SCHEELS \u201cUltimate Shopping\u201d Giveaway",
-    type: "sweepstakes",
-    prizes: "2 Winners, Each: $500 SCHEELS Gift Card + $25 Event Ticket + Each Winner Designates 3 Guests (Each: $100 SCHEELS Gift Card + $25 Event Ticket; Total ARV $1,800); US, 18+",
-    frequency: "Enter Once",
-    ends: "2026-11-03",
-    url: "https://www.scheels.com/rtw/XJXtm4",
-    added: "2026-10-30",
-  },
-
-  {
     id: 353,
     title: "Big Sky Brands \u201cFar Out Flavors\u201d Contest",
     type: "sweepstakes",
@@ -1813,6 +1826,61 @@ const SWEEPSTAKES: Listing[] = [
     ends: "2026-11-22",
     url: "https://www.siriusxm.com/tortuga2027",
     added: "2026-11-03",
+  },
+
+  {
+    id: 394,
+    title: "David\u2019s Bridal \u201cNewlyweds Taping\u201d Sweepstakes",
+    type: "sweepstakes",
+    prizes: "1 Winner + Guest: LA Trip \u2014 Round-Trip Airfare, 2 Nights at Hilton Los Angeles/Universal City, Car Service, 2 Tickets to NBC\u2019s \u201cNewlyweds\u201d Taping Dec 11, 2026 (ARV $3,500); Contiguous US, 18+",
+    frequency: "Enter Once",
+    ends: "2026-11-13",
+    url: "https://www.davidsbridal.com/nbc-newlyweds",
+    added: "2026-11-04",
+  },
+
+  {
+    id: 395,
+    title: "Disney+ Perks \u201cAvengers: Doomsday Premiere\u201d Sweepstakes",
+    type: "sweepstakes",
+    prizes: "1 Winner + Guest: 3-Day/2-Night Trip to the Avengers: Doomsday World Premiere (LA or NYC, City TBD) \u2014 Airfare, Hotel, Ground Transport, Premiere Admission + $100 Cash (ARV $2,960); US, 18+ (Enter via Disney+ Perks Dashboard; Free Email Alternate Entry for Non-Subscribers)",
+    frequency: "Enter Daily",
+    ends: "2026-11-19",
+    url: "https://perks.disneyplus.com",
+    added: "2026-11-04",
+  },
+
+  {
+    id: 396,
+    title: "LEGO Insiders \u201cWin Your LEGO Wishlist\u201d Sweepstakes",
+    type: "sweepstakes",
+    prizes: "2 US Winners: Items From Their Submitted LEGO Wish List, Capped at $1,000 Each (14 Winners Globally); US, 18+ (Free LEGO Insiders Membership)",
+    frequency: "Enter Once",
+    ends: "2026-11-22",
+    url: "https://www.lego.com/en-us/holiday-gifts/win-your-wishlist",
+    added: "2026-11-04",
+  },
+
+  {
+    id: 397,
+    title: "Jersey Mike\u2019s \u201cMy Way\u201d Sweepstakes",
+    type: "sweepstakes",
+    prizes: "1 Winner: $3,000 Jersey Mike\u2019s E-Gift Cards + $2,000 Ticketmaster E-Gift Cards (ARV $5,000); US, 18+",
+    frequency: "Enter Once",
+    ends: "2026-12-13",
+    url: "https://lnpromos.com/jerseymikes",
+    added: "2026-11-04",
+  },
+
+  {
+    id: 398,
+    title: "Carnival Rewards \u201cEmeril\u2019s Extraordinary Points\u201d Sweepstakes",
+    type: "sweepstakes",
+    prizes: "16 Winners: Carnival Rewards Points \u2014 1 \u00d7 250,000 Points, 5 \u00d7 100,000 Points, 10 \u00d7 25,000 Points; 50 US + DC + Canada Excl. Quebec, 21+ (Carnival Rewards Members)",
+    frequency: "Enter Once",
+    ends: "2026-11-09",
+    url: "https://carnivalrewards.com/emeril",
+    added: "2026-11-04",
   },
 
 ];
@@ -2147,7 +2215,7 @@ export default function Home() {
         </section>
 
         <p style={{ color: "#94a3b8", fontSize: "0.8rem", marginTop: "40px", lineHeight: 1.6 }}>
-          Listings last verified November 3, 2026. Always check the official rules on
+          Listings last verified November 4, 2026. Always check the official rules on
           the sponsor&apos;s page before entering. Sweepstakes Central is not affiliated
           with the sponsors listed.
         </p>
