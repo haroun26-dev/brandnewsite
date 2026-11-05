@@ -17,10 +17,10 @@ interface Listing {
   added: string; // YYYY-MM-DD — NEW badge shows when added within the last 3 days
 }
 
-// Listings verified November 4, 2026. Update this list regularly —
+// Listings verified November 5, 2026. Update this list regularly —
 // remove ended sweepstakes and add new ones by editing this file and redeploying.
 const SWEEPSTAKES: Listing[] = [
-// Listings verified November 4, 2026. Update this list regularly —
+// Listings verified November 5, 2026. Update this list regularly —
 // remove ended sweepstakes and add new ones by editing this file and redeploying.
   // ---- Instant Win Games ----
 
@@ -180,17 +180,6 @@ const SWEEPSTAKES: Listing[] = [
   },
 
   {
-    id: 218,
-    title: "Swig “Take The Chance” Instant Win Game",
-    type: "instant",
-    prizes: "2,263 Winners: (3) $100 Swig Gift Cards + Instant Prizes: 490 Free 24 oz Drinks, 140 Free Pretzel Bites, 630 BOGO Drinks, 1,000 Free Upgrades (Total ARV ~$4,214); US, 18+ (19+ AL/NE, 21+ MS; Excl. NY, RI, HI, AK, FL, DC)",
-    frequency: "Enter Daily",
-    ends: "2026-11-04",
-    url: "https://web.witcontests.com/swig/giveaway/slots/take-the-chance-win-a-dollar10-2610082",
-    added: "2026-10-20",
-  },
-
-  {
     id: 227,
     title: "Coffee mate “Year of Flavor” Instant Win Game",
     type: "instant",
@@ -290,32 +279,9 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-10-22",
   },
 
-  {
-    id: 245,
-    title: "Camel \u201cOut There\u201d Daily Instant Win Game",
-    type: "instant",
-    prizes: "800 Instant: Digital Choice Prepaid Mastercards ($25 or $50 Each; ARV $23,000) + 79 Weekly Prizes (Guitar Setups, Hotel Vouchers, Surfboards; ARV $37,600) + 4 Grand: Concert Experiences or LA/NY/Tropical Trips (ARV $1,500\u2013$2,500 Each; Total ARV $69,600); 50 US + DC, 21+ (Tobacco Consumers; Excl. MA & MI; Free camel.com Account)",
-    frequency: "Enter Daily",
-    ends: "2026-11-04",
-    url: "https://www.camel.com",
-    added: "2026-10-22",
-  },
 
 
 
-
-
-  {
-    id: 258,
-    title: "Frito-Lay \u201cHappy Holi-Lays\u201d Instant Win Game",
-    type: "instant",
-    prizes: "1,297 Instant Winners: Holi-Lays Glass & Wood Chip Bowls, Sweaters, Charcuterie Sets, Lays x Le Creuset Casseroles, Multicookers & More (Total ARV $103,795); 50 US + DC, 18+ (Free Code Request, No Purchase Necessary; Entry Opens Oct 26, 2026)",
-    frequency: "Enter Daily",
-    ends: "2026-12-27",
-    url: "https://www.happyholi-lays.com",
-    hot: true,
-    added: "2026-10-23",
-  },
 
   {
     id: 259,
@@ -480,17 +446,6 @@ const SWEEPSTAKES: Listing[] = [
   },
 
   {
-    id: 354,
-    title: "AARP Rewards T.J. Maxx Instant Win Game",
-    type: "instant",
-    prizes: "200 Winners: $10 T.J. Maxx Gift Cards Each (Total ARV $2,000); 50 US + DC, 18+ (Free AARP Rewards Enrollment \u2014 No Paid Membership; Free No-Points Entry Form; Limit 1 Prize/Person)",
-    frequency: "Enter Daily",
-    ends: "2026-11-04",
-    url: "https://sweeps.aarp.org/",
-    added: "2026-10-31",
-  },
-
-  {
     id: 355,
     title: "AARP Rewards JCPenney Instant Win Game",
     type: "instant",
@@ -543,18 +498,6 @@ const SWEEPSTAKES: Listing[] = [
     ends: "2027-01-05",
     url: "https://app.saverlife.org/scratchandsaveamoe20",
     added: "2026-11-01",
-  },
-
-  {
-    id: 374,
-    title: "Starbucks \u201cUncap, Scan & Win\u201d Instant Win Game",
-    type: "instant",
-    prizes: "300,500 Instant Prizes: 50,000 \u00d7 60 Stars, 175,000 \u00d7 25 Stars, 50,000 Grande Beverage Coupons, 25,500 Bakery Item Coupons + 4 Grand: Starbucks for a Year (1 Free Food Item or Standard Beverage Per Day for 365 Days; ARV $3,935 Each; Total ARV $614,425); 50 US + DC, 18+ (Free Starbucks Rewards Membership; No Purchase Necessary)",
-    frequency: "Enter Daily",
-    ends: "2026-12-31",
-    url: "https://uncapstars.starbucks.com",
-    hot: true,
-    added: "2026-11-02",
   },
 
   {
@@ -624,6 +567,84 @@ const SWEEPSTAKES: Listing[] = [
     ends: "2026-12-27",
     url: "https://happyholi-lays.com",
     added: "2026-11-04",
+  },
+
+  {
+    id: 399,
+    title: "Orange Julius \u201cSmoothie Smash\u201d Instant Win Game",
+    type: "instant",
+    prizes: "201 Winners: (1) Grand: $1,000 in Orange Julius Gift Cards + (200) Instant: $10 Orange Julius Gift Cards Each (Total ARV $3,000); 50 US + DC, 18+",
+    frequency: "Enter Daily",
+    ends: "2026-11-29",
+    url: "https://ojbirthday.com",
+    added: "2026-11-05",
+  },
+
+  {
+    id: 400,
+    title: "Respawn \u00d7 Marvel Rivals Gaming Sweepstakes & Instant Win",
+    type: "instant",
+    prizes: "15,151 Winners: Grand: Razer Blade 16 Gaming Setup \u2014 Laptop, Chair, Mouse, Keyboard, Headset + Controller (ARV $5,249.94) + 60 Weekly Razer Gear Prizes ($160\u2013$400 Each) + 90 Luna Snow Packs ($50 Each) + 15,000 Instant: Marvel Rivals Game Skin (12,000) or Custom Emote (3,000) Digital Codes ($5 Each; Total ARV $99,349.94); 50 US + DC, 18+",
+    frequency: "Enter Daily",
+    ends: "2027-01-03",
+    url: "https://www.respawnbyrazer.com/marvelrivals/enter",
+    hot: true,
+    added: "2026-11-05",
+  },
+
+  {
+    id: 401,
+    title: "Nick the Greek \u201cDemigod Experience\u201d Instant Win Game",
+    type: "instant",
+    prizes: "44,001 Winners: Grand: Round-Trip Coach Airfare for 2 to Athens, Greece (ARV $5,000) + 44,000 Instant: Food/Discount Prizes \u2014 21,000 \u00d7 $5 Off Entr\u00e9e, 10,000 \u00d7 Side of Fries, 5,000 \u00d7 Spanakopita, 5,000 \u00d7 Baklava, 1,000 \u00d7 Plain Froyo, 1,000 \u00d7 Gyro, 1,000 \u00d7 Bowl (Total ARV $239,200); AZ, CA, KS, MO, NV, TN, TX, UT Only, 18+",
+    frequency: "Enter Once",
+    ends: "2027-01-03",
+    url: "https://web.witcontests.com/nickthegreek/giveaway/spin/every-hero-needs-a-gyro-260929",
+    added: "2026-11-05",
+  },
+
+  {
+    id: 402,
+    title: "AARP Rewards Sonic Instant Win Game",
+    type: "instant",
+    prizes: "200 Winners: $10 Sonic eGift Cards Each (Total ARV $2,000); 50 US + DC, 18+ (Free AARP Rewards Enrollment \u2014 No Paid Membership; Free No-Points Entry Form; Limit 1 Prize/Person)",
+    frequency: "Enter Daily",
+    ends: "2026-11-07",
+    url: "https://sweeps.aarp.org/",
+    added: "2026-11-05",
+  },
+
+  {
+    id: 403,
+    title: "AARP Rewards CVS Pharmacy Instant Win Game",
+    type: "instant",
+    prizes: "200 Winners: $10 CVS Pharmacy eGift Cards Each (Total ARV $2,000); 50 US + DC, 18+ (Free AARP Rewards Enrollment \u2014 No Paid Membership; Free No-Points Entry Form; Limit 1 Prize/Person)",
+    frequency: "Enter Daily",
+    ends: "2026-11-08",
+    url: "https://sweeps.aarp.org/",
+    added: "2026-11-05",
+  },
+
+  {
+    id: 404,
+    title: "AARP Rewards Walmart $100 Super Instant Win Game",
+    type: "instant",
+    prizes: "15 Winners: $100 Walmart eGift Cards Each (Total ARV $1,500); 50 US + DC, 18+ (Free AARP Rewards Enrollment \u2014 No Paid Membership; Free No-Points Entry Form; Limit 1 Prize/Person)",
+    frequency: "Enter Daily",
+    ends: "2026-11-09",
+    url: "https://sweeps.aarp.org/",
+    added: "2026-11-05",
+  },
+
+  {
+    id: 405,
+    title: "AARP Rewards Starbucks Instant Win Game",
+    type: "instant",
+    prizes: "200 Winners: $10 Starbucks eGift Cards Each (Total ARV $2,000); 50 US + DC, 18+ (Free AARP Rewards Enrollment \u2014 No Paid Membership; Free No-Points Entry Form; Limit 1 Prize/Person)",
+    frequency: "Enter Daily",
+    ends: "2026-11-11",
+    url: "https://sweeps.aarp.org/",
+    added: "2026-11-05",
   },
 
   // ---- Sweepstakes ----
@@ -1883,6 +1904,73 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-11-04",
   },
 
+  {
+    id: 406,
+    title: "Macerich \u201cJingle All The Way To 100K\u201d Sweepstakes",
+    type: "sweepstakes",
+    prizes: "1 Winner: $100,000 Cash (ARV $100,000) + 5 Winners Per Participating Shopping Center: Nespresso Coffee Machine Each (ARV $229 Each); 50 US + DC, 18+ (Must Live Within 100 Miles of a Participating Macerich Shopping Center)",
+    frequency: "Enter Daily",
+    ends: "2026-12-24",
+    url: "https://shoppingcentersweepstakes.com/",
+    hot: true,
+    added: "2026-11-05",
+  },
+
+  {
+    id: 407,
+    title: "Mariah Carey \u201cLondon Flyaway\u201d Sweepstakes",
+    type: "sweepstakes",
+    prizes: "1 Winner: 2 Tickets to Mariah Carey\u2019s Christmas Time Concert in London (Dec 2026) + 2 Round-Trip Economy Flights + 2 Nights\u2019 Hotel (ARV $4,000); 50 US + DC + PR, Age of Majority",
+    frequency: "Enter Once",
+    ends: "2026-11-13",
+    url: "https://forms.sonymusicfans.com/campaign/mariah-carey-london-show-flyaway/",
+    added: "2026-11-05",
+  },
+
+  {
+    id: 408,
+    title: "Tito\u2019s \u201cTurkey Rot\u201d Sweepstakes",
+    type: "sweepstakes",
+    prizes: "150 Winners: $100 DoorDash Gift Card Each (Total ARV $15,000); 50 US, 21+ (Void CA & VA)",
+    frequency: "Enter Once",
+    ends: "2026-11-22",
+    url: "https://www.titosvodka.com/turkeyrot/teams",
+    added: "2026-11-05",
+  },
+
+  {
+    id: 409,
+    title: "All Americans Vote \u201cBrent Faiyaz Premium Experience\u201d Sweepstakes",
+    type: "sweepstakes",
+    prizes: "1 Winner: Pair of Middle Bowl Tickets to See Brent Faiyaz + $1,500 Gift Card for Travel and Accommodations (ARV $3,050); US Citizens and Lawful Permanent Residents, 18+ (50 US + DC + PR)",
+    frequency: "Enter Once",
+    ends: "2026-11-19",
+    url: "https://www.allamericans.org/brent-faiyaz",
+    added: "2026-11-05",
+  },
+
+  {
+    id: 410,
+    title: "Chewy Claus 2026 Sweepstakes",
+    type: "sweepstakes",
+    prizes: "14,000 Winners: Assorted Pet Goodie Box Each \u2014 Cat/Dog Toy or Treat, Multi-Pet, Shelter, Bird, Small Pet, Reptile or Horse Box (ARV $35 Each); 48 Contiguous US + DC, 18+",
+    frequency: "Enter Once",
+    ends: "2026-12-24",
+    url: "https://www.chewy.com/education/chewy-claus/form",
+    added: "2026-11-05",
+  },
+
+  {
+    id: 411,
+    title: "Weaver Livestock \u201cYETI Cooler\u201d Sweepstakes",
+    type: "sweepstakes",
+    prizes: "1 Winner: Custom Purple YETI Tundra 45 Cooler Filled with a Weaver Livestock Grooming Bundle (Retail Value $850); Contiguous US, 18+",
+    frequency: "Enter Once",
+    ends: "2026-11-20",
+    url: "https://app.viralsweep.com/sweeps/full/52bd42-236548?framed=1",
+    added: "2026-11-05",
+  },
+
 ];
 
 
@@ -2215,7 +2303,7 @@ export default function Home() {
         </section>
 
         <p style={{ color: "#94a3b8", fontSize: "0.8rem", marginTop: "40px", lineHeight: 1.6 }}>
-          Listings last verified November 4, 2026. Always check the official rules on
+          Listings last verified November 5, 2026. Always check the official rules on
           the sponsor&apos;s page before entering. Sweepstakes Central is not affiliated
           with the sponsors listed.
         </p>
