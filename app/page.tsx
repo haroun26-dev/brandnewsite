@@ -17,10 +17,10 @@ interface Listing {
   added: string; // YYYY-MM-DD — NEW badge shows when added within the last 3 days
 }
 
-// Listings verified November 5, 2026. Update this list regularly —
+// Listings verified November 6, 2026. Update this list regularly —
 // remove ended sweepstakes and add new ones by editing this file and redeploying.
 const SWEEPSTAKES: Listing[] = [
-// Listings verified November 5, 2026. Update this list regularly —
+// Listings verified November 6, 2026. Update this list regularly —
 // remove ended sweepstakes and add new ones by editing this file and redeploying.
   // ---- Instant Win Games ----
 
@@ -445,16 +445,6 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-10-30",
   },
 
-  {
-    id: 355,
-    title: "AARP Rewards JCPenney Instant Win Game",
-    type: "instant",
-    prizes: "200 Winners: $10 JCPenney eGift Cards Each (Total ARV $2,000); 50 US + DC, 18+ (Free AARP Rewards Enrollment \u2014 No Paid Membership; Free No-Points Entry Form; Limit 1 Prize/Person)",
-    frequency: "Enter Daily",
-    ends: "2026-11-05",
-    url: "https://sweeps.aarp.org/",
-    added: "2026-10-31",
-  },
 
   {
     id: 364,
@@ -645,6 +635,63 @@ const SWEEPSTAKES: Listing[] = [
     ends: "2026-11-11",
     url: "https://sweeps.aarp.org/",
     added: "2026-11-05",
+  },
+
+  {
+    id: 412,
+    title: "Camel \u201cOut There\u201d Giveaway Instant Win Game",
+    type: "instant",
+    prizes: "1,400 Instant Winners: $25 Digital Choice Prepaid Mastercard Each (Total ARV $35,000); 50 US + DC, 21+ (Tobacco Consumers with Registered Camel.com Account; Excl. MA & MI)",
+    frequency: "Enter Daily",
+    ends: "2026-12-30",
+    url: "https://www.camel.com/secure/promotions/outtheregiveaway.html",
+    hot: true,
+    added: "2026-11-06",
+  },
+
+  {
+    id: 413,
+    title: "Alpha Prime \u201cPrime Bites Pink Ticket\u201d Instant Win Game",
+    type: "instant",
+    prizes: "82 Winners: (1) Grand: $10,000 Cash + (1) Apple AirPods Max + (25) Prime Bites for a Year (12 Monthly Boxes Each) + (25) $25 Target Gift Cards + (30) Prime Bites Seasonal Samplers (Total ARV $24,371; Every Valid Ticket Also Wins at Least a Discount/Free-Shipping Code); 50 US + DC, 18+ (Excl. NY, FL, RI)",
+    frequency: "Enter Daily",
+    ends: "2026-12-02",
+    url: "https://primebites.com/pages/pinkticket",
+    hot: true,
+    added: "2026-11-06",
+  },
+
+  {
+    id: 414,
+    title: "AARP Rewards Outback Steakhouse Instant Win Game",
+    type: "instant",
+    prizes: "200 Winners: $10 Outback Steakhouse eGift Cards Each (Total ARV $2,000); 50 US + DC, 18+ (Free AARP Rewards Enrollment \u2014 No Paid Membership; Free No-Points Entry Form; Limit 1 Prize/Person)",
+    frequency: "Enter Daily",
+    ends: "2026-11-10",
+    url: "https://sweeps.aarp.org/",
+    added: "2026-11-06",
+  },
+
+  {
+    id: 415,
+    title: "AARP Rewards Ace Hardware Instant Win Game",
+    type: "instant",
+    prizes: "200 Winners: $10 Ace Hardware eGift Cards Each (Total ARV $2,000); 50 US + DC, 18+ (Free AARP Rewards Enrollment \u2014 No Paid Membership; Free No-Points Entry Form; Limit 1 Prize/Person)",
+    frequency: "Enter Daily",
+    ends: "2026-11-12",
+    url: "https://sweeps.aarp.org/",
+    added: "2026-11-06",
+  },
+
+  {
+    id: 416,
+    title: "Synchrony \u201cHome Team Advantage\u201d Sweepstakes and Instant Win Game",
+    type: "instant",
+    prizes: "1 Grand: $5,000 Check + 2 First: Sonos Portable Smart Speakers (~$500 Each) + 36 Weekly: $100 Virtual Prepaid Mastercards + 275 Instant: $25 Amazon Gift Cards (Total ARV $16,475); US Incl. Territories, DC & PR, 18+ (Synchrony HOME Credit Cardholders Only as of Sept 27, 2026)",
+    frequency: "Enter Daily",
+    ends: "2026-11-15",
+    url: "https://www.homenetworksweepstakes2026.com/",
+    added: "2026-11-06",
   },
 
   // ---- Sweepstakes ----
@@ -1971,6 +2018,119 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-11-05",
   },
 
+  {
+    id: 417,
+    title: "Straight Talk \u201cFord Mustang\u201d Sweepstakes",
+    type: "sweepstakes",
+    prizes: "1 Winner: 2026 Ford Mustang EcoBoost (ARV $32,640); 50 US + DC, 18+ (Valid Driver\u2019s License/Insurance Required)",
+    frequency: "Enter Daily",
+    ends: "2026-11-08",
+    url: "https://straighttalkracingtour.com/mustang-giveaway",
+    hot: true,
+    added: "2026-11-06",
+  },
+
+  {
+    id: 418,
+    title: "Food Network \u201cTaste of Fall\u201d Sweepstakes",
+    type: "sweepstakes",
+    prizes: "1 Winner: $5,000 Check (ARV $5,000); US Incl. DC, 21+",
+    frequency: "Enter Daily",
+    ends: "2026-11-10",
+    url: "https://www.foodnetwork.com/sponsored/sweepstakes/taste-of-fall",
+    added: "2026-11-06",
+  },
+
+  {
+    id: 419,
+    title: "Chipotle \u201cBig-Ass Chipotle Bag\u201d Sweepstakes",
+    type: "sweepstakes",
+    prizes: "8,000 Winners (2,000 Per Weekly Drawing \u00d7 4): Chipotle Bag Each (ARV $30 Each; Total ARV $240,000); 50 US + DC, 13+ (Minors Need Parent/Guardian Permission; Free Chipotle Rewards Account Required)",
+    frequency: "Enter Daily",
+    ends: "2026-11-10",
+    url: "https://www.bigasschipotlebag.com/alternative-method-of-entry",
+    hot: true,
+    added: "2026-11-06",
+  },
+
+  {
+    id: 420,
+    title: "Honda \u201cRide Red\u201d Sweepstakes",
+    type: "sweepstakes",
+    prizes: "1 Winner: 2026 Honda CRF450RX Motorcycle (ARV $9,999); 50 US + DC, 18+ (Void FL, NY, RI)",
+    frequency: "Enter Once",
+    ends: "2026-11-15",
+    url: "https://powersports.honda.com/crf450rx-rideredandwinsweepstakes",
+    added: "2026-11-06",
+  },
+
+  {
+    id: 421,
+    title: "DTS \u201cYou Can Feel\u201d Movie Night Sweepstakes",
+    type: "sweepstakes",
+    prizes: "1 Winner: XGIMI Horizon 20 Max Projector + Comfrt Dreamer Blanket + DTS Sticker (Total ARV $2,400); 50 US + DC, 18+ (19+ AL, NE)",
+    frequency: "Enter Once",
+    ends: "2026-11-08",
+    url: "https://promo.dts.com/feel-the-sound/",
+    added: "2026-11-06",
+  },
+
+  {
+    id: 422,
+    title: "Pepsi \u201cTake Flight with Pepsi\u201d Sweepstakes",
+    type: "sweepstakes",
+    prizes: "1 Grand: Super Bowl LXI Trip for 2 (Feb 12\u201315, 2027, Inglewood, CA; ARV Up to $11,400) + 30 Weekly $200 NFLShop.com E-Gift Cards + 10 JetBlue Travel Certificate Packs (2 Certificates Each, $500/Pack; Total ARV $22,400); 50 US + DC, 18+ (19+ AL/NE)",
+    frequency: "Enter Daily",
+    ends: "2027-01-10",
+    url: "https://takeflightwithpepsi.com",
+    hot: true,
+    added: "2026-11-06",
+  },
+
+  {
+    id: 423,
+    title: "Corona Holiday Sweepstakes 2026",
+    type: "sweepstakes",
+    prizes: "50 Grand: $200 Digital Gift Cards Each + 100 First: Corona-Branded Holiday Palm Trees (ARV $94.97 Each; Total ARV $19,497); 50 US + DC, 21+",
+    frequency: "Enter Daily",
+    ends: "2026-12-31",
+    url: "https://www.coronausa.com/pages/holiday",
+    added: "2026-11-06",
+  },
+
+  {
+    id: 424,
+    title: "Food Network \u201cEnchanting Bakes and Magical Escapes\u201d Sweepstakes",
+    type: "sweepstakes",
+    prizes: "1 Grand: Trip for 4 to Universal Orlando Resort \u2014 Round-Trip Airfare, 6 Days/4 Nights Hotel, Ground Transfers, 4 Universal Orlando 4-Day Park-to-Park Tickets (ARV $5,509.72); 50 US + DC, 21+",
+    frequency: "Enter Daily",
+    ends: "2026-12-09",
+    url: "https://www.foodnetwork.com/enchantingbakesandmagicalescapes",
+    added: "2026-11-06",
+  },
+
+  {
+    id: 425,
+    title: "Starbucks Customer Experience Sweepstakes 2026",
+    type: "sweepstakes",
+    prizes: "Up to 1,200 Grand Prizes (100 Per Monthly Entry Period): $100 Starbucks Gift Cards Each (Total ARV $120,000); 50 US + DC, 18+",
+    frequency: "Enter Monthly",
+    ends: "2027-09-30",
+    url: "https://starbucks-survey2.promo.eprize.com/register",
+    added: "2026-11-06",
+  },
+
+  {
+    id: 426,
+    title: "Cutwater \u201cHoliday Home Makeover\u201d Sweepstakes",
+    type: "sweepstakes",
+    prizes: "1 Winner: $10,000 Check for a Holiday Home Makeover (Total ARV $10,000); 50 US + DC, 21+",
+    frequency: "Enter Daily",
+    ends: "2026-12-31",
+    url: "https://www.cutwaterspirits.com/2026CWHolidayHomeMakeover",
+    added: "2026-11-06",
+  },
+
 ];
 
 
@@ -2303,7 +2463,7 @@ export default function Home() {
         </section>
 
         <p style={{ color: "#94a3b8", fontSize: "0.8rem", marginTop: "40px", lineHeight: 1.6 }}>
-          Listings last verified November 5, 2026. Always check the official rules on
+          Listings last verified November 6, 2026. Always check the official rules on
           the sponsor&apos;s page before entering. Sweepstakes Central is not affiliated
           with the sponsors listed.
         </p>
