@@ -17,10 +17,10 @@ interface Listing {
   added: string; // YYYY-MM-DD — NEW badge shows when added within the last 3 days
 }
 
-// Listings verified November 6, 2026. Update this list regularly —
+// Listings verified November 7, 2026. Update this list regularly —
 // remove ended sweepstakes and add new ones by editing this file and redeploying.
 const SWEEPSTAKES: Listing[] = [
-// Listings verified November 6, 2026. Update this list regularly —
+// Listings verified November 7, 2026. Update this list regularly —
 // remove ended sweepstakes and add new ones by editing this file and redeploying.
   // ---- Instant Win Games ----
 
@@ -268,16 +268,6 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-10-21",
   },
 
-  {
-    id: 243,
-    title: "Fanta \u201cBuild Your Alebrije\u201d Sweepstakes & Instant Win Game",
-    type: "instant",
-    prizes: "Grand: 4-Day/3-Night Trip for 2 to the Day of the Dead Ball in Chicago (Nov 2027) \u2014 Airfare, Hotel, Event Tickets, Guided D\u00eda de Muertos Tour, $250 Transport Gift Card + $500 Check (ARV $4,600) + 100 Instant-Win Day of the Dead Altar Prize Kits (ARV $79.61 Each); 50 US + DC, 21+",
-    frequency: "Enter Daily",
-    ends: "2026-11-06",
-    url: "https://www.coca-cola.com/us/en/offerings/fanta/dia-de-los-muertos/create-your-own-alebrije",
-    added: "2026-10-22",
-  },
 
 
 
@@ -446,16 +436,6 @@ const SWEEPSTAKES: Listing[] = [
   },
 
 
-  {
-    id: 364,
-    title: "AARP Rewards Panera Bread Instant Win Game",
-    type: "instant",
-    prizes: "200 Winners: $10 Panera Bread Gift Cards Each (Total ARV $2,000); 50 US + DC, 18+ (Free AARP Rewards Enrollment \u2014 No Paid Membership; Free No-Points Entry Form; Limit 1 Prize/Person)",
-    frequency: "Enter Daily",
-    ends: "2026-11-06",
-    url: "https://sweeps.aarp.org/",
-    added: "2026-11-01",
-  },
 
   {
     id: 365,
@@ -694,6 +674,75 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-11-06",
   },
 
+  {
+    id: 427,
+    title: "Microsoft Rewards \u201cPrize Drop\u201d Instant Win Game",
+    type: "instant",
+    prizes: "3,321 Instant Winners: 100 \u00d7 ROG Xbox Ally ($600), 225 \u00d7 Xbox Game Pass 1-Year ($180), 90 \u00d7 Dyson V8 Vacuums ($300), 100 \u00d7 Sonos Era 100 Speakers ($190), 241 \u00d7 AirPods Pro 3 ($250), 105 \u00d7 Oura Ring 5 ($400), 55 \u00d7 Samsung 75\u201d TVs ($800), 45 \u00d7 Galaxy Z Fold 8 ($2,100), 750 \u00d7 $100 + 1,500 \u00d7 $50 MS/Xbox Gift Cards + More (Total Instant-Win ARV $650,000); 50 US + DC + PR, Age of Majority (Free Microsoft Rewards Membership; 1 Chance/Day via Bing Search)",
+    frequency: "Enter Daily",
+    ends: "2027-01-15",
+    url: "https://aka.ms/win-Promo",
+    hot: true,
+    added: "2026-11-07",
+  },
+
+  {
+    id: 428,
+    title: "Dos Equis \u201cCollege Football Go For Dos\u201d Instant Win Game and Sweepstakes",
+    type: "instant",
+    prizes: "775 Winners: 525 Instant Prizes \u2014 150 \u00d7 Dos Equis Bibs ($40), 75 \u00d7 Varsity Jackets ($80), 300 \u00d7 T-Shirts ($10) (Instant ARV $15,000) + Up to 250 \u00d7 $200 eGift Cards in Weekly Drawings (Total ARV up to $65,000); 50 US + DC, 21+",
+    frequency: "Enter Daily",
+    ends: "2026-12-31",
+    url: "https://dosequis.com/gofordos2026",
+    hot: true,
+    added: "2026-11-07",
+  },
+
+  {
+    id: 429,
+    title: "McDonald\u2019s \u201cMONOPOLY 2026\u201d Chance Card Game",
+    type: "instant",
+    prizes: "Chance Card Game: $1M Cash Grand ($50K/Year \u00d7 20 Years), 2027 Jeep Cherokee, $10,000 Daily Chance Prizes (34 Total) + Gift Cards, Food & Rewards Points Instant Wins; 50 US + DC, 18+ (Chance Card Plays Only \u2014 Game Pieces Ended Nov 1)",
+    frequency: "Enter Daily",
+    ends: "2026-11-08",
+    url: "https://playatmcd.com",
+    hot: true,
+    added: "2026-11-07",
+  },
+
+  {
+    id: 430,
+    title: "Tito\u2019s \u201cDallas Gameday Experience\u201d Instant Win",
+    type: "instant",
+    prizes: "14 Winners: 13 Instant Merch Packs ($30 Each) + 1 Grand: Dallas Cowboys Gameday Experience for 2 \u2014 Club-Level Tickets, Parking, Sideline Passes (ARV $4,000; No Flights/Hotel); Texas Only, 21+",
+    frequency: "Enter Daily",
+    ends: "2026-12-15",
+    url: "https://titosdallasgameday.com",
+    added: "2026-11-07",
+  },
+
+  {
+    id: 431,
+    title: "Cleveland Browns \u201c2026 Digital Scratch-Off\u201d Instant Win",
+    type: "instant",
+    prizes: "85 Winners: 5 Grand \u2014 2 Club Tickets to a Browns Home Game Each (ARV $1,025 Each) + 80 Instant $40 Fanatics Gift Cards; Ohio Only, 18+",
+    frequency: "Enter Daily",
+    ends: "2026-12-20",
+    url: "https://www.clevelandbrowns.com/scratchoffs",
+    added: "2026-11-07",
+  },
+
+  {
+    id: 432,
+    title: "AARP Rewards Best Buy eGift Card Instant Win",
+    type: "instant",
+    prizes: "200 Winners: $10 Best Buy eGift Cards Each (Total ARV $2,000); 50 US + DC, 18+ (Free AARP Rewards Enrollment \u2014 No Paid Membership; Free No-Points Entry Form; Limit 1 Prize/Person)",
+    frequency: "Enter Daily",
+    ends: "2026-11-13",
+    url: "https://sweeps.aarp.org/",
+    added: "2026-11-07",
+  },
+
   // ---- Sweepstakes ----
 
   {
@@ -893,17 +942,6 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-10-19",
   },
 
-  {
-    id: 219,
-    title: "PROMPERU “The Great Escape” Sweepstakes",
-    type: "sweepstakes",
-    prizes: "1 Winner + Guest: 7-Day Peru Trip (Cusco, Sacred Valley, Inca Trail, Machu Picchu) — Round-Trip Economy Flights to Lima + Lima–Cusco Flights, Intrepid Travel Inca Trail Express for 2, 2× Big Agnes Tent/Sleeping Bag/Pad Sets, 2× Cotopaxi Packs + Fuego Jackets, 2× La Sportiva Boots, AFAR Gift Card + 2-Yr Magazine Sub, $500 World Nomads Visa Gift Card (ARV $10,648); 48 Contiguous US + DC & Canada (Excl. QC), 18+",
-    frequency: "Enter Once",
-    ends: "2026-11-06",
-    url: "https://peru.travel/thegreatescape",
-    hot: true,
-    added: "2026-10-20",
-  },
 
   {
     id: 220,
@@ -1135,16 +1173,6 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-10-23",
   },
 
-  {
-    id: 267,
-    title: "Perdue Holiday Drop Sweepstakes",
-    type: "sweepstakes",
-    prizes: "(5) Grand: NYC Holiday Dinner Trip for 2 \u2014 RT Airfare, 2 Nights at a Manhattan Moxy Hotel, Exclusive Food Network Kitchen Holiday Dinner w/ Chef Lorenzo Espada (Dec 2), $1,000 Visa Prepaid Card + $1,750 Visa Prepaid Tax Card (ARV $6,850 Each); 48 Contiguous US + DC, 18+ (19+ AL/NE, 21+ MS)",
-    frequency: "Enter Daily",
-    ends: "2026-11-06",
-    url: "https://www.perdue.com/holiday-drop",
-    added: "2026-10-23",
-  },
 
   {
     id: 268,
@@ -1235,16 +1263,6 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-10-24",
   },
 
-  {
-    id: 282,
-    title: "Disney+ Perks \u201cCollege Football Game\u201d Sweepstakes",
-    type: "sweepstakes",
-    prizes: "(2) Winners: 3-Day/2-Night Trip for 2 to the Texas at Texas A&M Game (Nov 27, 2026, College Station, TX) \u2014 Airfare, 2 Hotel Nights, 2 Game Tickets + $500 Cash (ARV $4,100 Each; Total ARV $8,200); 50 US + DC, 18+ (Disney+ Perks Login Required; Email AMOE Available)",
-    frequency: "Enter Daily",
-    ends: "2026-11-06",
-    url: "https://perks.disneyplus.com",
-    added: "2026-10-24",
-  },
 
 
   {
@@ -1452,16 +1470,6 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-10-28",
   },
 
-  {
-    id: 327,
-    title: "Disney+ Perks College Football Game Sweepstakes",
-    type: "sweepstakes",
-    prizes: "2 Winners, Each: 3-Day/2-Night Trip for 2 to the Texas at Texas A&M Game (Nov 27, 2026) \u2014 Round-Trip Economy Airfare, 2 Nights\u2019 Hotel, 2 Game Tickets + $500 Cash (ARV $4,100 Each); 50 US + DC, 18+ (Disney+ Perks; Free Email AMOE Available)",
-    frequency: "Enter Daily",
-    ends: "2026-11-06",
-    url: "https://perks.disneyplus.com",
-    added: "2026-10-28",
-  },
 
   {
     id: 328,
@@ -1496,17 +1504,6 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-10-28",
   },
 
-  {
-    id: 335,
-    title: "Valpak \u201cFree Ride\u201d Sweepstakes",
-    type: "sweepstakes",
-    prizes: "1 Winner: 2026 Jeep Wrangler 2-Door Sport (ARV $40,625); 50 US + DC, 18+ (Valid Driver\u2019s License + Insurance Required for Delivery)",
-    frequency: "Enter Daily",
-    ends: "2026-11-06",
-    url: "https://valpak.com/freeride",
-    hot: true,
-    added: "2026-10-29",
-  },
 
   {
     id: 336,
@@ -1665,16 +1662,6 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-10-31",
   },
 
-  {
-    id: 361,
-    title: "Dallas Cowboys Invisalign Super Bowl Sweepstakes",
-    type: "sweepstakes",
-    prizes: "Grand: Trip for 2 to Super Bowl LXI in Inglewood, CA \u2014 Round-Trip Economy Airfare, 2 Hotel Nights, 2 Game Tickets Feb 14, 2027 (ARV $7,000); 50 US + DC (Excl. FL & NY), 21+",
-    frequency: "Enter Daily",
-    ends: "2026-11-06",
-    url: "https://www.dallascowboys.com/fans/invisalign",
-    added: "2026-10-31",
-  },
 
   {
     id: 362,
@@ -1731,16 +1718,6 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-11-01",
   },
 
-  {
-    id: 371,
-    title: "Penguin Random House \u201cFall Into Cozy\u201d Sweepstakes",
-    type: "sweepstakes",
-    prizes: "Grand: 5 Books + MoonSleep MoonSpoon Pillow with Deep Plum Zip Cover + \u201cFallin\u2019 for Books\u201d Sweatshirt (ARV $356); 50 US + DC, 18+",
-    frequency: "Enter Once",
-    ends: "2026-11-06",
-    url: "https://sites.prh.com/fallintocozysweeps",
-    added: "2026-11-01",
-  },
 
   {
     id: 373,
@@ -1786,16 +1763,6 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-11-02",
   },
 
-  {
-    id: 378,
-    title: "Resident Evil \u201c30th Anniversary\u201d Sweepstakes",
-    type: "sweepstakes",
-    prizes: "3 Winners, Each: 1 Resident Evil Requiem Game Code for Steam (ARV $69.99 Each; Total ARV $209.97); 50 US + DC, 18+ (Sponsor: G FUEL; Bonus Entries via Social/Referral Tasks)",
-    frequency: "Enter Once",
-    ends: "2026-11-06",
-    url: "https://gfuel.com/pages/giveaways/requiem-30",
-    added: "2026-11-02",
-  },
 
   {
     id: 379,
@@ -2131,6 +2098,98 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-11-06",
   },
 
+  {
+    id: 435,
+    title: "Food Network \u201cSeason of Sweetness\u201d Sweepstakes",
+    type: "sweepstakes",
+    prizes: "Grand: $10,000 Check + 4 VIP Tickets to the Museum of Ice Cream (ARV $10,356); 50 US + DC, 21+",
+    frequency: "Enter Daily",
+    ends: "2026-12-21",
+    url: "https://www.foodnetwork.com/sweetgiveaway",
+    hot: true,
+    added: "2026-11-07",
+  },
+
+  {
+    id: 436,
+    title: "Disney Imagination Campus \u201c2027 Teachers\u201d Sweepstakes",
+    type: "sweepstakes",
+    prizes: "15 Winners: 4-Day/3-Night Walt Disney World Trip for 2 \u2014 RT Coach Airfare, 3-Night Resort Stay, 2 \u00d7 3-Day Park Hopper Tickets, $200 Disney Gift Card + $1,250 Tax Check (ARV $5,000 Each; Total ARV $75,000); 50 US + DC + PR, 21+ (Full-Time K-12 Teachers Only)",
+    frequency: "Enter Once",
+    ends: "2027-01-17",
+    url: "https://www.disneycampus.com/disneyteacherssweepstakes",
+    hot: true,
+    added: "2026-11-07",
+  },
+
+  {
+    id: 437,
+    title: "Hoonigan \u00d7 RWB \u201cSouseiki\u201d Giveaway",
+    type: "sweepstakes",
+    prizes: "Grand: One-of-One Porsche 997 Carrera S RWB \u2018Souseiki\u2019 Built by Akira Nakai + $35,000 Cash (ARV $135,000) + Runner-Up: 4 Rotiform Wheels + 4 Yokohama Tires (ARV $6,000); US, 18+ (Free Mail-In AMOE: 50 Entries per Card; 1 Entry per $1 Spent)",
+    frequency: "Enter Once",
+    ends: "2026-12-31",
+    url: "https://www.rotiform.com/hoonigan-rwb-sweepstakes",
+    hot: true,
+    added: "2026-11-07",
+  },
+
+  {
+    id: 438,
+    title: "Terry\u2019s Chocolate \u201cRitual to Remember\u201d Sweepstakes",
+    type: "sweepstakes",
+    prizes: "Grand: Trip for 2 to a City in Europe \u2014 RT Coach Airfare, 4 Days/3 Nights Hotel + $500 Spending Cash (ARV $4,999); US, 18+",
+    frequency: "Enter Once",
+    ends: "2027-02-14",
+    url: "https://ritualtoremember.terryschocolate.com",
+    added: "2026-11-07",
+  },
+
+  {
+    id: 439,
+    title: "Jersey Mike\u2019s \u201cMy Way\u201d Sweepstakes",
+    type: "sweepstakes",
+    prizes: "Grand: $3,000 in Jersey Mike\u2019s E-Gift Cards + $2,000 in Ticketmaster E-Gift Cards (ARV $5,000); US, 18+",
+    frequency: "Enter Once",
+    ends: "2026-12-13",
+    url: "https://lnpromos.com/jerseymikes",
+    added: "2026-11-07",
+  },
+
+  {
+    id: 440,
+    title: "GEICO \u201cBirds on the Go\u201d Sweepstakes",
+    type: "sweepstakes",
+    prizes: "2 Winners: Trip for 2 to Eagles vs. Cowboys at AT&T Stadium (Nov 26, 2026) \u2014 2 Game Tickets, RT Coach Airfare for 2 (PHL\u2013DFW), 2 Hotel Nights + $500 Visa Gift Card (ARV $2,950 Each; Total ARV $5,900); US, 18+",
+    frequency: "Enter Once",
+    ends: "2026-11-09",
+    url: "https://forms.philadelphiaeagles.com/f/geicosweepstakes",
+    added: "2026-11-07",
+  },
+
+  {
+    id: 441,
+    title: "SoFi \u201cMortgage Payoff\u201d Sweepstakes",
+    type: "sweepstakes",
+    prizes: "Grand: Payment of Up to $500,000 Toward Winner\u2019s Primary Mortgage Balance (Lesser of $500,000 or Current Balance); 50 US + DC, 18+ (Must Have Existing Mortgage; Free AMOE via SoFi Coach Property Tracking)",
+    frequency: "Enter Once",
+    ends: "2027-02-14",
+    url: "https://www.sofi.com/mortgagesweeps/",
+    hot: true,
+    added: "2026-11-07",
+  },
+
+  {
+    id: 442,
+    title: "JaM Cellars \u201cButter Wines and Groceries FOR A YEAR\u201d Sweepstakes",
+    type: "sweepstakes",
+    prizes: "Grand: $5,000 Grocery Gift Card + $1,000 Instacart E-Gift Card + Limited-Edition Butter Wines Merch (ARV $6,500) + $5,000 Donation to Winner\u2019s Local Food Bank; US, 21+",
+    frequency: "Enter Once",
+    ends: "2026-12-31",
+    url: "https://sipbutter.com",
+    added: "2026-11-07",
+  },
+
 ];
 
 
@@ -2463,7 +2522,7 @@ export default function Home() {
         </section>
 
         <p style={{ color: "#94a3b8", fontSize: "0.8rem", marginTop: "40px", lineHeight: 1.6 }}>
-          Listings last verified November 6, 2026. Always check the official rules on
+          Listings last verified November 7, 2026. Always check the official rules on
           the sponsor&apos;s page before entering. Sweepstakes Central is not affiliated
           with the sponsors listed.
         </p>
