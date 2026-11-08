@@ -17,10 +17,10 @@ interface Listing {
   added: string; // YYYY-MM-DD — NEW badge shows when added within the last 3 days
 }
 
-// Listings verified November 7, 2026. Update this list regularly —
+// Listings verified November 8, 2026. Update this list regularly —
 // remove ended sweepstakes and add new ones by editing this file and redeploying.
 const SWEEPSTAKES: Listing[] = [
-// Listings verified November 7, 2026. Update this list regularly —
+// Listings verified November 8, 2026. Update this list regularly —
 // remove ended sweepstakes and add new ones by editing this file and redeploying.
   // ---- Instant Win Games ----
 
@@ -573,16 +573,6 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-11-05",
   },
 
-  {
-    id: 402,
-    title: "AARP Rewards Sonic Instant Win Game",
-    type: "instant",
-    prizes: "200 Winners: $10 Sonic eGift Cards Each (Total ARV $2,000); 50 US + DC, 18+ (Free AARP Rewards Enrollment \u2014 No Paid Membership; Free No-Points Entry Form; Limit 1 Prize/Person)",
-    frequency: "Enter Daily",
-    ends: "2026-11-07",
-    url: "https://sweeps.aarp.org/",
-    added: "2026-11-05",
-  },
 
   {
     id: 403,
@@ -741,6 +731,62 @@ const SWEEPSTAKES: Listing[] = [
     ends: "2026-11-13",
     url: "https://sweeps.aarp.org/",
     added: "2026-11-07",
+  },
+
+  {
+    id: 443,
+    title: "Celebrity Cruises \u201cReflection Daily Win\u201d Instant Win Game",
+    type: "instant",
+    prizes: "216 Winners: 10 \u00d7 3-Night Celebrity Reflection Cruise for 2 (ARV $5,000 Each) + 206 Branded Merch Prizes ($13.22\u2013$34.74 Each; Total ARV $53,774.22); US, 21+",
+    frequency: "Enter Daily",
+    ends: "2026-11-11",
+    url: "https://www.celebritycruises.com/games/reflection-daily-win",
+    hot: true,
+    added: "2026-11-08",
+  },
+
+  {
+    id: 444,
+    title: "Sudocrem \u201cAnd Win\u201d Instant Win Game",
+    type: "instant",
+    prizes: "Baby Gear incl. Wonderfold Stroller Wagon ($899.99), Thule Stroller ($499), Baby Brezza Appliances + 130 \u00d7 $25 Amazon Gift Cards + 24 \u00d7 Year\u2019s Supply of Sudocrem (Total ARV $20,009.86); US, 18+",
+    frequency: "Enter Once",
+    ends: "2027-04-15",
+    url: "https://sudocremwin.com",
+    added: "2026-11-08",
+  },
+
+  {
+    id: 445,
+    title: "Sprite Squad \u201cObey Your Thirst\u201d Instant Win Game",
+    type: "instant",
+    prizes: "115,000 Winners: Digital Coupon for a Free 20 oz Sprite (ARV up to $3 Each; Total ARV up to $345,000); 50 US + DC, 13+ (Enter by Texting THIRST to 2653 or via Sprite Squad Sign-Up)",
+    frequency: "Enter Once",
+    ends: "2026-12-31",
+    url: "https://www.coca-cola.com/us/en/brands/sprite",
+    added: "2026-11-08",
+  },
+
+  {
+    id: 446,
+    title: "Prudential \u201cRock the Championship\u201d Instant Win + Sweepstakes",
+    type: "instant",
+    prizes: "21 Winners: Grand Prize \u2014 2 Tickets to the College Football Playoff National Championship in Las Vegas + $1,000 Check (ARV $3,200) + 20 \u00d7 Prudential Prize Packs ($200 Each; Total ARV $7,200); 50 US + DC, 18+",
+    frequency: "Enter Once",
+    ends: "2027-01-02",
+    url: "https://rockthechampionship.com",
+    added: "2026-11-08",
+  },
+
+  {
+    id: 447,
+    title: "AARP Rewards Olive Garden Instant Win Game",
+    type: "instant",
+    prizes: "200 Winners: $10 Olive Garden eGift Cards Each (Total ARV $2,000); 50 US + DC, 18+ (Free AARP Rewards Enrollment \u2014 No Paid Membership; Free No-Points Entry Form; Limit 1 Prize/Person)",
+    frequency: "Enter Daily",
+    ends: "2026-11-14",
+    url: "https://sweeps.aarp.org/",
+    added: "2026-11-08",
   },
 
   // ---- Sweepstakes ----
@@ -2190,6 +2236,75 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-11-07",
   },
 
+  {
+    id: 453,
+    title: "POM Wonderful \u201cSuper Week\u201d Sweepstakes",
+    type: "sweepstakes",
+    prizes: "Grand: Trip for 2 to Los Angeles for Super Bowl week (Feb 2027) \u2014 round-trip airfare, 4-night hotel, NFL Alumni Association events + $10,000 cash + 1-year supply of POM juice (ARV $15,718); US, 18+",
+    frequency: "Enter Daily",
+    ends: "2026-12-31",
+    url: "https://superweektrip.com",
+    hot: true,
+    added: "2026-11-08",
+  },
+
+  {
+    id: 454,
+    title: "Club Crackers \u00d7 Butter Wines Sweepstakes",
+    type: "sweepstakes",
+    prizes: "Grand: 3-day/2-night Napa trip for 4 \u2014 round-trip airfare, hotel, charcuterie class at JaM Cellars Wine & Music Studio, private chef dinner (ARV $7,800); 48 contiguous US + DC, 21+ (Receipt Upload or Free Mail-In Entry; Max 15 Entries)",
+    frequency: "Enter Once",
+    ends: "2026-11-20",
+    url: "https://www.clubcrackers.com/butternapaweekend",
+    hot: true,
+    added: "2026-11-08",
+  },
+
+  {
+    id: 455,
+    title: "My Best Buy Rewards $1,000 Giveaway",
+    type: "sweepstakes",
+    prizes: "10 Winners: $1,000 in My Best Buy Rewards Certificates each (10 \u00d7 $100 certificates; Total ARV $10,000); 50 US + DC + PR, 18+",
+    frequency: "Enter Daily",
+    ends: "2027-01-30",
+    url: "https://www.bestbuy.com/MyBestBuyCertSweeps",
+    hot: true,
+    added: "2026-11-08",
+  },
+
+  {
+    id: 456,
+    title: "Pep Boys \u201cPhilly\u201d Sweepstakes",
+    type: "sweepstakes",
+    prizes: "11 Winners: Grand \u2014 Philly merch ($200) + $1,300 Flightgift card + $1,000 Hotelgift card + $500 prepaid card (ARV $3,000) + 10 \u00d7 $100 Pep Boys gift cards (Total ARV $4,000); 50 US + DC, 18+",
+    frequency: "Enter Once",
+    ends: "2026-11-10",
+    url: "https://www.pepboys.com/giveaway",
+    added: "2026-11-08",
+  },
+
+  {
+    id: 457,
+    title: "Petivity \u201cPaws & Claws Bundle\u201d Sweepstakes",
+    type: "sweepstakes",
+    prizes: "2 Winners: Dog bundle \u2014 Smart GPS + Activity Monitor (1-yr subscription), oral + kidney health tests, microbiome kit (ARV $514.95); Cat bundle \u2014 Smart Litter Box Monitor, Smart Feeder, oral + kidney health tests, microbiome kit (ARV $654.95); 50 US + DC, 18+ (19+ AL, NE)",
+    frequency: "Enter Once",
+    ends: "2026-11-25",
+    url: "https://www.purina.com/s/petivity-dog-cat-bundle-sweepstakes",
+    added: "2026-11-08",
+  },
+
+  {
+    id: 458,
+    title: "Visit Lauderdale \u201cWinterfest Get-Away\u201d Sweepstakes",
+    type: "sweepstakes",
+    prizes: "Grand: 2-night trip for 2 to Fort Lauderdale \u2014 Seminole Hard Rock Hotel stay, JetBlue round-trip airfare, dinners, Winterfest Boat Parade showboat tickets, water taxi vouchers (ARV $1,500); 50 US + DC, 21+",
+    frequency: "Enter Once",
+    ends: "2026-12-04",
+    url: "https://sun-sentinel.secondstreetapp.com/Winterfest-Weekend-Sweepstakes-2026/",
+    added: "2026-11-08",
+  },
+
 ];
 
 
@@ -2522,7 +2637,7 @@ export default function Home() {
         </section>
 
         <p style={{ color: "#94a3b8", fontSize: "0.8rem", marginTop: "40px", lineHeight: 1.6 }}>
-          Listings last verified November 7, 2026. Always check the official rules on
+          Listings last verified November 8, 2026. Always check the official rules on
           the sponsor&apos;s page before entering. Sweepstakes Central is not affiliated
           with the sponsors listed.
         </p>
