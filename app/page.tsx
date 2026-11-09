@@ -17,10 +17,10 @@ interface Listing {
   added: string; // YYYY-MM-DD — NEW badge shows when added within the last 3 days
 }
 
-// Listings verified November 8, 2026. Update this list regularly —
+// Listings verified November 9, 2026. Update this list regularly —
 // remove ended sweepstakes and add new ones by editing this file and redeploying.
 const SWEEPSTAKES: Listing[] = [
-// Listings verified November 8, 2026. Update this list regularly —
+// Listings verified November 9, 2026. Update this list regularly —
 // remove ended sweepstakes and add new ones by editing this file and redeploying.
   // ---- Instant Win Games ----
 
@@ -574,16 +574,6 @@ const SWEEPSTAKES: Listing[] = [
   },
 
 
-  {
-    id: 403,
-    title: "AARP Rewards CVS Pharmacy Instant Win Game",
-    type: "instant",
-    prizes: "200 Winners: $10 CVS Pharmacy eGift Cards Each (Total ARV $2,000); 50 US + DC, 18+ (Free AARP Rewards Enrollment \u2014 No Paid Membership; Free No-Points Entry Form; Limit 1 Prize/Person)",
-    frequency: "Enter Daily",
-    ends: "2026-11-08",
-    url: "https://sweeps.aarp.org/",
-    added: "2026-11-05",
-  },
 
   {
     id: 404,
@@ -688,17 +678,6 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-11-07",
   },
 
-  {
-    id: 429,
-    title: "McDonald\u2019s \u201cMONOPOLY 2026\u201d Chance Card Game",
-    type: "instant",
-    prizes: "Chance Card Game: $1M Cash Grand ($50K/Year \u00d7 20 Years), 2027 Jeep Cherokee, $10,000 Daily Chance Prizes (34 Total) + Gift Cards, Food & Rewards Points Instant Wins; 50 US + DC, 18+ (Chance Card Plays Only \u2014 Game Pieces Ended Nov 1)",
-    frequency: "Enter Daily",
-    ends: "2026-11-08",
-    url: "https://playatmcd.com",
-    hot: true,
-    added: "2026-11-07",
-  },
 
   {
     id: 430,
@@ -787,6 +766,40 @@ const SWEEPSTAKES: Listing[] = [
     ends: "2026-11-14",
     url: "https://sweeps.aarp.org/",
     added: "2026-11-08",
+  },
+
+  {
+    id: 459,
+    title: "Dos Equis \u201cPhoenix Suns\u201d Instant Win Game and Sweepstakes",
+    type: "instant",
+    prizes: "50 Instant Winners: $50 Phoenix Suns Team Shop E-Gift Card Each (Total Instant ARV $2,500) + Grand Drawing: 10 Winners \u00d7 2 Tickets to a Phoenix Suns 2026/27 Regular-Season Home Game (ARV $150 Each; Total ARV $4,000); Arizona Only, 21+",
+    frequency: "Enter Daily",
+    ends: "2027-04-11",
+    url: "https://DosEquis.com/phoenixsuns",
+    added: "2026-11-09",
+  },
+
+  {
+    id: 460,
+    title: "Heineken \u201cHoliday\u201d Promotion Instant Win + Sweepstakes",
+    type: "instant",
+    prizes: "306 Grand: Heineken \u00d7 Victrola Journey Suitcase Record Player + Carrying Case (ARV $75 Each) + 100 Instant: $35 Victrola Gift Cards + Up to 20,000 Instant: TouchTunes Codes for 2 Jukebox Credits (ARV $1 Each; Total ARV $46,450); US + DC, 21+",
+    frequency: "Enter Daily",
+    ends: "2026-12-31",
+    url: "https://www.heineken.com/us/en/promos/holiday",
+    added: "2026-11-09",
+  },
+
+  {
+    id: 461,
+    title: "L.O.L. Surprise Music Festival Sweepstakes & Instant Win",
+    type: "instant",
+    prizes: "5 Grand: Concert Trip for 4 (ARV $25,000 Each) + 2 VIP Birthday Experiences for up to 10 (ARV $20,000 Each) + ~522,450 Instant: $100/$20/$10 MGA Shop Vouchers, Big Surprise Party Sets, Plush Toys + More (Total ARV $956,250); 50 US + DC, 18+ (Enter by Game-Piece Code from Marked Product or Free Mail-In; Up to 100 Entries)",
+    frequency: "Enter Daily",
+    ends: "2027-06-30",
+    url: "https://lolsurprisemusicfestival.turnkeysweeps.com",
+    hot: true,
+    added: "2026-11-09",
   },
 
   // ---- Sweepstakes ----
@@ -977,16 +990,6 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-10-19",
   },
 
-  {
-    id: 209,
-    title: "Cap’n Crunch “Find The Cap’n” Sweepstakes 2026",
-    type: "sweepstakes",
-    prizes: "1 Winner + Up to 3 Guests: Mystery-Location Getaway — RT Coach Airfare for 4, 4 Nights Lodging, Daily Breakfast, Rental Car, Massages + $500 Check for Meals/Incidentals (ARV $7,540); 50 US + DC, 18+ (19+ in AL/NE)",
-    frequency: "Enter Daily",
-    ends: "2026-11-08",
-    url: "https://www.capncrunchmystery.com/",
-    added: "2026-10-19",
-  },
 
 
   {
@@ -1127,17 +1130,6 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-10-22",
   },
 
-  {
-    id: 251,
-    title: "Ford NASCAR Cup Series Chase Sweepstakes",
-    type: "sweepstakes",
-    prizes: "Grand: 2026 Ford F-150 Raptor (Up to $94,360 ARV) + 10 Weekly Prizes (Autographed Ford Racing Flags, Swag Bags, NASCAR Shop Gift Cards, Race Tickets, Merch Packages; Total Prize Value $96,860); 50 US + DC, 18+ (Valid Driver\u2019s License)",
-    frequency: "Enter Daily",
-    ends: "2026-11-08",
-    url: "https://thechasefordpromo.nascar.com/",
-    hot: true,
-    added: "2026-10-22",
-  },
 
   {
     id: 252,
@@ -1174,16 +1166,6 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-10-22",
   },
 
-  {
-    id: 255,
-    title: "TWIX Hallowmas Sweepstakes",
-    type: "sweepstakes",
-    prizes: "Grand: $10,000 Cash + 200 TWIX Bars ($10,314 ARV) + 2 Category Prizes: $5,000 Cash + 100 TWIX Bars Each ($5,157 Each; Total ARV $20,628); 50 US + DC, 18+ (Enter by Uploading a Hallowmas Photo or Short Video)",
-    frequency: "Enter Once",
-    ends: "2026-11-08",
-    url: "https://www.twix.com/hallowmas",
-    added: "2026-10-22",
-  },
 
   {
     id: 256,
@@ -1731,16 +1713,6 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-10-31",
   },
 
-  {
-    id: 368,
-    title: "iHeartRadio \u201cA Perfect Circle Flyaway\u201d Sweepstakes",
-    type: "sweepstakes",
-    prizes: "Grand: Trip for Winner + Guest to Honolulu, HI to See A Perfect Circle Live \u2014 Airfare, Hotel, Concert Tickets, Meet-and-Greet with Billy Howerdel + Band-Signed Guitar (ARV $3,500); US, 18+",
-    frequency: "Enter Daily",
-    ends: "2026-11-08",
-    url: "https://news.iheart.com/promotions/a-perfect-circle-flyaway-sweepstakes-1929685/",
-    added: "2026-11-01",
-  },
 
   {
     id: 369,
@@ -2031,17 +2003,6 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-11-05",
   },
 
-  {
-    id: 417,
-    title: "Straight Talk \u201cFord Mustang\u201d Sweepstakes",
-    type: "sweepstakes",
-    prizes: "1 Winner: 2026 Ford Mustang EcoBoost (ARV $32,640); 50 US + DC, 18+ (Valid Driver\u2019s License/Insurance Required)",
-    frequency: "Enter Daily",
-    ends: "2026-11-08",
-    url: "https://straighttalkracingtour.com/mustang-giveaway",
-    hot: true,
-    added: "2026-11-06",
-  },
 
   {
     id: 418,
@@ -2077,16 +2038,6 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-11-06",
   },
 
-  {
-    id: 421,
-    title: "DTS \u201cYou Can Feel\u201d Movie Night Sweepstakes",
-    type: "sweepstakes",
-    prizes: "1 Winner: XGIMI Horizon 20 Max Projector + Comfrt Dreamer Blanket + DTS Sticker (Total ARV $2,400); 50 US + DC, 18+ (19+ AL, NE)",
-    frequency: "Enter Once",
-    ends: "2026-11-08",
-    url: "https://promo.dts.com/feel-the-sound/",
-    added: "2026-11-06",
-  },
 
   {
     id: 422,
@@ -2303,6 +2254,140 @@ const SWEEPSTAKES: Listing[] = [
     ends: "2026-12-04",
     url: "https://sun-sentinel.secondstreetapp.com/Winterfest-Weekend-Sweepstakes-2026/",
     added: "2026-11-08",
+  },
+
+  {
+    id: 462,
+    title: "FCA US $100,000 Vehicle Sweepstakes",
+    type: "sweepstakes",
+    prizes: "Grand: $100,000 Credit Toward a Dodge, Jeep, Chrysler, Ram, or Fiat Vehicle (ARV $100,000); US + DC, 18+",
+    frequency: "Enter Daily",
+    ends: "2026-12-31",
+    url: "https://sweeps.stellantisexperiences.com",
+    hot: true,
+    added: "2026-11-09",
+  },
+
+  {
+    id: 463,
+    title: "The General \u00d7 Street Fighter Sweepstakes",
+    type: "sweepstakes",
+    prizes: "Grand: 1994 Lexus LS400 + $25,400.69 Cash via ACH (ARV $95,116.94); US, 18+ (Void AK, HI, IN, KY, ME, MN, WA)",
+    frequency: "Enter Once",
+    ends: "2026-11-18",
+    url: "https://the-general-x-street-fighter-bonus-stage-break.prod.fooji.com",
+    added: "2026-11-09",
+  },
+
+  {
+    id: 464,
+    title: "White Claw \u201cPickup Truck\u201d Sweepstakes",
+    type: "sweepstakes",
+    prizes: "Grand: Midsize Hybrid Off-Road Pickup Truck + $6,000 Check for Title, Registration & Extras (ARV up to $72,150; AK/HI Winners Get Cash ARV Instead); US incl. DC, 21+",
+    frequency: "Enter Daily",
+    ends: "2026-12-31",
+    url: "https://www.whiteclaw.com",
+    hot: true,
+    added: "2026-11-09",
+  },
+
+  {
+    id: 465,
+    title: "Ford \u201cDirt & Derby\u201d Sweepstakes",
+    type: "sweepstakes",
+    prizes: "2 Winners: (1) 2026 Ford Bronco Badlands SUV (ARV $52,075); (1) Trip for 2 to Kentucky Oaks + Kentucky Derby, May 1\u20132, 2027 \u2014 Airfare, 3 Hotel Nights, Tickets to Both Race Days (ARV $10,000); US, 18+",
+    frequency: "Enter Once",
+    ends: "2026-11-29",
+    url: "https://www.fordderbysweepstakes.com",
+    added: "2026-11-09",
+  },
+
+  {
+    id: 466,
+    title: "Jim Beam \u201cHit The Beam\u201d Sweepstakes",
+    type: "sweepstakes",
+    prizes: "110 Winners: (90) Regular-Season: 85-Inch TV Each (ARV $1,000 Each); (20) Playoff: 85-Inch TV + $5,000 LoveSac Gift Card + Jim Beam Wall Clock, Neon Sign & Tabletop Keg/Drink Tower (ARV $6,245 Each; Total ARV $214,900); US incl. DC, 21+",
+    frequency: "Enter Once",
+    ends: "2027-02-14",
+    url: "https://www.hitthebeam.com",
+    added: "2026-11-09",
+  },
+
+  {
+    id: 467,
+    title: "Viking \u201c8-Day Journey\u201d Sweepstakes",
+    type: "sweepstakes",
+    prizes: "Grand + Companion: 8-Day Cruise of Winner\u2019s Choice (River, Mississippi, Oceans, or Expeditions), Airfare Included, Double Occupancy (ARV $16,396\u2013$26,996 per Cabin); US + Canada, 18+",
+    frequency: "Enter Once",
+    ends: "2026-12-31",
+    url: "https://www.vikingcruises.com",
+    added: "2026-11-09",
+  },
+
+  {
+    id: 468,
+    title: "PBS Masterpiece \u201cEuropean River Cruise\u201d Sweepstakes",
+    type: "sweepstakes",
+    prizes: "Grand + Companion (Both 21+): 8-Day Viking European River Cruise for 2, Veranda Stateroom up to Category B, Roundtrip Trans-Atlantic Economy Airfare for 2, All Onboard Meals + One Shore Excursion per Port (Choice of 6 Itineraries, Embarkation 2027 Only; ARV $15,396); US, 21+",
+    frequency: "Enter Daily",
+    ends: "2026-11-24",
+    url: "https://www.pbs.org",
+    added: "2026-11-09",
+  },
+
+  {
+    id: 469,
+    title: "Stella Rosa \u201cStellabrate the Moment\u201d Sweepstakes",
+    type: "sweepstakes",
+    prizes: "51 Winners: (1) Grand: $10,000 Check (ARV $10,000); (50) First: Stella Rosa Branded Instant Camera + 10-Count Film Each (ARV $139.95 Each; Total ARV $16,997.50); US, 21+",
+    frequency: "Enter Once",
+    ends: "2026-12-31",
+    url: "https://www.stellarosamoments.com",
+    added: "2026-11-09",
+  },
+
+  {
+    id: 470,
+    title: "HGTV \u201cHome for the Holidays\u201d Sweepstakes",
+    type: "sweepstakes",
+    prizes: "Grand: $5,000 Cash; US, 18+ (Also Enterable Daily on FoodNetwork.com for an Additional Entry)",
+    frequency: "Enter Daily",
+    ends: "2027-01-06",
+    url: "https://www.hgtv.com",
+    added: "2026-11-09",
+  },
+
+  {
+    id: 471,
+    title: "KitchenAid \u00d7 Corkcicle \u201cMindFULLness Fridge\u201d Sweepstakes",
+    type: "sweepstakes",
+    prizes: "5 Winners: KitchenAid MindFULLness Fridge + Co-Branded Corkcicle Bottle Set (16-oz Mug, 20-oz Sport Canteen, 40-oz Cruiser) + $500 via ACH Each (ARV $4,929 Each; Total ARV $24,645); US, 18+",
+    frequency: "Enter Once",
+    ends: "2026-11-15",
+    url: "https://www.kitchenaidxcorkciclesweeps.com",
+    added: "2026-11-09",
+  },
+
+  {
+    id: 472,
+    title: "Kraft Parmesan Cheese \u201cParmsgiving\u201d Sweepstakes",
+    type: "sweepstakes",
+    prizes: "Grand: $4,900 Visa Gift Card + 1-Year Supply of Kraft Parmesan Cheese (12 \u00d7 8 oz Canisters; ARV $4,959); US, 18+",
+    frequency: "Enter Once",
+    ends: "2026-12-02",
+    url: "https://kraftnaturalcheese.com/parmsgiving",
+    added: "2026-11-09",
+  },
+
+  {
+    id: 473,
+    title: "AriZona \u201cLegends Tour\u201d Sweepstakes",
+    type: "sweepstakes",
+    prizes: "Grand: Used 1990 Mazda Miata Wrapped in AriZona Green Tea Blossom Design (ARV $10,000); US, 18+ (Excl. AK & HI)",
+    frequency: "Enter Once",
+    ends: "2026-12-31",
+    url: "https://drinkarizona.com",
+    added: "2026-11-09",
   },
 
 ];
@@ -2637,7 +2722,7 @@ export default function Home() {
         </section>
 
         <p style={{ color: "#94a3b8", fontSize: "0.8rem", marginTop: "40px", lineHeight: 1.6 }}>
-          Listings last verified November 8, 2026. Always check the official rules on
+          Listings last verified November 9, 2026. Always check the official rules on
           the sponsor&apos;s page before entering. Sweepstakes Central is not affiliated
           with the sponsors listed.
         </p>
