@@ -17,10 +17,10 @@ interface Listing {
   added: string; // YYYY-MM-DD — NEW badge shows when added within the last 3 days
 }
 
-// Listings verified November 9, 2026. Update this list regularly —
+// Listings verified November 10, 2026. Update this list regularly —
 // remove ended sweepstakes and add new ones by editing this file and redeploying.
 const SWEEPSTAKES: Listing[] = [
-// Listings verified November 9, 2026. Update this list regularly —
+// Listings verified November 10, 2026. Update this list regularly —
 // remove ended sweepstakes and add new ones by editing this file and redeploying.
   // ---- Instant Win Games ----
 
@@ -575,16 +575,6 @@ const SWEEPSTAKES: Listing[] = [
 
 
 
-  {
-    id: 404,
-    title: "AARP Rewards Walmart $100 Super Instant Win Game",
-    type: "instant",
-    prizes: "15 Winners: $100 Walmart eGift Cards Each (Total ARV $1,500); 50 US + DC, 18+ (Free AARP Rewards Enrollment \u2014 No Paid Membership; Free No-Points Entry Form; Limit 1 Prize/Person)",
-    frequency: "Enter Daily",
-    ends: "2026-11-09",
-    url: "https://sweeps.aarp.org/",
-    added: "2026-11-05",
-  },
 
   {
     id: 405,
@@ -800,6 +790,72 @@ const SWEEPSTAKES: Listing[] = [
     url: "https://lolsurprisemusicfestival.turnkeysweeps.com",
     hot: true,
     added: "2026-11-09",
+  },
+
+  {
+    id: 474,
+    title: "ampm “Scratch” Instant Win Game",
+    type: "instant",
+    prizes: "205,000 Winners: 100,000 × Free 12 oz Hot Coffee ($1.69), 60,000 × Free Medium Fountain Drink ($1.29), 30,000 × Free Medium Freeze ($0.89), 10,000 × Free 3-Pack Cookies ($1.49), 5,000 × Free Rib Sandwich ($3.49) (Total ARV ~$305,450); AZ, CA, NV Only, 18+ (Free ampm App Account; Free Mail-in AMOE, 10 Scratchers/Day)",
+    frequency: "Enter Daily",
+    ends: "2027-01-05",
+    url: "https://www.ampm.com/",
+    added: "2026-11-10",
+  },
+
+  {
+    id: 475,
+    title: "AARP Rewards Amazon.com $100 Super Instant Win Game",
+    type: "instant",
+    prizes: "15 Winners: $100 Amazon.com eGift Cards Each (Total ARV $1,500); 50 US + DC, 18+ (Free AARP Rewards Enrollment — No Paid Membership; Free No-Points Entry Form; Limit 1 Prize/Person)",
+    frequency: "Enter Daily",
+    ends: "2026-11-16",
+    url: "https://sweeps.aarp.org/",
+    added: "2026-11-10",
+  },
+
+  {
+    id: 476,
+    title: "AARP Rewards Bath & Body Works Instant Win Game",
+    type: "instant",
+    prizes: "200 Winners: $10 Bath & Body Works eGift Cards Each (Total ARV $2,000); 50 US + DC, 18+ (Free AARP Rewards Enrollment — No Paid Membership; Free No-Points Entry Form; Limit 1 Prize/Person)",
+    frequency: "Enter Daily",
+    ends: "2026-11-15",
+    url: "https://sweeps.aarp.org/",
+    added: "2026-11-10",
+  },
+
+  {
+    id: 477,
+    title: "Chiquita “Yellow Holidays Slippers” Instant Win Game",
+    type: "instant",
+    prizes: "750 Winners: Chiquita Banana Slippers ($15 Each; Total ARV $11,250); 50 US + DC, 18+ (Entry via Instagram: Follow @chiquitabanana + Comment #YellowHolidays; Limit 1 Entry/Person)",
+    frequency: "Enter Once",
+    ends: "2026-11-22",
+    url: "https://www.instagram.com/chiquitabanana/",
+    added: "2026-11-10",
+  },
+
+  {
+    id: 478,
+    title: "Kellogg’s Rice Krispies Treats × Solo Stove Giveaway",
+    type: "instant",
+    prizes: "110 Winners: (10) Grand: Solo Stove Summit 24 Smokeless Fire Pit + Roasting Sticks + 2 × 40-ct Rice Krispies Treats (ARV $702.96 Each) + (100) Second: Solo Stove Mesa Tabletop Fire Pit + Accessory Kit + 2 × 40-ct Rice Krispies Treats (ARV $212.96 Each; Total ARV $28,325.60); 50 US + DC, 18+ (Winning Wrapper in Specially-Marked 40-ct Boxes or Free Mail-in Game Piece)",
+    frequency: "Enter Once",
+    ends: "2027-03-01",
+    url: "https://www.kellanovaus.com/us/en/kelloggs-rkt-solo-stove-giveaway.html",
+    added: "2026-11-10",
+  },
+
+  {
+    id: 479,
+    title: "Steamy Kitchen “$25 Walmart Gift Card Kitchen Treats” Instant Win Game",
+    type: "instant",
+    prizes: "4 Winners: $25 Walmart Gift Cards Each (Total ARV $100); US + Canada, 18+ (Free Spin-to-Win Wheel; Daily Spin)",
+    frequency: "Enter Daily",
+    ends: "2026-12-11",
+    url: "https://steamykitchen.com/255689-25-walmart-gift-card-kitchen-treats-instant-win.html",
+    added: "2026-11-10",
   },
 
   // ---- Sweepstakes ----
@@ -1431,16 +1487,6 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-10-26",
   },
 
-  {
-    id: 308,
-    title: "Blacktop Ranch \u201cGod\u2019s Country Getaway\u201d Sweepstakes",
-    type: "sweepstakes",
-    prizes: "Grand: Blacktop Ranch Hunt in Junction, TX (Nov 28\u2013Dec 1, 2026) for Winner + 1 Guest 21+ \u2014 Airfare, 3 Nights Lodging, Texas Ground Transport, Onsite Food, All Hunting Expenses, Processing + Shoulder-Mount Taxidermy for One Axis, Blackbuck or Fallow Buck + $500 Clothing Package (ARV $12,400); 50 US + DC (Excl. NY, FL, RI), 18+ (19+ AL/NE, 21+ MS; Fixed Trip Dates)",
-    frequency: "Enter Once",
-    ends: "2026-11-09",
-    url: "https://app.viralsweep.com/sweeps/full/bbce07-239148",
-    added: "2026-10-26",
-  },
 
   {
     id: 317,
@@ -1578,16 +1624,6 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-10-29",
   },
 
-  {
-    id: 347,
-    title: "Cove Home \u201cHoliday Hosting\u201d Sweepstakes",
-    type: "sweepstakes",
-    prizes: "2 Winners, Each: $500 Cove Home Promotional E-Gift Card for Home Goods/Kitchenware (Total ARV $1,000); US, 18+",
-    frequency: "Enter Once",
-    ends: "2026-11-09",
-    url: "https://cove-home.co/pages/holiday-giveaway",
-    added: "2026-10-30",
-  },
 
   {
     id: 348,
@@ -1770,16 +1806,6 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-11-02",
   },
 
-  {
-    id: 377,
-    title: "GEICO \u201cBirds on the Go\u201d Sweepstakes",
-    type: "sweepstakes",
-    prizes: "2 Winners, Each + Guest: Trip to Philadelphia Eagles vs. Dallas Cowboys Game at AT&T Stadium (Nov 26, 2026) \u2014 2 Game Tickets ($500), Round-Trip Coach Airfare PHL\u2013DFW ($1,200), 2 Hotel Nights ($750) + $500 Visa Gift Card (ARV $2,950 Each; $5,900 Total); PA, DE, NJ Only, 21+",
-    frequency: "Enter Once",
-    ends: "2026-11-09",
-    url: "https://philadelphiaeagles.com/geicosweepstakes",
-    added: "2026-11-02",
-  },
 
 
   {
@@ -1925,16 +1951,6 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-11-04",
   },
 
-  {
-    id: 398,
-    title: "Carnival Rewards \u201cEmeril\u2019s Extraordinary Points\u201d Sweepstakes",
-    type: "sweepstakes",
-    prizes: "16 Winners: Carnival Rewards Points \u2014 1 \u00d7 250,000 Points, 5 \u00d7 100,000 Points, 10 \u00d7 25,000 Points; 50 US + DC + Canada Excl. Quebec, 21+ (Carnival Rewards Members)",
-    frequency: "Enter Once",
-    ends: "2026-11-09",
-    url: "https://carnivalrewards.com/emeril",
-    added: "2026-11-04",
-  },
 
   {
     id: 406,
@@ -2153,16 +2169,6 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-11-07",
   },
 
-  {
-    id: 440,
-    title: "GEICO \u201cBirds on the Go\u201d Sweepstakes",
-    type: "sweepstakes",
-    prizes: "2 Winners: Trip for 2 to Eagles vs. Cowboys at AT&T Stadium (Nov 26, 2026) \u2014 2 Game Tickets, RT Coach Airfare for 2 (PHL\u2013DFW), 2 Hotel Nights + $500 Visa Gift Card (ARV $2,950 Each; Total ARV $5,900); US, 18+",
-    frequency: "Enter Once",
-    ends: "2026-11-09",
-    url: "https://forms.philadelphiaeagles.com/f/geicosweepstakes",
-    added: "2026-11-07",
-  },
 
   {
     id: 441,
@@ -2388,6 +2394,121 @@ const SWEEPSTAKES: Listing[] = [
     ends: "2026-12-31",
     url: "https://drinkarizona.com",
     added: "2026-11-09",
+  },
+
+  {
+    id: 480,
+    title: "Go Bowling “$1,000 Holiday Shopping Spree” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "1 Winner: $1,000 Check (ARV $1,000); 50 US + DC, 21+ (Random Drawing ~Dec 2, 2026)",
+    frequency: "Enter Daily",
+    ends: "2026-11-26",
+    url: "https://gobowling.com/2026macys/",
+    added: "2026-11-10",
+  },
+
+  {
+    id: 482,
+    title: "Coca-Cola “Friday U.S. Hockey” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "168 Winners: 2 × 65\" Smart TVs (ARV $480 Each), 25 × $100 Ticketmaster Gift Cards, 25 × $100 Streaming Prepaid Cards, 25 × $50 Fanatics Gift Cards, 25 × $50 Virtual Prepaid Mastercards, 25 × $50 Uber Gift Cards, 20 × $50 Mini Projectors, 10 × $40 Tabletop Hockey Games, 10 × $35 Hooded Blankets + 1 × Coca-Cola for a Year (ARV $288) (Total ARV $11,748); 50 US + DC, 13+",
+    frequency: "Enter Weekly",
+    ends: "2026-11-29",
+    url: "https://www.coca-cola.com/us/en/offerings/coca-cola/hockey",
+    added: "2026-11-10",
+  },
+
+  {
+    id: 483,
+    title: "Cricket Wireless “Celebration Bowl Flyaway” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "Grand: Trip for 2 to the 2026 Celebration Bowl in Atlanta (Dec 12) — Round-Trip Coach Airfare, 2 Hotel Nights (Dec 11–13), Ground Transport, 2 Game Tickets + $500 Prepaid Gift Card (ARV $5,000); 50 US + DC, 21+",
+    frequency: "Enter Daily",
+    ends: "2026-11-13",
+    url: "https://www.cricketsweepstakes.com/hbcu",
+    added: "2026-11-10",
+  },
+
+  {
+    id: 484,
+    title: "Rally House “Big Ten Football Championship” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "Grand: Big Ten Football Championship Prize Pack — 4 Game Tickets + On-Field Sideline Pre-Game Experience (ARV $1,320), Airfare + Hotel Package (ARV $5,000), $250 Rally House x Big Ten Gift Card + Merch Bundle (ARV $350) (Total ARV $6,920); 50 US + DC, 18+",
+    frequency: "Enter Once",
+    ends: "2026-11-15",
+    url: "https://shop.bigtenstore.com/btfc-enter-to-win",
+    added: "2026-11-10",
+  },
+
+  {
+    id: 485,
+    title: "TENA “Take Back Your Game” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "Grand: $15,000 Big Game Trip for 2 to Super Bowl LXI in Inglewood, CA — Hotel, Airfare, Game Tickets (ARV $15,000) + (3) Second: 65\" TV + Sports Streaming Subscription + $200 Gift Card (ARV $1,000 Each; Total ARV $18,000); US, 18+",
+    frequency: "Enter Once",
+    ends: "2026-11-15",
+    url: "https://takebackyourgame.com",
+    hot: true,
+    added: "2026-11-10",
+  },
+
+  {
+    id: 486,
+    title: "Little Caesars “Pizza! Pizza! Pregame” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "Grand: 3-Night Trip for 2 to Super Bowl LXI in Inglewood, CA — Airfare, Hotel, 2 Game Tickets, Taste of the NFL Party Admission + $750 Check (ARV $12,178); 50 US + DC, 18+ (Enter via Little Caesars App Challenges; 1 Entry per NFL Game Day)",
+    frequency: "Enter Once",
+    ends: "2026-11-17",
+    url: "https://information.littlecaesars.com/en-us/little-caesars-pizza-pizza-pregame-sweepstakes-official-rules",
+    hot: true,
+    added: "2026-11-10",
+  },
+
+  {
+    id: 487,
+    title: "Magnum Ice Cream “Better With Ice Cream” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "10 Winners: $500 Digital Voucher Each for Magnum Ice Cream Company Brands Products (Total ARV $5,000); 50 US + DC, 18+",
+    frequency: "Enter Daily",
+    ends: "2026-11-30",
+    url: "https://www.pdatapartners.com/hf/TMICC/Sweeps2026/",
+    added: "2026-11-10",
+  },
+
+  {
+    id: 488,
+    title: "Blk Spr Sweepstakes",
+    type: "sweepstakes",
+    prizes: "Grand: 1993 Dodge W-250 Extra Cab Cummins Diesel Truck (ARV $45,000); US, 18+ (Void MN, NY, RI)",
+    frequency: "Enter Daily",
+    ends: "2026-11-30",
+    url: "https://blk-spr.com",
+    hot: true,
+    added: "2026-11-10",
+  },
+
+  {
+    id: 489,
+    title: "Marriott Bonvoy “Super Bowl Sleepover” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "Grand: 4-Day/3-Night Trip for 2 to Super Bowl LXI at SoFi Stadium — Airfare, Hotel, 2 Game Tickets, 1 Night in the Super Bowl Suite + $4,050 Check (ARV $20,250) + (5) $500 Marriott Bonvoy GiftCards + (16) $100 Marriott Bonvoy GiftCards + (32) $100 NFL Shop eGift Cards (Total ARV $27,550); 50 US + DC, 18+ (Also AU, BR, CA, FR, DE, MX, ES, UK)",
+    frequency: "Enter Once",
+    ends: "2026-12-15",
+    url: "https://www.joinmarriottbonvoy.com/superbowlsleepoversuite",
+    hot: true,
+    added: "2026-11-10",
+  },
+
+  {
+    id: 490,
+    title: "Avocados from Mexico “Guac Drops” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "454 Winners: (2) Grand: Trip for 2 to the 2027 College Football Playoff National Championship in Las Vegas — Airfare, 2 Hotel Nights, Guac Box Suite Admission (ARV $30,000 Each) + 452 Weekly: $100 Fanatics Gift Cards, Guackets (ARV $150), Cornhole Sets (ARV $190) + Rodeo Grills (ARV $399); 50 US + DC, Age of Majority",
+    frequency: "Enter Weekly",
+    ends: "2026-12-04",
+    url: "https://avocadosfrommexico.com/college-football",
+    hot: true,
+    added: "2026-11-10",
   },
 
 ];
@@ -2722,7 +2843,7 @@ export default function Home() {
         </section>
 
         <p style={{ color: "#94a3b8", fontSize: "0.8rem", marginTop: "40px", lineHeight: 1.6 }}>
-          Listings last verified November 9, 2026. Always check the official rules on
+          Listings last verified November 10, 2026. Always check the official rules on
           the sponsor&apos;s page before entering. Sweepstakes Central is not affiliated
           with the sponsors listed.
         </p>
