@@ -17,10 +17,10 @@ interface Listing {
   added: string; // YYYY-MM-DD — NEW badge shows when added within the last 3 days
 }
 
-// Listings verified November 10, 2026. Update this list regularly —
+// Listings verified November 11, 2026. Update this list regularly —
 // remove ended sweepstakes and add new ones by editing this file and redeploying.
 const SWEEPSTAKES: Listing[] = [
-// Listings verified November 10, 2026. Update this list regularly —
+// Listings verified November 11, 2026. Update this list regularly —
 // remove ended sweepstakes and add new ones by editing this file and redeploying.
   // ---- Instant Win Games ----
 
@@ -133,16 +133,6 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-10-18",
   },
 
-  {
-    id: 190,
-    title: "Grizzly “Camo Life” Instant Win Game",
-    type: "instant",
-    prizes: "896 Winners: (4) Grand: Yamaha Wolverine RMAX2 1000 XT-R ATV + $10,000 Check (ARV $37,889 Each); (892) $250 Digital Choice Prepaid Mastercards; 50 US + DC, 21+ (Tobacco Consumers, Void MA & MI)",
-    frequency: "Enter Daily",
-    ends: "2026-11-10",
-    url: "https://www.mygrizzly.com",
-    added: "2026-10-18",
-  },
 
 
   {
@@ -611,16 +601,6 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-11-06",
   },
 
-  {
-    id: 414,
-    title: "AARP Rewards Outback Steakhouse Instant Win Game",
-    type: "instant",
-    prizes: "200 Winners: $10 Outback Steakhouse eGift Cards Each (Total ARV $2,000); 50 US + DC, 18+ (Free AARP Rewards Enrollment \u2014 No Paid Membership; Free No-Points Entry Form; Limit 1 Prize/Person)",
-    frequency: "Enter Daily",
-    ends: "2026-11-10",
-    url: "https://sweeps.aarp.org/",
-    added: "2026-11-06",
-  },
 
   {
     id: 415,
@@ -856,6 +836,61 @@ const SWEEPSTAKES: Listing[] = [
     ends: "2026-12-11",
     url: "https://steamykitchen.com/255689-25-walmart-gift-card-kitchen-treats-instant-win.html",
     added: "2026-11-10",
+  },
+
+  {
+    id: 491,
+    title: "AARP Rewards Bed Bath & Beyond eGift Card Instant Win Game",
+    type: "instant",
+    prizes: "200 Winners: $10 Bed Bath & Beyond eGift Cards Each (Total ARV $2,000); 50 US + DC, 18+ (Free AARP Rewards Enrollment — No Paid Membership; Free No-Points Entry Form; Limit 1 Prize/Person)",
+    frequency: "Enter Daily",
+    ends: "2026-11-17",
+    url: "https://sweeps.aarp.org/",
+    added: "2026-11-11",
+  },
+
+  {
+    id: 492,
+    title: "FLX “Cash Wins-Days” Instant Win Game",
+    type: "instant",
+    prizes: "87 Winners: 1 × $50, 1 × $20, 1 × $10 + 84 × $5 FLX Cash (Total ARV $500); US + DC, 13+ (Free FLX Rewards Membership; Up to 35 Plays/Day; Free Mail-in AMOE Available)",
+    frequency: "Enter Daily",
+    ends: "2026-11-13",
+    url: "https://secure.cataboom.com/direct/flx-rewards-amoe-Wins-Days",
+    added: "2026-11-11",
+  },
+
+  {
+    id: 493,
+    title: "Steamy Kitchen “Grocery $20 Cash” Instant Win Game",
+    type: "instant",
+    prizes: "4 Winners: $20 Cash Each (Total ARV $80); US + Canada, 18+ (Free Spin-to-Win Wheel; Daily Spin)",
+    frequency: "Enter Daily",
+    ends: "2026-12-04",
+    url: "https://steamykitchen.com/255668-grocery-20-cash-instant-win.html",
+    added: "2026-11-11",
+  },
+
+  {
+    id: 494,
+    title: "Steamy Kitchen “23 Years of Recipes, Rewards & Wins” Instant Win Game",
+    type: "instant",
+    prizes: "4 Winners: $25 PayPal Cash Each (Total ARV $100); US + Canada, 18+ (Free Spin-to-Win Wheel; Daily Spin)",
+    frequency: "Enter Daily",
+    ends: "2026-12-18",
+    url: "https://steamykitchen.com/255709-23-years-of-recipes-rewards-wins-instant-wins.html",
+    added: "2026-11-11",
+  },
+
+  {
+    id: 495,
+    title: "Steamy Kitchen “$10 Amazon Gift Card Everyday Treats” Instant Win Game",
+    type: "instant",
+    prizes: "5 Winners: $10 Amazon Gift Cards Each (Total ARV $50); US + Canada, 18+ (Free Spin-to-Win Wheel; Daily Spin)",
+    frequency: "Enter Daily",
+    ends: "2026-12-25",
+    url: "https://steamykitchen.com/255727-10-amazon-gift-card-everyday-treats-instant-win-4.html",
+    added: "2026-11-11",
   },
 
   // ---- Sweepstakes ----
@@ -1602,16 +1637,6 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-10-29",
   },
 
-  {
-    id: 339,
-    title: "Klean Freak Cancun Giveaway",
-    type: "sweepstakes",
-    prizes: "1 Winner + Guest: 4-Night Cancun Trip \u2014 Round-Trip Economy Airfare + Hotel (ARV $5,000; Meals/Transport/Excursions Not Included); 48 Contiguous US + DC, 18+ (Winner + Guest Need Valid Passports)",
-    frequency: "Enter Once",
-    ends: "2026-11-10",
-    url: "https://www.kleanfreak.com/pages/cancun-giveaway",
-    added: "2026-10-29",
-  },
 
   {
     id: 341,
@@ -2020,28 +2045,7 @@ const SWEEPSTAKES: Listing[] = [
   },
 
 
-  {
-    id: 418,
-    title: "Food Network \u201cTaste of Fall\u201d Sweepstakes",
-    type: "sweepstakes",
-    prizes: "1 Winner: $5,000 Check (ARV $5,000); US Incl. DC, 21+",
-    frequency: "Enter Daily",
-    ends: "2026-11-10",
-    url: "https://www.foodnetwork.com/sponsored/sweepstakes/taste-of-fall",
-    added: "2026-11-06",
-  },
 
-  {
-    id: 419,
-    title: "Chipotle \u201cBig-Ass Chipotle Bag\u201d Sweepstakes",
-    type: "sweepstakes",
-    prizes: "8,000 Winners (2,000 Per Weekly Drawing \u00d7 4): Chipotle Bag Each (ARV $30 Each; Total ARV $240,000); 50 US + DC, 13+ (Minors Need Parent/Guardian Permission; Free Chipotle Rewards Account Required)",
-    frequency: "Enter Daily",
-    ends: "2026-11-10",
-    url: "https://www.bigasschipotlebag.com/alternative-method-of-entry",
-    hot: true,
-    added: "2026-11-06",
-  },
 
   {
     id: 420,
@@ -2229,16 +2233,6 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-11-08",
   },
 
-  {
-    id: 456,
-    title: "Pep Boys \u201cPhilly\u201d Sweepstakes",
-    type: "sweepstakes",
-    prizes: "11 Winners: Grand \u2014 Philly merch ($200) + $1,300 Flightgift card + $1,000 Hotelgift card + $500 prepaid card (ARV $3,000) + 10 \u00d7 $100 Pep Boys gift cards (Total ARV $4,000); 50 US + DC, 18+",
-    frequency: "Enter Once",
-    ends: "2026-11-10",
-    url: "https://www.pepboys.com/giveaway",
-    added: "2026-11-08",
-  },
 
   {
     id: 457,
@@ -2509,6 +2503,142 @@ const SWEEPSTAKES: Listing[] = [
     url: "https://avocadosfrommexico.com/college-football",
     hot: true,
     added: "2026-11-10",
+  },
+
+  {
+    id: 496,
+    title: "Kellanova Sodexo “Shelf Care” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "51 Winners: Grand: 2 Shelf Care Prize Packs (Rice Krispies Treats Robes, Pop-Tarts Fleece Blankets, Pringles PJ Pants, Cheez-It Socks, Eye Masks; ARV $330) + 50 Weekly Prizes (Robe $60, Blanket $55, PJ Pants $25, Socks $15 or Eye Mask $10 Each; Total ARV $1,750); US, 18+",
+    frequency: "Enter Weekly",
+    ends: "2026-12-01",
+    url: "https://www.fallshelfcare2026.com",
+    added: "2026-11-11",
+  },
+
+  {
+    id: 497,
+    title: "Angel Studios “Hershey” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "30 Winners: $100 Freddy’s Gift Card + 4 Hershey Movie Tickets Each (ARV $150 Each; Total ARV $4,500); US, 18+",
+    frequency: "Enter Daily",
+    ends: "2026-11-30",
+    url: "https://www.angel.com",
+    added: "2026-11-11",
+  },
+
+  {
+    id: 498,
+    title: "Martin’s “Very Merry” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "3 Winners: Weber Searwood 600 Pellet Grill + Sweet Rolls (ARV $1,015), Blackstone 36-Inch Griddle Bundle + Sweet Rolls (ARV $615), Intex PureSpa Plus 6-Person Hot Tub + Sweet Rolls (ARV $695); US, 18+",
+    frequency: "Enter Daily",
+    ends: "2026-12-31",
+    url: "https://www.verymerrymartins.com",
+    added: "2026-11-11",
+  },
+
+  {
+    id: 499,
+    title: "Mike’s Harder “Gaming System” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "10 Winners: Gaming System Prize Package Each — Handheld/Home Console, Curved Ultra-Wide WQHD Monitor + Ergonomic Gaming Chair (ARV $1,800 Each; Total ARV $18,000); US + DC, 21+",
+    frequency: "Enter Daily",
+    ends: "2026-12-31",
+    url: "https://www.mikeshard.com",
+    added: "2026-11-11",
+  },
+
+  {
+    id: 500,
+    title: "Murphy’s Diesel “Freedom” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "Grand: 2025 Ford F-550 + 2027 XLR Nitro Toy Hauler + 2026 Can-Am Mav R + $20,000 Cash (ARV $200,000; Cash Alternative = 1/3 ARV); US, 18+ (Excl. RI & MN)",
+    frequency: "Enter Daily",
+    ends: "2026-12-31",
+    url: "https://murphysdiesel.com",
+    hot: true,
+    added: "2026-11-11",
+  },
+
+  {
+    id: 501,
+    title: "Silversea “Black Friday Getaway” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "Grand: 11-Night Mediterranean Cruise for 2, Lisbon to Barcelona (Mar 24–Apr 4, 2027) Aboard Silver Ray, Veranda Suite, Meals + Beverage Package, Taxes, Fees & Gratuities (ARV $18,720); US, 18+",
+    frequency: "Enter Once",
+    ends: "2026-12-07",
+    url: "https://silverseablackfridaygetaway.com",
+    hot: true,
+    added: "2026-11-11",
+  },
+
+  {
+    id: 502,
+    title: "Hallmark Channel “Christmas Countdown Adventure Game” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "206 Winners: Grand: $1,500 Michaels Gift Card + 100 × $25 Michaels Gift Cards + 100 × $10 Michaels Gift Cards + 4 Hallmark Movie Prize Packs ($130 Each) + 1 Hallmark Cocoa Set ($40; Total ARV $5,560); 50 US + DC, 18+ (19+ AL/NE, 21+ MS)",
+    frequency: "Enter Daily",
+    ends: "2026-11-23",
+    url: "https://countdownadventure.hallmarkchannel.com",
+    added: "2026-11-11",
+  },
+
+  {
+    id: 503,
+    title: "Hilton Grand Vacations Jackpot Sweepstakes",
+    type: "sweepstakes",
+    prizes: "Grand: 7-Night Deluxe Vacation for 2 — Winner’s Choice of Hawaii, Las Vegas or Orlando (ARV $18,600; $10,000 Cash Alternative) + 12 Monthly Prizes: 3 Nights Hilton Hotel + 250,000 Hilton Honors Points + $500 Spending Money (ARV $1,825 Each); 50 US + DC + PR + GU + VI, 25+",
+    frequency: "Enter Once",
+    ends: "2027-01-31",
+    url: "https://www.hiltongrandvacations.com/lp/sweepstakes",
+    hot: true,
+    added: "2026-11-11",
+  },
+
+  {
+    id: 504,
+    title: "Good Hair Day Holiday Giveaway",
+    type: "sweepstakes",
+    prizes: "4 Winners: ghd Cashmere Collection Ultimate Styling Bundle ($818), ghd Duet Blowdry in Cashmere Beige ($449), ghd Chronos Max Festive Gift Set ($389), ghd Sculpt Festive Gift Set ($459); 50 US + DC (Excl. RI), 18+",
+    frequency: "Enter Once",
+    ends: "2026-12-15",
+    url: "https://www.ghdhair.com/us/sweepstakes-entry",
+    added: "2026-11-11",
+  },
+
+  {
+    id: 505,
+    title: "Sparkling Ice “Fuel Your Holidays” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "4 Winners: Grand: $2,500 Gift Card + 3 × $500 Fuel Gift Cards (Total ARV $4,000); 50 US + DC, 18+ (Play the 30-Second Game to Enter)",
+    frequency: "Enter Daily",
+    ends: "2026-12-31",
+    url: "https://sparklingicefuelyourholidays.com",
+    added: "2026-11-11",
+  },
+
+  {
+    id: 506,
+    title: "Disney+ Perks “Make the Holidays Magic” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "1 Winner: Merch Prize Pack — LEGO Star Wars Executor, Black Series Force FX Elite Maul Lightsaber, CITIZEN Death Star II Watch, LEGO Avengers Doomsday Tower, Away Suitcase, CITIZEN Sorcerer Mickey Watch, Pandora Disney Princess Set + Winnie the Pooh Pandora Bracelet (ARV $4,222.97); 50 US + DC, 18+ (Enter via Disney+ Perks; Free Email Alternate Entry)",
+    frequency: "Enter Daily",
+    ends: "2026-11-20",
+    url: "https://perks.disneyplus.com",
+    added: "2026-11-11",
+  },
+
+  {
+    id: 507,
+    title: "Maverick “Rhythm and Flow” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "31 Winners: Grand: $15,000 Check + 10 × $500 Virtual Prepaid Cards + 20 × $250 Virtual Prepaid Cards (Total ARV $25,000); 50 US (Excl. MA & MI) + DC, 21+ (Smokers; Free Age-Verified Account)",
+    frequency: "Enter Daily",
+    ends: "2027-01-31",
+    url: "https://www.maverickcigarettes.com/RHYTHMANDFLOW",
+    hot: true,
+    added: "2026-11-11",
   },
 
 ];
@@ -2843,7 +2973,7 @@ export default function Home() {
         </section>
 
         <p style={{ color: "#94a3b8", fontSize: "0.8rem", marginTop: "40px", lineHeight: 1.6 }}>
-          Listings last verified November 10, 2026. Always check the official rules on
+          Listings last verified November 11, 2026. Always check the official rules on
           the sponsor&apos;s page before entering. Sweepstakes Central is not affiliated
           with the sponsors listed.
         </p>
