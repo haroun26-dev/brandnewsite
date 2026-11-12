@@ -17,10 +17,10 @@ interface Listing {
   added: string; // YYYY-MM-DD — NEW badge shows when added within the last 3 days
 }
 
-// Listings verified November 11, 2026. Update this list regularly —
+// Listings verified November 12, 2026. Update this list regularly —
 // remove ended sweepstakes and add new ones by editing this file and redeploying.
 const SWEEPSTAKES: Listing[] = [
-// Listings verified November 11, 2026. Update this list regularly —
+// Listings verified November 12, 2026. Update this list regularly —
 // remove ended sweepstakes and add new ones by editing this file and redeploying.
   // ---- Instant Win Games ----
 
@@ -566,16 +566,6 @@ const SWEEPSTAKES: Listing[] = [
 
 
 
-  {
-    id: 405,
-    title: "AARP Rewards Starbucks Instant Win Game",
-    type: "instant",
-    prizes: "200 Winners: $10 Starbucks eGift Cards Each (Total ARV $2,000); 50 US + DC, 18+ (Free AARP Rewards Enrollment \u2014 No Paid Membership; Free No-Points Entry Form; Limit 1 Prize/Person)",
-    frequency: "Enter Daily",
-    ends: "2026-11-11",
-    url: "https://sweeps.aarp.org/",
-    added: "2026-11-05",
-  },
 
   {
     id: 412,
@@ -682,17 +672,6 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-11-07",
   },
 
-  {
-    id: 443,
-    title: "Celebrity Cruises \u201cReflection Daily Win\u201d Instant Win Game",
-    type: "instant",
-    prizes: "216 Winners: 10 \u00d7 3-Night Celebrity Reflection Cruise for 2 (ARV $5,000 Each) + 206 Branded Merch Prizes ($13.22\u2013$34.74 Each; Total ARV $53,774.22); US, 21+",
-    frequency: "Enter Daily",
-    ends: "2026-11-11",
-    url: "https://www.celebritycruises.com/games/reflection-daily-win",
-    hot: true,
-    added: "2026-11-08",
-  },
 
   {
     id: 444,
@@ -893,6 +872,61 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-11-11",
   },
 
+  {
+    id: 508,
+    title: "AARP Rewards Publix eGift Card Instant Win Game",
+    type: "instant",
+    prizes: "200 Winners: $10 Publix eGift Cards Each (Total ARV $2,000); 50 US + DC, 18+ (Free AARP Rewards Enrollment — No Paid Membership; Free No-Points Entry Form; Limit 1 Prize/Person)",
+    frequency: "Enter Daily",
+    ends: "2026-11-18",
+    url: "https://sweeps.aarp.org/",
+    added: "2026-11-12",
+  },
+
+  {
+    id: 509,
+    title: "Steamy Kitchen “Cooking Essentials $10 Amazon Gift Card” Instant Win Game",
+    type: "instant",
+    prizes: "5 Winners: $10 Amazon Gift Cards Each (Total ARV $50); US + Canada, 18+ (Free Spin-to-Win Wheel; Daily Spin)",
+    frequency: "Enter Daily",
+    ends: "2027-01-01",
+    url: "https://steamykitchen.com/255748-cooking-essentials-10-amazon-gift-card-instant-win.html",
+    added: "2026-11-12",
+  },
+
+  {
+    id: 510,
+    title: "Steamy Kitchen “$10 Foodie Treat PayPal” Instant Win Game",
+    type: "instant",
+    prizes: "5 Winners: $10 PayPal Cash Each (Total ARV $50); US + Canada, 18+ (Free Spin-to-Win Wheel; Daily Spin)",
+    frequency: "Enter Daily",
+    ends: "2027-01-08",
+    url: "https://steamykitchen.com/255767-10-foodie-treat-paypal-instant-win.html",
+    added: "2026-11-12",
+  },
+
+  {
+    id: 511,
+    title: "Steamy Kitchen “$10 PayPal Snack Time Surprise” Instant Win Game",
+    type: "instant",
+    prizes: "5 Winners: $10 PayPal Cash Each (Total ARV $50); US + Canada, 18+ (Free Spin-to-Win Wheel; Daily Spin)",
+    frequency: "Enter Daily",
+    ends: "2027-01-15",
+    url: "https://steamykitchen.com/255786-10-paypal-snack-time-surprise-instant-win.html",
+    added: "2026-11-12",
+  },
+
+  {
+    id: 512,
+    title: "Steamy Kitchen “$10 Amazon Cozy Autumn Gatherings” Instant Win Game",
+    type: "instant",
+    prizes: "5 Winners: $10 Amazon Gift Cards Each (Total ARV $50); US + Canada, 18+ (Free Spin-to-Win Wheel; Daily Spin)",
+    frequency: "Enter Daily",
+    ends: "2027-01-22",
+    url: "https://steamykitchen.com/255812-10-amazon-cozy-autumn-gatherings-instant-win.html",
+    added: "2026-11-12",
+  },
+
   // ---- Sweepstakes ----
 
   {
@@ -1083,16 +1117,6 @@ const SWEEPSTAKES: Listing[] = [
 
 
 
-  {
-    id: 220,
-    title: "Travel Wisconsin “Wonder-Filled Packers” Sweepstakes",
-    type: "sweepstakes",
-    prizes: "14 Winners: 5× Grand: On-Field Flag-Holding Experience + 2 Festival Foods MVP Deck Tickets (Packers vs. Lions, Jan 9/10 2027) + Food/Drinks, Lambeau Tours, Hall of Fame Passes, $200 Packers Pro Shop Card; 5× First: 2 MVP Deck Tickets (Packers vs. Bills, Dec 13, 2026) + Tours + HOF Passes + $200 1919 Kitchen & Tap Card; 4× Second: 4 Outdoor-Bowl Tickets to a Packers Home Game + Autographed Football/Mini Helmet + Tours + HOF Passes; US, 18+ (Excl. AK, HI, FL, NY, RI)",
-    frequency: "Enter Once",
-    ends: "2026-11-11",
-    url: "https://www.travelwisconsin.com/wonder-filled-packers-sweepstakes",
-    added: "2026-10-20",
-  },
 
   {
     id: 223,
@@ -1545,17 +1569,6 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-10-27",
   },
 
-  {
-    id: 324,
-    title: "APQS \u201cTilly on the Deluxe Table\u201d Sweepstakes",
-    type: "sweepstakes",
-    prizes: "1 Winner: Tilly Longarm Quilting Machine with Deluxe Table, Transferable Lifetime Warranty, Customer Support + Mobile App Access (ARV $29,400); US + Canada, 18+",
-    frequency: "Enter Daily",
-    ends: "2026-11-11",
-    url: "https://www.apqs.com/shopping-tools/giveaway/tilly-2026/",
-    hot: true,
-    added: "2026-10-28",
-  },
 
   {
     id: 325,
@@ -1855,16 +1868,6 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-11-03",
   },
 
-  {
-    id: 383,
-    title: "The Neighbourhood “Wourld Tour Flyaway” Sweepstakes",
-    type: "sweepstakes",
-    prizes: "1 Winner + Guest: San Francisco Trip Dec 1\u20133, 2026 \u2014 2 Round-Trip Economy Flights, 2 Hotel Nights, 2 Tickets to The Neighbourhood Wourld Tour Concert Dec 2, 2026 (ARV $2,000); US Incl. DC + PR, Age of Majority",
-    frequency: "Enter Once",
-    ends: "2026-11-11",
-    url: "https://forms.sonymusicfans.com/campaign/sony-music-now-the-neighbourhood-flyaway-giveaway/",
-    added: "2026-11-03",
-  },
 
   {
     id: 384,
@@ -2641,6 +2644,129 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-11-11",
   },
 
+  {
+    id: 513,
+    title: "Ferrero Rocher “Raise A Rocher” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "113 Winners: (3) Grand: 4-Day/3-Night NYC Trip for 2 to the New Year’s Eve Gala Ball Drop at the Marriott Marquis Times Square — Airfare, Ball Drop View Suite, Gala Admission + $2,000 Check (Grand Entries Close Dec 6) + (110) Chocolate Pyramids, Champagne Flutes, Candles + Chocolate Bags ($6–$72 Each; Total ARV $77,900); 50 US + DC, 21+",
+    frequency: "Enter Daily",
+    ends: "2026-12-31",
+    url: "https://www.raisearocher.com",
+    hot: true,
+    added: "2026-11-12",
+  },
+
+  {
+    id: 514,
+    title: "Gannett “Holiday Wish and Win” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "12 Winners: (2) $10,000 Checks, (2) $5,000 Checks + (8) $2,500 Checks (Total ARV $50,000); US & Canada (Excl. Quebec), 18+",
+    frequency: "Enter Daily",
+    ends: "2026-12-31",
+    url: "https://tennessean.gannettcontests.com/2026-Holiday-Wish--Win/",
+    hot: true,
+    added: "2026-11-12",
+  },
+
+  {
+    id: 515,
+    title: "Solo Stove “Gifts That Don’t Suck” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "6 Winners: Grand: “Beast Mode Dream Backyard” Package — Fire Pit, Pi Prime Pizza Oven + Cart, 2 Adirondack Chairs, Projector Screen, 2 Torches + Autographed Football (ARV $2,929.93) + (3) Steelfire Griddle or Pi Prime Pizza Oven ($399.99 Each) + (2) Vista Projector Screens ($299.99 Each; Total ARV $4,529.88–$4,729.88); US, 18+ (Excl. RI)",
+    frequency: "Enter Once",
+    ends: "2026-12-31",
+    url: "https://beastmode.solostove.com/",
+    added: "2026-11-12",
+  },
+
+  {
+    id: 516,
+    title: "Jolene Coffee “Concerts for a Year” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "21 Winners: Grand: $3,000 in Live Nation E-Gift Cards + (20) $100 Live Nation E-Gift Cards Each (Total ARV $5,000); US, 18+",
+    frequency: "Enter Daily",
+    ends: "2026-12-01",
+    url: "https://lnpromos.com/jolenecoffeecfay26",
+    added: "2026-11-12",
+  },
+
+  {
+    id: 517,
+    title: "Continental Tire 2026 CRM Sweepstakes",
+    type: "sweepstakes",
+    prizes: "1 Winner: Set of 4 Continental Passenger/Light-Truck Tires (ARV $1,200); 50 US + DC, 18+ (19+ AL/NE, 21+ MS)",
+    frequency: "Enter Once",
+    ends: "2026-12-31",
+    url: "https://continentaltire.com/newsletter-signup",
+    added: "2026-11-12",
+  },
+
+  {
+    id: 518,
+    title: "Schaeffer’s “Stock Your Shelves” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "1 Winner: $1,000 Schaeffer’s Gift Certificate + Schaeffer’s Branded Cooler (ARV $1,405); 50 US + DC, 18+",
+    frequency: "Enter Daily",
+    ends: "2026-12-01",
+    url: "https://schaeffers.powernationtv.com",
+    added: "2026-11-12",
+  },
+
+  {
+    id: 519,
+    title: "Herschel Supply Co. “Holiday” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "1 Winner: Herschel Travel Set — Heritage Hardshell Carry-On 35L, Medium Luggage 67L, Kaslo Backpack, Organizers, Packing Cubes, Passport Holder, Travel Kit + Luggage Belt/Tag (ARV $980); 50 US + DC (Excl. RI), Age of Majority",
+    frequency: "Enter Once",
+    ends: "2026-11-16",
+    url: "https://herschel.com/pages/sweepstakes",
+    added: "2026-11-12",
+  },
+
+  {
+    id: 520,
+    title: "Craftwell Cocktails “Cranberry Mule” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "10 Winners: Craftwell Cocktails Branded Mule Copper Mug Set Each (ARV $100 Each; Total ARV $1,000); AZ, CA, CO, ID, MT, NV, OR, WA Only, 21+",
+    frequency: "Enter Daily",
+    ends: "2026-12-31",
+    url: "https://www.hp2win.com/CRAFTWELLMUG/",
+    added: "2026-11-12",
+  },
+
+  {
+    id: 521,
+    title: "Kensington “Holiday Luxe Bundle” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "1 Winner: Holiday Luxe Bundle — Deluxe Limited Editions of “The Plight Before Christmas” and “The Sleight Before Christmas” (Kate Stewart), “A Season of Secrets” (Fern Michaels) + Comfrt Dreamer Blanket (Est. Value ~$250); USA & Canada, 18+ (Void RI & Quebec)",
+    frequency: "Enter Once",
+    ends: "2026-11-30",
+    url: "https://www.kensingtonbooks.com/holidayluxebundle/",
+    added: "2026-11-12",
+  },
+
+  {
+    id: 522,
+    title: "Clubtails “Holiday Cash” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "3 Winners: $500, $300 + $100 Gift Cards (Total ARV $900); 50 US + DC, 21+",
+    frequency: "Enter Daily",
+    ends: "2026-12-31",
+    url: "https://www.hp2win.com/CLUBTAILSHOLIDAY26/",
+    added: "2026-11-12",
+  },
+
+  {
+    id: 523,
+    title: "Free People “Win Your Wishlist” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "5 Winners: $1,000 Free People Gift Cards Each (Total ARV $5,000); 50 US + DC + Canada, 18+",
+    frequency: "Enter Once",
+    ends: "2026-11-22",
+    url: "https://app.viralsweep.com/sweeps/full/559de4-240895",
+    added: "2026-11-12",
+  },
+
 ];
 
 
@@ -2973,7 +3099,7 @@ export default function Home() {
         </section>
 
         <p style={{ color: "#94a3b8", fontSize: "0.8rem", marginTop: "40px", lineHeight: 1.6 }}>
-          Listings last verified November 11, 2026. Always check the official rules on
+          Listings last verified November 12, 2026. Always check the official rules on
           the sponsor&apos;s page before entering. Sweepstakes Central is not affiliated
           with the sponsors listed.
         </p>
