@@ -17,10 +17,10 @@ interface Listing {
   added: string; // YYYY-MM-DD — NEW badge shows when added within the last 3 days
 }
 
-// Listings verified November 12, 2026. Update this list regularly —
+// Listings verified November 13, 2026. Update this list regularly —
 // remove ended sweepstakes and add new ones by editing this file and redeploying.
 const SWEEPSTAKES: Listing[] = [
-// Listings verified November 12, 2026. Update this list regularly —
+// Listings verified November 13, 2026. Update this list regularly —
 // remove ended sweepstakes and add new ones by editing this file and redeploying.
   // ---- Instant Win Games ----
 
@@ -592,16 +592,6 @@ const SWEEPSTAKES: Listing[] = [
   },
 
 
-  {
-    id: 415,
-    title: "AARP Rewards Ace Hardware Instant Win Game",
-    type: "instant",
-    prizes: "200 Winners: $10 Ace Hardware eGift Cards Each (Total ARV $2,000); 50 US + DC, 18+ (Free AARP Rewards Enrollment \u2014 No Paid Membership; Free No-Points Entry Form; Limit 1 Prize/Person)",
-    frequency: "Enter Daily",
-    ends: "2026-11-12",
-    url: "https://sweeps.aarp.org/",
-    added: "2026-11-06",
-  },
 
   {
     id: 416,
@@ -925,6 +915,50 @@ const SWEEPSTAKES: Listing[] = [
     ends: "2027-01-22",
     url: "https://steamykitchen.com/255812-10-amazon-cozy-autumn-gatherings-instant-win.html",
     added: "2026-11-12",
+  },
+
+  {
+    id: 524,
+    title: "Steamy Kitchen “$10 PayPal Favorite Foods, On Us” Instant Win Game",
+    type: "instant",
+    prizes: "5 Winners: $10 PayPal Cash Each (Total ARV $50); US + Canada, 18+ (Free Spin-to-Win Wheel; Daily Spin)",
+    frequency: "Enter Daily",
+    ends: "2027-02-06",
+    url: "https://steamykitchen.com/255876-10-paypal-favorite-foods-on-us-instant-win.html",
+    added: "2026-11-13",
+  },
+
+  {
+    id: 525,
+    title: "Steamy Kitchen “$10 PayPal Weeknight Dinner” Instant Win Game",
+    type: "instant",
+    prizes: "5 Winners: $10 PayPal Cash Each (Total ARV $50); US + Canada, 18+ (Free Spin-to-Win Wheel; Daily Spin)",
+    frequency: "Enter Daily",
+    ends: "2027-01-30",
+    url: "https://steamykitchen.com/255835-10-paypal-weeknight-dinner-instant-win.html",
+    added: "2026-11-13",
+  },
+
+  {
+    id: 526,
+    title: "Steamy Kitchen “$10 PayPal Pantry Restock” Instant Win Game",
+    type: "instant",
+    prizes: "5 Winners: $10 PayPal Cash Each (Total ARV $50); US + Canada, 18+ (Free Spin-to-Win Wheel; Daily Spin)",
+    frequency: "Enter Daily",
+    ends: "2026-11-27",
+    url: "https://steamykitchen.com/255645-10-paypal-pantry-restock-instant-win.html",
+    added: "2026-11-13",
+  },
+
+  {
+    id: 527,
+    title: "Steamy Kitchen “$20 Amazon Gift Card From Cart to Kitchen” Instant Win Game",
+    type: "instant",
+    prizes: "4 Winners: $20 Amazon Gift Cards Each (Total ARV $80); US + Canada, 18+ (Free Spin-to-Win Wheel; Daily Spin)",
+    frequency: "Enter Daily",
+    ends: "2026-11-15",
+    url: "https://steamykitchen.com/255624-20-amazon-gift-card-from-cart-to-kitchen-instant-win.html",
+    added: "2026-11-13",
   },
 
   // ---- Sweepstakes ----
@@ -2767,6 +2801,143 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-11-12",
   },
 
+  {
+    id: 528,
+    title: "United Airlines “Somebody Find Phil” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "9 Winners: Grand: 2 United Round-Trip Certificates to a Season 9 Destination + 2 More to LA + 2 Hotel Nights + Meal with Phil Rosenthal (ARV $37,500) + (8) Destination Prizes: 2 Round-Trip Certificates Each (ARV $32,000 Each; Total ARV $293,500); 50 US + DC, 21+ (Free MileagePlus Membership)",
+    frequency: "Enter Once",
+    ends: "2026-11-30",
+    url: "https://somebodyfindphil.com",
+    hot: true,
+    added: "2026-11-13",
+  },
+
+  {
+    id: 529,
+    title: "LEIER “ALBA” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "1 Winner + Guest: Round-Trip Economy Airfare to Alba, Italy + 3 Hotel Nights + Round-Trip Train Milan/Turin–Alba (ARV $4,999; Travel by Dec 31, 2027); 48 Contiguous US + DC, 21+ (Winner + Guest Both 21+)",
+    frequency: "Enter Once",
+    ends: "2026-11-30",
+    url: "https://leierfragrances.com/pages/alba-sweepstakes",
+    hot: true,
+    added: "2026-11-13",
+  },
+
+  {
+    id: 530,
+    title: "Crav’n Flavor “Nashville New Year’s Eve” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "1 Winner + Guest: Round-Trip Coach Airfare for 2 + 3 Nights at Omni Hotel Dec 30, 2026–Jan 2, 2027 + 2 Viewing Passes to Jack Daniel’s New Year’s Eve Live: Nashville’s Big Bash + Music City Attraction Pass for 2 + Gift Bag (ARV $4,200); 48 Contiguous US + DC, 21+",
+    frequency: "Enter Once",
+    ends: "2026-12-13",
+    url: "https://www.visitmusiccity.com/cravn-nye-giveaway",
+    hot: true,
+    added: "2026-11-13",
+  },
+
+  {
+    id: 531,
+    title: "Zig-Zag “Friend Trip” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "1 Grand Winner + Up to 5 Guests (21+): St. Simons Island, GA Getaway — Round-Trip Coach Airfare, 3 Nights Lodging (Up to 3 Rooms), Bicycle Rentals 3 Days, Group/Private Dining + $3,000 Gift Card/Check (Total ARV $20,100); US, 21+",
+    frequency: "Enter Once",
+    ends: "2026-11-26",
+    url: "https://www.zigzagoffers.com/",
+    hot: true,
+    added: "2026-11-13",
+  },
+
+  {
+    id: 532,
+    title: "Clif Family “Napa Table” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "1 Winner: 3-Night Weekday Hotel Stay for 2 in Napa Valley + Culinary Box of Clif Family Farm Products + Farm-to-Table Lunch for 2 at Clif Family Enoteca Tasting Salon, St. Helena, CA (Total ARV $2,500; Transportation Not Included; Weeknights Tue–Thu; Redeem by Apr 1, 2027); 50 US + DC, 21+",
+    frequency: "Enter Once",
+    ends: "2026-11-30",
+    url: "https://www.cliffamily.com/pages/napa-table-sweepstakes",
+    hot: true,
+    added: "2026-11-13",
+  },
+
+  {
+    id: 533,
+    title: "Guitar Center “Gear Giveaway” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "4 Winners (One Per Package): Live Sound Package — Yamaha Mixer/Speakers/Subs ($8,353.85); DJ Package — AlphaTheta CDJ/DJM Setup ($6,475.00); Guitar Package — Marshall Amp + Gibson SG + Cab ($7,098.98); Drums Package — Zildjian Cymbals + Kit/Hardware ($4,579.73; Total ARV $26,507.56; Drawing Dec 30, 2026); 50 US + DC, 18+",
+    frequency: "Enter Once",
+    ends: "2026-12-24",
+    url: "https://www.guitarcenter.com/gear-giveaway.gc",
+    added: "2026-11-13",
+  },
+
+  {
+    id: 534,
+    title: "Shop LC “Thanksgiving Countdown” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "30 Winners (One Per Day): Dior Holiday Beauty Set ($800), iPhone 17 ($900), iPhone Duo ($2,000), iPad Air ($749), PS5 ($650), Dyson Airwrap ($650), Dyson Supersonic ($450), Samsung 55-Inch TV ($300), Apple Watch Series 12 ($400), Shark Robot Vacuum ($700), Breville Barista Express ($700), KitchenAid Mixer ($500) + More (Aggregate ARV ~$19,000); 50 US + DC, 18+",
+    frequency: "Enter Daily",
+    ends: "2026-11-24",
+    url: "https://www.shoplc.com/ThanksgivingCountdown/giveaways",
+    added: "2026-11-13",
+  },
+
+  {
+    id: 535,
+    title: "OLIPOP “Holiday Helper” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "1,000 Winners: Case of OLIPOP Pomegranate Sparkle (12 Cans, ARV $35.99) + Compartés x OLIPOP Holiday Gift Box (3 Chocolate Bars, ARV $45) Each ($80.99 Per Winner; Total ARV $80,990); US Incl. DC, 18+ (Entry Window 12:00–5:59 PM PT Daily)",
+    frequency: "Enter Daily",
+    ends: "2026-11-19",
+    url: "https://drinkolipop.com/pages/holiday-helper-giveaway",
+    added: "2026-11-13",
+  },
+
+  {
+    id: 536,
+    title: "KitchenAid x YETI “Field To Table” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "5 Winners: KitchenAid Artisan Plus Stand Mixer (YETI Edition) + Metal Food Grinder Attachment + YETI Tundra 35 Cooler + YETI Rambler 24 oz Food Jar + YETI Hopper M20 Backpack Cooler + YETI 12\" Cast Iron Skillet Each ($1,768 Each; Total ARV $8,840); 48 Contiguous US + DC, 18+ (19+ AL, NE; Void AK/HI)",
+    frequency: "Enter Daily",
+    ends: "2026-11-15",
+    url: "https://www.fieldtotablesweepstakes.com/",
+    added: "2026-11-13",
+  },
+
+  {
+    id: 537,
+    title: "USA Today “Best of Glasshouse $1,000 Holiday” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "6 Winners: Grand: Glasshouse Prize Pack — Candle Trio, 5 Large Candles, Diffuser, Discovery Set, 24-Day Advent Calendar + Kyoto In Bloom Eau de Parfum (ARV $1,010) + (5) First: 4 Candles + Spinning Carousel Accessory Each (ARV $270 Each; Total ARV $2,360); US, 18+",
+    frequency: "Enter Daily",
+    ends: "2026-11-28",
+    url: "https://us.glasshousefragrances.com/pages/win",
+    added: "2026-11-13",
+  },
+
+  {
+    id: 538,
+    title: "Cracker Barrel “Rockers Across America” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "10 Winners: Cracker Barrel Rocking Chair with Artwork in the Headrest Each (ARV $300 Each; Total ARV $3,000); 48 Contiguous US + DC, 18+ (No Rewards Account Required)",
+    frequency: "Enter Once",
+    ends: "2026-11-30",
+    url: "https://www.crackerbarrel.com/rewards/sweepstakes",
+    added: "2026-11-13",
+  },
+
+  {
+    id: 539,
+    title: "INSP “Grateful Gathering” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "1 Winner: Vintage Bookshelf Board Games Set + Digital Photo Frame + John Wayne Brand Solid Wood Serving Board + John Wayne Made in America Puzzle + John Wayne Movie Night Snack Jar + $250 Visa Gift Card (Total ARV $571.00); 50 US + DC, 18+",
+    frequency: "Enter Daily",
+    ends: "2026-11-30",
+    url: "https://www.insp.com/sweepstakes/grateful-gathering-sweepstakes/",
+    added: "2026-11-13",
+  },
+
 ];
 
 
@@ -3099,7 +3270,7 @@ export default function Home() {
         </section>
 
         <p style={{ color: "#94a3b8", fontSize: "0.8rem", marginTop: "40px", lineHeight: 1.6 }}>
-          Listings last verified November 12, 2026. Always check the official rules on
+          Listings last verified November 13, 2026. Always check the official rules on
           the sponsor&apos;s page before entering. Sweepstakes Central is not affiliated
           with the sponsors listed.
         </p>
