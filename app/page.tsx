@@ -17,10 +17,10 @@ interface Listing {
   added: string; // YYYY-MM-DD — NEW badge shows when added within the last 3 days
 }
 
-// Listings verified November 13, 2026. Update this list regularly —
+// Listings verified November 14, 2026. Update this list regularly —
 // remove ended sweepstakes and add new ones by editing this file and redeploying.
 const SWEEPSTAKES: Listing[] = [
-// Listings verified November 13, 2026. Update this list regularly —
+// Listings verified November 14, 2026. Update this list regularly —
 // remove ended sweepstakes and add new ones by editing this file and redeploying.
   // ---- Instant Win Games ----
 
@@ -110,17 +110,6 @@ const SWEEPSTAKES: Listing[] = [
   },
 
 
-  {
-    id: 184,
-    title: "Dunkin’ “EXTRAvaganza Arcade” Instant Win Game",
-    type: "instant",
-    prizes: "85,101 Winners: (1) Grand: Dunkin’-Branded Keurig Brewer + 4 Boxes K-Cup Pods + $250 Dunkin’ Gift Card + Merch (ARV $400); (300) $10 Gift Cards; (300) $5 Gift Cards; (1,000) Beanies; (500) Truck Block Sets; (1,000) Puffer Cup Sleeves; (82,000) Loyalty Point Awards; 50 US + DC, 18+ (Dunkin’ At Home Extras Members)",
-    frequency: "Enter Daily",
-    ends: "2026-11-13",
-    url: "https://www.dunkinextras.com",
-    hot: true,
-    added: "2026-10-18",
-  },
 
   {
     id: 189,
@@ -651,16 +640,6 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-11-07",
   },
 
-  {
-    id: 432,
-    title: "AARP Rewards Best Buy eGift Card Instant Win",
-    type: "instant",
-    prizes: "200 Winners: $10 Best Buy eGift Cards Each (Total ARV $2,000); 50 US + DC, 18+ (Free AARP Rewards Enrollment \u2014 No Paid Membership; Free No-Points Entry Form; Limit 1 Prize/Person)",
-    frequency: "Enter Daily",
-    ends: "2026-11-13",
-    url: "https://sweeps.aarp.org/",
-    added: "2026-11-07",
-  },
 
 
   {
@@ -818,16 +797,6 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-11-11",
   },
 
-  {
-    id: 492,
-    title: "FLX “Cash Wins-Days” Instant Win Game",
-    type: "instant",
-    prizes: "87 Winners: 1 × $50, 1 × $20, 1 × $10 + 84 × $5 FLX Cash (Total ARV $500); US + DC, 13+ (Free FLX Rewards Membership; Up to 35 Plays/Day; Free Mail-in AMOE Available)",
-    frequency: "Enter Daily",
-    ends: "2026-11-13",
-    url: "https://secure.cataboom.com/direct/flx-rewards-amoe-Wins-Days",
-    added: "2026-11-11",
-  },
 
   {
     id: 493,
@@ -959,6 +928,40 @@ const SWEEPSTAKES: Listing[] = [
     ends: "2026-11-15",
     url: "https://steamykitchen.com/255624-20-amazon-gift-card-from-cart-to-kitchen-instant-win.html",
     added: "2026-11-13",
+  },
+
+
+  {
+    id: 540,
+    title: "AARP Rewards The Home Depot eGift Card Instant Win Game",
+    type: "instant",
+    prizes: "200 Winners: $10 The Home Depot eGift Cards Each (Total ARV $2,000); 50 US + DC, 18+ (Free AARP Rewards Enrollment — No Paid Membership; Free No-Points Entry Form; Limit 1 Prize/Person)",
+    frequency: "Enter Daily",
+    ends: "2026-11-20",
+    url: "https://sweeps.aarp.org/",
+    added: "2026-11-14",
+  },
+
+  {
+    id: 541,
+    title: "AARP Rewards Chili\u2019s Grill & Bar eGift Card Instant Win Game",
+    type: "instant",
+    prizes: "200 Winners: $10 Chili\u2019s Grill & Bar eGift Cards Each (Total ARV $2,000); 50 US + DC, 18+ (Free AARP Rewards Enrollment — No Paid Membership; Free No-Points Entry Form; Limit 1 Prize/Person)",
+    frequency: "Enter Daily",
+    ends: "2026-11-19",
+    url: "https://sweeps.aarp.org/",
+    added: "2026-11-14",
+  },
+
+  {
+    id: 542,
+    title: "Navimow \u201cBlack Friday & Cyber Monday\u201d Instant Coupon Sweepstakes",
+    type: "instant",
+    prizes: "75 Instant Coupon Prizes: 5 \u00d7 $500 Navimow X3 Mower Coupons, 20 \u00d7 $100 i2 AWD Mower Coupons, 50 \u00d7 30% Off Blade Assembly Plus 3-Pack Coupons (Discount Coupons, Not Cash); Continental US, 18+ (Excl. NY, FL, RI, AK, HI)",
+    frequency: "Enter Once",
+    ends: "2026-11-18",
+    url: "https://navimow.com/pages/black-friday",
+    added: "2026-11-14",
   },
 
   // ---- Sweepstakes ----
@@ -1164,16 +1167,6 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-10-20",
   },
 
-  {
-    id: 224,
-    title: "Henkel “Winning Starts At Home” Sweepstakes",
-    type: "sweepstakes",
-    prizes: "76 Winners: 13× Grand: Alex Morgan Autographed Item + $500 U.S. Soccer Store Digital Gift Card + Henkel Sample Box ($597–$704 Each); 13× First: 2026 USWNT Replica Jersey + $150 Gift Card + Sample Box ($320 Each); 50× Second: $150 Gift Card + Sample Box ($220 Each; Total ARV $24,312); 50 US + DC, 18+ (19+ AL/NE)",
-    frequency: "Enter Daily",
-    ends: "2026-11-13",
-    url: "https://henkelsoccersweeps.com/",
-    added: "2026-10-20",
-  },
 
   {
     id: 235,
@@ -1697,16 +1690,6 @@ const SWEEPSTAKES: Listing[] = [
   },
 
 
-  {
-    id: 348,
-    title: "The North Face \u201cXPLR Pass Holiday\u201d Sweepstakes",
-    type: "sweepstakes",
-    prizes: "4 Winners, Each: $1,000 The North Face E-Gift Card (Total ARV $4,000); US, 18+ (Free XPLR Pass Membership Required; Favorite a Product and Keep It Saved Through the End Date)",
-    frequency: "Enter Once",
-    ends: "2026-11-13",
-    url: "https://www.thenorthface.com/en-us/xplr-pass/xplr-pass-sweepstakes",
-    added: "2026-10-30",
-  },
 
   {
     id: 349,
@@ -1891,16 +1874,6 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-11-02",
   },
 
-  {
-    id: 382,
-    title: "The North Face “Holiday Wish List” Sweepstakes",
-    type: "sweepstakes",
-    prizes: "4 Winners: $1,000 The North Face E-Gift Card Each (Total ARV $4,000); US, 18+ (Free XPLR Pass Account; Favorite at Least One Item to Enter)",
-    frequency: "Enter Once",
-    ends: "2026-11-13",
-    url: "https://www.thenorthface.com/en-us/xplr-pass/xplr-pass-sweepstakes",
-    added: "2026-11-03",
-  },
 
 
   {
@@ -1969,16 +1942,6 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-11-03",
   },
 
-  {
-    id: 394,
-    title: "David\u2019s Bridal \u201cNewlyweds Taping\u201d Sweepstakes",
-    type: "sweepstakes",
-    prizes: "1 Winner + Guest: LA Trip \u2014 Round-Trip Airfare, 2 Nights at Hilton Los Angeles/Universal City, Car Service, 2 Tickets to NBC\u2019s \u201cNewlyweds\u201d Taping Dec 11, 2026 (ARV $3,500); Contiguous US, 18+",
-    frequency: "Enter Once",
-    ends: "2026-11-13",
-    url: "https://www.davidsbridal.com/nbc-newlyweds",
-    added: "2026-11-04",
-  },
 
   {
     id: 395,
@@ -2026,16 +1989,6 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-11-05",
   },
 
-  {
-    id: 407,
-    title: "Mariah Carey \u201cLondon Flyaway\u201d Sweepstakes",
-    type: "sweepstakes",
-    prizes: "1 Winner: 2 Tickets to Mariah Carey\u2019s Christmas Time Concert in London (Dec 2026) + 2 Round-Trip Economy Flights + 2 Nights\u2019 Hotel (ARV $4,000); 50 US + DC + PR, Age of Majority",
-    frequency: "Enter Once",
-    ends: "2026-11-13",
-    url: "https://forms.sonymusicfans.com/campaign/mariah-carey-london-show-flyaway/",
-    added: "2026-11-05",
-  },
 
   {
     id: 408,
@@ -2449,16 +2402,6 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-11-10",
   },
 
-  {
-    id: 483,
-    title: "Cricket Wireless “Celebration Bowl Flyaway” Sweepstakes",
-    type: "sweepstakes",
-    prizes: "Grand: Trip for 2 to the 2026 Celebration Bowl in Atlanta (Dec 12) — Round-Trip Coach Airfare, 2 Hotel Nights (Dec 11–13), Ground Transport, 2 Game Tickets + $500 Prepaid Gift Card (ARV $5,000); 50 US + DC, 21+",
-    frequency: "Enter Daily",
-    ends: "2026-11-13",
-    url: "https://www.cricketsweepstakes.com/hbcu",
-    added: "2026-11-10",
-  },
 
   {
     id: 484,
@@ -2938,6 +2881,107 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-11-13",
   },
 
+  {
+    id: 543,
+    title: "Chime \u201cHoliday\u201d Sweepstakes",
+    type: "sweepstakes",
+    prizes: "1 Grand: $100,000 Cash + 5 \u00d7 $5,000, 10 \u00d7 $2,000, 20 \u00d7 $1,000 + 500 \u00d7 $100 (Total Value $215,000); 50 US + DC, 18+ (Existing Chime Members Only; Entry via Chime App / Instagram Challenges, Up to 68 Entries)",
+    frequency: "Enter Once",
+    ends: "2026-12-31",
+    url: "https://www.chime.com/",
+    hot: true,
+    added: "2026-11-14",
+  },
+
+  {
+    id: 544,
+    title: "Celebrity Wheel of Fortune Giveaway 2026",
+    type: "sweepstakes",
+    prizes: "Up to 4 \u00d7 $10,000 Cash + Up to 4 Trips for 2: Greece 13 Nights (ARV $16,498), Japan 7 Nights (ARV $12,000), Tanzania 12 Nights (ARV $21,198), Thailand 15 Nights (ARV $12,298) (Total ARV up to $102,034); 50 US + DC, Age of Majority (Free Wheel Watchers Club Membership; 1 Entry per Episode)",
+    frequency: "Enter Once",
+    ends: "2026-12-19",
+    url: "https://www.wheeloffortune.com/win/celebrity-giveaway",
+    hot: true,
+    added: "2026-11-14",
+  },
+
+  {
+    id: 545,
+    title: "JaM Cellars \u201cButter Gift\u201d Sweepstakes",
+    type: "sweepstakes",
+    prizes: "1 Winner: $5,000 Grocery Gift Card + $1,000 Digital Instacart Gift Card + Butter Wines Branded Swag (ARV $6,500); 50 US + DC, 21+",
+    frequency: "Enter Once",
+    ends: "2026-12-31",
+    url: "https://jamcellars.com/",
+    added: "2026-11-14",
+  },
+
+  {
+    id: 546,
+    title: "Mike\u2019s Harder \u201cGaming System\u201d Sweepstakes",
+    type: "sweepstakes",
+    prizes: "10 Winners: Gaming Console Package + Curved Ultra-Wide WQHD Monitor + Ergonomic Gaming Chair Each (ARV $1,800 Each; Total ARV $18,000); US + DC, 21+",
+    frequency: "Enter Daily",
+    ends: "2026-12-31",
+    url: "https://www.mikeshard.com/",
+    added: "2026-11-14",
+  },
+
+  {
+    id: 547,
+    title: "Martin\u2019s \u201cVery Merry\u201d Sweepstakes",
+    type: "sweepstakes",
+    prizes: "3 Winners: Weber Searwood 600 Pellet Grill (ARV $1,015), Blackstone 36\u201d Griddle Bundle (ARV $615), Intex PureSpa Plus 6-Person Hot Tub (ARV $695) \u2014 Each with Rolls; US, 18+",
+    frequency: "Enter Daily",
+    ends: "2026-12-31",
+    url: "https://www.verymerrymartins.com/",
+    added: "2026-11-14",
+  },
+
+  {
+    id: 548,
+    title: "Angel Studios \u201cHershey\u201d Sweepstakes",
+    type: "sweepstakes",
+    prizes: "30 Winners: $100 Freddy\u2019s Gift Card + 4 Hershey Movie Tickets Each (ARV $150 Each; Total ARV $4,500); US, 18+",
+    frequency: "Enter Daily",
+    ends: "2026-11-30",
+    url: "https://www.angel.com/",
+    added: "2026-11-14",
+  },
+
+  {
+    id: 549,
+    title: "SiriusXM \u201cTortuga\u201d Sweepstakes 2026",
+    type: "sweepstakes",
+    prizes: "1 Grand: VIP Trip for 2 to Tortuga Music Festival, Ft. Lauderdale, Apr 2\u20134, 2027 \u2014 Round-Trip Airfare, 4 Hotel Nights, 2 VIP 3-Day Tickets, Swag Bag, Backstage Tour Passes, Welcome Party Passes + $200 Gift Card (ARV $4,000); US + DC + PR, 21+ (Current SiriusXM Subscribers Only)",
+    frequency: "Enter Once",
+    ends: "2026-11-22",
+    url: "https://www.siriusxm.com/tortuga2027",
+    added: "2026-11-14",
+  },
+
+  {
+    id: 550,
+    title: "Music City \u201cHoliday Trip to Music City\u201d Giveaway",
+    type: "sweepstakes",
+    prizes: "Trip for 4 to Nashville, Dec 18\u201321, 2026: 3-Night Stay at The Chloe Nashville, 4 VIP Tickets to Country Roads USA Christmas Show, 4 Goo Goo Cluster Workshops, 2 Nashville Attractions Passes + 2 Music City Gift Bags (ARV $3,993); US, 21+",
+    frequency: "Enter Once",
+    ends: "2026-12-03",
+    url: "https://www.visitmusiccity.com/holiday-trip-musiccity-giveaway",
+    added: "2026-11-14",
+  },
+
+  {
+    id: 551,
+    title: "Southern Living \u201cHead Start on Holidays\u201d Sweepstakes",
+    type: "sweepstakes",
+    prizes: "28 Winners: $100 Amazon Gift Cards Each (1 per Daily Entry Period; Total ARV $2,800); 50 US + DC, 18+ (Southern Living Registration Required)",
+    frequency: "Enter Daily",
+    ends: "2026-11-15",
+    url: "https://www.southernliving.com/",
+    added: "2026-11-14",
+  },
+
 ];
 
 
@@ -3270,7 +3314,7 @@ export default function Home() {
         </section>
 
         <p style={{ color: "#94a3b8", fontSize: "0.8rem", marginTop: "40px", lineHeight: 1.6 }}>
-          Listings last verified November 13, 2026. Always check the official rules on
+          Listings last verified November 14, 2026. Always check the official rules on
           the sponsor&apos;s page before entering. Sweepstakes Central is not affiliated
           with the sponsors listed.
         </p>
