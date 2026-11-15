@@ -17,10 +17,10 @@ interface Listing {
   added: string; // YYYY-MM-DD — NEW badge shows when added within the last 3 days
 }
 
-// Listings verified November 14, 2026. Update this list regularly —
+// Listings verified November 15, 2026. Update this list regularly —
 // remove ended sweepstakes and add new ones by editing this file and redeploying.
 const SWEEPSTAKES: Listing[] = [
-// Listings verified November 14, 2026. Update this list regularly —
+// Listings verified November 15, 2026. Update this list regularly —
 // remove ended sweepstakes and add new ones by editing this file and redeploying.
   // ---- Instant Win Games ----
 
@@ -675,16 +675,6 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-11-08",
   },
 
-  {
-    id: 447,
-    title: "AARP Rewards Olive Garden Instant Win Game",
-    type: "instant",
-    prizes: "200 Winners: $10 Olive Garden eGift Cards Each (Total ARV $2,000); 50 US + DC, 18+ (Free AARP Rewards Enrollment \u2014 No Paid Membership; Free No-Points Entry Form; Limit 1 Prize/Person)",
-    frequency: "Enter Daily",
-    ends: "2026-11-14",
-    url: "https://sweeps.aarp.org/",
-    added: "2026-11-08",
-  },
 
   {
     id: 459,
@@ -962,6 +952,30 @@ const SWEEPSTAKES: Listing[] = [
     ends: "2026-11-18",
     url: "https://navimow.com/pages/black-friday",
     added: "2026-11-14",
+  },
+
+
+  {
+    id: 552,
+    title: "ECS Tuning & Turner Motorsport \u201cHoliday 2026\u201d Instant Win Game and Sweepstakes",
+    type: "instant",
+    prizes: "225 Instant Winners: $20 Store Credit Each ($4,500) + Sweepstakes: $10,000 Store Credit (or $5,000 Cash), $2,500 Credit, $1,000 Credit (Total ARV $18,000); 50 US + DC + Canada (Excl. Quebec), Age of Majority (Licensed Drivers; 19+ AL/NE, 21+ MS)",
+    frequency: "Enter Daily",
+    ends: "2027-01-04",
+    url: "https://spintowin.ecstuning.com",
+    hot: true,
+    added: "2026-11-15",
+  },
+
+  {
+    id: 553,
+    title: "AARP Rewards BURGER KING\u00ae eGift Card Instant Win Game",
+    type: "instant",
+    prizes: "200 Winners: $10 BURGER KING\u00ae eGift Cards Each (Total ARV $2,000); 50 US + DC, 18+ (Free AARP Rewards Enrollment \u2014 No Paid Membership; Free No-Points Entry Form; Limit 1 Prize/Person)",
+    frequency: "Enter Daily",
+    ends: "2026-11-21",
+    url: "https://sweeps.aarp.org/",
+    added: "2026-11-15",
   },
 
   // ---- Sweepstakes ----
@@ -2982,6 +2996,109 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-11-14",
   },
 
+  {
+    id: 554,
+    title: "DoorDash \u201cFall Football Streaks Rewards\u201d Sweepstakes",
+    type: "sweepstakes",
+    prizes: "Grand: $757,500 Cash Toward a House + Refrigerator (up to $2,500) + 1 Year of Dr Pepper (ARV $760,500) + Monthly Prizes Incl. 2027 SRT Charger Hellcat ($200,000), College Football Experience ($50,000), 1 Year of Groceries ($12,000) + 4,000 \u00d7 $250 Gift Cards/Venmo (Total ARV $2,022,500); 50 US + DC, 18+ (Active DoorDash Account; Entry via Qualifying Saturday Orders or Free Mail-in AMOE)",
+    frequency: "Enter Monthly",
+    ends: "2026-11-28",
+    url: "https://help.doordash.com/en-us/consumers/article/doordash-fall-football-streaks-rewards-sweepstakes",
+    hot: true,
+    added: "2026-11-15",
+  },
+
+  {
+    id: 555,
+    title: "VanLife US \u201cVL14\u201d \u2014 Restored 1977 Airstream Excella 500 + Ford F-150 + $20K Cash",
+    type: "sweepstakes",
+    prizes: "1 Winner: Fully Restored 1977 Airstream Excella 500 ($81,500) + 2022 Ford F-150 ($39,500) + $20,000 Cash (Total ARV $141,000; Winner Announced Dec 16, 2026); US + Canada, 18+ (Free Mail-in AMOE; Purchases Earn Extra Entries)",
+    frequency: "Enter Once",
+    ends: "2026-12-11",
+    url: "https://vanlife.us/pages/vintage-restored-1977-airstream",
+    hot: true,
+    added: "2026-11-15",
+  },
+
+  {
+    id: 556,
+    title: "Smirnoff \u201cFlyaway\u201d Sweepstakes (Marvel Studios\u2019 Avengers: Doomsday)",
+    type: "sweepstakes",
+    prizes: "206 Winners: Grand: $10,000 in eGift Cards Toward Travel to the Sponsor\u2019s Event in Grand Rapids, MI + 200 \u00d7 Smirnoff \u00d7 Avengers: Doomsday Chalices ($150 Each) + 5 \u00d7 Avengers: Doomsday Record Players ($150 Each; Total ARV $40,750); Legal US, 21+ (VA Residents Eligible for Grand Prize Drawing Only)",
+    frequency: "Enter Once",
+    ends: "2026-11-23",
+    url: "https://www.smirnoff.com",
+    added: "2026-11-15",
+  },
+
+  {
+    id: 557,
+    title: "Boost Mobile \u201c12 Days of Giveaways\u201d Sweepstakes (12 Days of Boostmas)",
+    type: "sweepstakes",
+    prizes: "58 Prizes: Samsung Devices, $1,000 VISA Gift Cards, Mike Tyson Signed Gear Bundle + Grand Samsung Bundle \u2014 Galaxy S26 Ultra, Galaxy Tab A11+ 5G, Galaxy XR, Galaxy Buds4, Galaxy Watch9 (Total ARV $42,347.32; Daily Drawings Dec 10\u201321); 48 Contiguous US + DC, 18+",
+    frequency: "Enter Once",
+    ends: "2026-12-20",
+    url: "https://boost12daysofgiveaways.com",
+    hot: true,
+    added: "2026-11-15",
+  },
+
+  {
+    id: 558,
+    title: "Roam2Rescue 2026 Subaru Crosstrek Hybrid + $10K Cash Giveaway",
+    type: "sweepstakes",
+    prizes: "1 Grand-Prize Winner: 2026 Subaru Crosstrek Hybrid Limited + $10,000 Cash (ARV $45,000); US, 18+ (Free AMOE Postcard Entry; Donations Earn Extra Entries)",
+    frequency: "Enter Once",
+    ends: "2026-11-29",
+    url: "https://www.roam2rescue.com",
+    hot: true,
+    added: "2026-11-15",
+  },
+
+  {
+    id: 559,
+    title: "Shane Co. \u201c$10K Sparkle Spree\u201d Sweepstakes",
+    type: "sweepstakes",
+    prizes: "31 Winners: Grand: $10,000 Shane Co. Gift Card + 10 \u00d7 $500 Gift Cards + 20 \u00d7 $50 Gift Cards (Total ARV $16,000); 50 US + DC, 18+",
+    frequency: "Enter Once",
+    ends: "2026-11-22",
+    url: "https://shaneco.com/10ksparklespree",
+    added: "2026-11-15",
+  },
+
+  {
+    id: 560,
+    title: "Zenbivy \u201c$1,000 Shopping Spree\u201d Sweepstakes",
+    type: "sweepstakes",
+    prizes: "1 Winner: $1,000 Zenbivy Shopping Spree for Camping/Outdoor Gear (ARV $1,000); US, 18+",
+    frequency: "Enter Once",
+    ends: "2026-11-19",
+    url: "https://www.zenbivy.com",
+    added: "2026-11-15",
+  },
+
+  {
+    id: 561,
+    title: "Wheel of Fortune \u201cLive More Floridays II\u201d Sweepstakes",
+    type: "sweepstakes",
+    prizes: "5 Winners: Florida Trip for 4 Each (ARV $7,135\u2013$9,310 Each; Total ARV $40,363); US/DC + Canada (Excl. Quebec), Age of Majority (1 Entry per Episode Drawing)",
+    frequency: "Enter Once",
+    ends: "2026-11-21",
+    url: "https://www.wheeloffortune.com/win",
+    added: "2026-11-15",
+  },
+
+  {
+    id: 562,
+    title: "Crutchfield \u201c$350 November\u201d Gift Card Sweepstakes",
+    type: "sweepstakes",
+    prizes: "1 Winner: $350 Crutchfield Gift Card; US, 18+ (Entry via Crutchfield Email Signup)",
+    frequency: "Enter Once",
+    ends: "2026-11-30",
+    url: "https://www.crutchfield.com",
+    added: "2026-11-15",
+  },
+
 ];
 
 
@@ -3314,7 +3431,7 @@ export default function Home() {
         </section>
 
         <p style={{ color: "#94a3b8", fontSize: "0.8rem", marginTop: "40px", lineHeight: 1.6 }}>
-          Listings last verified November 14, 2026. Always check the official rules on
+          Listings last verified November 15, 2026. Always check the official rules on
           the sponsor&apos;s page before entering. Sweepstakes Central is not affiliated
           with the sponsors listed.
         </p>
