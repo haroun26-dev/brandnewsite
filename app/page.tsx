@@ -3466,6 +3466,9 @@ export default function Home() {
           <a href="/terms" style={{ color: "#64748b", marginRight: "16px" }}>
             Terms
           </a>
+          <a href="/affiliate-disclosure" style={{ color: "#64748b", marginRight: "16px" }}>
+            Affiliate Disclosure
+          </a>
           <a href="/contact" style={{ color: "#64748b" }}>
             Contact
           </a>
