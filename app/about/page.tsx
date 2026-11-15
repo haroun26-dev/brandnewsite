@@ -61,7 +61,13 @@ export default function AboutPage() {
       <p style={{ lineHeight: 1.75 }}>
         Sweepstakes Central is free to use and supported by advertising. Ads help cover the
         time spent finding and verifying legitimate promotions. Editorial listings are never
-        influenced by advertisers — a sponsor can&apos;t pay to appear here.
+        influenced by advertisers. Brands can pay for a clearly-labeled sponsored placement,
+        but paid listings pass the same verification check as everything else — and a
+        giveaway that fails verification doesn&apos;t get listed, paid or not. See our{" "}
+        <Link href="/affiliate-disclosure" style={{ color: "#2563eb" }}>
+          Affiliate Disclosure
+        </Link>{" "}
+        for how affiliate links and sponsored listings work.
       </p>
     </main>
   );
