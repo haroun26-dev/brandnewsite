@@ -17,10 +17,10 @@ interface Listing {
   added: string; // YYYY-MM-DD — NEW badge shows when added within the last 3 days
 }
 
-// Listings verified November 15, 2026. Update this list regularly —
+// Listings verified November 16, 2026. Update this list regularly —
 // remove ended sweepstakes and add new ones by editing this file and redeploying.
 const SWEEPSTAKES: Listing[] = [
-// Listings verified November 15, 2026. Update this list regularly —
+// Listings verified November 16, 2026. Update this list regularly —
 // remove ended sweepstakes and add new ones by editing this file and redeploying.
   // ---- Instant Win Games ----
 
@@ -252,16 +252,6 @@ const SWEEPSTAKES: Listing[] = [
 
 
 
-  {
-    id: 259,
-    title: "Skrewball Peanut Butter Whiskey \u201cHalloween\u201d Instant Win Game",
-    type: "instant",
-    prizes: "200 Instant Winners: Halloween Costume Set for 4 (1 Skrewball Bottle Costume + 3 Shot Costumes; No Alcohol Included; ARV $35 Each; Total ARV $7,000); 50 US + DC, 21+",
-    frequency: "Enter Daily",
-    ends: "2026-11-15",
-    url: "https://www.skrewballwhiskey.com",
-    added: "2026-10-23",
-  },
 
   {
     id: 260,
@@ -442,7 +432,7 @@ const SWEEPSTAKES: Listing[] = [
     id: 367,
     title: "SaverLife \u201cScratch and Save\u201d 2026 Instant Win Game",
     type: "instant",
-    prizes: "1,500 Instant Winners: 1,200 \u00d7 $5 PayPal Payments + 300 \u00d7 $20 PayPal Payments (Total ARV $12,000); 50 US + DC, 18+ (Free SaverLife Membership; Valid PayPal Account Required; Limit 1 Prize/Person)",
+    prizes: "14,352 Instant Winners: $5 Payment Each via PayPal/ACH/Venmo (Total ARV $71,760); 50 US + DC, 18+ (Free SaverLife Membership; Up to 3 Game Plays/Week; Limit 1 Prize/Person)",
     frequency: "Enter Weekly",
     ends: "2027-01-05",
     url: "https://app.saverlife.org/scratchandsaveamoe20",
@@ -582,16 +572,6 @@ const SWEEPSTAKES: Listing[] = [
 
 
 
-  {
-    id: 416,
-    title: "Synchrony \u201cHome Team Advantage\u201d Sweepstakes and Instant Win Game",
-    type: "instant",
-    prizes: "1 Grand: $5,000 Check + 2 First: Sonos Portable Smart Speakers (~$500 Each) + 36 Weekly: $100 Virtual Prepaid Mastercards + 275 Instant: $25 Amazon Gift Cards (Total ARV $16,475); US Incl. Territories, DC & PR, 18+ (Synchrony HOME Credit Cardholders Only as of Sept 27, 2026)",
-    frequency: "Enter Daily",
-    ends: "2026-11-15",
-    url: "https://www.homenetworksweepstakes2026.com/",
-    added: "2026-11-06",
-  },
 
   {
     id: 427,
@@ -732,16 +712,6 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-11-10",
   },
 
-  {
-    id: 476,
-    title: "AARP Rewards Bath & Body Works Instant Win Game",
-    type: "instant",
-    prizes: "200 Winners: $10 Bath & Body Works eGift Cards Each (Total ARV $2,000); 50 US + DC, 18+ (Free AARP Rewards Enrollment — No Paid Membership; Free No-Points Entry Form; Limit 1 Prize/Person)",
-    frequency: "Enter Daily",
-    ends: "2026-11-15",
-    url: "https://sweeps.aarp.org/",
-    added: "2026-11-10",
-  },
 
   {
     id: 477,
@@ -909,16 +879,6 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-11-13",
   },
 
-  {
-    id: 527,
-    title: "Steamy Kitchen “$20 Amazon Gift Card From Cart to Kitchen” Instant Win Game",
-    type: "instant",
-    prizes: "4 Winners: $20 Amazon Gift Cards Each (Total ARV $80); US + Canada, 18+ (Free Spin-to-Win Wheel; Daily Spin)",
-    frequency: "Enter Daily",
-    ends: "2026-11-15",
-    url: "https://steamykitchen.com/255624-20-amazon-gift-card-from-cart-to-kitchen-instant-win.html",
-    added: "2026-11-13",
-  },
 
 
   {
@@ -976,6 +936,30 @@ const SWEEPSTAKES: Listing[] = [
     ends: "2026-11-21",
     url: "https://sweeps.aarp.org/",
     added: "2026-11-15",
+  },
+
+
+  {
+    id: 563,
+    title: "AARP Rewards Walgreens eGift Card Instant Win Game",
+    type: "instant",
+    prizes: "200 Winners: $10 Walgreens eGift Cards Each (Total ARV $2,000); 50 US + DC, 18+ (Free AARP Rewards Enrollment \u2014 No Paid Membership; Free No-Points Entry Form; Limit 1 Prize/Person)",
+    frequency: "Enter Daily",
+    ends: "2026-11-22",
+    url: "https://sweeps.aarp.org/",
+    added: "2026-11-16",
+  },
+
+  {
+    id: 564,
+    title: "Kick \u201cSunset Reward Case\u201d GTA VI Giveaway",
+    type: "instant",
+    prizes: "10,000 Winners: Grand Theft Auto VI Ultimate Edition Game Code Each for PS5 or Xbox Series X|S (ARV $99.99 Each; Total ARV ~$999,900; Codes Issued On/After Nov 19, 2026 Launch; Winning Not Guaranteed); 18+ Worldwide (PS5 Codes Regional \u2014 62 Territories Incl. US; Xbox Codes Global; Free Kick Account; Watch 3 Hours/Day to Unlock 1 Case/Day)",
+    frequency: "Enter Daily",
+    ends: "2026-12-07",
+    url: "https://kick.com",
+    hot: true,
+    added: "2026-11-16",
   },
 
   // ---- Sweepstakes ----
@@ -1542,16 +1526,6 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-10-26",
   },
 
-  {
-    id: 304,
-    title: "Eckrich \u201cBig Ten Championship Game\u201d Sweepstakes",
-    type: "sweepstakes",
-    prizes: "Grand: Trip for 2 to the 2026 Discover Big Ten Championship Game in Indianapolis (Dec 5, 2026) \u2014 2 Game Tickets, Round-Trip Economy Airfare or Ground Transport Within 150 Miles + 2 Hotel Nights (Dec 4\u20135, 2026; ARV $2,250); US, 18+",
-    frequency: "Enter Once",
-    ends: "2026-11-15",
-    url: "https://eckrich.sfdbrands.com/en-us/promotions/ticket-giveaway/",
-    added: "2026-10-26",
-  },
 
   {
     id: 305,
@@ -1588,16 +1562,6 @@ const SWEEPSTAKES: Listing[] = [
   },
 
 
-  {
-    id: 317,
-    title: "Sparkle \u201cHome Essentials\u201d Sweepstakes",
-    type: "sweepstakes",
-    prizes: "Grand: Year\u2019s Supply of Sparkle Paper Towels \u2014 53 Double Rolls Awarded as 10 \u00d7 $9 Coupons (ARV $90); 50 US + DC, 18+",
-    frequency: "Enter Once",
-    ends: "2026-11-15",
-    url: "https://www.sparkletowels.com/win-a-year-supply-sweeps",
-    added: "2026-10-27",
-  },
 
   {
     id: 320,
@@ -1762,16 +1726,6 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-10-31",
   },
 
-  {
-    id: 358,
-    title: "Ultimate iHeartCountry Christmas Vacation Sweepstakes",
-    type: "sweepstakes",
-    prizes: "Grand: Las Vegas Trip for 2 (Dec 9\u201312, 2026) \u2014 Round-Trip Airfare, 3 Nights at Caesars Palace, 2 Tickets to Thomas Rhett (Dec 10), 2 Tickets to Luke Bryan & Jason Aldean Double Down Concert (Dec 11), Bacchanal Buffet Dinner for 2 + $200 Ground Transport Gift Card (ARV $3,993); 50 US + DC, 21+",
-    frequency: "Enter Daily",
-    ends: "2026-11-15",
-    url: "https://news.iheart.com/promotions/ultimate-iheartcountry-christmas-vacation-2026-national-1928322/",
-    added: "2026-10-31",
-  },
 
   {
     id: 359,
@@ -1807,16 +1761,6 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-10-31",
   },
 
-  {
-    id: 363,
-    title: "Kansas City Chiefs \u201cUltimate KC Holiday\u201d Sweepstakes",
-    type: "sweepstakes",
-    prizes: "Grand: 4 Club-Level Tickets to Chiefs vs. Patriots (Dec 21, 2026) + Field Passes + Postgame Field Photo + 4 Find Magic Tickets to the Hallmark Christmas Experience (ARV $5,000); US, 18+ (Excl. FL, NY & PR)",
-    frequency: "Enter Once",
-    ends: "2026-11-15",
-    url: "https://web.witcontests.com/chiefs/sweepstakes/win/the-ultimate-kc-holiday-261001",
-    added: "2026-10-31",
-  },
 
 
   {
@@ -1877,29 +1821,9 @@ const SWEEPSTAKES: Listing[] = [
 
 
 
-  {
-    id: 379,
-    title: "J\u00e4germeister \u201cLoyalty Q4\u201d Sweepstakes",
-    type: "sweepstakes",
-    prizes: "5 Winners: Grand: Branded J\u00e4germeister Adirondack-Style Chair (ARV $150) + 4 First: Branded J\u00e4germeister ShotSkis (ARV $50 Each; No Alcohol in Any Prize); 50 US + DC, 21+ (Valid US Driver\u2019s License or Government Photo ID)",
-    frequency: "Enter Once",
-    ends: "2026-11-15",
-    url: "https://us.jagermeister.com/join-us",
-    added: "2026-11-02",
-  },
 
 
 
-  {
-    id: 384,
-    title: "WD-40 “Thanks for Giving” Sweepstakes",
-    type: "sweepstakes",
-    prizes: "1 Winner: $250 Amazon Gift Card; US, 18+",
-    frequency: "Enter Once",
-    ends: "2026-11-15",
-    url: "https://thanksforgivingsweepstakes.wd40.com/",
-    added: "2026-11-03",
-  },
 
   {
     id: 385,
@@ -1912,16 +1836,6 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-11-03",
   },
 
-  {
-    id: 386,
-    title: "Delta Faucet “$2,100 Hair Care” Sweepstakes",
-    type: "sweepstakes",
-    prizes: "1 Winner: Hair Care Prize Package \u2014 Delta Versacurl Tool, H2Okinetic Raincan Shower Head, Clarifi Filter System/Cartridges, RevAir Complete Routine Bundle + 10 The Doux Hair-Care Products (ARV $2,100); 50 US + DC, 18+",
-    frequency: "Enter Once",
-    ends: "2026-11-15",
-    url: "https://www.deltafaucet.com/giveaways",
-    added: "2026-11-03",
-  },
 
   {
     id: 387,
@@ -2051,16 +1965,6 @@ const SWEEPSTAKES: Listing[] = [
 
 
 
-  {
-    id: 420,
-    title: "Honda \u201cRide Red\u201d Sweepstakes",
-    type: "sweepstakes",
-    prizes: "1 Winner: 2026 Honda CRF450RX Motorcycle (ARV $9,999); 50 US + DC, 18+ (Void FL, NY, RI)",
-    frequency: "Enter Once",
-    ends: "2026-11-15",
-    url: "https://powersports.honda.com/crf450rx-rideredandwinsweepstakes",
-    added: "2026-11-06",
-  },
 
 
   {
@@ -2361,16 +2265,6 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-11-09",
   },
 
-  {
-    id: 471,
-    title: "KitchenAid \u00d7 Corkcicle \u201cMindFULLness Fridge\u201d Sweepstakes",
-    type: "sweepstakes",
-    prizes: "5 Winners: KitchenAid MindFULLness Fridge + Co-Branded Corkcicle Bottle Set (16-oz Mug, 20-oz Sport Canteen, 40-oz Cruiser) + $500 via ACH Each (ARV $4,929 Each; Total ARV $24,645); US, 18+",
-    frequency: "Enter Once",
-    ends: "2026-11-15",
-    url: "https://www.kitchenaidxcorkciclesweeps.com",
-    added: "2026-11-09",
-  },
 
   {
     id: 472,
@@ -2417,28 +2311,7 @@ const SWEEPSTAKES: Listing[] = [
   },
 
 
-  {
-    id: 484,
-    title: "Rally House “Big Ten Football Championship” Sweepstakes",
-    type: "sweepstakes",
-    prizes: "Grand: Big Ten Football Championship Prize Pack — 4 Game Tickets + On-Field Sideline Pre-Game Experience (ARV $1,320), Airfare + Hotel Package (ARV $5,000), $250 Rally House x Big Ten Gift Card + Merch Bundle (ARV $350) (Total ARV $6,920); 50 US + DC, 18+",
-    frequency: "Enter Once",
-    ends: "2026-11-15",
-    url: "https://shop.bigtenstore.com/btfc-enter-to-win",
-    added: "2026-11-10",
-  },
 
-  {
-    id: 485,
-    title: "TENA “Take Back Your Game” Sweepstakes",
-    type: "sweepstakes",
-    prizes: "Grand: $15,000 Big Game Trip for 2 to Super Bowl LXI in Inglewood, CA — Hotel, Airfare, Game Tickets (ARV $15,000) + (3) Second: 65\" TV + Sports Streaming Subscription + $200 Gift Card (ARV $1,000 Each; Total ARV $18,000); US, 18+",
-    frequency: "Enter Once",
-    ends: "2026-11-15",
-    url: "https://takebackyourgame.com",
-    hot: true,
-    added: "2026-11-10",
-  },
 
   {
     id: 486,
@@ -2851,16 +2724,6 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-11-13",
   },
 
-  {
-    id: 536,
-    title: "KitchenAid x YETI “Field To Table” Sweepstakes",
-    type: "sweepstakes",
-    prizes: "5 Winners: KitchenAid Artisan Plus Stand Mixer (YETI Edition) + Metal Food Grinder Attachment + YETI Tundra 35 Cooler + YETI Rambler 24 oz Food Jar + YETI Hopper M20 Backpack Cooler + YETI 12\" Cast Iron Skillet Each ($1,768 Each; Total ARV $8,840); 48 Contiguous US + DC, 18+ (19+ AL, NE; Void AK/HI)",
-    frequency: "Enter Daily",
-    ends: "2026-11-15",
-    url: "https://www.fieldtotablesweepstakes.com/",
-    added: "2026-11-13",
-  },
 
   {
     id: 537,
@@ -2985,16 +2848,6 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-11-14",
   },
 
-  {
-    id: 551,
-    title: "Southern Living \u201cHead Start on Holidays\u201d Sweepstakes",
-    type: "sweepstakes",
-    prizes: "28 Winners: $100 Amazon Gift Cards Each (1 per Daily Entry Period; Total ARV $2,800); 50 US + DC, 18+ (Southern Living Registration Required)",
-    frequency: "Enter Daily",
-    ends: "2026-11-15",
-    url: "https://www.southernliving.com/",
-    added: "2026-11-14",
-  },
 
   {
     id: 554,
@@ -3097,6 +2950,117 @@ const SWEEPSTAKES: Listing[] = [
     ends: "2026-11-30",
     url: "https://www.crutchfield.com",
     added: "2026-11-15",
+  },
+
+  {
+    id: 565,
+    title: "HGTV \u201cHoliday Dough\u201d Sweepstakes",
+    type: "sweepstakes",
+    prizes: "1 Winner: $5,000 Check (ARV $5,000); 50 US + DC, 21+",
+    frequency: "Enter Daily",
+    ends: "2027-01-05",
+    url: "https://www.hgtv.com/sweepstakes/holiday-dough",
+    added: "2026-11-16",
+  },
+
+  {
+    id: 566,
+    title: "TLC / Food Network \u201cSeason to Shine\u201d Giveaway",
+    type: "sweepstakes",
+    prizes: "1 Winner: $5,000 Check (ARV $5,000); 50 US + DC, 21+ (Also Enterable at FoodNetwork.com \u2014 Same Drawing)",
+    frequency: "Enter Daily",
+    ends: "2027-01-07",
+    url: "https://tlc.com/sweepstakes/",
+    added: "2026-11-16",
+  },
+
+  {
+    id: 567,
+    title: "The Little Potato Company \u201cLittle Holiday Happiness\u201d Sweepstakes",
+    type: "sweepstakes",
+    prizes: "30 Winners: 15 US \u00d7 $1,000 Grocery Store Gift Card (Winner Picks Store) + 15 Canadian \u00d7 $1,000 CAD (Total US ARV $15,000); 50 US + DC + Canada, 18+ (Void PR, Guam, USVI)",
+    frequency: "Enter Once",
+    ends: "2027-01-06",
+    url: "https://www.littlepotatoes.com/holiday-happiness/",
+    added: "2026-11-16",
+  },
+
+  {
+    id: 568,
+    title: "Sony Electronics \u201cSuper Bowl LXI\u201d Sweepstakes",
+    type: "sweepstakes",
+    prizes: "1 Grand Prize: Trip for 2 to Super Bowl LXI in Los Angeles, Feb 12\u201315, 2027 \u2014 RT Coach Airfare, 3 Hotel Nights, $300 Amex Gift Card, 2 Game Tickets (ERV $10,000); 50 US + DC, 18+ (19+ AL/NE, 21+ MS)",
+    frequency: "Enter Once",
+    ends: "2026-12-15",
+    url: "https://cloud.email.sel.sony.com/SonyxNFLSuperBowlLXI",
+    added: "2026-11-16",
+  },
+
+  {
+    id: 569,
+    title: "American Airlines \u201cLonghorn Perks\u201d Sweepstakes",
+    type: "sweepstakes",
+    prizes: "1 Winner: 2-Night Trip for 2 to Nashville \u2014 Texas Longhorns vs. Vanderbilt: Hotel, RT Airfare, Game Tickets + $200 Cash (ARV $2,300); US, 18+ (19+ AL/NE; Free AAdvantage Membership Required)",
+    frequency: "Enter Daily",
+    ends: "2027-01-22",
+    url: "https://www.aa.com/longhornsperks",
+    added: "2026-11-16",
+  },
+
+  {
+    id: 570,
+    title: "Kelley Blue Book \u201cRoute 66 Passport\u201d Sweepstakes",
+    type: "sweepstakes",
+    prizes: "100 Winners: $500 Digital Cash Card Each Toward a Road Trip (Total ARV $50,000); 50 US + DC, 18+ (Up to 6 Entries \u2014 1 Per Completed Map Activity/Trivia)",
+    frequency: "Enter Once",
+    ends: "2026-11-30",
+    url: "https://www.kbb100roadtrip.com",
+    added: "2026-11-16",
+  },
+
+  {
+    id: 571,
+    title: "Frito-Lay \u201cGameday Experiences\u201d Sweepstakes",
+    type: "sweepstakes",
+    prizes: "128 Winners: 32 NFL Game Trips for 2 \u2014 Airfare, Hotel, Game Tickets, Parking + $750 Cash (ARV up to ~$5,250 Each) + 64 NFL Merchandise Prizes + 32 Autographed Memorabilia (Total ARV $184,152); 50 US + DC, 18+ (19+ AL/NE; Entry via Participating Product UPC Code or Free AMOE)",
+    frequency: "Enter Daily",
+    ends: "2026-12-06",
+    url: "https://www.tostitosgamedayexperiences.com",
+    hot: true,
+    added: "2026-11-16",
+  },
+
+  {
+    id: 572,
+    title: "Visit Orlando / Tripadvisor \u201cCommon Ground: Orlando Edition\u201d Sweepstakes",
+    type: "sweepstakes",
+    prizes: "1 Winner + Guest: 8-Night Orlando Dream Vacation \u2014 RT Airfare, Hotel/Resort of Winner\u2019s Choice, $8,000 Theme-Park/Attraction Funds + Visit Orlando Planning Session (ARV $15,000); US + DC + Canada + Mexico + UK, 21+",
+    frequency: "Enter Once",
+    ends: "2026-12-31",
+    url: "https://tripadvisor.shorthandstories.com/common-ground-orlando-edition-sweepstakes/",
+    added: "2026-11-16",
+  },
+
+  {
+    id: 573,
+    title: "Al Capone \u201cSeason of Giving\u201d Cash Giveaway",
+    type: "sweepstakes",
+    prizes: "8 Winners: $500 Check Each (Total ARV $4,000; 1 Per Weekly Drawing); 50 US + DC, 21+ (Tobacco Consumers Only; Excl. MA, MI, IA, VA)",
+    frequency: "Enter Daily",
+    ends: "2026-12-16",
+    url: "https://www.alcapone-us.com/sweepstakes",
+    added: "2026-11-16",
+  },
+
+  {
+    id: 574,
+    title: "Sparkling Ice \u201cFuel Your Holidays\u201d Sweepstakes",
+    type: "sweepstakes",
+    prizes: "4 Winners: Grand: $2,500 Gift Card + 3 \u00d7 $500 Fuel Gift Cards (Total ARV $4,000); 50 US + DC, 18+ (Entry via 30-Second Game; Receipt Upload or Free Mail-in AMOE Earns 5 Bonus Entries/Day)",
+    frequency: "Enter Daily",
+    ends: "2026-12-31",
+    url: "https://www.sparklingicefuelyourholidays.com",
+    added: "2026-11-16",
   },
 
 ];
@@ -3431,7 +3395,7 @@ export default function Home() {
         </section>
 
         <p style={{ color: "#94a3b8", fontSize: "0.8rem", marginTop: "40px", lineHeight: 1.6 }}>
-          Listings last verified November 15, 2026. Always check the official rules on
+          Listings last verified November 16, 2026. Always check the official rules on
           the sponsor&apos;s page before entering. Sweepstakes Central is not affiliated
           with the sponsors listed.
         </p>
