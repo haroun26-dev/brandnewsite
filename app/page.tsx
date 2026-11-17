@@ -17,10 +17,10 @@ interface Listing {
   added: string; // YYYY-MM-DD — NEW badge shows when added within the last 3 days
 }
 
-// Listings verified November 16, 2026. Update this list regularly —
+// Listings verified November 17, 2026. Update this list regularly —
 // remove ended sweepstakes and add new ones by editing this file and redeploying.
 const SWEEPSTAKES: Listing[] = [
-// Listings verified November 16, 2026. Update this list regularly —
+// Listings verified November 17, 2026. Update this list regularly —
 // remove ended sweepstakes and add new ones by editing this file and redeploying.
   // ---- Instant Win Games ----
 
@@ -287,16 +287,6 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-10-24",
   },
 
-  {
-    id: 275,
-    title: "AARP \u201cMovies for Grownups\u201d Sweepstakes + Instant Win Game",
-    type: "instant",
-    prizes: "597 Instant-Win Amazon Gift Cards (2 \u00d7 $500, 5 \u00d7 $50, 20 \u00d7 $20, 100 \u00d7 $10, 470 \u00d7 $5) + Grand: Trip for 2 to Los Angeles for the Movies for Grownups Awards (ARV $10,900); 50 US + DC, 21+ (Free AARP.org Account)",
-    frequency: "Enter Daily",
-    ends: "2026-11-16",
-    url: "https://www.aarp.org/membership/sweeps/movies-for-grownups-sweepstakes/",
-    added: "2026-10-24",
-  },
 
 
 
@@ -701,16 +691,6 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-11-10",
   },
 
-  {
-    id: 475,
-    title: "AARP Rewards Amazon.com $100 Super Instant Win Game",
-    type: "instant",
-    prizes: "15 Winners: $100 Amazon.com eGift Cards Each (Total ARV $1,500); 50 US + DC, 18+ (Free AARP Rewards Enrollment — No Paid Membership; Free No-Points Entry Form; Limit 1 Prize/Person)",
-    frequency: "Enter Daily",
-    ends: "2026-11-16",
-    url: "https://sweeps.aarp.org/",
-    added: "2026-11-10",
-  },
 
 
   {
@@ -960,6 +940,28 @@ const SWEEPSTAKES: Listing[] = [
     url: "https://kick.com",
     hot: true,
     added: "2026-11-16",
+  },
+
+  {
+    id: 575,
+    title: "AARP Rewards Walmart $100 eGift Card Instant Win Game",
+    type: "instant",
+    prizes: "15 Winners: $100 Walmart eGift Cards Each (Total ARV $1,500); 50 US + DC, 18+ (Free AARP Rewards Enrollment — No Paid Membership; Free No-Points Entry Form; Limit 1 Prize/Person)",
+    frequency: "Enter Daily",
+    ends: "2026-11-23",
+    url: "https://sweeps.aarp.org/",
+    added: "2026-11-17",
+  },
+
+  {
+    id: 577,
+    title: "World Market “Golden Santa Scavenger Hunt” Instant Win Game",
+    type: "instant",
+    prizes: "58,696 Winners: 44,022 × $20 Off $20+ Coupons, 12,650 × $50 Off $50+ Coupons, 2,024 × $100 Off $100+ Coupons (Coupons, Not Cash; Same-Day In-Store Use Only; Limit 1 Reward/Person); 50 US + DC, 18+ (In-Store Hunt, Twice Daily)",
+    frequency: "Enter Daily",
+    ends: "2026-11-29",
+    url: "https://www.worldmarket.com/hunt.html",
+    added: "2026-11-17",
   },
 
   // ---- Sweepstakes ----
@@ -1692,16 +1694,6 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-10-30",
   },
 
-  {
-    id: 353,
-    title: "Big Sky Brands \u201cFar Out Flavors\u201d Contest",
-    type: "sweepstakes",
-    prizes: "23 Winners (Total ~$1,820): Grand: Year\u2019s Supply of Big Sky Mints + Hat, Tote + $500 CAD Gift Card; 2nd: 6-Month Supply + Hat, Tote + $250 CAD Gift Card; 3rd: 3-Month Supply + Hat, Tote + $50 CAD Gift Card + 20 Swag Boxes (~$68 CAD Each); US + Canada, 18+ (Top Prizes via Instagram Entry; Swag Boxes via Email Entry)",
-    frequency: "Enter Once",
-    ends: "2026-11-16",
-    url: "https://bigskybrands.com/pages/far-out-flavors",
-    added: "2026-10-30",
-  },
 
   {
     id: 356,
@@ -1797,16 +1789,6 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-11-01",
   },
 
-  {
-    id: 375,
-    title: "Musora \u201cEl Estepario\u201d Sweepstakes",
-    type: "sweepstakes",
-    prizes: "Grand: 2-Night Trip for Winner to Valencia, Spain \u2014 Airfare, Hotel, $150 Travel Stipend, Meet-and-Greet and Jam Session with El Estepario, Signed Pearl Drum Set + 1 Year of Musora Online Music Lessons (ARV $9,578) + 2 Runner-Up: 12-Month Musora Annual Memberships ($279 Each); 18+ (Sponsor States No Location Restrictions; US Entrants Eligible)",
-    frequency: "Enter Once",
-    ends: "2026-11-16",
-    url: "https://www.musora.com/win",
-    added: "2026-11-02",
-  },
 
   {
     id: 376,
@@ -2576,16 +2558,6 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-11-12",
   },
 
-  {
-    id: 519,
-    title: "Herschel Supply Co. “Holiday” Sweepstakes",
-    type: "sweepstakes",
-    prizes: "1 Winner: Herschel Travel Set — Heritage Hardshell Carry-On 35L, Medium Luggage 67L, Kaslo Backpack, Organizers, Packing Cubes, Passport Holder, Travel Kit + Luggage Belt/Tag (ARV $980); 50 US + DC (Excl. RI), Age of Majority",
-    frequency: "Enter Once",
-    ends: "2026-11-16",
-    url: "https://herschel.com/pages/sweepstakes",
-    added: "2026-11-12",
-  },
 
   {
     id: 520,
@@ -3063,6 +3035,110 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-11-16",
   },
 
+  {
+    id: 585,
+    title: "ABC The View “Italy” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "Grand: Emerald Raiya Italy Cruise for 2 (ARV $36,657.60); 50 US + DC, 18+",
+    frequency: "Enter Daily",
+    ends: "2026-12-31",
+    url: "https://theview.abcaudiencegiveaways.com/emeraldcruises",
+    hot: true,
+    added: "2026-11-17",
+  },
+
+  {
+    id: 587,
+    title: "Choice Hotels “Choice Privileges” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "Grand: Hawaii/Las Vegas/Orlando 7-Night Trip for 2 + 2M Points (ARV $19,400) or $10,000 Cash; 12x Monthly Vacation Package (ARV $1,525); 50 US + DC, PR, GU, VI, 25+ (Free Choice Privileges Membership Required)",
+    frequency: "Enter Once",
+    ends: "2027-04-30",
+    url: "https://www.bluegreenvacations.com/lp/choicesweepstakes",
+    hot: true,
+    added: "2026-11-17",
+  },
+
+  {
+    id: 588,
+    title: "Jordan’s Furniture “Winter Wishes” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "Grand: $10,000 Jordan’s Furniture Gift Card + Personalized In-Home Design Services (ARV $10,000); CT, MA, ME, NH, NJ, NY, RI, VT, 18+, Must Live Within Delivery Radius",
+    frequency: "Enter Once",
+    ends: "2027-01-01",
+    url: "https://www.jordanssweeps.com",
+    hot: true,
+    added: "2026-11-17",
+  },
+
+  {
+    id: 589,
+    title: "Honda “Bring Home the Braap” CRF450R Sweepstakes",
+    type: "sweepstakes",
+    prizes: "Grand: 2027 Honda CRF450R Motorcycle (ARV $10,099); 50 US + DC (excl. RI, NY, FL), 18+",
+    frequency: "Enter Once",
+    ends: "2027-05-16",
+    url: "https://powersports.honda.com/crf450rbringhomethebraapsweepstakes",
+    hot: true,
+    added: "2026-11-17",
+  },
+
+  {
+    id: 590,
+    title: "Tourism Golden “Winter Ski Getaway” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "Grand: Winter Ski Trip for 2 to Golden, BC (ARV $10,000 CAD); Canada (excl. Quebec), US (excl. NY, WA, FL), UK, 19+",
+    frequency: "Enter Once",
+    ends: "2026-11-30",
+    url: "https://www.tourismgolden.com/giveaway",
+    hot: true,
+    added: "2026-11-17",
+  },
+
+  {
+    id: 591,
+    title: "Eggland’s Best “Egg-citing Hallmark Holiday” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "Grand: $5,000 Check + Holiday Package (ARV $5,113.74); 7x Weekly $250 Gift Card Package (ARV $363.74); 50 US + DC, 18+",
+    frequency: "Enter Daily",
+    ends: "2026-12-22",
+    url: "https://www.ebfamilysweeps.com/",
+    added: "2026-11-17",
+  },
+
+  {
+    id: 592,
+    title: "PS Seasoning “Fall” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "Grand: Pro Smoker Classic 100S Package incl. Browning Trail Camera + $100 Gift Card (ARV $3,400+); 2nd: Reserve 50 Dry Aging Cabinet Package + $100 Gift Card (ARV $2,400+); 3rd: TIKI Smokeless Fire Pit Package + $100 Gift Card (ARV $1,100+); Combined ARV $7,000; 50 US + DC, 18+",
+    frequency: "Enter Once",
+    ends: "2026-11-22",
+    url: "https://www.psseasoning.com/pages/ps-seasoning-fall-giveaway",
+    added: "2026-11-17",
+  },
+
+  {
+    id: 593,
+    title: "C-A-L Ranch “November” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "Grand: Oxcart Territory Dump Trailer (ARV $899); US, 18+",
+    frequency: "Enter Once",
+    ends: "2026-11-30",
+    url: "https://www.calranch.com/contests",
+    added: "2026-11-17",
+  },
+
+  {
+    id: 594,
+    title: "Wedderspoon “Winter Wellness” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "Grand: KitchenAid Artisan Stand Mixer + 2 Jars Raw Mānuka Honey (MGO 1100+ & 850+, 250g) + Primally Pure Candle + GEOMETRY Kitchen Towel (ARV $720); US, 18+",
+    frequency: "Enter Once",
+    ends: "2026-11-20",
+    url: "https://wedderspoon.com/pages/giveaway",
+    added: "2026-11-17",
+  },
+
 ];
 
 
@@ -3395,7 +3471,7 @@ export default function Home() {
         </section>
 
         <p style={{ color: "#94a3b8", fontSize: "0.8rem", marginTop: "40px", lineHeight: 1.6 }}>
-          Listings last verified November 16, 2026. Always check the official rules on
+          Listings last verified November 17, 2026. Always check the official rules on
           the sponsor&apos;s page before entering. Sweepstakes Central is not affiliated
           with the sponsors listed.
         </p>
