@@ -17,10 +17,10 @@ interface Listing {
   added: string; // YYYY-MM-DD — NEW badge shows when added within the last 3 days
 }
 
-// Listings verified November 17, 2026. Update this list regularly —
+// Listings verified November 18, 2026. Update this list regularly —
 // remove ended sweepstakes and add new ones by editing this file and redeploying.
 const SWEEPSTAKES: Listing[] = [
-// Listings verified November 17, 2026. Update this list regularly —
+// Listings verified November 18, 2026. Update this list regularly —
 // remove ended sweepstakes and add new ones by editing this file and redeploying.
   // ---- Instant Win Games ----
 
@@ -726,18 +726,7 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-11-10",
   },
 
-  {
-    id: 491,
-    title: "AARP Rewards Bed Bath & Beyond eGift Card Instant Win Game",
-    type: "instant",
-    prizes: "200 Winners: $10 Bed Bath & Beyond eGift Cards Each (Total ARV $2,000); 50 US + DC, 18+ (Free AARP Rewards Enrollment — No Paid Membership; Free No-Points Entry Form; Limit 1 Prize/Person)",
-    frequency: "Enter Daily",
-    ends: "2026-11-17",
-    url: "https://sweeps.aarp.org/",
-    added: "2026-11-11",
-  },
-
-
+  
   {
     id: 493,
     title: "Steamy Kitchen “Grocery $20 Cash” Instant Win Game",
@@ -964,7 +953,31 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-11-17",
   },
 
-  // ---- Sweepstakes ----
+    {
+    id: 595,
+    title: "Hidden Valley Ranch “Holiday Dinner” Instant Win Game",
+    type: "instant",
+    prizes: "40 Winners: $500 Tango Digital Reward Each, Redeemable for a Grocery Retailer Gift Card (Total ARV $20,000); 50 US + DC, 18+ (1 Play/Day; 1 Prize/Person)",
+    frequency: "Enter Daily",
+    ends: "2026-12-23",
+    url: "https://www.hiddenvalley.com/holiday-dinner-game/",
+    hot: true,
+    added: "2026-11-18",
+  },
+
+  {
+    id: 596,
+    title: "Kinder Joy “Find the Golden Toy” Instant Win Game",
+    type: "instant",
+    prizes: "416 Winners: Grand: 4-Day/3-Night NYC Trip for 4 — Harry Potter and the Cursed Child Tickets + $1,000 Check + $500 Harry Potter Shop Gift Card (ARV $10,000) + 415 Instant-Win Harry Potter Prizes: Gift Trunks, Duffle Bags, Wands, Pin Sets, Mugs, Plush Sets, Hogwarts Express Tickets (Total ARV $20,675); 50 US + DC, 18+ (Code from Specially Marked Kinder Joy or Free Mail-in AMOE Code; 1 Entry per Code/Day)",
+    frequency: "Enter Daily",
+    ends: "2027-04-30",
+    url: "https://kindersweeps.com",
+    hot: true,
+    added: "2026-11-18",
+  },
+
+// ---- Sweepstakes ----
 
   {
     id: 105,
@@ -1505,17 +1518,6 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-10-25",
   },
 
-
-  {
-    id: 302,
-    title: "Avon \u201cBeauty & Cheer\u201d Sweepstakes",
-    type: "sweepstakes",
-    prizes: "4 Winners: Avon Prize Package Each \u2014 Senses S\u2019mores & Snuggles Bubble Bath, Hand Cream & Whipped Body Butter, Hot Chocolate Lip Balm, Anew Serums/Creams, Imari Dreams Eau de Parfum, fmg Glimmer Makeup, Jewelry, Holiday Mug + Reindeer Countdown to Christmas (ARV $576 Each; Total ARV $2,304); 50 US + DC, 18+",
-    frequency: "Enter Once",
-    ends: "2026-11-17",
-    url: "https://www.avon.com/sweepstakes/beauty--cheer-sweepstakes",
-    added: "2026-10-26",
-  },
 
   {
     id: 303,
@@ -2295,18 +2297,7 @@ const SWEEPSTAKES: Listing[] = [
 
 
 
-  {
-    id: 486,
-    title: "Little Caesars “Pizza! Pizza! Pregame” Sweepstakes",
-    type: "sweepstakes",
-    prizes: "Grand: 3-Night Trip for 2 to Super Bowl LXI in Inglewood, CA — Airfare, Hotel, 2 Game Tickets, Taste of the NFL Party Admission + $750 Check (ARV $12,178); 50 US + DC, 18+ (Enter via Little Caesars App Challenges; 1 Entry per NFL Game Day)",
-    frequency: "Enter Once",
-    ends: "2026-11-17",
-    url: "https://information.littlecaesars.com/en-us/little-caesars-pizza-pizza-pregame-sweepstakes-official-rules",
-    hot: true,
-    added: "2026-11-10",
-  },
-
+  
   {
     id: 487,
     title: "Magnum Ice Cream “Better With Ice Cream” Sweepstakes",
@@ -3139,6 +3130,146 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-11-17",
   },
 
+  {
+    id: 605,
+    title: "Frontier “First to Fly” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "Grand: Elite Gold Status or 20,000 Qualifying Miles, 3 Winners (ARV $475 Each; Total ARV $1,425); 50 US + DC, 18+",
+    frequency: "Enter Once",
+    ends: "2026-11-30",
+    url: "https://signup.flyfrontier.com/first-to-fly-sweepstakes",
+    added: "2026-11-18",
+  },
+
+  {
+    id: 606,
+    title: "Architectural Digest “Gozney Dome XL” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "Grand: Gozney Dome XL (Gen 2) Ultimate Bundle, or Another Gozney Oven of Comparable or Lesser Value (ARV up to $4,114.92); 50 US + DC, 18+",
+    frequency: "Enter Once",
+    ends: "2026-11-22",
+    url: "https://www.architecturaldigest.com",
+    added: "2026-11-18",
+  },
+
+  {
+    id: 607,
+    title: "Crate & Kids “Ultimate Kids Gift” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "Grand: $2,885 Kids Gift Bundle incl. $500 Crate & Kids, Petite Keep Grand Trunk & Padlock, Banwood Balance Bike + Gift Cards from Mushie, Barefoot Dreams, SuperSmalls, Bookroo & Babiators (ARV $2,885); Continental US, 18+",
+    frequency: "Enter Once",
+    ends: "2026-12-13",
+    url: "https://www.crateandbarrel.com/kidsultimategiftgiveaway",
+    added: "2026-11-18",
+  },
+
+  {
+    id: 608,
+    title: "Food Network “Season of Sweetness” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "Grand: $10,000 Cash Check + 4 VIP Tickets to Museum of Ice Cream (ARV $10,356); 50 US + DC, 21+",
+    frequency: "Enter Daily",
+    ends: "2026-12-21",
+    url: "https://foodnetwork.com/sweetgiveaway",
+    hot: true,
+    added: "2026-11-18",
+  },
+
+  {
+    id: 609,
+    title: "Hot Wheels “Ram Trucks” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "Grand: 2026 Ram 1500 Truck (ARV up to $70,000); US, 18+",
+    frequency: "Enter Daily",
+    ends: "2026-12-14",
+    url: "https://ram.hotwheelssweepstakes.com/",
+    hot: true,
+    added: "2026-11-18",
+  },
+
+  {
+    id: 610,
+    title: "Ford “Dirt & Derby” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "Grand: 2026 Ford Bronco Badlands SUV (ARV $52,075); First Prize: Trip for 2 to Kentucky Oaks & Derby, May 1–2, 2027 (ARV $10,000); US, 18+",
+    frequency: "Enter Once",
+    ends: "2026-11-29",
+    url: "https://www.fordderbysweepstakes.com/login",
+    hot: true,
+    added: "2026-11-18",
+  },
+
+  {
+    id: 611,
+    title: "Food Network “Enchanting Bakes and Magical Escapes” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "Grand: 5-Day/4-Night Trip for 4 to Universal Orlando Resort incl. Airfare, Hotel & 4-Day Park-to-Park Tickets (ARV $5,509.72); 50 US + DC, 21+",
+    frequency: "Enter Daily",
+    ends: "2026-12-09",
+    url: "https://www.foodnetwork.com/sponsored/sweepstakes/enchanting-bakes-and-magical-escapes-sweepstakes",
+    hot: true,
+    added: "2026-11-18",
+  },
+
+  {
+    id: 612,
+    title: "Valpak “Holiday Haul” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "Grand: $5,000 Cash (ARV $5,000); US, 18+",
+    frequency: "Enter Daily",
+    ends: "2026-12-04",
+    url: "https://valpak.com/holiday",
+    hot: true,
+    added: "2026-11-18",
+  },
+
+  {
+    id: 613,
+    title: "PBS Masterpiece “European River Cruise” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "Grand: 8-Day Viking European River Cruise for 2, Choice of 6 Itineraries, incl. Round-Trip Airfare (ARV $15,396); 50 US + DC & Canada (Excl. QC), 21+",
+    frequency: "Enter Daily",
+    ends: "2026-11-24",
+    url: "https://www.pbs.org/wgbh/masterpiece/masterpiece-european-river-cruise-sweepstakes/",
+    hot: true,
+    added: "2026-11-18",
+  },
+
+  {
+    id: 614,
+    title: "House of Suntory “Japan Travel Package” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "Grand: Travel Voucher for 2 to Japan incl. Airfare, 4 Nights Tokyo, 2 Nights Kyoto, First-Class Rail, Yamazaki Distillery Visit & Osaka Day Trip (ARV $21,550); US, 21+",
+    frequency: "Enter Once",
+    ends: "2026-12-01",
+    url: "https://mysuntorytime.prod.fooji.com/",
+    hot: true,
+    added: "2026-11-18",
+  },
+
+  {
+    id: 615,
+    title: "Ramsey “Cash Giveaway” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "Grand: $10,000 Cash + 8 Weekly $500 Cash Prizes (Total ARV $14,000); 50 US + DC, 18+",
+    frequency: "Enter Daily",
+    ends: "2026-12-20",
+    url: "https://www.ramseysolutions.com/giveaway/ramsey-cash-giveaway",
+    hot: true,
+    added: "2026-11-18",
+  },
+
+  {
+    id: 616,
+    title: "Perdue “Win a Year’s Worth of Chicken” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "3 Winners: Year’s Worth of Chicken — 50 Bags of Perdue Products Each (ARV $935.90 Each; Total ARV $2,807.70); 50 US + DC, 18+ (19+ AL, NE; 21+ MS; Limit 1 Entry/Person/Household)",
+    frequency: "Enter Once",
+    ends: "2026-11-22",
+    url: "https://www.perdue.com/perdue-win-a-years-worth-of-chicken-sweepstakes",
+    added: "2026-11-18",
+  },
+
 ];
 
 
@@ -3471,7 +3602,7 @@ export default function Home() {
         </section>
 
         <p style={{ color: "#94a3b8", fontSize: "0.8rem", marginTop: "40px", lineHeight: 1.6 }}>
-          Listings last verified November 17, 2026. Always check the official rules on
+          Listings last verified November 18, 2026. Always check the official rules on
           the sponsor&apos;s page before entering. Sweepstakes Central is not affiliated
           with the sponsors listed.
         </p>
