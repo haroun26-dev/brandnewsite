@@ -1695,17 +1695,6 @@ const SWEEPSTAKES: Listing[] = [
   },
 
 
-  {
-    id: 356,
-    title: "Hot Wheels \u201cRam Trucks\u201d Sweepstakes",
-    type: "sweepstakes",
-    prizes: "Grand: 2026 Ram 1500 Truck (ARV Up to $70,000); US + DC, 18+ (Valid Driver\u2019s License)",
-    frequency: "Enter Daily",
-    ends: "2026-12-14",
-    url: "https://www.hotwheels.com/ramsweepstakes",
-    hot: true,
-    added: "2026-10-31",
-  },
 
   {
     id: 357,
@@ -1875,17 +1864,7 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-11-04",
   },
 
-  {
-    id: 397,
-    title: "Jersey Mike\u2019s \u201cMy Way\u201d Sweepstakes",
-    type: "sweepstakes",
-    prizes: "1 Winner: $3,000 Jersey Mike\u2019s E-Gift Cards + $2,000 Ticketmaster E-Gift Cards (ARV $5,000); US, 18+",
-    frequency: "Enter Once",
-    ends: "2026-12-13",
-    url: "https://lnpromos.com/jerseymikes",
-    added: "2026-11-04",
-  },
-
+  
 
   {
     id: 406,
@@ -1972,17 +1951,7 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-11-06",
   },
 
-  {
-    id: 424,
-    title: "Food Network \u201cEnchanting Bakes and Magical Escapes\u201d Sweepstakes",
-    type: "sweepstakes",
-    prizes: "1 Grand: Trip for 4 to Universal Orlando Resort \u2014 Round-Trip Airfare, 6 Days/4 Nights Hotel, Ground Transfers, 4 Universal Orlando 4-Day Park-to-Park Tickets (ARV $5,509.72); 50 US + DC, 21+",
-    frequency: "Enter Daily",
-    ends: "2026-12-09",
-    url: "https://www.foodnetwork.com/enchantingbakesandmagicalescapes",
-    added: "2026-11-06",
-  },
-
+  
   {
     id: 425,
     title: "Starbucks Customer Experience Sweepstakes 2026",
@@ -2005,18 +1974,7 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-11-06",
   },
 
-  {
-    id: 435,
-    title: "Food Network \u201cSeason of Sweetness\u201d Sweepstakes",
-    type: "sweepstakes",
-    prizes: "Grand: $10,000 Check + 4 VIP Tickets to the Museum of Ice Cream (ARV $10,356); 50 US + DC, 21+",
-    frequency: "Enter Daily",
-    ends: "2026-12-21",
-    url: "https://www.foodnetwork.com/sweetgiveaway",
-    hot: true,
-    added: "2026-11-07",
-  },
-
+  
   {
     id: 436,
     title: "Disney Imagination Campus \u201c2027 Teachers\u201d Sweepstakes",
@@ -2170,17 +2128,7 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-11-09",
   },
 
-  {
-    id: 465,
-    title: "Ford \u201cDirt & Derby\u201d Sweepstakes",
-    type: "sweepstakes",
-    prizes: "2 Winners: (1) 2026 Ford Bronco Badlands SUV (ARV $52,075); (1) Trip for 2 to Kentucky Oaks + Kentucky Derby, May 1\u20132, 2027 \u2014 Airfare, 3 Hotel Nights, Tickets to Both Race Days (ARV $10,000); US, 18+",
-    frequency: "Enter Once",
-    ends: "2026-11-29",
-    url: "https://www.fordderbysweepstakes.com",
-    added: "2026-11-09",
-  },
-
+  
   {
     id: 466,
     title: "Jim Beam \u201cHit The Beam\u201d Sweepstakes",
@@ -2203,17 +2151,7 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-11-09",
   },
 
-  {
-    id: 468,
-    title: "PBS Masterpiece \u201cEuropean River Cruise\u201d Sweepstakes",
-    type: "sweepstakes",
-    prizes: "Grand + Companion (Both 21+): 8-Day Viking European River Cruise for 2, Veranda Stateroom up to Category B, Roundtrip Trans-Atlantic Economy Airfare for 2, All Onboard Meals + One Shore Excursion per Port (Choice of 6 Itineraries, Embarkation 2027 Only; ARV $15,396); US, 21+",
-    frequency: "Enter Daily",
-    ends: "2026-11-24",
-    url: "https://www.pbs.org",
-    added: "2026-11-09",
-  },
-
+  
   {
     id: 469,
     title: "Stella Rosa \u201cStellabrate the Moment\u201d Sweepstakes",
@@ -2343,39 +2281,9 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-11-11",
   },
 
-  {
-    id: 497,
-    title: "Angel Studios “Hershey” Sweepstakes",
-    type: "sweepstakes",
-    prizes: "30 Winners: $100 Freddy’s Gift Card + 4 Hershey Movie Tickets Each (ARV $150 Each; Total ARV $4,500); US, 18+",
-    frequency: "Enter Daily",
-    ends: "2026-11-30",
-    url: "https://www.angel.com",
-    added: "2026-11-11",
-  },
-
-  {
-    id: 498,
-    title: "Martin’s “Very Merry” Sweepstakes",
-    type: "sweepstakes",
-    prizes: "3 Winners: Weber Searwood 600 Pellet Grill + Sweet Rolls (ARV $1,015), Blackstone 36-Inch Griddle Bundle + Sweet Rolls (ARV $615), Intex PureSpa Plus 6-Person Hot Tub + Sweet Rolls (ARV $695); US, 18+",
-    frequency: "Enter Daily",
-    ends: "2026-12-31",
-    url: "https://www.verymerrymartins.com",
-    added: "2026-11-11",
-  },
-
-  {
-    id: 499,
-    title: "Mike’s Harder “Gaming System” Sweepstakes",
-    type: "sweepstakes",
-    prizes: "10 Winners: Gaming System Prize Package Each — Handheld/Home Console, Curved Ultra-Wide WQHD Monitor + Ergonomic Gaming Chair (ARV $1,800 Each; Total ARV $18,000); US + DC, 21+",
-    frequency: "Enter Daily",
-    ends: "2026-12-31",
-    url: "https://www.mikeshard.com",
-    added: "2026-11-11",
-  },
-
+  
+  
+  
   {
     id: 500,
     title: "Murphy’s Diesel “Freedom” Sweepstakes",
@@ -2434,17 +2342,7 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-11-11",
   },
 
-  {
-    id: 505,
-    title: "Sparkling Ice “Fuel Your Holidays” Sweepstakes",
-    type: "sweepstakes",
-    prizes: "4 Winners: Grand: $2,500 Gift Card + 3 × $500 Fuel Gift Cards (Total ARV $4,000); 50 US + DC, 18+ (Play the 30-Second Game to Enter)",
-    frequency: "Enter Daily",
-    ends: "2026-12-31",
-    url: "https://sparklingicefuelyourholidays.com",
-    added: "2026-11-11",
-  },
-
+  
   {
     id: 506,
     title: "Disney+ Perks “Make the Holidays Magic” Sweepstakes",
@@ -2858,17 +2756,7 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-11-15",
   },
 
-  {
-    id: 559,
-    title: "Shane Co. \u201c$10K Sparkle Spree\u201d Sweepstakes",
-    type: "sweepstakes",
-    prizes: "31 Winners: Grand: $10,000 Shane Co. Gift Card + 10 \u00d7 $500 Gift Cards + 20 \u00d7 $50 Gift Cards (Total ARV $16,000); 50 US + DC, 18+",
-    frequency: "Enter Once",
-    ends: "2026-11-22",
-    url: "https://shaneco.com/10ksparklespree",
-    added: "2026-11-15",
-  },
-
+  
   {
     id: 560,
     title: "Zenbivy \u201c$1,000 Shopping Spree\u201d Sweepstakes",
@@ -3084,17 +2972,7 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-11-17",
   },
 
-  {
-    id: 592,
-    title: "PS Seasoning “Fall” Sweepstakes",
-    type: "sweepstakes",
-    prizes: "Grand: Pro Smoker Classic 100S Package incl. Browning Trail Camera + $100 Gift Card (ARV $3,400+); 2nd: Reserve 50 Dry Aging Cabinet Package + $100 Gift Card (ARV $2,400+); 3rd: TIKI Smokeless Fire Pit Package + $100 Gift Card (ARV $1,100+); Combined ARV $7,000; 50 US + DC, 18+",
-    frequency: "Enter Once",
-    ends: "2026-11-22",
-    url: "https://www.psseasoning.com/pages/ps-seasoning-fall-giveaway",
-    added: "2026-11-17",
-  },
-
+  
   {
     id: 593,
     title: "C-A-L Ranch “November” Sweepstakes",
@@ -3346,7 +3224,7 @@ const SWEEPSTAKES: Listing[] = [
     frequency: "Enter Once",
     ends: "2026-12-31",
     url: "https://mrt.tires/blogs/the-tread-thread/final-mrt-tire-set-giveaway-of-the-year",
-    added: "2026-11-19,
+    added: "2026-11-19",
   },
 ];
 
