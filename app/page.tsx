@@ -2866,63 +2866,6 @@ const SWEEPSTAKES: Listing[] = [
     frequency: "Enter Once",
     ends: "2026-11-22",
     url: "https://shaneco.com/10ksparklespree",
-    hot: true,
-    added: "2026-11-19",
-  },
-
-  {
-    id: 622,
-    title: "Hawaiian Bros “Trip to Hawaii” Sweepstakes",
-    type: "sweepstakes",
-    prizes: "Grand: Trip for 2 to Hawaii incl. Transportation, Airfare, Lodging & Excursions (Up to $5,000 Max Value); AZ, AR, IL, IA, KS, MO, NE, NV, OK, OR, TN, TX Only, 18+ (Max 2 Entries/Day Across All Methods)",
-    frequency: "Enter Daily",
-    ends: "2026-12-31",
-    url: "https://www.hawaiianbros.com",
-    hot: true,
-    added: "2026-11-19",
-  },
-
-  {
-    id: 623,
-    title: "The Spruce “Black Fri-yay” Sweepstakes",
-    type: "sweepstakes",
-    prizes: "Grand: $500 Amazon Gift Card (ARV $500); US, 18+",
-    frequency: "Enter Once",
-    ends: "2026-11-30",
-    url: "https://www.thespruce.com/sweepstakes/entry?brandId=thespruce&sweepId=spr-flash-blkfri-1126-eo",
-    added: "2026-11-19",
-  },
-
-  {
-    id: 624,
-    title: "PS Seasoning “Fall” Sweepstakes",
-    type: "sweepstakes",
-    prizes: "3 Winners, One Package Each (Combined ARV $7,000): Grand — Pro Smoker Classic 100S Package (~$3,400+) + 2nd — Reserve 50 Dry Aging Cabinet Package + 3rd — TIKI Smokeless Fire Pit Package (ARV $1,200); Each Incl. $100 Gift Card; US, 18+ (Excl. PR & US Territories)",
-    frequency: "Enter Once",
-    ends: "2026-11-22",
-    url: "https://www.psseasoning.com/pages/ps-seasoning-fall-giveaway",
-    added: "2026-11-19",
-  },
-
-  {
-    id: 625,
-    title: "Avelo “McKinney's Hometown Airline” Sweepstakes",
-    type: "sweepstakes",
-    prizes: "11 Winners: Grand — New Year's Eve Trip for 2 to Las Vegas, Dec 30, 2026–Jan 3, 2027 (RT Avelo Flights from McKinney DTX, 3 Nights Golden Nugget, Zipline Tickets, Fremont Street NYE Wristbands, $300 Food/Beverage Credit; ARV up to $1,888) + 10 × Round-Trip Economy Flight for 2 (ARV $598 Each; Total ARV $7,868); Texas Residents Only, 18+",
-    frequency: "Enter Once",
-    ends: "2026-11-30",
-    url: "https://www.aveloair.com/AveloDTXSweepstakes",
-    added: "2026-11-19",
-  },
-
-  {
-    id: 626,
-    title: "MRT Tires “Final Tire Set of the Year” Sweepstakes",
-    type: "sweepstakes",
-    prizes: "Grand: Set of 4 MRT Tires, Any Type/Size (Value up to $2,280); US, 18+ (US Shipping Address Required)",
-    frequency: "Enter Once",
-    ends: "2026-12-31",
-    url: "https://mrt.tires/blogs/the-tread-thread/final-mrt-tire-set-giveaway-of-the-year",
     added: "2026-11-15",
   },
 
