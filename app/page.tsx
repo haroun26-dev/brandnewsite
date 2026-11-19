@@ -17,10 +17,10 @@ interface Listing {
   added: string; // YYYY-MM-DD — NEW badge shows when added within the last 3 days
 }
 
-// Listings verified November 18, 2026. Update this list regularly —
+// Listings verified November 19, 2026. Update this list regularly —
 // remove ended sweepstakes and add new ones by editing this file and redeploying.
 const SWEEPSTAKES: Listing[] = [
-// Listings verified November 18, 2026. Update this list regularly —
+// Listings verified November 19, 2026. Update this list regularly —
 // remove ended sweepstakes and add new ones by editing this file and redeploying.
   // ---- Instant Win Games ----
 
@@ -433,7 +433,7 @@ const SWEEPSTAKES: Listing[] = [
     id: 380,
     title: "Miller Lite “Holiday 2026” Instant Win Game",
     type: "instant",
-    prizes: "600 Instant Prizes: 100 Quarter-Zips (ARV $46 Each), 100 Crewneck Sweaters (ARV $33 Each), 400 Beanies (ARV $7.50 Each) + National/Keyword Drawings Incl. 50 \u00d7 $500 Venmo Payments (Total ARV $48,692); 50 US + DC, 21+",
+    prizes: "870 Prizes: 600 Instant-Win Apparel Prizes — 100 Quarter-Zips (ARV $46 Each), 100 Crewneck Sweaters (ARV $33 Each), 400 Beanies (ARV $7.50 Each) + National Drawing 50 × $500 Venmo Payments + Keyword Drawings 12 × $500 Venmo, 54 Team Quarter-Zips (ARV $55 Each), 70 Crewneck Sweaters (ARV $33 Each), 84 Team Beanies (ARV $18 Each) (Total ARV $48,692); 50 US + DC, 21+",
     frequency: "Enter Daily",
     ends: "2026-12-31",
     url: "https://www.millerlite.com/holiday",
@@ -761,17 +761,6 @@ const SWEEPSTAKES: Listing[] = [
   },
 
   {
-    id: 508,
-    title: "AARP Rewards Publix eGift Card Instant Win Game",
-    type: "instant",
-    prizes: "200 Winners: $10 Publix eGift Cards Each (Total ARV $2,000); 50 US + DC, 18+ (Free AARP Rewards Enrollment — No Paid Membership; Free No-Points Entry Form; Limit 1 Prize/Person)",
-    frequency: "Enter Daily",
-    ends: "2026-11-18",
-    url: "https://sweeps.aarp.org/",
-    added: "2026-11-12",
-  },
-
-  {
     id: 509,
     title: "Steamy Kitchen “Cooking Essentials $10 Amazon Gift Card” Instant Win Game",
     type: "instant",
@@ -873,18 +862,6 @@ const SWEEPSTAKES: Listing[] = [
   },
 
   {
-    id: 542,
-    title: "Navimow \u201cBlack Friday & Cyber Monday\u201d Instant Coupon Sweepstakes",
-    type: "instant",
-    prizes: "75 Instant Coupon Prizes: 5 \u00d7 $500 Navimow X3 Mower Coupons, 20 \u00d7 $100 i2 AWD Mower Coupons, 50 \u00d7 30% Off Blade Assembly Plus 3-Pack Coupons (Discount Coupons, Not Cash); Continental US, 18+ (Excl. NY, FL, RI, AK, HI)",
-    frequency: "Enter Once",
-    ends: "2026-11-18",
-    url: "https://navimow.com/pages/black-friday",
-    added: "2026-11-14",
-  },
-
-
-  {
     id: 552,
     title: "ECS Tuning & Turner Motorsport \u201cHoliday 2026\u201d Instant Win Game and Sweepstakes",
     type: "instant",
@@ -975,6 +952,39 @@ const SWEEPSTAKES: Listing[] = [
     url: "https://kindersweeps.com",
     hot: true,
     added: "2026-11-18",
+  },
+
+  {
+    id: 597,
+    title: "AARP Rewards T.J. Maxx eGift Card Instant Win Game",
+    type: "instant",
+    prizes: "200 Winners: $10 T.J. Maxx eGift Cards Each (Total ARV $2,000); 50 US + DC, 18+ (Free AARP Rewards Enrollment — No Paid Membership; Free No-Points Entry Form; Limit 1 Prize/Person)",
+    frequency: "Enter Daily",
+    ends: "2026-11-25",
+    url: "https://sweeps.aarp.org/",
+    added: "2026-11-19",
+  },
+
+  {
+    id: 598,
+    title: "AARP Rewards Amazon.com eGift Card Instant Win Game",
+    type: "instant",
+    prizes: "2,000 Winners: $10 Amazon.com eGift Cards Each (Total ARV $20,000); 50 US + DC, 18+ (Free AARP Rewards Enrollment — No Paid Membership; Free No-Points Entry Form; Limit 1 Prize/Person)",
+    frequency: "Enter Daily",
+    ends: "2026-11-24",
+    url: "https://sweeps.aarp.org/",
+    added: "2026-11-19",
+  },
+
+  {
+    id: 599,
+    title: "AARP Rewards Texas Roadhouse eGift Card Instant Win Game",
+    type: "instant",
+    prizes: "200 Winners: $10 Texas Roadhouse eGift Cards Each (Total ARV $2,000); 50 US + DC, 18+ (Free AARP Rewards Enrollment — No Paid Membership; Free No-Points Entry Form; Limit 1 Prize/Person)",
+    frequency: "Enter Daily",
+    ends: "2026-11-24",
+    url: "https://sweeps.aarp.org/",
+    added: "2026-11-19",
   },
 
 // ---- Sweepstakes ----
@@ -1309,18 +1319,6 @@ const SWEEPSTAKES: Listing[] = [
     hot: true,
     added: "2026-10-22",
   },
-
-  {
-    id: 254,
-    title: "Eckler\u2019s $6,000 Sweepstakes",
-    type: "sweepstakes",
-    prizes: "(6) Winners: Payment Vouchers of up to $1,000 Each for AmericanMuscle.com, AmericanTrucks.com, ExtremeTerrain.com, Throtl.com or Ecklers.com (Total ARV $6,000); US + DC + Canada (Excl. FL, NY, RI, QC), 18+",
-    frequency: "Enter Daily",
-    ends: "2026-11-18",
-    url: "https://www.ecklers.com/ek-sweepstakes.html",
-    added: "2026-10-22",
-  },
-
 
   {
     id: 256,
@@ -2161,17 +2159,6 @@ const SWEEPSTAKES: Listing[] = [
   },
 
   {
-    id: 463,
-    title: "The General \u00d7 Street Fighter Sweepstakes",
-    type: "sweepstakes",
-    prizes: "Grand: 1994 Lexus LS400 + $25,400.69 Cash via ACH (ARV $95,116.94); US, 18+ (Void AK, HI, IN, KY, ME, MN, WA)",
-    frequency: "Enter Once",
-    ends: "2026-11-18",
-    url: "https://the-general-x-street-fighter-bonus-stage-break.prod.fooji.com",
-    added: "2026-11-09",
-  },
-
-  {
     id: 464,
     title: "White Claw \u201cPickup Truck\u201d Sweepstakes",
     type: "sweepstakes",
@@ -2879,6 +2866,63 @@ const SWEEPSTAKES: Listing[] = [
     frequency: "Enter Once",
     ends: "2026-11-22",
     url: "https://shaneco.com/10ksparklespree",
+    hot: true,
+    added: "2026-11-19",
+  },
+
+  {
+    id: 622,
+    title: "Hawaiian Bros “Trip to Hawaii” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "Grand: Trip for 2 to Hawaii incl. Transportation, Airfare, Lodging & Excursions (Up to $5,000 Max Value); AZ, AR, IL, IA, KS, MO, NE, NV, OK, OR, TN, TX Only, 18+ (Max 2 Entries/Day Across All Methods)",
+    frequency: "Enter Daily",
+    ends: "2026-12-31",
+    url: "https://www.hawaiianbros.com",
+    hot: true,
+    added: "2026-11-19",
+  },
+
+  {
+    id: 623,
+    title: "The Spruce “Black Fri-yay” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "Grand: $500 Amazon Gift Card (ARV $500); US, 18+",
+    frequency: "Enter Once",
+    ends: "2026-11-30",
+    url: "https://www.thespruce.com/sweepstakes/entry?brandId=thespruce&sweepId=spr-flash-blkfri-1126-eo",
+    added: "2026-11-19",
+  },
+
+  {
+    id: 624,
+    title: "PS Seasoning “Fall” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "3 Winners, One Package Each (Combined ARV $7,000): Grand — Pro Smoker Classic 100S Package (~$3,400+) + 2nd — Reserve 50 Dry Aging Cabinet Package + 3rd — TIKI Smokeless Fire Pit Package (ARV $1,200); Each Incl. $100 Gift Card; US, 18+ (Excl. PR & US Territories)",
+    frequency: "Enter Once",
+    ends: "2026-11-22",
+    url: "https://www.psseasoning.com/pages/ps-seasoning-fall-giveaway",
+    added: "2026-11-19",
+  },
+
+  {
+    id: 625,
+    title: "Avelo “McKinney's Hometown Airline” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "11 Winners: Grand — New Year's Eve Trip for 2 to Las Vegas, Dec 30, 2026–Jan 3, 2027 (RT Avelo Flights from McKinney DTX, 3 Nights Golden Nugget, Zipline Tickets, Fremont Street NYE Wristbands, $300 Food/Beverage Credit; ARV up to $1,888) + 10 × Round-Trip Economy Flight for 2 (ARV $598 Each; Total ARV $7,868); Texas Residents Only, 18+",
+    frequency: "Enter Once",
+    ends: "2026-11-30",
+    url: "https://www.aveloair.com/AveloDTXSweepstakes",
+    added: "2026-11-19",
+  },
+
+  {
+    id: 626,
+    title: "MRT Tires “Final Tire Set of the Year” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "Grand: Set of 4 MRT Tires, Any Type/Size (Value up to $2,280); US, 18+ (US Shipping Address Required)",
+    frequency: "Enter Once",
+    ends: "2026-12-31",
+    url: "https://mrt.tires/blogs/the-tread-thread/final-mrt-tire-set-giveaway-of-the-year",
     added: "2026-11-15",
   },
 
@@ -3270,6 +3314,97 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-11-18",
   },
 
+  {
+    id: 617,
+    title: "Jordan's Furniture “Winter Wishes” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "Grand: $10,000 Jordan's Furniture Gift Card (ARV $10,000); CT, MA, ME, NH, NJ, NY, RI, VT, 18+ (Must Live Within a Jordan's Delivery Radius)",
+    frequency: "Enter Once",
+    ends: "2027-01-01",
+    url: "https://www.jordanssweeps.com",
+    hot: true,
+    added: "2026-11-19",
+  },
+
+  {
+    id: 619,
+    title: "Wine Enthusiast × Les Dauphins “Win a Trip to Paris” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "Grand: 3-Day/3-Night Trip for 2 to Paris incl. Round-Trip Economy Airfare, 3 Nights at Hotel & Spa Saint-Jacques, Eiffel Tower Summit-Access Tour & €200 Dinner Allowance (ARV $5,000); 50 US + DC, 21+",
+    frequency: "Enter Once",
+    ends: "2026-12-05",
+    url: "https://lesdauphins-winatriptoparis.com/",
+    hot: true,
+    added: "2026-11-19",
+  },
+
+  {
+    id: 620,
+    title: "Shane Co. “$10K Sparkle Spree” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "Grand: $10,000 Shane Co. Gift Card + 10 × $500 Gift Cards + 20 × $50 Gift Cards (31 Winners; Total ARV $16,000); 50 US + DC, 18+ (Excl. FL, NY, RI)",
+    frequency: "Enter Once",
+    ends: "2026-11-22",
+    url: "https://shaneco.com/10ksparklespree",
+    hot: true,
+    added: "2026-11-19",
+  },
+
+  {
+    id: 622,
+    title: "Hawaiian Bros “Trip to Hawaii” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "Grand: Trip for 2 to Hawaii incl. Transportation, Airfare, Lodging & Excursions (Up to $5,000 Max Value); AZ, AR, IL, IA, KS, MO, NE, NV, OK, OR, TN, TX Only, 18+ (Max 2 Entries/Day Across All Methods)",
+    frequency: "Enter Daily",
+    ends: "2026-12-31",
+    url: "https://www.hawaiianbros.com",
+    hot: true,
+    added: "2026-11-19",
+  },
+
+  {
+    id: 623,
+    title: "The Spruce “Black Fri-yay” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "Grand: $500 Amazon Gift Card (ARV $500); US, 18+",
+    frequency: "Enter Once",
+    ends: "2026-11-30",
+    url: "https://www.thespruce.com/sweepstakes/entry?brandId=thespruce&sweepId=spr-flash-blkfri-1126-eo",
+    added: "2026-11-19",
+  },
+
+  {
+    id: 624,
+    title: "PS Seasoning “Fall” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "3 Winners, One Package Each (Combined ARV $7,000): Grand — Pro Smoker Classic 100S Package (~$3,400+) + 2nd — Reserve 50 Dry Aging Cabinet Package + 3rd — TIKI Smokeless Fire Pit Package (ARV $1,200); Each Incl. $100 Gift Card; US, 18+ (Excl. PR & US Territories)",
+    frequency: "Enter Once",
+    ends: "2026-11-22",
+    url: "https://www.psseasoning.com/pages/ps-seasoning-fall-giveaway",
+    added: "2026-11-19",
+  },
+
+  {
+    id: 625,
+    title: "Avelo “McKinney's Hometown Airline” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "11 Winners: Grand — New Year's Eve Trip for 2 to Las Vegas, Dec 30, 2026–Jan 3, 2027 (RT Avelo Flights from McKinney DTX, 3 Nights Golden Nugget, Zipline Tickets, Fremont Street NYE Wristbands, $300 Food/Beverage Credit; ARV up to $1,888) + 10 × Round-Trip Economy Flight for 2 (ARV $598 Each; Total ARV $7,868); Texas Residents Only, 18+",
+    frequency: "Enter Once",
+    ends: "2026-11-30",
+    url: "https://www.aveloair.com/AveloDTXSweepstakes",
+    added: "2026-11-19",
+  },
+
+  {
+    id: 626,
+    title: "MRT Tires “Final Tire Set of the Year” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "Grand: Set of 4 MRT Tires, Any Type/Size (Value up to $2,280); US, 18+ (US Shipping Address Required)",
+    frequency: "Enter Once",
+    ends: "2026-12-31",
+    url: "https://mrt.tires/blogs/the-tread-thread/final-mrt-tire-set-giveaway-of-the-year",
+    added: "2026-11-19,
+  },
 ];
 
 
@@ -3602,7 +3737,7 @@ export default function Home() {
         </section>
 
         <p style={{ color: "#94a3b8", fontSize: "0.8rem", marginTop: "40px", lineHeight: 1.6 }}>
-          Listings last verified November 18, 2026. Always check the official rules on
+          Listings last verified November 19, 2026. Always check the official rules on
           the sponsor&apos;s page before entering. Sweepstakes Central is not affiliated
           with the sponsors listed.
         </p>
