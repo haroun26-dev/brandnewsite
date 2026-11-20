@@ -17,10 +17,10 @@ interface Listing {
   added: string; // YYYY-MM-DD — NEW badge shows when added within the last 3 days
 }
 
-// Listings verified November 19, 2026. Update this list regularly —
+// Listings verified November 20, 2026. Update this list regularly —
 // remove ended sweepstakes and add new ones by editing this file and redeploying.
 const SWEEPSTAKES: Listing[] = [
-// Listings verified November 19, 2026. Update this list regularly —
+// Listings verified November 20, 2026. Update this list regularly —
 // remove ended sweepstakes and add new ones by editing this file and redeploying.
   // ---- Instant Win Games ----
 
@@ -851,17 +851,6 @@ const SWEEPSTAKES: Listing[] = [
   },
 
   {
-    id: 541,
-    title: "AARP Rewards Chili\u2019s Grill & Bar eGift Card Instant Win Game",
-    type: "instant",
-    prizes: "200 Winners: $10 Chili\u2019s Grill & Bar eGift Cards Each (Total ARV $2,000); 50 US + DC, 18+ (Free AARP Rewards Enrollment — No Paid Membership; Free No-Points Entry Form; Limit 1 Prize/Person)",
-    frequency: "Enter Daily",
-    ends: "2026-11-19",
-    url: "https://sweeps.aarp.org/",
-    added: "2026-11-14",
-  },
-
-  {
     id: 552,
     title: "ECS Tuning & Turner Motorsport \u201cHoliday 2026\u201d Instant Win Game and Sweepstakes",
     type: "instant",
@@ -985,6 +974,28 @@ const SWEEPSTAKES: Listing[] = [
     ends: "2026-11-24",
     url: "https://sweeps.aarp.org/",
     added: "2026-11-19",
+  },
+
+  {
+    id: 627,
+    title: "RECOVER 180 \u201cHydrate Your Game\u201d Instant Win Promotion",
+    type: "instant",
+    prizes: "137 Instant Prizes: (15) RECOVER 180 Bundles (ARV $60.98 Each), (20) Cases of RECOVER 180 (ARV $29.99 Each) + (100) 20%-Off Discount Codes + Grand Drawing: (2) $1,000 StubHub Gift Cards + $250 Travel Gift Cards + Custom Athlete Videos + Autographed Jerseys + Mini Fridges + Year Supply of RECOVER 180 (ARV $2,090 Each; Total ARV $5,694.50); 50 US + DC, 18+",
+    frequency: "Enter Daily",
+    ends: "2027-01-07",
+    url: "https://drinkrecover.com/pages/hydrateyourgame",
+    added: "2026-11-20",
+  },
+
+  {
+    id: 628,
+    title: "AARP Rewards Jersey Mike\u2019s eGift Card Instant Win Game",
+    type: "instant",
+    prizes: "200 Winners: $10 Jersey Mike\u2019s eGift Cards Each (Total ARV $2,000); 50 US + DC, 18+ (Free AARP Rewards Enrollment \u2014 No Paid Membership; Free No-Points Entry Form; Limit 1 Prize/Person)",
+    frequency: "Enter Daily",
+    ends: "2026-11-26",
+    url: "https://sweeps.aarp.org/",
+    added: "2026-11-20",
   },
 
 // ---- Sweepstakes ----
@@ -1578,17 +1589,6 @@ const SWEEPSTAKES: Listing[] = [
 
 
   {
-    id: 325,
-    title: "Floor & Decor $5,000 Home Makeover Sweepstakes",
-    type: "sweepstakes",
-    prizes: "1 Winner: $5,000 Home Makeover Awarded as Floor & Decor Gift Cards (ARV $5,000); 50 US + DC, 18+ (Valid Driver\u2019s License or Gov\u2019t Photo ID)",
-    frequency: "Enter Once",
-    ends: "2026-11-19",
-    url: "https://www.floordecorhomemakeover.com",
-    added: "2026-10-28",
-  },
-
-  {
     id: 326,
     title: "Fandango \u201cDestined for Adventure\u201d Sweepstakes",
     type: "sweepstakes",
@@ -1755,17 +1755,6 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-11-01",
   },
 
-  {
-    id: 370,
-    title: "Tatcha \u201cAdvent Calendar\u201d Sweepstakes",
-    type: "sweepstakes",
-    prizes: "5 Winners, Each: 2 Tatcha Skincare Advent Calendars \u2014 One for the Winner and One for a Friend; US, 18+ (Optional Referral Bonus Entries)",
-    frequency: "Enter Once",
-    ends: "2026-11-19",
-    url: "https://refer.tatcha.com/october2026sweepstakes",
-    added: "2026-11-01",
-  },
-
 
   {
     id: 373,
@@ -1795,17 +1784,6 @@ const SWEEPSTAKES: Listing[] = [
 
 
 
-
-  {
-    id: 385,
-    title: "New York Jets “Your Ticket to Sail” Sweepstakes",
-    type: "sweepstakes",
-    prizes: "1 Winner: $2,000 Carnival Cruise Line Gift Card + $1,000 American Express Gift Card (ARV $3,000); US, 18+",
-    frequency: "Enter Once",
-    ends: "2026-11-19",
-    url: "https://www.newyorkjets.com/fans/sweepstakes/26carnival",
-    added: "2026-11-03",
-  },
 
 
   {
@@ -1843,17 +1821,6 @@ const SWEEPSTAKES: Listing[] = [
 
 
   {
-    id: 395,
-    title: "Disney+ Perks \u201cAvengers: Doomsday Premiere\u201d Sweepstakes",
-    type: "sweepstakes",
-    prizes: "1 Winner + Guest: 3-Day/2-Night Trip to the Avengers: Doomsday World Premiere (LA or NYC, City TBD) \u2014 Airfare, Hotel, Ground Transport, Premiere Admission + $100 Cash (ARV $2,960); US, 18+ (Enter via Disney+ Perks Dashboard; Free Email Alternate Entry for Non-Subscribers)",
-    frequency: "Enter Daily",
-    ends: "2026-11-19",
-    url: "https://perks.disneyplus.com",
-    added: "2026-11-04",
-  },
-
-  {
     id: 396,
     title: "LEGO Insiders \u201cWin Your LEGO Wishlist\u201d Sweepstakes",
     type: "sweepstakes",
@@ -1887,17 +1854,6 @@ const SWEEPSTAKES: Listing[] = [
     frequency: "Enter Once",
     ends: "2026-11-22",
     url: "https://www.titosvodka.com/turkeyrot/teams",
-    added: "2026-11-05",
-  },
-
-  {
-    id: 409,
-    title: "All Americans Vote \u201cBrent Faiyaz Premium Experience\u201d Sweepstakes",
-    type: "sweepstakes",
-    prizes: "1 Winner: Pair of Middle Bowl Tickets to See Brent Faiyaz + $1,500 Gift Card for Travel and Accommodations (ARV $3,050); US Citizens and Lawful Permanent Residents, 18+ (50 US + DC + PR)",
-    frequency: "Enter Once",
-    ends: "2026-11-19",
-    url: "https://www.allamericans.org/brent-faiyaz",
     added: "2026-11-05",
   },
 
@@ -2561,17 +2517,6 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-11-13",
   },
 
-  {
-    id: 535,
-    title: "OLIPOP “Holiday Helper” Sweepstakes",
-    type: "sweepstakes",
-    prizes: "1,000 Winners: Case of OLIPOP Pomegranate Sparkle (12 Cans, ARV $35.99) + Compartés x OLIPOP Holiday Gift Box (3 Chocolate Bars, ARV $45) Each ($80.99 Per Winner; Total ARV $80,990); US Incl. DC, 18+ (Entry Window 12:00–5:59 PM PT Daily)",
-    frequency: "Enter Daily",
-    ends: "2026-11-19",
-    url: "https://drinkolipop.com/pages/holiday-helper-giveaway",
-    added: "2026-11-13",
-  },
-
 
   {
     id: 537,
@@ -2757,17 +2702,6 @@ const SWEEPSTAKES: Listing[] = [
   },
 
   
-  {
-    id: 560,
-    title: "Zenbivy \u201c$1,000 Shopping Spree\u201d Sweepstakes",
-    type: "sweepstakes",
-    prizes: "1 Winner: $1,000 Zenbivy Shopping Spree for Camping/Outdoor Gear (ARV $1,000); US, 18+",
-    frequency: "Enter Once",
-    ends: "2026-11-19",
-    url: "https://www.zenbivy.com",
-    added: "2026-11-15",
-  },
-
   {
     id: 561,
     title: "Wheel of Fortune \u201cLive More Floridays II\u201d Sweepstakes",
@@ -3226,6 +3160,63 @@ const SWEEPSTAKES: Listing[] = [
     url: "https://mrt.tires/blogs/the-tread-thread/final-mrt-tire-set-giveaway-of-the-year",
     added: "2026-11-19",
   },
+
+  {
+    id: 629,
+    title: "Ole Smoky \u201cGrammy Museum After Party Flyaway\u201d Sweepstakes",
+    type: "sweepstakes",
+    prizes: "Grand: Trip for Winner + 3 Guests to Los Angeles for the Grammy Museum\u2019s Grammy Awards After Party \u2014 Round-Trip Coach Airfare for 4, 2 Hotel Nights (2 Rooms), Ground Transport, $150 Rideshare Credits + Four $150 Visa Gift Cards + 4 After-Party Tickets (ARV $7,500); 50 US + DC, 21+",
+    frequency: "Enter Once",
+    ends: "2027-01-10",
+    url: "https://roadshow.olesmoky.com/",
+    hot: true,
+    added: "2026-11-20",
+  },
+
+  {
+    id: 630,
+    title: "Bravo Insider \u201cWatch What Happens Live Audience Experience\u201d Sweepstakes",
+    type: "sweepstakes",
+    prizes: "Grand: Trip for Winner + Guest to NYC \u2014 Round-Trip Airfare, 3-Night Hotel, Airport Transfers, $500 Spending Money + Attend a Live Taping of Watch What Happens Live with Andy Cohen (ARV $4,800); 50 US + DC, 21+ (Free Bravo Insider Membership)",
+    frequency: "Enter Once",
+    ends: "2027-01-11",
+    url: "https://www.bravotv.com/bravo-insider-watch-what-happens-live-with-andy-cohen-sweepstakes-2026",
+    added: "2026-11-20",
+  },
+
+  {
+    id: 631,
+    title: "Culver\u2019s \u201cCatch for Cash\u201d Sweepstakes",
+    type: "sweepstakes",
+    prizes: "4 Winners, Each: VIP Family Football Experience for 4 \u2014 4 Tickets to a 2026 Wisconsin Home Football Game, 4 Customized Jerseys + Halftime \u201cCatch for Cash\u201d On-Field Play (ARV $2,600 Each; Travel/Meals/Lodging Not Included); WI, IL, IA, MN, MI Only, 18+",
+    frequency: "Enter Daily",
+    ends: "2026-11-22",
+    url: "https://uwbadgers.com/culvers",
+    added: "2026-11-20",
+  },
+
+  {
+    id: 632,
+    title: "iHeartRadio \u201cHolidays Taste Better with Ghirardelli\u201d Sweepstakes",
+    type: "sweepstakes",
+    prizes: "36 Winners: Grand: $1,500 Publix Gift Card + Ghirardelli Holiday Bundle (ARV $1,700) + (5) $100 Publix Gift Cards, (10) $50 Publix Gift Cards, (20) $25 Publix Gift Cards (Total ARV ~$3,200); AL, DC, FL, GA, KY, NC, SC, TN, VA, 21+",
+    frequency: "Enter Daily",
+    ends: "2026-12-24",
+    url: "https://news.iheart.com/promotions/the-holidays-taste-better-with-ghirardelli-1924835/",
+    added: "2026-11-20",
+  },
+
+  {
+    id: 633,
+    title: "M&M\u2019s \u201c2026 Heroic\u201d Sweepstakes",
+    type: "sweepstakes",
+    prizes: "673 Winners: (3) Grand: 3\u20135 Night Disney Cruise Line Vacation for 2 (Disney Dream/Fantasy/Wish from Port Canaveral) + $1,500 Check (ARV ~$10,000 Each) + (670) First: $150 Disney+ Gift Cards, $200 Disney Gift Cards, $4,600 Disney Shopping Sprees, $150 Film Tickets, $50 M&M\u2019S Product (Total ARV $155,250); 50 US + DC, 18+ (Online Entry via Marked-Product QR Scan; Free Mail-in AMOE)",
+    frequency: "Enter Once",
+    ends: "2026-12-15",
+    url: "https://www.mms.com/en-us/marvel",
+    hot: true,
+    added: "2026-11-20",
+  },
 ];
 
 
@@ -3558,7 +3549,7 @@ export default function Home() {
         </section>
 
         <p style={{ color: "#94a3b8", fontSize: "0.8rem", marginTop: "40px", lineHeight: 1.6 }}>
-          Listings last verified November 19, 2026. Always check the official rules on
+          Listings last verified November 20, 2026. Always check the official rules on
           the sponsor&apos;s page before entering. Sweepstakes Central is not affiliated
           with the sponsors listed.
         </p>
