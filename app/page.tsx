@@ -17,10 +17,10 @@ interface Listing {
   added: string; // YYYY-MM-DD — NEW badge shows when added within the last 3 days
 }
 
-// Listings verified November 20, 2026. Update this list regularly —
+// Listings verified November 21, 2026. Update this list regularly —
 // remove ended sweepstakes and add new ones by editing this file and redeploying.
 const SWEEPSTAKES: Listing[] = [
-// Listings verified November 20, 2026. Update this list regularly —
+// Listings verified November 21, 2026. Update this list regularly —
 // remove ended sweepstakes and add new ones by editing this file and redeploying.
   // ---- Instant Win Games ----
 
@@ -840,17 +840,6 @@ const SWEEPSTAKES: Listing[] = [
 
 
   {
-    id: 540,
-    title: "AARP Rewards The Home Depot eGift Card Instant Win Game",
-    type: "instant",
-    prizes: "200 Winners: $10 The Home Depot eGift Cards Each (Total ARV $2,000); 50 US + DC, 18+ (Free AARP Rewards Enrollment — No Paid Membership; Free No-Points Entry Form; Limit 1 Prize/Person)",
-    frequency: "Enter Daily",
-    ends: "2026-11-20",
-    url: "https://sweeps.aarp.org/",
-    added: "2026-11-14",
-  },
-
-  {
     id: 552,
     title: "ECS Tuning & Turner Motorsport \u201cHoliday 2026\u201d Instant Win Game and Sweepstakes",
     type: "instant",
@@ -996,6 +985,28 @@ const SWEEPSTAKES: Listing[] = [
     ends: "2026-11-26",
     url: "https://sweeps.aarp.org/",
     added: "2026-11-20",
+  },
+
+  {
+    id: 634,
+    title: "Save Snow Day \u201cDouble Play\u201d Instant Win Game and Sweepstakes",
+    type: "instant",
+    prizes: "441 Winners: (40) $25, (100) $20, (300) $10 Rewards Choice Codes (Instant ARV $6,000) + Grand: $1,000 Rewards Choice Code (Total ARV $7,000); US + DC, 18+",
+    frequency: "Enter Daily",
+    ends: "2026-12-19",
+    url: "https://win.save.com/",
+    added: "2026-11-21",
+  },
+
+  {
+    id: 635,
+    title: "GetSteez Art Gallery \u201cSANKOFA\u201d Holiday Giveaway",
+    type: "instant",
+    prizes: "10 Winners: Signed Copy of the SANKOFA Art Book by Jeffrey Okyere-Agyei ($95 Each; Total ARV $950); 50 US + DC, 18+ (Entry via Instant-Win Pop-Up on Gallery Homepage)",
+    frequency: "Enter Daily",
+    ends: "2026-12-15",
+    url: "https://getsteezartgallery.com/",
+    added: "2026-11-21",
   },
 
 // ---- Sweepstakes ----
@@ -1562,18 +1573,6 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-10-26",
   },
 
-  {
-    id: 307,
-    title: "Major League Fishing \u201cBass Pro Shops Z19\u201d Sweepstakes",
-    type: "sweepstakes",
-    prizes: "Grand: Nitro Z19 with 200 L Pro XS Mercury Package (ARV $57,995) + $2,500 Rapala.com Gift Card + Champion 2400W Dual Fuel Inverter (ARV $599.99) + BUBBA Prize Package with Net, Smart Fish Scale + Hat (ARV $433.97; Total ARV $61,528.96); 48 Contiguous US + DC, 18+",
-    frequency: "Enter Daily",
-    ends: "2026-11-20",
-    url: "https://majorleaguefishing.com/promos",
-    hot: true,
-    added: "2026-10-26",
-  },
-
 
 
   {
@@ -1619,17 +1618,6 @@ const SWEEPSTAKES: Listing[] = [
     frequency: "Enter Once",
     ends: "2026-11-30",
     url: "https://cloud.email.sel.sony.com/SonyxSteelersHeadphones",
-    added: "2026-10-28",
-  },
-
-  {
-    id: 330,
-    title: "Allegiant Double Down Tour Flyaway Sweepstakes",
-    type: "sweepstakes",
-    prizes: "1 Winner + Guest: Fan Flyaway for 2 to the Double Down Tour with Luke Bryan & Jason Aldean at Allegiant Stadium, Las Vegas (Dec 11, 2026) \u2014 Round-Trip Allegiant Flights to LAS, Hotel Stay + 2 Concert Tickets (ARV $2,258); 50 US + DC, 21+",
-    frequency: "Enter Once",
-    ends: "2026-11-20",
-    url: "https://www.allegiantair.com/deals/DoubleDownFlyawaySweepstakes/",
     added: "2026-10-28",
   },
 
@@ -1868,17 +1856,6 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-11-05",
   },
 
-  {
-    id: 411,
-    title: "Weaver Livestock \u201cYETI Cooler\u201d Sweepstakes",
-    type: "sweepstakes",
-    prizes: "1 Winner: Custom Purple YETI Tundra 45 Cooler Filled with a Weaver Livestock Grooming Bundle (Retail Value $850); Contiguous US, 18+",
-    frequency: "Enter Once",
-    ends: "2026-11-20",
-    url: "https://app.viralsweep.com/sweeps/full/52bd42-236548?framed=1",
-    added: "2026-11-05",
-  },
-
 
 
 
@@ -2009,18 +1986,6 @@ const SWEEPSTAKES: Listing[] = [
     frequency: "Enter Daily",
     ends: "2026-12-31",
     url: "https://superweektrip.com",
-    hot: true,
-    added: "2026-11-08",
-  },
-
-  {
-    id: 454,
-    title: "Club Crackers \u00d7 Butter Wines Sweepstakes",
-    type: "sweepstakes",
-    prizes: "Grand: 3-day/2-night Napa trip for 4 \u2014 round-trip airfare, hotel, charcuterie class at JaM Cellars Wine & Music Studio, private chef dinner (ARV $7,800); 48 contiguous US + DC, 21+ (Receipt Upload or Free Mail-In Entry; Max 15 Entries)",
-    frequency: "Enter Once",
-    ends: "2026-11-20",
-    url: "https://www.clubcrackers.com/butternapaweekend",
     hot: true,
     added: "2026-11-08",
   },
@@ -2299,17 +2264,6 @@ const SWEEPSTAKES: Listing[] = [
   },
 
   
-  {
-    id: 506,
-    title: "Disney+ Perks “Make the Holidays Magic” Sweepstakes",
-    type: "sweepstakes",
-    prizes: "1 Winner: Merch Prize Pack — LEGO Star Wars Executor, Black Series Force FX Elite Maul Lightsaber, CITIZEN Death Star II Watch, LEGO Avengers Doomsday Tower, Away Suitcase, CITIZEN Sorcerer Mickey Watch, Pandora Disney Princess Set + Winnie the Pooh Pandora Bracelet (ARV $4,222.97); 50 US + DC, 18+ (Enter via Disney+ Perks; Free Email Alternate Entry)",
-    frequency: "Enter Daily",
-    ends: "2026-11-20",
-    url: "https://perks.disneyplus.com",
-    added: "2026-11-11",
-  },
-
   {
     id: 507,
     title: "Maverick “Rhythm and Flow” Sweepstakes",
@@ -2919,17 +2873,6 @@ const SWEEPSTAKES: Listing[] = [
   },
 
   {
-    id: 594,
-    title: "Wedderspoon “Winter Wellness” Sweepstakes",
-    type: "sweepstakes",
-    prizes: "Grand: KitchenAid Artisan Stand Mixer + 2 Jars Raw Mānuka Honey (MGO 1100+ & 850+, 250g) + Primally Pure Candle + GEOMETRY Kitchen Towel (ARV $720); US, 18+",
-    frequency: "Enter Once",
-    ends: "2026-11-20",
-    url: "https://wedderspoon.com/pages/giveaway",
-    added: "2026-11-17",
-  },
-
-  {
     id: 605,
     title: "Frontier “First to Fly” Sweepstakes",
     type: "sweepstakes",
@@ -3216,6 +3159,51 @@ const SWEEPSTAKES: Listing[] = [
     url: "https://www.mms.com/en-us/marvel",
     hot: true,
     added: "2026-11-20",
+  },
+
+  {
+    id: 636,
+    title: "Kellogg\u2019s \u201cFun In The Making\u201d Sweepstakes",
+    type: "sweepstakes",
+    prizes: "305 Winners: (5) Grand: $500 Shutterfly Gift Cards Each + (300) $100 Shutterfly Gift Cards Each (Total ARV $32,500); 50 US + DC, 18+ (Receipt Upload or Free Mail-in AMOE; Limit 5 Entries/Day, 25 Total)",
+    frequency: "Enter Daily",
+    ends: "2026-12-31",
+    url: "https://www.kelloggsfuninthemaking.com",
+    hot: true,
+    added: "2026-11-21",
+  },
+
+  {
+    id: 637,
+    title: "Sports Illustrated Resorts Sweepstakes",
+    type: "sweepstakes",
+    prizes: "9 Winners: Grand: College Football National Championship Experience \u2014 $1,000 Ticketmaster E-Gift Card + $1,500 Travel Credit (ARV $2,500) + (7) Ultimate Tailgate Packages \u2014 Smoker (Up to $2,000), YETI Cooler ($295) + $150 Grocery Card (ARV $2,445 Each) + (1) Away Game Experience \u2014 $1,000 Ticketmaster Card + $200 Travel Credit (ARV $1,200; Total ARV $20,815); 50 US + DC, 28+",
+    frequency: "Enter Once",
+    ends: "2026-12-02",
+    url: "https://gameon.sportsillustratedresorts.com/sweepstakes-2026",
+    added: "2026-11-21",
+  },
+
+  {
+    id: 638,
+    title: "Electrolit \u201cHoliday Hydration\u201d Sweepstakes",
+    type: "sweepstakes",
+    prizes: "210 Winners: (10) Grand: Two $500 The North Face Gift Cards Each (ARV $1,000 Each) + (200) First: Electrolit Beanies (ARV $18 Each; Total ARV $13,600); 50 US + DC, 18+",
+    frequency: "Enter Once",
+    ends: "2027-01-03",
+    url: "https://hydrateandwin2026.com",
+    added: "2026-11-21",
+  },
+
+  {
+    id: 639,
+    title: "Fireball \u201cHoliday Spirit\u201d Sweepstakes",
+    type: "sweepstakes",
+    prizes: "Up to 20 Winners: Fireball Holiday Swag Bags \u2014 Sweater, Beanie, Silicone Shot Cup, Scarf (ARV $65 Each; Total ARV $1,300); 50 US + DC, 21+ (Valid Driver\u2019s License or Government Photo ID)",
+    frequency: "Enter Once",
+    ends: "2026-12-31",
+    url: "https://www.fireballholiday.com",
+    added: "2026-11-21",
   },
 ];
 
@@ -3549,7 +3537,7 @@ export default function Home() {
         </section>
 
         <p style={{ color: "#94a3b8", fontSize: "0.8rem", marginTop: "40px", lineHeight: 1.6 }}>
-          Listings last verified November 20, 2026. Always check the official rules on
+          Listings last verified November 21, 2026. Always check the official rules on
           the sponsor&apos;s page before entering. Sweepstakes Central is not affiliated
           with the sponsors listed.
         </p>
