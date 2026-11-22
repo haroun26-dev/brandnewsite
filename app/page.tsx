@@ -17,10 +17,10 @@ interface Listing {
   added: string; // YYYY-MM-DD — NEW badge shows when added within the last 3 days
 }
 
-// Listings verified November 21, 2026. Update this list regularly —
+// Listings verified November 22, 2026. Update this list regularly —
 // remove ended sweepstakes and add new ones by editing this file and redeploying.
 const SWEEPSTAKES: Listing[] = [
-// Listings verified November 21, 2026. Update this list regularly —
+// Listings verified November 22, 2026. Update this list regularly —
 // remove ended sweepstakes and add new ones by editing this file and redeploying.
   // ---- Instant Win Games ----
 
@@ -236,16 +236,6 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-10-21",
   },
 
-  {
-    id: 234,
-    title: "Duracell “Atlassian Williams F1 Team Race Weekend” Sweepstakes & Instant Win",
-    type: "instant",
-    prizes: "(1) Las Vegas Grand: 5-Day/4-Night Trip for 2 — RT Coach Airfare, 4-Night Hotel, F1 Driver Meet & Greet, Ground Transport (ARV $12,000; Trip Drawing Entries Now Closed) + (200) Instant: Hats, Mini Helmets, Totes, Polos, T-Shirts, LEGO Speed Champions Williams FW46 Cars, Water Bottles (Instant ARV $10,580; Combined ARV $22,580); US + DC, 18+ (Instant Spins via Duracell Purchase Receipt Upload or Free AMOE Mail-In/Code)",
-    frequency: "Enter Daily",
-    ends: "2026-11-21",
-    url: "https://usracingsweeps.duracell.com",
-    added: "2026-10-21",
-  },
 
 
 
@@ -851,16 +841,6 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-11-15",
   },
 
-  {
-    id: 553,
-    title: "AARP Rewards BURGER KING\u00ae eGift Card Instant Win Game",
-    type: "instant",
-    prizes: "200 Winners: $10 BURGER KING\u00ae eGift Cards Each (Total ARV $2,000); 50 US + DC, 18+ (Free AARP Rewards Enrollment \u2014 No Paid Membership; Free No-Points Entry Form; Limit 1 Prize/Person)",
-    frequency: "Enter Daily",
-    ends: "2026-11-21",
-    url: "https://sweeps.aarp.org/",
-    added: "2026-11-15",
-  },
 
 
   {
@@ -1007,6 +987,28 @@ const SWEEPSTAKES: Listing[] = [
     ends: "2026-12-15",
     url: "https://getsteezartgallery.com/",
     added: "2026-11-21",
+  },
+
+  {
+    id: 640,
+    title: "AARP Rewards Kohl\u2019s eGift Card Instant Win Game",
+    type: "instant",
+    prizes: "200 Winners: $10 Kohl\u2019s eGift Cards Each (Total ARV $2,000); 50 US + DC, 18+ (Free AARP Rewards Enrollment \u2014 No Paid Membership; Free No-Points Entry Form; Limit 1 Prize/Person)",
+    frequency: "Enter Daily",
+    ends: "2026-11-27",
+    url: "https://sweeps.aarp.org/",
+    added: "2026-11-22",
+  },
+
+  {
+    id: 641,
+    title: "AARP Rewards Starbucks eGift Card Instant Win Game",
+    type: "instant",
+    prizes: "200 Winners: $10 Starbucks eGift Cards Each (Total ARV $2,000); 50 US + DC, 18+ (Free AARP Rewards Enrollment \u2014 No Paid Membership; Free No-Points Entry Form; Limit 1 Prize/Person)",
+    frequency: "Enter Daily",
+    ends: "2026-11-28",
+    url: "https://sweeps.aarp.org/",
+    added: "2026-11-22",
   },
 
 // ---- Sweepstakes ----
@@ -2656,16 +2658,6 @@ const SWEEPSTAKES: Listing[] = [
   },
 
   
-  {
-    id: 561,
-    title: "Wheel of Fortune \u201cLive More Floridays II\u201d Sweepstakes",
-    type: "sweepstakes",
-    prizes: "5 Winners: Florida Trip for 4 Each (ARV $7,135\u2013$9,310 Each; Total ARV $40,363); US/DC + Canada (Excl. Quebec), Age of Majority (1 Entry per Episode Drawing)",
-    frequency: "Enter Once",
-    ends: "2026-11-21",
-    url: "https://www.wheeloffortune.com/win",
-    added: "2026-11-15",
-  },
 
   {
     id: 562,
@@ -3205,6 +3197,96 @@ const SWEEPSTAKES: Listing[] = [
     url: "https://www.fireballholiday.com",
     added: "2026-11-21",
   },
+  {
+    id: 642,
+    title: "Wheel of Fortune \u201cSecret Santa Holiday\u201d Sweepstakes",
+    type: "sweepstakes",
+    prizes: "36 Winners: 12 First Prizes Matching the On-Show First Prize Winner\u2019s Prizes (ARV $1,000\u2013$150,000 Each) + 12 Second Prizes (ARV $1,000\u2013$20,000 Each) + 12 Third Prizes (ARV $1,000\u2013$15,000 Each; Total ARV up to $2,220,000); US + DC, 18+ (SPIN ID from Watching Wheel of Fortune Required; Wheel Watchers Club Membership)",
+    frequency: "Enter Once",
+    ends: "2026-11-29",
+    url: "https://www.wheeloffortune.com/win/secret-santa-giveaway",
+    hot: true,
+    added: "2026-11-22",
+  },
+
+  {
+    id: 643,
+    title: "The View and Emerald Cruises and Tours Sweepstakes",
+    type: "sweepstakes",
+    prizes: "1 Winner + Guest: Emerald Raiya Cruise Departing Aug 14, 2027 \u2014 Balcony Stateroom, Wi-Fi, Meals/Drinks, Gratuities, Airport Transfers, Excursions, Round-Trip Economy Air for 2 + $250 Spa Credit Per Guest (ARV $26,184); US + DC, 18+",
+    frequency: "Enter Daily",
+    ends: "2026-12-31",
+    url: "https://theview.abcaudiencegiveaways.com",
+    hot: true,
+    added: "2026-11-22",
+  },
+
+  {
+    id: 644,
+    title: "Tito\u2019s Holiday Sweepstakes 2026",
+    type: "sweepstakes",
+    prizes: "400 Winners: 2 Limited-Edition Tito\u2019s Ugly Sweaters Each (ARV $33 Each; Total ARV $13,200); Legal Residents of 47 States (Excl. ME, VA, CA) + DC + PR, 21+",
+    frequency: "Enter Once",
+    ends: "2026-12-09",
+    url: "https://www.titosvodka.com/holiday",
+    added: "2026-11-22",
+  },
+
+  {
+    id: 645,
+    title: "Groupon \u201cDrift Into\u201d Sweepstakes",
+    type: "sweepstakes",
+    prizes: "3 Winners: Grand: Trip for 4 to Universal Studios Hollywood \u2014 Round-Trip Airfare, 2 Nights Sheraton Universal, Ground Transport, 2-Day Park Admission (ARV $4,450) + 2nd: $300 Groupon Bucks + 3rd: $150 Groupon Bucks (Total ARV $4,900); US + DC, 18+ (Free Groupon Account; Daily Check-In)",
+    frequency: "Enter Daily",
+    ends: "2026-12-13",
+    url: "https://www.groupon.com/sweepstakes/universal-studios-2026",
+    added: "2026-11-22",
+  },
+
+  {
+    id: 646,
+    title: "ExxonMobil / Mobil 1 Universal Studios Hollywood Sweepstakes",
+    type: "sweepstakes",
+    prizes: "1 Winner + 3 Guests: 3-Night Trip to Universal Studios Hollywood \u2014 Round-Trip Coach Airfare, 3 Nights Sheraton Universal (2 Rooms), Airport Transfers, Four 2-Day Park Tickets (ARV $3,000); US + DC, 21+ (Entry Enrolls in Free Mobil 1 DR1VRS Club)",
+    frequency: "Enter Once",
+    ends: "2026-12-07",
+    url: "https://loveofdriving.mobil.com/mobil-1-dr1vrs-club/engage/universalsweeps/enter-to-win",
+    added: "2026-11-22",
+  },
+
+  {
+    id: 647,
+    title: "Anastasia Beverly Hills \u201cHoliday Glow Up\u201d Giveaway",
+    type: "sweepstakes",
+    prizes: "1 Winner: 1-Year Supply of Makeup as $1,800 ABH Online Store Credit ($150/Month \u00d7 12 Months; ARV $1,800); US + DC, 18+ (Excl. RI; Free ABH Inner Circle Loyalty Signup)",
+    frequency: "Enter Once",
+    ends: "2026-11-30",
+    url: "https://www.anastasiabeverlyhills.com/pages/holiday-giveaway",
+    added: "2026-11-22",
+  },
+
+  {
+    id: 648,
+    title: "Blackhawk \u201cWinter Contest\u201d Sweepstakes",
+    type: "sweepstakes",
+    prizes: "1 Winner: Set of 4 Blackhawk Ice Prey BW10 Tires + Blackhawk Hoodie, Toque, Tire Inflator + Dash Camera (ARV $1,068.81); US, 18+ (Entry Requires Following @blackhawktire on Instagram)",
+    frequency: "Enter Once",
+    ends: "2026-11-24",
+    url: "https://blackhawktireusa.com/contests/winter/en-us/",
+    added: "2026-11-22",
+  },
+
+  {
+    id: 649,
+    title: "Scholastic \u201cHarry Potter\u201d November Parents Giveaway",
+    type: "sweepstakes",
+    prizes: "7 Winners: Harry Potter Starter Kit Each \u2014 Illustrated Edition, TV Tie-in Edition + Interactive Edition of Philosopher\u2019s/Sorcerer\u2019s Stone, Cookbook & Baking Book Boxed Set + Klutz Friendship Bracelet Making Kit (ARV $145 Each; Total ARV $1,015); US, 18+",
+    frequency: "Enter Once",
+    ends: "2026-11-30",
+    url: "https://www.scholastic.com/parents/books-and-reading/book-lists-and-recommendations/harry-potter-series.print.html",
+    added: "2026-11-22",
+  },
+
 ];
 
 
@@ -3537,7 +3619,7 @@ export default function Home() {
         </section>
 
         <p style={{ color: "#94a3b8", fontSize: "0.8rem", marginTop: "40px", lineHeight: 1.6 }}>
-          Listings last verified November 21, 2026. Always check the official rules on
+          Listings last verified November 22, 2026. Always check the official rules on
           the sponsor&apos;s page before entering. Sweepstakes Central is not affiliated
           with the sponsors listed.
         </p>
