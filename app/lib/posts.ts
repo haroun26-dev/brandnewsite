@@ -13,6 +13,185 @@ export interface Post {
 
 export const POSTS: Post[] = [
   {
+    slug: "how-i-verify-every-listing",
+    title: "How I Verify Every Listing on Sweepstakes Central",
+    description:
+      "Every listing on this site is checked by hand against the sponsor's official rules, every morning. Here's exactly what that means — and what it doesn't.",
+    date: "November 23, 2026",
+    readTime: "6 min read",
+    content: `Every listing on this site gets checked by hand, every single morning. That sentence sounds simple. The work behind it is the reason this site exists — because a sweepstakes list that nobody verifies is worse than no list at all. It sends you to dead links, expired promotions, and pages that changed their rules last week.
+
+Here's exactly what happens before a listing appears here, and what keeps it honest afterward.
+
+## What "verified" actually means
+
+For every listing, I check five things against the sponsor's official page or official rules — not a third-party roundup, not a social media post, the source:
+
+- **The prize.** Is it still what's advertised, and is the value stated clearly? If the prize or the approximate retail value doesn't match, the listing doesn't go up.
+- **The end date.** When does entry actually close, including the time zone when the rules state one? End dates move — sponsors extend promotions and occasionally cut them short — so this gets re-checked, not just copied once.
+- **Who can enter.** Age limits, residency restrictions, exclusions. A sweepstakes open only to residents of one state is useless to everyone else, and entering something you're not eligible for is a fast track to disqualification.
+- **How often you can enter.** Daily, weekly, one-time, one per person — the entry limit matters because over-entering gets you disqualified. I check it in the rules, not in someone's summary of the rules.
+- **The entry link itself.** Does it go to the sponsor's real website? Does the form actually load? A listing with a broken or wrong link is worse than no listing.
+
+If I can't confirm those five things from an official source, the listing doesn't appear on this site. No exceptions.
+
+## The daily routine
+
+Verification isn't a one-time stamp. Every morning I go through the live listings and re-check them. Listings that ended get dropped the same morning. Listings whose end date, prize, or rules changed get fixed the same morning. New listings get researched and verified before they're added.
+
+That's also why you'll sometimes see the total number of listings go down. A smaller list of verified, working promotions is worth more than a long list padded with dead ones. I'd rather show you 270 listings that all work than 400 where a quarter of them waste your time.
+
+## Why this matters more than it sounds
+
+**Dead links waste your time.** The internet is full of sweepstakes roundups that haven't been touched in months. You click through, fill out a form, and only later realize the promotion ended weeks ago. Your entries went nowhere.
+
+**End dates change.** Sponsors extend popular promotions, end unpopular ones early, and occasionally correct a date that was wrong in the first announcement. A list that copies the date once and never looks again will be wrong a surprising amount of the time.
+
+**Copycat pages are a real problem.** Scammers clone real promotions — same prize, same branding, slightly different URL — and use them to harvest email addresses and personal information. Checking the entry link against the sponsor's official domain is the simplest defense there is, and it's part of every check I do.
+
+## What I won't list
+
+A few hard rules about what never appears here:
+
+- **Sponsors can't pay to appear.** No listing on this site is a paid placement, and no sponsor can pay to rank higher. If a listing is here, it's because it's a real, verified, free-to-enter promotion.
+- **Anything that charges to enter.** A legitimate sweepstakes is free to enter. If a promotion requires a purchase or a fee with no free alternative entry method, it's not a sweepstakes I'll list.
+- **Anything I can't verify.** No official rules page, no clear sponsor, no working entry form — it stays off the site, no matter how big the prize looks.
+
+## What verification can't do
+
+I want to be honest about the limits, too. Verifying a listing means I've confirmed it's real, current, and free to enter. It doesn't mean I can guarantee the sponsor runs their drawing fairly, ships prizes on time, or never makes a mistake. I don't work for these sponsors, and I can't control what they do after you enter.
+
+What I can promise is the list itself: checked daily, corrected the same morning when something changes, and never influenced by anyone paying for placement.
+
+## The bottom line
+
+The whole point of this site is to save you the checking. You should be able to open the list, pick the promotions worth your time, and trust that the links work and the dates are right. That's the job, done every morning — and it's the standard every listing here has to meet.`,
+  },
+  {
+    slug: "what-happens-after-you-win",
+    title: "What Happens After You Win: From 'You've Won' to Prize in Hand",
+    description:
+      "You got the winner email. Now comes the response window, the verification paperwork, the waiting — and the prize. Here's the whole process.",
+    date: "November 23, 2026",
+    readTime: "6 min read",
+    content: `The email lands in your inbox: "Congratulations — you've won!" Your first reaction is excitement. Your second is usually a question nobody thinks about until it happens to them: now what?
+
+Most sweepstakes guides stop at entering. Here's the part after the win — the notification, the paperwork, the waiting, and the prize actually arriving — so you know what normal looks like and when something is off.
+
+## Step 1: The notification
+
+Winners are usually notified by email, sent to the address you used on the entry form. Some sponsors also call, and a few send certified mail for major prizes. The official rules of every legitimate promotion state exactly how winners will be notified — that's the first place to check if you're unsure.
+
+Two things catch people out here:
+
+- **Check your spam folder.** Winner emails come from promotion companies and unfamiliar addresses, and filters eat them constantly. If you enter regularly, make checking the spam folder of your sweepstakes email part of your routine.
+- **Mind the response window.** Sponsors typically give winners a few days to respond — sometimes as little as 48 to 72 hours, sometimes a week or more. The deadline is in the official rules. Miss it and the sponsor draws an alternate winner, and there's no appeal. This is the most common way people lose prizes they've already won.
+
+## Step 2: The verification paperwork
+
+Once you respond, the sponsor verifies that you're eligible and that the win is legitimate. Expect some or all of the following:
+
+- **An affidavit of eligibility.** A signed statement confirming you're who you say you are, you meet the eligibility requirements, and you agree to the promotion's terms. For larger prizes this usually needs to be notarized.
+- **A W-9 form.** For prizes worth $600 or more, sponsors need your Social Security number to report the winnings to the IRS. This is normal and expected — it's the same form you'd fill out for freelance work. A legitimate sponsor asks for it only after you've confirmed the win through official channels, never in the first message.
+- **Proof of identity.** A copy of a photo ID, usually. Some sponsors ask for proof of age or residency if the promotion had restrictions.
+
+This is also the stage where real wins and scams look most alike on the surface — both involve paperwork and personal details. The difference: a real sponsor never asked you for payment, never contacted you first through a social media DM, and never pressured you to act in hours. If any of those apply, stop and verify before sending anything.
+
+## Step 3: The waiting period
+
+After your paperwork is in, there's a gap — and it's usually longer than you'd expect. The sponsor confirms your eligibility, sometimes runs a background check for major prizes, and processes the prize for shipment. For smaller prizes this takes days to a few weeks. For large prizes it can take a month or more.
+
+Silence during this period is usually normal, not a bad sign. Sponsors process winners in batches, and the person handling your prize is often juggling hundreds of winners across multiple promotions.
+
+## Step 4: The prize arrives
+
+Delivery timelines vary by prize type:
+
+- **Digital prizes** (gift cards, codes, subscriptions) are usually fastest — days to a few weeks after verification.
+- **Physical products** typically ship within 4 to 8 weeks of verification, though sponsors sometimes ship in waves.
+- **Cash prizes** usually arrive as a check, typically 4 to 8 weeks after verification.
+- **Trips and vehicles** take the longest — weeks to months of coordination, scheduling, and paperwork.
+
+If your prize is worth $600 or more, expect a 1099 form the following January for tax purposes. Set aside money for the tax when the prize arrives, not when the form does.
+
+## What if the sponsor goes quiet?
+
+First, check the official rules for the stated prize fulfillment timeline — most promotions specify one, often 6 to 8 weeks. If that window hasn't passed, wait; following up early rarely speeds anything up.
+
+If the timeline has passed, contact the sponsor through their official customer service channel — not by replying to a random email thread. Be polite, include your winner notification details, and keep a copy of everything. If weeks pass with no response, a written follow-up is the right next step; email creates a paper trail.
+
+## When to be suspicious
+
+Most of the post-win process is slow and bureaucratic, and that's actually a good sign — scammers move fast. Be suspicious if anyone asks you to pay a fee to release your prize, pressures you to decide within hours, asks for bank details or gift cards, or contacted you through a channel the official rules never mention. I cover the full list of warning signs in the guide on sweepstakes scams — the short version is that a real win never costs you money to collect.
+
+## The bottom line
+
+Winning is the fun part. The part after is paperwork, patience, and one firm rule: respond quickly to the notification, complete the verification honestly, and never pay anyone anything to collect a prize you've already won. Do that, and the prize in hand is just a matter of time.`,
+  },
+  {
+    slug: "how-to-find-sweepstakes-worth-entering",
+    title: "How to Find Sweepstakes Worth Entering (and Skip the Rest)",
+    description:
+      "Thousands of sweepstakes are running right now and your time is limited. Here's how to pick the ones worth entering and skip the rest.",
+    date: "November 23, 2026",
+    readTime: "6 min read",
+    content: `Thousands of sweepstakes are running at any given moment, and your time isn't infinite. The difference between sweepers who win regularly and people who enter everything and win nothing usually isn't luck — it's selection. Here's how to judge a listing before you spend a minute on it.
+
+## 1. Prize value vs. entry effort
+
+Start with the simplest trade-off: what do you get for your time? A $5,000 prize that takes ten minutes of forms, uploads, and social media steps is a different proposition from a $25 gift card that takes twenty seconds. Neither is automatically better — but think in value per minute, and remember that daily-entry promotions multiply the effort. A five-minute daily entry over sixty days is five hours of your life. Make sure the prize is worth that to you.
+
+## 2. How big is the entry pool?
+
+This is the most underrated factor in picking sweepstakes. A national giveaway for a car might attract millions of entries. A regional promotion for the same car, restricted to one state, might attract a few thousand. Your odds are set by the size of the pool, not the size of the prize.
+
+Eligibility restrictions are your friend here. Promotions limited by state, age, profession, or a specific interest have smaller pools by definition — which means every entry you submit is worth more. When two listings offer similar prizes, pick the one fewer people can enter.
+
+## 3. Who's running it?
+
+A household-name brand with a published rules page and a track record of promotions is a safe bet. An unfamiliar company with no website beyond the entry page deserves a closer look before you hand over your email address and phone number.
+
+A few quick checks: does the sponsor have a real website? Are the official rules posted and complete, with a sponsor address and contact details? Has the brand run promotions before? If the answers are unclear, skip it — there are plenty of listings from sponsors you don't have to investigate.
+
+## 4. How far away is the end date?
+
+Timing changes the value of a listing:
+
+- **Just launched with a long entry period:** the best setup for daily-entry promotions. You get the full run of entries, and early entrants often face thinner competition before word spreads.
+- **Ending soon:** worth a quick entry if it's one-time — it takes a minute and the drawing is near. Less valuable for daily-entry promotions, since you only get a day or two of tickets.
+- **Ending in months:** great for daily entries if you're committed, but be honest with yourself about whether you'll still be entering in week eight.
+
+## 5. Daily entry or one-time?
+
+Daily-entry sweepstakes reward consistency — your ticket count grows every day you show up. One-time entries are a single ticket for a single minute of effort. Neither is better in the abstract; it depends on your routine. If you already have a daily entry habit, daily promotions are where the compounding happens. If you enter sporadically, one-time entries give you the best return on the minutes you actually spend.
+
+## 6. Red flags that mean skip it
+
+Some listings aren't worth your time no matter how good the prize looks:
+
+- **It asks you to pay to enter.** Legitimate sweepstakes are free. No exceptions worth your attention.
+- **No official rules.** Every real promotion publishes rules. No rules page means no accountability.
+- **No end date, or a vague prize.** "Win amazing prizes!" with no specifics is marketing fog, not a sweepstakes.
+- **It asks for sensitive information upfront.** An entry form needs your contact details. It doesn't need your Social Security number, bank details, or a photo of your ID.
+- **The sponsor exists only on social media.** A brand with no real website, no address, and no history is a gamble — and not the fun kind.
+
+## A quick checklist before you enter
+
+Before you fill out any entry form, run through these five questions:
+
+- Is the prize worth the time this will take?
+- Is the entry pool small enough that my entries matter?
+- Is the sponsor real and verifiable?
+- Do I understand the entry limit and the end date?
+- Would I be comfortable if this sponsor emailed me tomorrow?
+
+If the answer to all five is yes, enter. If two or more are no, skip it and move on — the next listing is thirty seconds away.
+
+## The bottom line
+
+Good sweepstakes selection is mostly saying no. Skip the vague ones, skip the sketchy ones, skip the ones whose prize doesn't justify the effort — and put your daily minutes into verified promotions from real sponsors with entry pools small enough to matter. That's where the wins come from.`,
+  },
+  {
     slug: "how-to-win-sweepstakes-tips",
     title: "How to Actually Win Sweepstakes: 10 Tips That Improve Your Odds",
     description:
