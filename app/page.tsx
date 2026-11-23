@@ -986,6 +986,7 @@ const SWEEPSTAKES: Listing[] = [
   {
     id: 652,
     title: "Steamy Kitchen “$10 PayPal Family Feast” Instant Win Game",
+        type: "instant",
     prizes: "5 Winners: $10 PayPal Cash Each (Total ARV $50); US + Canada, 18+ (Free Spin-to-Win Wheel; Daily Spin)",
     frequency: "Enter Daily",
     ends: "2027-02-20",
