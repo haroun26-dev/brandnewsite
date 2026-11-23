@@ -1477,12 +1477,10 @@ const SWEEPSTAKES: Listing[] = [
     ends: "2026-11-30",
     url: "https://fordeventreg.com/BWFGeneralRegistration",
     hot: true,
-  },
     added: "2026-10-25",
   },
 
-  {
-    id: 294,
+    { id: 292, title: "House of Suntory “Japan Travel Package” Promotion", type: "sweepstakes", prizes: "Grand: Japan Trip for 2 — Round-Trip Economy Airfare, 4 Nights Tokyo + 2 Nights Kyoto, First-Class Shinkansen Tokyo–Kyoto, Yamazaki Distillery Tour, Osaka Day Trip + Cocktail/Dining Experiences (ARV $21,550; Travel in 2027, No Alcohol in Prize); 50 US + DC, Canada (Excl. QC) & UK, 21+ (SMS Verification Required)", frequency: "Enter Once", ends: "2026-12-01", url: "https://house.suntory.com/mysuntorytime", hot: true, added: "2026-10-25", },  { id: 294,
     title: "Visit Beloit \u201cConnect in Beloit\u201d Sweepstakes",
     type: "sweepstakes",
     prizes: "Grand: 2 Nights at Hotel Goodwin (~$300) + $100 Benedetti\u2019s Supper Club + $100 Butterfly Club + $50 Maxine\u2019s Social + $50 Rooftop at Hotel Goodwin Gift Cards (Total ~$600); 50 US + DC + Canada (Excl. QC), 18+",
