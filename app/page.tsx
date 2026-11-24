@@ -17,10 +17,10 @@ interface Listing {
   added: string; // YYYY-MM-DD — NEW badge shows when added within the last 3 days
 }
 
-// Listings verified November 23, 2026. Update this list regularly —
+// Listings verified November 24, 2026. Update this list regularly —
 // remove ended sweepstakes and add new ones by editing this file and redeploying.
 const SWEEPSTAKES: Listing[] = [
-// Listings verified November 23, 2026. Update this list regularly —
+// Listings verified November 24, 2026. Update this list regularly —
 // remove ended sweepstakes and add new ones by editing this file and redeploying.
   // ---- Instant Win Games ----
 
@@ -97,6 +97,7 @@ const SWEEPSTAKES: Listing[] = [
 
 
 
+
   {
     id: 173,
     title: "Tecate “Liga MX” Instant Win",
@@ -109,6 +110,7 @@ const SWEEPSTAKES: Listing[] = [
   },
 
 
+
   {
     id: 189,
     title: "Schaeffer “Season 2026” Instant Win and Sweeps",
@@ -119,6 +121,7 @@ const SWEEPSTAKES: Listing[] = [
     url: "https://www.schaefferseason.com",
     added: "2026-10-18",
   },
+
 
 
 
@@ -219,6 +222,7 @@ const SWEEPSTAKES: Listing[] = [
 
 
 
+
   {
     id: 260,
     title: "Natural Light \u201cGreat Prizes\u201d Instant Win Game",
@@ -243,7 +247,7 @@ const SWEEPSTAKES: Listing[] = [
 
   {
     id: 273,
-    title: "Jameson Irish Whiskey “First Round on Us” Instant Win Game",
+    title: "Jameson Irish Whiskey \u201cFirst Round on Us\u201d Instant Win Game",
     type: "instant",
     prizes: "5,000 Instant Winners: $20 via PayPal or Venmo Toward Your Next Round of Jameson (Total ARV $100,000); 21+, Legal Residents of AZ, HI, IN, KY, LA, ME, MD, MA, MS, NH, NC, OR, PA, TN, TX, UT, VA Only",
     frequency: "Enter Daily",
@@ -255,11 +259,14 @@ const SWEEPSTAKES: Listing[] = [
 
 
 
+
+
+
   {
     id: 286,
-    title: "Skrewball Peanut Butter Whiskey “College Tailgate Tour” Instant Win Game",
+    title: "Skrewball Peanut Butter Whiskey \u201cCollege Tailgate Tour\u201d Instant Win Game",
     type: "instant",
-    prizes: "Grand: Las Vegas Trip for 2 — Airfare, 2 Hotel Nights, Event Tickets or $3,000 Ticket Gift Card (ARV $6,000; Travel Jan 24\u201326, 2027) + 20 Instant-Win Skrewball Hats ($15 Each; Total ARV $6,300); 50 US + DC, 21+ (Valid Photo ID)",
+    prizes: "Grand: Las Vegas Trip for 2 \u2014 Airfare, 2 Hotel Nights, Event Tickets or $3,000 Ticket Gift Card (ARV $6,000; Travel Jan 24\u201326, 2027) + 20 Instant-Win Skrewball Hats ($15 Each; Total ARV $6,300); 50 US + DC, 21+ (Valid Photo ID)",
     frequency: "Enter Daily",
     ends: "2027-01-10",
     url: "https://www.skrewballwhiskey.com/en/collegetailgatetour",
@@ -269,9 +276,9 @@ const SWEEPSTAKES: Listing[] = [
 
   {
     id: 297,
-    title: "Miller Lite “Football 2026” Instant Win Game",
+    title: "Miller Lite \u201cFootball 2026\u201d Instant Win Game",
     type: "instant",
-    prizes: "1,001 Winners: (1,000) $25 Venmo Payments (ARV $25 Each) + National Grand: Trip for 2 to a 2027/28 Regular-Season NFL Game — Round-Trip Airfare, 2 Hotel Nights, 2 Game Tickets + $250 Spending Money (ARV $3,067); 21+, US (National Entry Excl. ME; Keyword Prizes State-Specific)",
+    prizes: "1,001 Winners: (1,000) $25 Venmo Payments (ARV $25 Each) + National Grand: Trip for 2 to a 2027/28 Regular-Season NFL Game \u2014 Round-Trip Airfare, 2 Hotel Nights, 2 Game Tickets + $250 Spending Money (ARV $3,067); 21+, US (National Entry Excl. ME; Keyword Prizes State-Specific)",
     frequency: "Enter Daily",
     ends: "2027-01-03",
     url: "https://www.millerlite.com/football",
@@ -281,7 +288,7 @@ const SWEEPSTAKES: Listing[] = [
 
   {
     id: 298,
-    title: "Miller High Life “Hunt” Instant Win Game",
+    title: "Miller High Life \u201cHunt\u201d Instant Win Game",
     type: "instant",
     prizes: "500 Winners: (200) 12-Month onX Hunt Premium Memberships (ARV $100 Each) + (100) Baseball Caps (ARV $18 Each) + (100) Winter Hats (ARV $18 Each) + (100) Decks of Cards (ARV $5 Each; Total ARV $24,100); MN, ND, WI Only, 21+ (Limit 1 Prize Per Household)",
     frequency: "Enter Daily",
@@ -292,7 +299,7 @@ const SWEEPSTAKES: Listing[] = [
 
   {
     id: 312,
-    title: "Dos Equis “Most Interesting Man” Instant Win Game",
+    title: "Dos Equis \u201cMost Interesting Man\u201d Instant Win Game",
     type: "instant",
     prizes: "300 Winners: Most Interesting Man Merchandise Kit Each (Total Prize Pool $4,500); 50 US + DC, 21+",
     frequency: "Enter Daily",
@@ -303,7 +310,7 @@ const SWEEPSTAKES: Listing[] = [
 
   {
     id: 334,
-    title: "Ezra Brooks “90 Prizes for 90 Proof” Instant Win Sweepstakes",
+    title: "Ezra Brooks \u201c90 Prizes for 90 Proof\u201d Instant Win Sweepstakes",
     type: "instant",
     prizes: "90 Prizes: (30) Grills, (59) Outdoor Heaters + (1) Grand Prize (Total ARV $21,000; No Alcohol Awarded); 50 US + DC, 21+",
     frequency: "Enter Daily",
@@ -314,7 +321,7 @@ const SWEEPSTAKES: Listing[] = [
 
   {
     id: 343,
-    title: "Club Wyndham “Wander Your Way” Instant Win Game",
+    title: "Club Wyndham \u201cWander Your Way\u201d Instant Win Game",
     type: "instant",
     prizes: "1,500 Instant Winners: $10 Travel Credit Each (250 Per Monthly Period) + 6 Monthly Prizes: Wyndham Rewards Points + Travel Credit (ARV $975\u2013$31,200 Each) + Grand: 7-Night Stay at Wyndham Grand Crete Mirabello Bay, Wyndham Grand Athens, or Zeus Eleva Ajul + $2,000 Airfare Voucher (ARV $2,658\u2013$4,688; Total ARV $81,113); 50 US + DC, 28+",
     frequency: "Enter Monthly",
@@ -326,7 +333,7 @@ const SWEEPSTAKES: Listing[] = [
 
   {
     id: 344,
-    title: "Synchrony “$5K in Play” Instant Win Game",
+    title: "Synchrony \u201c$5K in Play\u201d Instant Win Game",
     type: "instant",
     prizes: "5 Grand: $5,000 Check Each + 201 Instant Winners: 70 \u00d7 $100 DoorDash Codes, 61 \u00d7 $100 Fandango Codes, 70 \u00d7 $100 Starbucks Codes (Total ARV $45,100); 50 US + DC + Territories, 18+ (Eligible Synchrony Cardholders Only; Register by Oct 31, 2026; Plays Redeemed Nov 18\u2013Dec 31, 2026)",
     frequency: "Enter Once",
@@ -337,7 +344,7 @@ const SWEEPSTAKES: Listing[] = [
 
   {
     id: 345,
-    title: "Green Bay Packers “Get in the Game” Instant Win Promotion",
+    title: "Green Bay Packers \u201cGet in the Game\u201d Instant Win Promotion",
     type: "instant",
     prizes: "42 Instant Winners: 15 Pairs Lambeau Field Classic Stadium Tour Passes (ARV $46/Pair), 15 Pairs Packers Hall of Fame Tour Passes (ARV $40/Pair), 12 \u00d7 $25 Packers Pro Shop Gift Cards + 12 Monthly Drawing Grand Prizes: 1-Night Oneida Casino Hotel Stay + $50 Free Play + $25 Dining Credit (ARV $325 Each; Total ARV $5,490); 50 US (Excl. NY, NJ, FL), 21+",
     frequency: "Enter Once",
@@ -348,9 +355,9 @@ const SWEEPSTAKES: Listing[] = [
 
   {
     id: 346,
-    title: "CrunchLabs “Build Box Platinum Ticket” Instant Win Game",
+    title: "CrunchLabs \u201cBuild Box Platinum Ticket\u201d Instant Win Game",
     type: "instant",
-    prizes: "12 Grand Prizes (1 Per Month): 3-Day/2-Night Trip for Winner + 3 Guests to CrunchLabs in Sunnyvale, CA with Mark Rober — Round-Trip Coach Airfare for 4, Hotel + Ground Transport (ARV ~$4,500 Each); 50 US + DC, 18+ (Free Mail-in Game-Piece Requests Available)",
+    prizes: "12 Grand Prizes (1 Per Month): 3-Day/2-Night Trip for Winner + 3 Guests to CrunchLabs in Sunnyvale, CA with Mark Rober \u2014 Round-Trip Coach Airfare for 4, Hotel + Ground Transport (ARV ~$4,500 Each); 50 US + DC, 18+ (Free Mail-in Game-Piece Requests Available)",
     frequency: "Enter Monthly",
     ends: "2027-05-31",
     url: "https://www.crunchlabs.com/pages/sweepstakes",
@@ -361,7 +368,7 @@ const SWEEPSTAKES: Listing[] = [
 
   {
     id: 365,
-    title: "Deschutes Brewery “Try One on Us” Instant Win Promotion",
+    title: "Deschutes Brewery \u201cTry One on Us\u201d Instant Win Promotion",
     type: "instant",
     prizes: "Up to 240 Winners: $8 via PayPal or Venmo Each (Total ARV $1,920); 21+ (AL, AR, AZ, HI, IN, KY, LA, MO, NC, OR, PA, TN, TX, UT, VA, WV Only; Valid Government Photo ID; PayPal/Venmo Account Required)",
     frequency: "Enter Daily",
@@ -372,9 +379,9 @@ const SWEEPSTAKES: Listing[] = [
 
   {
     id: 366,
-    title: "Dos Equis “Summer Fuerza Regida” Instant Win + Sweepstakes",
+    title: "Dos Equis \u201cSummer Fuerza Regida\u201d Instant Win + Sweepstakes",
     type: "instant",
-    prizes: "3 Grand: Trip for 2 to a Fuerza Regida Concert — Airfare, 2 Hotel Nights, Tickets (ARV $3,000 Each) + 35 Instant: 5 Autographed Guitars ($250 Each), 10 Autographed Vinyl Albums ($20 Each), 20 Sonos Roam 2 Speakers ($150 Each; Total ARV $13,450); 50 US + DC, 21+",
+    prizes: "3 Grand: Trip for 2 to a Fuerza Regida Concert \u2014 Airfare, 2 Hotel Nights, Tickets (ARV $3,000 Each) + 35 Instant: 5 Autographed Guitars ($250 Each), 10 Autographed Vinyl Albums ($20 Each), 20 Sonos Roam 2 Speakers ($150 Each; Total ARV $13,450); 50 US + DC, 21+",
     frequency: "Enter Daily",
     ends: "2026-12-31",
     url: "https://www.dosequis.com/en-us/xx-sweepstakes/fuerzaregida2026/",
@@ -383,7 +390,7 @@ const SWEEPSTAKES: Listing[] = [
 
   {
     id: 367,
-    title: "SaverLife “Scratch and Save” 2026 Instant Win Game",
+    title: "SaverLife \u201cScratch and Save\u201d 2026 Instant Win Game",
     type: "instant",
     prizes: "14,352 Instant Winners: $5 Payment Each via PayPal/ACH/Venmo (Total ARV $71,760); 50 US + DC, 18+ (Free SaverLife Membership; Up to 3 Game Plays/Week; Limit 1 Prize/Person)",
     frequency: "Enter Weekly",
@@ -417,9 +424,9 @@ const SWEEPSTAKES: Listing[] = [
 
   {
     id: 390,
-    title: "Wonka “Golden Ticket” Instant Win Game",
+    title: "Wonka \u201cGolden Ticket\u201d Instant Win Game",
     type: "instant",
-    prizes: "1 Golden Ticket Experience: 4-Day/3-Night Las Vegas Trip for Winner + Up to 3 Guests — Airfare, 2 Double Rooms, Ground Transport, 4 VIP Netflix House Tickets + $1,000 Check (ARV $9,000) + 1,440 Instant: Wonka Factory Bundle Tote Bags (ARV $55 Each; Total ARV $124,200); 50 US + DC, 21+",
+    prizes: "1 Golden Ticket Experience: 4-Day/3-Night Las Vegas Trip for Winner + Up to 3 Guests \u2014 Airfare, 2 Double Rooms, Ground Transport, 4 VIP Netflix House Tickets + $1,000 Check (ARV $9,000) + 1,440 Instant: Wonka Factory Bundle Tote Bags (ARV $55 Each; Total ARV $124,200); 50 US + DC, 21+",
     frequency: "Enter Daily",
     ends: "2027-07-31",
     url: "https://www.wonka.com/us/en/xp/golden-ticket/",
@@ -429,9 +436,9 @@ const SWEEPSTAKES: Listing[] = [
 
   {
     id: 391,
-    title: "Starbucks “Uncap, Scan & Win 2026” Instant Win Game",
+    title: "Starbucks \u201cUncap, Scan & Win 2026\u201d Instant Win Game",
     type: "instant",
-    prizes: "300,500 Instant Prizes: 50,000 × 60 Stars, 175,000 × 25 Stars, 50,000 Handcrafted Beverage Coupons (ARV $10 Each), 25,500 Bakery Coupons (ARV $3.87 Each) + 4 Grand: \u201cStarbucks for a Year\u201d Daily Food/Beverage Credit, 365 Days (ARV $3,935 Each); 50 US + DC, 18+ (Free Starbucks Rewards Membership)",
+    prizes: "300,500 Instant Prizes: 50,000 \u00d7 60 Stars, 175,000 \u00d7 25 Stars, 50,000 Handcrafted Beverage Coupons (ARV $10 Each), 25,500 Bakery Coupons (ARV $3.87 Each) + 4 Grand: \u201cStarbucks for a Year\u201d Daily Food/Beverage Credit, 365 Days (ARV $3,935 Each); 50 US + DC, 18+ (Free Starbucks Rewards Membership)",
     frequency: "Enter Daily",
     ends: "2026-12-31",
     url: "https://uncapstars.starbucks.com",
@@ -441,9 +448,9 @@ const SWEEPSTAKES: Listing[] = [
 
   {
     id: 392,
-    title: "poppi “Shirley Vibes” Instant Win Game",
+    title: "poppi \u201cShirley Vibes\u201d Instant Win Game",
     type: "instant",
-    prizes: "135 Winners: 9 × $1,000 Digital Gift Cards (One Each Friday) + 126 × $100 Digital Gift Cards (Two Per Day; Total ARV $21,600); US + DC, 18+ (19+ AL, NE; Receipt or Product-Photo Upload, or Free Mail-in Entry)",
+    prizes: "135 Winners: 9 \u00d7 $1,000 Digital Gift Cards (One Each Friday) + 126 \u00d7 $100 Digital Gift Cards (Two Per Day; Total ARV $21,600); US + DC, 18+ (19+ AL, NE; Receipt or Product-Photo Upload, or Free Mail-in Entry)",
     frequency: "Enter Daily",
     ends: "2027-01-01",
     url: "https://poppishirleyvibes.com",
@@ -452,7 +459,7 @@ const SWEEPSTAKES: Listing[] = [
 
   {
     id: 393,
-    title: "Frito-Lay “Happy Holi-Lays” Instant Win Game",
+    title: "Frito-Lay \u201cHappy Holi-Lays\u201d Instant Win Game",
     type: "instant",
     prizes: "1,297 Instant Prizes: 439 Glass Chip Bowls ($30), 439 Wood Chip Bowls ($80), 171 Sweaters ($75), 170 Charcuterie Sets ($100), 48 Lay\u2019s \u00d7 Le Creuset Casseroles ($355), 15 Multicookers ($350), 15 Tile Word Game Sets ($226; Total ARV $103,795; Limit 3 Prizes/Person); 50 US + DC, 18+ (19+ AL, NE; Scan Participating Lay\u2019s Bag or Free Daily Code, No Purchase Needed)",
     frequency: "Enter Daily",
@@ -463,7 +470,7 @@ const SWEEPSTAKES: Listing[] = [
 
   {
     id: 399,
-    title: "Orange Julius “Smoothie Smash” Instant Win Game",
+    title: "Orange Julius \u201cSmoothie Smash\u201d Instant Win Game",
     type: "instant",
     prizes: "201 Winners: (1) Grand: $1,000 in Orange Julius Gift Cards + (200) Instant: $10 Orange Julius Gift Cards Each (Total ARV $3,000); 50 US + DC, 18+",
     frequency: "Enter Daily",
@@ -476,7 +483,7 @@ const SWEEPSTAKES: Listing[] = [
     id: 400,
     title: "Respawn \u00d7 Marvel Rivals Gaming Sweepstakes & Instant Win",
     type: "instant",
-    prizes: "15,151 Winners: Grand: Razer Blade 16 Gaming Setup — Laptop, Chair, Mouse, Keyboard, Headset + Controller (ARV $5,249.94) + 60 Weekly Razer Gear Prizes ($160\u2013$400 Each) + 90 Luna Snow Packs ($50 Each) + 15,000 Instant: Marvel Rivals Game Skin (12,000) or Custom Emote (3,000) Digital Codes ($5 Each; Total ARV $99,349.94); 50 US + DC, 18+",
+    prizes: "15,151 Winners: Grand: Razer Blade 16 Gaming Setup \u2014 Laptop, Chair, Mouse, Keyboard, Headset + Controller (ARV $5,249.94) + 60 Weekly Razer Gear Prizes ($160\u2013$400 Each) + 90 Luna Snow Packs ($50 Each) + 15,000 Instant: Marvel Rivals Game Skin (12,000) or Custom Emote (3,000) Digital Codes ($5 Each; Total ARV $99,349.94); 50 US + DC, 18+",
     frequency: "Enter Daily",
     ends: "2027-01-03",
     url: "https://www.respawnbyrazer.com/marvelrivals/enter",
@@ -486,12 +493,12 @@ const SWEEPSTAKES: Listing[] = [
 
   {
     id: 401,
-    title: "Nick the Greek “Demigod Experience” Instant Win Game",
+    title: "Nick the Greek \u201cDemigod Experience\u201d Instant Win Game",
     type: "instant",
-    prizes: "44,001 Winners: Grand: Round-Trip Coach Airfare for 2 to Athens, Greece (ARV $5,000) + 44,000 Instant: Food/Discount Prizes — 21,000 × $5 Off Entrée, 10,000 × Side of Fries, 5,000 × Spanakopita, 5,000 × Baklava, 1,000 × Plain Froyo, 1,000 × Gyro, 1,000 × Bowl (Total ARV $239,200); AZ, CA, KS, MO, NV, TN, TX, UT Only, 18+",
-    frequency: "Enter Once",
+    prizes: "44,001 Winners: Grand: Round-Trip Coach Airfare for 2 to Athens, Greece (ARV $5,000) + 44,000 Instant: Food/Discount Prizes \u2014 21,000 \u00d7 $5 Off Entr\u00e9e, 10,000 \u00d7 Side of Fries, 5,000 \u00d7 Spanakopita, 5,000 \u00d7 Baklava, 1,000 \u00d7 Plain Froyo, 1,000 \u00d7 Gyro, 1,000 \u00d7 Bowl (Total ARV $239,200); AZ, CA, KS, MO, NV, TN, TX, UT Only, 18+",
+    frequency: "Enter Daily",
     ends: "2027-01-03",
-    url: "https://web.witcontests.com/nickthegreek/giveaway/spin/every-hero-needs-a-gyro-260929",
+        url: "https://web.witcontests.com/nickthegreek/giveaway/spin/every-hero-needs-a-gyro-260929",
     added: "2026-11-05",
   },
 
@@ -695,7 +702,7 @@ const SWEEPSTAKES: Listing[] = [
     prizes: "4 Winners: $25 PayPal Cash Each (Total ARV $100); US + Canada, 18+ (Free Spin-to-Win Wheel; Daily Spin)",
     frequency: "Enter Daily",
     ends: "2026-12-18",
-    url: "https://steamykitchen.com/255709-23-years-of-recipes-rewards-wins-instant-wins.html",
+    url: "https://steamykitchen.com/255709-23-years-of-recipes-rewards-wins-instant-win.html",
     added: "2026-11-11",
   },
 
@@ -788,6 +795,7 @@ const SWEEPSTAKES: Listing[] = [
   },
 
 
+
   {
     id: 552,
     title: "ECS Tuning & Turner Motorsport \u201cHoliday 2026\u201d Instant Win Game and Sweepstakes",
@@ -815,16 +823,6 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-11-16",
   },
 
-  {
-    id: 575,
-    title: "AARP Rewards Walmart $100 eGift Card Instant Win Game",
-    type: "instant",
-    prizes: "15 Winners: $100 Walmart eGift Cards Each (Total ARV $1,500); 50 US + DC, 18+ (Free AARP Rewards Enrollment — No Paid Membership; Free No-Points Entry Form; Limit 1 Prize/Person)",
-    frequency: "Enter Daily",
-    ends: "2026-11-23",
-    url: "https://sweeps.aarp.org/",
-    added: "2026-11-17",
-  },
 
   {
     id: 577,
@@ -953,7 +951,7 @@ const SWEEPSTAKES: Listing[] = [
     id: 641,
     title: "AARP Rewards Starbucks eGift Card Instant Win Game",
     type: "instant",
-    prizes: "200 Winners: $10 Starbucks eGift Cards Each (Total ARV $2,000); 50 US + DC, 18+ (Free AARP Rewards Enrollment — No Paid Membership; Free No-Points Entry Form; Limit 1 Prize/Person)",
+    prizes: "200 Winners: $10 Starbucks eGift Cards Each (Total ARV $2,000); 50 US + DC, 18+ (Free AARP Rewards Enrollment \u2014 No Paid Membership; Free No-Points Entry Form; Limit 1 Prize/Person)",
     frequency: "Enter Daily",
     ends: "2026-11-28",
     url: "https://sweeps.aarp.org/",
@@ -964,7 +962,7 @@ const SWEEPSTAKES: Listing[] = [
     id: 650,
     title: "AARP Rewards Michaels eGift Card Instant Win Game",
     type: "instant",
-    prizes: "200 Winners: $10 Michaels eGift Cards Each (Total ARV $2,000); 50 US + DC, 18+ (Free AARP Rewards Enrollment — No Paid Membership; Free No-Points Entry Form; Limit 1 Prize/Person)",
+    prizes: "200 Winners: $10 Michaels eGift Cards Each (Total ARV $2,000); 50 US + DC, 18+ (Free AARP Rewards Enrollment \u2014 No Paid Membership; Free No-Points Entry Form; Limit 1 Prize/Person)",
     frequency: "Enter Daily",
     ends: "2026-11-29",
     url: "https://sweeps.aarp.org/",
@@ -986,7 +984,7 @@ const SWEEPSTAKES: Listing[] = [
   {
     id: 652,
     title: "Steamy Kitchen “$10 PayPal Family Feast” Instant Win Game",
-        type: "instant",
+    type: "instant",
     prizes: "5 Winners: $10 PayPal Cash Each (Total ARV $50); US + Canada, 18+ (Free Spin-to-Win Wheel; Daily Spin)",
     frequency: "Enter Daily",
     ends: "2027-02-20",
@@ -997,12 +995,45 @@ const SWEEPSTAKES: Listing[] = [
   {
     id: 653,
     title: "Steamy Kitchen “$10 PayPal Lunch Time for the Family” Instant Win Game",
-    type: "instant",
+        type: "instant",
     prizes: "5 Winners: $10 PayPal Cash Each (Total ARV $50); US + Canada, 18+ (Free Spin-to-Win Wheel; Daily Spin)",
     frequency: "Enter Daily",
     ends: "2027-02-13",
     url: "https://steamykitchen.com/255907-10-paypal-lunch-time-for-the-family-instant-win.html",
     added: "2026-11-23",
+  },
+
+  {
+    id: 661,
+    title: "Jameson Black Barrel “Holiday” Instant Win Game",
+    type: "instant",
+    prizes: "20 Winners: Jameson Old Fashioned Cocktail Kit Each — Gold J Picks, Luxardo Cherries, Rocks Glasses, Mixing Beaker/Spoon, Jigger, Cherry Spoon, Recipe Card (ARV $95 Each; Total ARV $1,900; No Alcohol Included); 50 US + DC, 21+",
+    frequency: "Enter Daily",
+    ends: "2027-01-11",
+    url: "https://www.jamesonwhiskey.com/en-us/blackbarrelholiday",
+    added: "2026-11-24",
+  },
+
+  {
+    id: 662,
+    title: "Philadelphia Flyers “Santa Sack” Scratch Off Instant Win",
+    type: "instant",
+    prizes: "1 Winner: Santa Sack Package — 2 Tickets to a 2026–27 Philadelphia Flyers Home Game + Autographed Puck + $25 Food & Beverage Voucher (Total ARV $250); PA, NJ, DE Only, 18+",
+    frequency: "Enter Once",
+    ends: "2026-12-15",
+    url: "https://web.witcontests.com/flyers/giveaway/scratchnwin/santa-sacks-scratch-off-2511",
+    added: "2026-11-24",
+  },
+
+  {
+    id: 663,
+    title: "AARP Rewards $100 Amazon.com eGift Card Super Instant Win",
+    type: "instant",
+    prizes: "15 Winners: $100 Amazon.com eGift Cards Each (Total ARV $1,500); 50 US + DC, 18+ (Free AARP Rewards Enrollment — No Paid Membership; Free No-Points Entry Form; Limit 1 Prize/Person)",
+    frequency: "Enter Daily",
+    ends: "2026-11-30",
+    url: "https://sweeps.aarp.org/",
+    added: "2026-11-24",
   },
 
 // ---- Sweepstakes ----
@@ -1351,7 +1382,7 @@ const SWEEPSTAKES: Listing[] = [
 
   {
     id: 257,
-    title: "Hallmark Channel \u201cVery Merry Giveaway\u201d Sweepstakes",
+    title: "Hallmark Channel “Very Merry Giveaway” Sweepstakes",
     type: "sweepstakes",
     prizes: "Grand: 8-Day/7-Night Collette Christmas Markets of Austria & Germany Tour for 2 + $1,000 Check (ARV $10,398) + 103 Daily Prizes (Holiday Prize Packs, Cricut Machines, Biltmore Getaways, Gift Cards, Prepaid Cards; ARV $19,764.34; Total ARV $30,162.34); 50 US + DC + PR, 21+",
     frequency: "Enter Daily",
@@ -1359,7 +1390,6 @@ const SWEEPSTAKES: Listing[] = [
     url: "https://verymerrygiveaway.hallmarkchannel.com",
     added: "2026-10-22",
   },
-
 
 
 
@@ -1454,7 +1484,6 @@ const SWEEPSTAKES: Listing[] = [
 
 
 
-
   {
     id: 285,
     title: "Pepsi \u00d7 Off Season \u201cCan Jacket\u201d Sweepstakes",
@@ -1465,9 +1494,6 @@ const SWEEPSTAKES: Listing[] = [
     url: "https://offseasonpepsisweeps.com",
     added: "2026-10-24",
   },
-
-
-
 
   {
     id: 291,
@@ -1481,7 +1507,20 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-10-25",
   },
 
-    { id: 292, title: "House of Suntory “Japan Travel Package” Promotion", type: "sweepstakes", prizes: "Grand: Japan Trip for 2 — Round-Trip Economy Airfare, 4 Nights Tokyo + 2 Nights Kyoto, First-Class Shinkansen Tokyo–Kyoto, Yamazaki Distillery Tour, Osaka Day Trip + Cocktail/Dining Experiences (ARV $21,550; Travel in 2027, No Alcohol in Prize); 50 US + DC, Canada (Excl. QC) & UK, 21+ (SMS Verification Required)", frequency: "Enter Once", ends: "2026-12-01", url: "https://house.suntory.com/mysuntorytime", hot: true, added: "2026-10-25", },  { id: 294,
+  {
+    id: 292,
+    title: "House of Suntory \u201cJapan Travel Package\u201d Promotion",
+    type: "sweepstakes",
+    prizes: "Grand: Japan Trip for 2 \u2014 Round-Trip Economy Airfare, 4 Nights Tokyo + 2 Nights Kyoto, First-Class Shinkansen Tokyo\u2013Kyoto, Yamazaki Distillery Tour, Osaka Day Trip + Cocktail/Dining Experiences (ARV $21,550; Travel in 2027, No Alcohol in Prize); 50 US + DC, Canada (Excl. QC) & UK, 21+ (SMS Verification Required)",
+    frequency: "Enter Once",
+    ends: "2026-12-01",
+    url: "https://house.suntory.com/mysuntorytime",
+    hot: true,
+    added: "2026-10-25",
+  },
+
+  {
+    id: 294,
     title: "Visit Beloit \u201cConnect in Beloit\u201d Sweepstakes",
     type: "sweepstakes",
     prizes: "Grand: 2 Nights at Hotel Goodwin (~$300) + $100 Benedetti\u2019s Supper Club + $100 Butterfly Club + $50 Maxine\u2019s Social + $50 Rooftop at Hotel Goodwin Gift Cards (Total ~$600); 50 US + DC + Canada (Excl. QC), 18+",
@@ -1540,7 +1579,6 @@ const SWEEPSTAKES: Listing[] = [
 
 
 
-
   {
     id: 320,
     title: "Coca-Cola \u201cFriday for the Win Football\u201d Sweepstakes",
@@ -1563,7 +1601,6 @@ const SWEEPSTAKES: Listing[] = [
     url: "https://destinedforadventuresweepstakes.entertowinprizes.com",
     added: "2026-10-28",
   },
-
 
 
 
@@ -1616,7 +1653,6 @@ const SWEEPSTAKES: Listing[] = [
 
 
 
-
   {
     id: 349,
     title: "Dave Ramsey \u201cChristmas Cash\u201d Sweepstakes",
@@ -1639,7 +1675,6 @@ const SWEEPSTAKES: Listing[] = [
     url: "https://www.pedigree.com/pawliday",
     added: "2026-10-30",
   },
-
 
 
 
@@ -1691,7 +1726,6 @@ const SWEEPSTAKES: Listing[] = [
 
 
 
-
   {
     id: 369,
     title: "Pittsburgh Steelers x GEICO \u201cAway We Go\u201d Sweepstakes",
@@ -1733,6 +1767,7 @@ const SWEEPSTAKES: Listing[] = [
 
 
 
+
   {
     id: 387,
     title: "Smirnoff Ice “Holiday Kayak” Sweepstakes",
@@ -1757,6 +1792,7 @@ const SWEEPSTAKES: Listing[] = [
 
 
 
+
   
 
   {
@@ -1773,7 +1809,6 @@ const SWEEPSTAKES: Listing[] = [
 
 
 
-
   {
     id: 410,
     title: "Chewy Claus 2026 Sweepstakes",
@@ -1784,6 +1819,7 @@ const SWEEPSTAKES: Listing[] = [
     url: "https://www.chewy.com/education/chewy-claus/form",
     added: "2026-11-05",
   },
+
 
 
 
@@ -1957,7 +1993,7 @@ const SWEEPSTAKES: Listing[] = [
     id: 462,
     title: "FCA US $100,000 Vehicle Sweepstakes",
     type: "sweepstakes",
-    prizes: "Grand: $100,000 Credit Toward a Dodge, Jeep, Chrysler, Ram, or Fiat Vehicle (ARV $100,000); US + DC, 18+",
+        prizes: "Grand: $100,000 Credit Toward a Dodge, Jeep, Chrysler, Ram, or Fiat Vehicle (ARV $100,000); US + DC, 18+",
     frequency: "Enter Daily",
     ends: "2026-12-31",
     url: "https://sweeps.stellantisexperiences.com",
@@ -2157,16 +2193,6 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-11-11",
   },
 
-  {
-    id: 502,
-    title: "Hallmark Channel “Christmas Countdown Adventure Game” Sweepstakes",
-    type: "sweepstakes",
-    prizes: "206 Winners: Grand: $1,500 Michaels Gift Card + 100 × $25 Michaels Gift Cards + 100 × $10 Michaels Gift Cards + 4 Hallmark Movie Prize Packs ($130 Each) + 1 Hallmark Cocoa Set ($40; Total ARV $5,560); 50 US + DC, 18+ (19+ AL/NE, 21+ MS)",
-    frequency: "Enter Daily",
-    ends: "2026-11-23",
-    url: "https://countdownadventure.hallmarkchannel.com",
-    added: "2026-11-11",
-  },
 
   {
     id: 503,
@@ -2347,7 +2373,7 @@ const SWEEPSTAKES: Listing[] = [
     id: 531,
     title: "Zig-Zag “Friend Trip” Sweepstakes",
     type: "sweepstakes",
-    prizes: "1 Grand Winner + Up to 5 Guests (21+): St. Simons Island, GA Getaway — Round-Trip Coach Airfare, 3 Nights Lodging (Up to 3 Rooms), Bicycle Rentals 3 Days, Group/Private Dining + $3,000 Gift Card/Check (Total ARV $20,100); US, 21+",
+    prizes: "1 Winner + Up to 5 Guests (21+): St. Simons Island, GA Getaway — Round-Trip Coach Airfare, 3 Nights Lodging (Up to 3 Rooms), Bicycle Rentals 3 Days, Group/Private Dining + $3,000 Gift Card/Check (Total ARV $20,100); US, 21+",
     frequency: "Enter Once",
     ends: "2026-11-26",
     url: "https://www.zigzagoffers.com/",
@@ -2467,7 +2493,7 @@ const SWEEPSTAKES: Listing[] = [
     ends: "2026-12-31",
     url: "https://www.mikeshard.com/",
     added: "2026-11-14",
-  },
+      },
 
   {
     id: 547,
@@ -2528,16 +2554,6 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-11-15",
   },
 
-  {
-    id: 556,
-    title: "Smirnoff \u201cFlyaway\u201d Sweepstakes (Marvel Studios\u2019 Avengers: Doomsday)",
-    type: "sweepstakes",
-    prizes: "206 Winners: Grand: $10,000 in eGift Cards Toward Travel to the Sponsor\u2019s Event in Grand Rapids, MI + 200 \u00d7 Smirnoff \u00d7 Avengers: Doomsday Chalices ($150 Each) + 5 \u00d7 Avengers: Doomsday Record Players ($150 Each; Total ARV $40,750); Legal US, 21+ (VA Residents Eligible for Grand Prize Drawing Only)",
-    frequency: "Enter Once",
-    ends: "2026-11-23",
-    url: "https://www.smirnoff.com",
-    added: "2026-11-15",
-  },
 
   {
     id: 557,
@@ -2564,6 +2580,7 @@ const SWEEPSTAKES: Listing[] = [
   },
 
   
+
   {
     id: 562,
     title: "Crutchfield \u201c$350 November\u201d Gift Card Sweepstakes",
@@ -2976,7 +2993,7 @@ const SWEEPSTAKES: Listing[] = [
     id: 630,
     title: "Bravo Insider \u201cWatch What Happens Live Audience Experience\u201d Sweepstakes",
     type: "sweepstakes",
-    prizes: "Grand: Trip for Winner + Guest to NYC \u2014 Round-Trip Airfare, 3-Night Hotel, Airport Transfers, $500 Spending Money + Attend a Live Taping of Watch What Happens Live with Andy Cohen (ARV $4,800); 50 US + DC, 21+ (Free Bravo Insider Membership)",
+        prizes: "Grand: Trip for Winner + Guest to NYC \u2014 Round-Trip Airfare, 3-Night Hotel, Airport Transfers, $500 Spending Money + Attend a Live Taping of Watch What Happens Live with Andy Cohen (ARV $4,800); 50 US + DC, 21+ (Free Bravo Insider Membership)",
     frequency: "Enter Once",
     ends: "2027-01-11",
     url: "https://www.bravotv.com/bravo-insider-watch-what-happens-live-with-andy-cohen-sweepstakes-2026",
@@ -3222,7 +3239,65 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-11-23",
   },
 
+  {
+    id: 664,
+    title: "Tide Cleaners “Super Bowl LXI” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "2 Grand: 2 Tickets to Super Bowl LXI (Feb 14, 2027, SoFi Stadium) + $3,000 E-Check for Travel/Lodging Each (ARV $13,000 Each; Total ARV $52,000 Incl. Matching Store-Owner Prizes); 48 Contiguous US + DC, 18+ (Must Live Within 50 Miles of a Tide Cleaners Location)",
+    frequency: "Enter Daily",
+    ends: "2026-12-15",
+    url: "https://try.tidecleaners.com/nfl-super-bowl-lxi-sweepstakes/",
+    hot: true,
+    added: "2026-11-24",
+  },
+
+  {
+    id: 665,
+    title: "Valvoline “Oil Change on Us” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "400 Winners: $50 Advance Auto Parts or Carquest Gift Card Each (50 Per Weekly Entry Period; Total ARV $20,000); 50 US + DC + PR, 18+ (Free Entry by Email — No Purchase Necessary)",
+    frequency: "Enter Weekly",
+    ends: "2027-01-05",
+    url: "https://www.valvolineglobal.com/en/promotions/advance-auto-parts/weeklywinners/",
+    added: "2026-11-24",
+  },
+
+  {
+    id: 666,
+    title: "Travel + Leisure Vacations “2-2-2 Getaway” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "1 Winner: Pro Sports Getaway — 2 Game Tickets, 2 Hotel Nights, 2 Round-Trip Coach Airfare + $200 Uber Gift Card (ARV Up to $3,000); 50 US + DC, 28+",
+    frequency: "Enter Once",
+    ends: "2026-12-30",
+    url: "https://222getaways.com/pro-sport",
+    added: "2026-11-24",
+  },
+
+  {
+    id: 667,
+    title: "Naples Soap Company “Holiday Giveaway” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "1 Winner: Luxe Gift Box (Scent of Choice, $103) + 2 × $250 Naples Soap Gift Cards (Total ARV $603); US, 18+",
+    frequency: "Enter Once",
+    ends: "2026-11-28",
+    url: "https://www.naplessoap.com/pages/holiday-giveaway",
+    added: "2026-11-24",
+  },
+
+  {
+    id: 668,
+    title: "USAA NFL “Super Bowl LXI” Sweepstakes",
+    type: "sweepstakes",
+    prizes: "1 Winner: Trip for 2 to Super Bowl LXI — Round-Trip Coach Airfare, 3 Hotel Nights, 2 Game Tickets, 2 Tailgate Tickets, Ground Transport, Merch Up to $1,600 + $7,500 Cash Check (ARV $25,000); 50 US + DC, 18+ (USAA Membership Not Required)",
+    frequency: "Enter Once",
+    ends: "2026-11-30",
+    url: "https://nflsweeps.usaaevents.com",
+    hot: true,
+    added: "2026-11-24",
+  },
+
 ];
+
 
 function daysLeft(dateStr: string) {
   const end = new Date(dateStr + "T23:59:59");
@@ -3418,7 +3493,7 @@ export default function Home() {
         style={{
           background: "#0f172a",
           color: "#fff",
-          padding: "18px 24px",
+                    padding: "18px 24px",
         }}
       >
         <div style={{ fontSize: "1.5rem", fontWeight: 900 }}>
@@ -3553,7 +3628,7 @@ export default function Home() {
         </section>
 
         <p style={{ color: "#94a3b8", fontSize: "0.8rem", marginTop: "40px", lineHeight: 1.6 }}>
-          Listings last verified November 23, 2026. Always check the official rules on
+          Listings last verified November 24, 2026. Always check the official rules on
           the sponsor&apos;s page before entering. Sweepstakes Central is not affiliated
           with the sponsors listed.
         </p>
