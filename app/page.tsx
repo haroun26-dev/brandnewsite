@@ -1945,7 +1945,6 @@ const SWEEPSTAKES: Listing[] = [
     added: "2026-11-07",
   },
 
-  53,
   {
     id: 453,
     title: "POM Wonderful “Super Week” Sweepstakes",
