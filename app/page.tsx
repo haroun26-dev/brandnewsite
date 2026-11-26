@@ -1358,7 +1358,7 @@ const SWEEPSTAKES: Listing[] = [
     type: "sweepstakes",
     prizes: "Grand: Ridge XT Overlander 4x4 RV + Gear Package (Traeger Ironwood 885, MKC Culinary Set, $1,500 Boot Barn Gift Card, Solar Generator, Bakcou eBike, Vortex Optics, YETI Package, Sitka, Rumpl; ARV $183,000) OR $100,000 Cash Substitute + Gear (ARV $119,000); US (Excl. NY & FL) + DC, 18+ (Valid Driver\u2019s License)",
     frequency: "Enter Once",
-    ends: "2027-01-01",
+    ends: "2026-12-01",
     url: "https://www.montanaknifecompany.com/pages/ultimate-basecamp-4x4-rv-giveaway",
     hot: true,
     added: "2026-10-22",
