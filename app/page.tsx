@@ -1561,7 +1561,7 @@ const SWEEPSTAKES: Listing[] = [
     prizes: "Grand: 2 Nights at Hotel Goodwin (~$300) + $100 Benedetti’s Supper Club + $100 Butterfly Club + $50 Maxine’s Social + $50 Rooftop at Hotel Goodwin Gift Cards (Total ~$600); 50 US + DC + Canada (Excl. QC), 18+",
     frequency: "Enter Once",
     ends: "2026-12-31",
-    url: "https://www.visitbeloit.com/win/",
+    url: "https://visitbeloit.com/win/",
     added: "2026-10-25",
   },
 
